@@ -77,32 +77,32 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| PROC-01 | TBD | Pending |
-| PROC-02 | TBD | Pending |
-| PROC-03 | TBD | Pending |
-| PROC-04 | TBD | Pending |
-| PROC-05 | TBD | Pending |
-| REPL-01 | TBD | Pending |
-| REPL-02 | TBD | Pending |
-| REPL-03 | TBD | Pending |
-| REPL-04 | TBD | Pending |
-| REPL-05 | TBD | Pending |
-| REPL-06 | TBD | Pending |
-| GPS-01 | TBD | Pending |
-| GPS-02 | TBD | Pending |
-| GPS-03 | TBD | Pending |
-| UX-01 | TBD | Pending |
-| UX-02 | TBD | Pending |
-| UX-03 | TBD | Pending |
-| BRAND-01 | TBD | Pending |
-| BRAND-02 | TBD | Pending |
-| BRAND-03 | TBD | Pending |
+| PROC-01 | Phase 2 | Pending |
+| PROC-02 | Phase 2 | Pending |
+| PROC-03 | Phase 2 | Pending |
+| PROC-04 | Phase 2 | Pending |
+| PROC-05 | Phase 5 | Pending |
+| REPL-01 | Phase 3 | Pending |
+| REPL-02 | Phase 3 | Pending |
+| REPL-03 | Phase 3 | Pending |
+| REPL-04 | Phase 3 | Pending |
+| REPL-05 | Phase 3 | Pending |
+| REPL-06 | Phase 3 | Pending |
+| GPS-01 | Phase 4 | Pending |
+| GPS-02 | Phase 4 | Pending |
+| GPS-03 | Phase 4 | Pending |
+| UX-01 | Phase 6 | Pending |
+| UX-02 | Phase 6 | Pending |
+| UX-03 | Phase 5 | Pending |
+| BRAND-01 | Phase 6 | Pending |
+| BRAND-02 | Phase 6 | Pending |
+| BRAND-03 | Phase 1 | Pending |
 
 **Coverage:**
 - v1 requirements: 20 total
-- Mapped to phases: 0
-- Unmapped: 20 ⚠️
+- Mapped to phases: 20
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-04*
-*Last updated: 2026-03-04 after initial definition*
+*Last updated: 2026-03-04 after roadmap creation*
