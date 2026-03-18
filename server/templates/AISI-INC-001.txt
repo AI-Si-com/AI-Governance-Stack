@@ -1,0 +1,181 @@
+# AI Incident Response Policy
+
+**Policy Reference:** AISI-INC-001
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**IT Contact:** [IT_EMAIL]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Chief Executive:** [CEO_NAME]
+**Incident Tracking System:** [INCIDENT_TRACKING_SYSTEM]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the framework for identifying, reporting, investigating, containing, and learning from incidents involving artificial intelligence systems operated by [ORG_NAME]. Effective AI incident response is essential to limit harm to individuals, protect [ORG_NAME]'s operations and reputation, and fulfil legal and regulatory notification obligations.
+
+This policy applies to all AI systems deployed by [ORG_NAME], including [AI_TOOLS_LIST], and to all personnel involved in their operation, oversight, or governance. It must be read alongside the AI Bias and Fairness Policy (AISI-BIAS-001), the AI and Privacy Policy (AISI-PRIV-001), and [ORG_NAME]'s broader Information Security Incident Management Policy.
+
+All AI incidents must be recorded and tracked in [INCIDENT_TRACKING_SYSTEM].
+
+---
+
+## 2. AI Incident Categories
+
+An AI incident is any event where an AI system produces an output, behaves in a manner, or is subject to an external act that causes or has the potential to cause harm. [ORG_NAME] classifies AI incidents into the following categories:
+
+| Category | Description | Examples |
+|---|---|---|
+| **Erroneous Output** | Model produces incorrect, misleading, or low-quality outputs | Incorrect predictions, hallucinated content, corrupted outputs |
+| **Bias or Discrimination** | Model produces outputs that are unfair or discriminatory | Disparate rejection rates, protected characteristic proxying |
+| **Privacy Breach** | AI system discloses, exposes, or misuses personal data | Training data extraction, PII in AI outputs, unauthorised inference |
+| **Security Compromise** | AI system is subject to adversarial attack or manipulation | Data poisoning, prompt injection, model theft, adversarial inputs |
+| **Availability Failure** | AI system becomes unavailable, degraded, or behaves erratically | Model drift, infrastructure failure, dependency outage |
+| **Misuse** | AI system is used for a purpose outside its approved scope | Unauthorised use cases, policy violations by users |
+| **Third-Party Incident** | An AI vendor or supplier reports or causes an incident | Vendor data breach, supplier model compromise |
+
+---
+
+## 3. Severity Levels
+
+All AI incidents must be assigned a severity level upon initial triage:
+
+| Severity | Criteria | Initial Response Target |
+|---|---|---|
+| **P1 – Critical** | Significant harm to individuals; regulatory breach; widespread system compromise; data breach involving personal data | Immediate (within 1 hour) |
+| **P2 – High** | Material adverse impact on individuals or operations; potential regulatory notification requirement; suspected bias affecting protected groups | Within 4 hours |
+| **P3 – Medium** | Localised impact; degraded performance; isolated erroneous outputs; potential policy violation | Within 24 hours |
+| **P4 – Low** | Minor anomaly; no immediate harm; informational | Within 5 business days |
+
+Severity may be escalated at any point as new information becomes available. Downgrading of severity requires approval from [AI_INCIDENT_LEAD].
+
+---
+
+## 4. Incident Response Team
+
+The AI Incident Response Team (AIRT) is convened for all P1 and P2 incidents and is available for consultation on P3 incidents. The AIRT comprises:
+
+| Role | Responsibility |
+|---|---|
+| **[AI_INCIDENT_LEAD] (Lead)** | Overall incident coordination; escalation decisions; regulatory notification |
+| **IT Function ([IT_EMAIL])** | Technical investigation; containment; system recovery |
+| **[COMPLIANCE_EMAIL]** | Legal and regulatory assessment; notification obligations; documentation |
+| **[CEO_NAME] (CEO)** | Executive decision-making on P1 incidents; external communications approval |
+| **System Owner** | System-specific knowledge; business impact assessment |
+| **DPO** | Assessment of personal data implications; ICO notification where required |
+
+Additional subject matter experts (legal counsel, PR/communications, HR) may be co-opted to the AIRT as the incident requires.
+
+---
+
+## 5. Incident Detection and Reporting
+
+### 5.1 Reporting Obligations
+
+All employees and contractors must report suspected AI incidents as soon as they are identified. Reports must be made to [AI_INCIDENT_LEAD] via [INCIDENT_TRACKING_SYSTEM] or, in an emergency, by direct contact to [IT_EMAIL].
+
+A suspected AI incident must be reported wherever a person reasonably believes that an AI system has:
+
+- Produced an output that has caused or could cause harm to any person
+- Behaved in a manner inconsistent with its documented design
+- Been accessed, manipulated, or exploited by an unauthorised party
+- Generated, disclosed, or processed personal data in an unintended manner
+
+### 5.2 No-Blame Reporting Culture
+
+[ORG_NAME] is committed to a no-blame incident reporting culture. Employees who report AI incidents in good faith will not face disciplinary consequences for doing so. Prompt reporting is encouraged and valued.
+
+---
+
+## 6. Response Procedures
+
+### 6.1 Phase 1 – Identification and Triage (0–4 hours for P1/P2)
+
+Upon receipt of an incident report, [AI_INCIDENT_LEAD] must:
+
+1. Acknowledge receipt and log the incident in [INCIDENT_TRACKING_SYSTEM]
+2. Assign an initial severity rating
+3. Notify the relevant AIRT members
+4. Conduct initial scoping to establish: what AI system is affected; what outputs or data are involved; who has been or may be affected; and what immediate actions have already been taken
+
+### 6.2 Phase 2 – Containment
+
+Containment actions must be taken as rapidly as possible to limit ongoing harm. Options include:
+
+- Suspending the affected AI system or disabling specific functions
+- Revoking access to affected systems or data
+- Isolating affected infrastructure components
+- Implementing manual override or substitution processes
+- Issuing interim guidance to staff on not acting on AI outputs pending investigation
+
+Containment decisions must be documented in [INCIDENT_TRACKING_SYSTEM] and approved by [AI_INCIDENT_LEAD].
+
+### 6.3 Phase 3 – Investigation
+
+The AIRT must conduct a structured investigation to establish:
+
+- Root cause of the incident (data, model, infrastructure, human error, external attack)
+- Timeline of events
+- Full scope of impact: systems, data, individuals, and business processes affected
+- Whether any regulatory notification obligations have been triggered
+
+Technical investigation is led by [IT_EMAIL]; legal and regulatory assessment is led by [COMPLIANCE_EMAIL].
+
+### 6.4 Phase 4 – Notification
+
+#### Internal Notification
+
+[CEO_NAME] must be briefed on all P1 and P2 incidents within four hours of severity assignment. The Board or equivalent governance body must be notified of P1 incidents within 24 hours.
+
+#### Regulatory Notification
+
+| Trigger | Notification Body | Deadline |
+|---|---|---|
+| Personal data breach likely to result in risk to individuals | Information Commissioner's Office (ICO) | Within 72 hours of becoming aware |
+| Breach involving likely high risk to individuals | Affected data subjects | Without undue delay |
+| Incident affecting regulated activities | [PRIMARY_REGULATOR] | Per regulatory requirements |
+
+All regulatory notifications must be coordinated by [COMPLIANCE_EMAIL] and approved by [CEO_NAME] before submission.
+
+### 6.5 Phase 5 – Recovery
+
+Recovery involves restoring the AI system to full, safe operation. Recovery must not occur until:
+
+- Root cause has been identified and remediated
+- Appropriate testing (including bias and security testing where relevant) has been completed
+- [AI_INCIDENT_LEAD] has formally approved return to service
+- The recovery plan has been documented in [INCIDENT_TRACKING_SYSTEM]
+
+---
+
+## 7. Post-Incident Review
+
+A Post-Incident Review (PIR) must be completed for all P1 and P2 incidents, and for P3 incidents at the discretion of [AI_INCIDENT_LEAD]. The PIR must:
+
+- Be completed within 10 business days of incident closure
+- Document root cause, contributing factors, and timeline
+- Identify lessons learned
+- Produce a set of documented remediation actions with owners and deadlines
+- Be shared with [CEO_NAME] and [COMPLIANCE_EMAIL]
+
+PIR outcomes must be reviewed at the next AI governance cycle and tracked to completion.
+
+---
+
+## 8. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [AI_INCIDENT_LEAD] | Incident coordination; severity assignment; recovery approval; PIR oversight |
+| [IT_EMAIL] | Technical investigation and containment |
+| [COMPLIANCE_EMAIL] | Legal assessment; regulatory notifications; documentation |
+| [CEO_NAME] | Executive decisions; P1 escalation; external communications |
+| All staff | Prompt incident reporting |
+
+---
+
+## 9. Review
+
+This policy will be reviewed annually, or following any P1 incident, material change to AI systems, or update to applicable law. Next review: [ANNUAL_REVIEW_DATE].

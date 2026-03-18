@@ -1,0 +1,144 @@
+# Delegation of Authority Policy
+
+**Policy Reference:** CORP-GOV-002
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+This policy establishes the framework for the delegation of financial and operational authority within [ORG_NAME]. Effective delegation is essential to the efficient operation of the organisation, enabling timely decision-making while maintaining robust oversight and accountability.
+
+This policy applies to all employees, directors, trustees, and contractors who exercise authority on behalf of [ORG_NAME]. It must be read in conjunction with the Corporate Governance Policy (CORP-GOV-001), the Financial Management Policy (CORP-FIN-001), and the Procurement & Purchasing Policy (CORP-FIN-003).
+
+Delegation of authority does not remove accountability. Those who delegate authority remain responsible for ensuring that delegated functions are performed appropriately and in accordance with [ORG_NAME]'s policies.
+
+---
+
+## 2. Principles of Delegation
+
+All delegation of authority within [ORG_NAME] shall be governed by the following principles:
+
+**Clarity:** The scope, limits, and conditions of any delegation shall be clearly defined and documented.
+
+**Accountability:** Delegated authority may not be further sub-delegated beyond the levels prescribed in this policy without the written approval of [CEO_NAME] or [POLICY_APPROVAL_AUTHORITY].
+
+**Proportionality:** The level of authority delegated shall be proportionate to the role, experience, and accountability of the individual.
+
+**Audit Trail:** All decisions made under delegated authority shall be properly documented and retained in accordance with the organisation's records management procedures stored at [POLICY_STORAGE_LOCATION].
+
+**Conflict Avoidance:** No individual shall exercise delegated authority over a transaction or decision in which they have a personal interest, as defined in the Conflicts of Interest Policy (CORP-GOV-003).
+
+---
+
+## 3. Financial Delegation of Authority
+
+### 3.1 Board-Level Authority
+
+The [BOARD_NAME] retains sole authority over the following financial matters:
+
+- Approval of the annual budget and any unbudgeted expenditure exceeding £100,000
+- Capital expenditure or investment decisions exceeding £50,000
+- Entry into any borrowing arrangement, loan, or overdraft facility
+- Approval of the statutory annual accounts and financial statements
+- Any disposal of significant organisational assets
+
+### 3.2 Chief Executive Officer
+
+[CEO_NAME] is authorised to approve the following, within the limits of the approved annual budget:
+
+- Revenue expenditure up to £50,000 per transaction or commitment
+- Capital expenditure up to £25,000 per project or item
+- Entry into contractual commitments with a total value up to £50,000
+- Approval of all unbudgeted expenditure up to £10,000 per item
+
+Where expenditure exceeds these limits, approval must be sought from [POLICY_APPROVAL_AUTHORITY] or the [BOARD_NAME] as appropriate.
+
+### 3.3 Finance Lead
+
+[FINANCE_LEAD_NAME] is authorised to approve the following within the approved budget:
+
+- Revenue expenditure up to £25,000 per transaction
+- Processing of supplier payments in accordance with approved purchase orders
+- Approval of expense claims in line with the Expense Claims Policy (CORP-FIN-002)
+- Emergency operational expenditure up to £5,000, subject to retrospective reporting to [CEO_NAME]
+
+### 3.4 HR Lead
+
+[HR_LEAD_NAME] is authorised to approve:
+
+- Expenditure on HR-related services and training up to £10,000 per engagement
+- Recruitment agency fees and associated costs up to £15,000
+- Employee relations and occupational health referrals within approved budgets
+
+### 3.5 Department Heads
+
+Heads of Department are authorised to approve expenditure within their departmental budgets as follows:
+
+- Routine operational expenditure up to £5,000 per transaction
+- Purchase orders up to £5,000 where a pre-approved supplier is used
+- Staff overtime and temporary staffing within approved headcount budgets
+
+### 3.6 All Other Employees
+
+Employees with purchasing authority, as designated in writing by their department head, may approve expenditure up to £500 per transaction for day-to-day operational items.
+
+---
+
+## 4. Operational Delegation of Authority
+
+### 4.1 Human Resources
+
+[HR_LEAD_NAME] is authorised to make the following decisions on behalf of [ORG_NAME]:
+
+- Issue, vary, or terminate employment contracts in line with Board-approved structure and headcount
+- Manage disciplinary and grievance procedures up to and including final written warnings
+- Approve flexible working and reasonable adjustment requests
+
+Dismissal of employees requires the joint authorisation of [HR_LEAD_NAME] and [CEO_NAME].
+
+### 4.2 Legal and Contractual
+
+All contracts with a value or liability exceeding £50,000, or of a duration exceeding two years, must be reviewed by [ORG_NAME]'s legal counsel prior to execution. Contracts below these thresholds may be executed by [CEO_NAME] or [FINANCE_LEAD_NAME] as appropriate.
+
+### 4.3 Communications and Media
+
+Official external communications on behalf of [ORG_NAME], including press releases, regulatory submissions, and public statements, require the approval of [CEO_NAME] or a designated deputy.
+
+---
+
+## 5. Acting Up and Cover Arrangements
+
+Where a designated authority holder is temporarily unavailable (due to annual leave, illness, or other absence), their delegated authority passes to their line manager or designated deputy, subject to the following:
+
+- The cover arrangement must be communicated in writing in advance where possible
+- The acting individual must not exceed the authority level of the absent post-holder
+- A log of decisions taken under cover arrangements shall be maintained and reviewed on return
+
+---
+
+## 6. Review and Compliance
+
+This policy and the authority limits set out herein will be reviewed annually and updated to reflect any changes to the organisation's structure, financial position, or regulatory requirements. Any proposed changes to delegation levels must be approved by [POLICY_APPROVAL_AUTHORITY].
+
+Suspected breaches of this policy should be reported to [CEO_NAME] or, where [CEO_NAME] is implicated, directly to [POLICY_APPROVAL_AUTHORITY].
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| Finance Lead | [FINANCE_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [CEO_NAME] | Initial issue |

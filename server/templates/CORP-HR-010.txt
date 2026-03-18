@@ -1,0 +1,166 @@
+# Redundancy & Restructuring Policy
+
+**Policy Reference:** CORP-HR-010
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HR_LEAD_NAME], HR Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out [ORG_NAME]'s approach to managing redundancy and organisational restructuring in a fair, consistent, and legally compliant manner. It reflects the requirements of the Employment Rights Act 1996, the Trade Union and Labour Relations (Consolidation) Act 1992, and the Collective Redundancies and Transfer of Undertakings (Protection of Employment) (Amendment) Regulations 2014.
+
+[ORG_NAME] recognises that redundancy can have a significant impact on employees and their families, and is committed to treating all affected individuals with dignity and respect throughout any process.
+
+This policy applies to all employees of [ORG_NAME]. It does not apply to agency workers or self-employed contractors, unless otherwise required by law.
+
+[IF FIELD == "Yes" THEN]
+[ORG_NAME] will seek external support from [ACAS_CONTACT] where appropriate to ensure best practice is followed throughout the process.
+[END IF]
+
+---
+
+## 2. Definition of Redundancy
+
+A redundancy situation exists where the requirements of a business for employees to carry out work of a particular kind have ceased or diminished, or are expected to cease or diminish. This includes circumstances such as:
+
+- Closure of the business or a workplace.
+- A requirement for fewer employees to carry out work of a particular kind.
+- A change in the way work is organised, such as automation or restructuring.
+
+Redundancy does not include dismissal for reasons of conduct, capability, or expiry of a fixed-term contract (unless the expiry is itself a redundancy situation).
+
+---
+
+## 3. Alternatives to Redundancy
+
+Before any redundancy process is initiated, [ORG_NAME] will genuinely consider alternatives, which may include:
+
+- Restricting or freezing recruitment.
+- Reducing or ceasing the use of agency, contract, or overtime workers.
+- Considering voluntary redundancy or early retirement.
+- Redeployment within the organisation.
+- Changes to working patterns, hours, or pay with employee agreement.
+- Temporary layoff or short-time working where contractually permitted.
+
+All alternatives considered will be documented and communicated to affected employees.
+
+---
+
+## 4. Individual Redundancy Process (Fewer Than 20 Employees)
+
+Where fewer than 20 employees are proposed to be made redundant within a 90-day period, the following individual process applies:
+
+**4.1 At-Risk Notification**
+Affected employees will be informed individually and in writing that they are at risk of redundancy. This will include an explanation of the business reasons for the proposed redundancy and the next steps in the process.
+
+**4.2 Individual Consultation**
+[ORG_NAME] will carry out meaningful individual consultation with each at-risk employee. This will include at least two formal consultation meetings. The purpose of consultation is to explain the reasons for the proposed redundancy, explore alternatives, and consider any representations made by the employee.
+
+Employees may be accompanied at consultation meetings by a trade union representative or a workplace colleague.
+
+**4.3 Selection**
+Where it is necessary to select from a pool of employees, selection will be carried out using objective and non-discriminatory criteria. Criteria may include:
+
+- Skills, qualifications, and experience relevant to future requirements.
+- Performance and attendance records.
+- Disciplinary record.
+- Length of service (used as a tiebreaker only, to avoid indirect age discrimination).
+
+Selection criteria and scores will be documented and shared with affected employees upon request.
+
+---
+
+## 5. Collective Redundancy (20 or More Employees)
+
+Where 20 or more employees are proposed to be made redundant within a 90-day period at one establishment, the collective consultation requirements under the Trade Union and Labour Relations (Consolidation) Act 1992 apply. In such cases:
+
+- Collective consultation must begin at least 30 days before the first dismissal where 20–99 redundancies are proposed, and at least 45 days before the first dismissal where 100 or more redundancies are proposed.
+- [ORG_NAME] must notify the Redundancy Payments Service (RPS) via an HR1 form before consultation begins.
+- Appropriate employee representatives (trade union representatives or elected employee representatives) must be involved in the consultation process.
+
+[HR_LEAD_NAME] ([HR_EMAIL]) will lead the collective consultation process and will seek legal advice as required.
+
+[IF FIELD == "Yes" THEN]
+[ORG_NAME] will engage [ACAS_CONTACT] to support the collective consultation process where appropriate.
+[END IF]
+
+---
+
+## 6. Redeployment
+
+Where a suitable alternative vacancy exists within [ORG_NAME], at-risk employees will be given priority consideration for that role. A suitable alternative role is one that is appropriate having regard to the employee's skills, experience, and circumstances. Employees who unreasonably refuse a suitable alternative role may lose their entitlement to statutory redundancy pay.
+
+Where an alternative role involves different terms and conditions, a statutory four-week trial period applies. If the employee decides the new role is not suitable, they retain the right to statutory redundancy pay.
+
+---
+
+## 7. Notice Periods
+
+Employees confirmed as redundant are entitled to their contractual notice period, or the statutory minimum notice period under the Employment Rights Act 1996, whichever is the greater:
+
+- 1 week's notice for each complete year of continuous service up to 12 years.
+- Minimum 12 weeks' notice for 12 or more years of continuous service.
+
+Notice may be worked or paid in lieu, at [ORG_NAME]'s discretion. During any notice period, employees will continue to accrue annual leave and benefits. Notice payments will be administered by [PAYROLL_PROVIDER].
+
+---
+
+## 8. Redundancy Pay
+
+**8.1 Statutory Redundancy Pay**
+Employees with two or more years of continuous service are entitled to statutory redundancy pay, calculated in accordance with the statutory formula based on age, length of service (capped at 20 years), and weekly pay (subject to the statutory weekly pay cap). Redundancy pay is calculated and processed by [PAYROLL_PROVIDER].
+
+**8.2 Enhanced Redundancy Pay**
+[IF FIELD == "Yes" THEN]
+[ORG_NAME] operates an enhanced redundancy pay scheme. Details of the enhanced scheme will be confirmed to affected employees in writing at the start of the redundancy process.
+[END IF]
+
+[IF FIELD == "No" THEN]
+[ORG_NAME] does not currently operate an enhanced redundancy pay scheme beyond the statutory minimum.
+[END IF]
+
+Redundancy payments up to £30,000 are currently exempt from income tax and National Insurance contributions. Employees should seek independent financial advice regarding any tax implications.
+
+---
+
+## 9. Support for Affected Employees
+
+[ORG_NAME] will provide the following support to employees who are at risk of or confirmed as redundant:
+
+- Reasonable paid time off to seek alternative employment or attend interviews.
+- Access to career transition support and CV writing guidance.
+- Access to the Employee Assistance Programme (EAP) for confidential personal support.
+- Information on benefits entitlements and the government's Redundancy Payments Service.
+
+[IF FIELD == "Yes" THEN]
+Employees may also access independent employment advice through [ACAS_CONTACT].
+[END IF]
+
+---
+
+## 10. Right of Appeal
+
+Employees have the right to appeal against a decision to make them redundant, including the selection criteria applied or the outcome of the process. Appeals must be submitted in writing to [HR_LEAD_NAME] at [HR_EMAIL] within ten working days of receiving written confirmation of redundancy. The appeal will be heard by a manager who was not involved in the original decision, or by [CEO_NAME] as appropriate.
+
+---
+
+## 11. Responsibilities
+
+**[CEO_NAME]** holds overall accountability for restructuring decisions and ensures that any redundancy process is conducted with integrity and in line with this policy.
+
+**[HR_LEAD_NAME]** ([HR_EMAIL]) leads the redundancy process, advises managers, maintains records, and liaises with [PAYROLL_PROVIDER] to administer payments.
+
+**Line Managers** are responsible for conducting consultation meetings, applying selection criteria, and communicating with affected employees sensitively and professionally.
+
+---
+
+## 12. Policy Review
+
+This policy will be reviewed annually by [HR_LEAD_NAME] or following any legislative change. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For queries regarding this policy, contact [HR_EMAIL].

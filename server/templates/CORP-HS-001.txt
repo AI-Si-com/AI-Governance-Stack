@@ -1,0 +1,175 @@
+# Health & Safety Policy
+
+**Policy Reference:** CORP-HS-001
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HS_LEAD_NAME], Health & Safety Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Policy Statement
+
+[ORG_NAME] is committed to ensuring, so far as is reasonably practicable, the health, safety, and welfare of all its employees and of any other persons who may be affected by its activities, including contractors, visitors, and members of the public.
+
+[CEO_NAME], as Chief Executive Officer, is personally committed to this policy and to continual improvement in health and safety performance. This policy has been prepared in accordance with the Health and Safety at Work etc. Act 1974 (HSWA), the Management of Health and Safety at Work Regulations 1999, and all other applicable legislation and guidance.
+
+[ORG_NAME] will:
+
+- Provide and maintain safe plant, equipment, and systems of work.
+- Ensure the safe use, handling, storage, and transport of articles and substances.
+- Provide adequate information, instruction, training, and supervision.
+- Maintain the workplace in a safe condition with safe means of access and egress.
+- Provide a working environment that is, so far as is reasonably practicable, safe, without risks to health, and with adequate welfare facilities.
+- Consult with employees on matters affecting their health and safety.
+- Ensure that health and safety arrangements are communicated to all employees and reviewed regularly.
+
+This policy applies to all employees of [ORG_NAME], to contractors working on our premises or on our behalf, and to visitors and members of the public affected by our activities.
+
+[IF FIELD == "Yes" THEN]
+[ORG_NAME] operates a high-risk workplace environment. Additional site-specific health and safety arrangements are documented in the Site Safety Plan and must be read in conjunction with this policy.
+[END IF]
+
+---
+
+## 2. Responsibilities
+
+**2.1 Chief Executive Officer ([CEO_NAME])**
+[CEO_NAME] holds overall accountability for health and safety within [ORG_NAME]. Responsibilities include:
+
+- Ensuring adequate resources are allocated to health and safety.
+- Leading by example and demonstrating visible commitment to health and safety.
+- Ensuring this policy is reviewed and updated regularly.
+- Receiving reports on health and safety performance and acting on findings.
+
+**2.2 Health & Safety Lead ([HS_LEAD_NAME])**
+[HS_LEAD_NAME] is the designated competent person for health and safety under the Management of Health and Safety at Work Regulations 1999. Responsibilities include:
+
+- Developing, implementing, and reviewing health and safety policies and procedures.
+- Conducting and reviewing risk assessments.
+- Advising managers and employees on health and safety matters.
+- Liaising with enforcing authorities (e.g. HSE, local authority) as required.
+- Maintaining health and safety records, accident books, and RIDDOR reports.
+- Coordinating with [OCCUPATIONAL_HEALTH_PROVIDER] on occupational health matters.
+- Organising and recording health and safety training.
+
+**2.3 Line Managers**
+All managers and supervisors are responsible for:
+
+- Implementing health and safety procedures within their areas of responsibility.
+- Ensuring risk assessments are carried out and control measures are applied.
+- Providing adequate induction and training to their team members.
+- Reporting accidents, near misses, and hazards promptly.
+- Conducting regular workplace inspections and acting on findings.
+- Consulting with employees on health and safety matters affecting them.
+
+**2.4 All Employees**
+Every employee has a legal duty under the HSWA 1974 to:
+
+- Take reasonable care for their own health and safety and that of others.
+- Cooperate with [ORG_NAME] in complying with health and safety requirements.
+- Follow safe systems of work and use equipment safely and as instructed.
+- Not interfere with or misuse anything provided for health and safety purposes.
+- Report any hazard, accident, near miss, or unsafe condition to their manager or to [HS_LEAD_NAME] at [HR_EMAIL] without delay.
+
+**2.5 Contractors and Visitors**
+All contractors working on [ORG_NAME] premises must comply with this policy and any site-specific safety arrangements. Visitors must be escorted at all times and briefed on emergency procedures, including the evacuation assembly point at [EVACUATION_ASSEMBLY_POINT].
+
+---
+
+## 3. Risk Assessment
+
+[ORG_NAME] will ensure that suitable and sufficient risk assessments are carried out for all significant workplace hazards. Risk assessments will be documented, reviewed at least annually, and updated following any accident, near miss, significant change in working practices, or introduction of new equipment or substances.
+
+Full details are set out in the Risk Assessment Policy (CORP-HS-002).
+
+---
+
+## 4. Safe Systems of Work
+
+Where a risk assessment identifies significant risk, [ORG_NAME] will establish and implement safe systems of work. These may include written procedures, permits to work, or method statements. Employees must follow safe systems of work and raise any concerns immediately.
+
+[IF FIELD == "Yes" THEN]
+Given the nature of [ORG_NAME]'s high-risk workplace, permits to work are required for specific activities as defined in the Site Safety Plan.
+[END IF]
+
+---
+
+## 5. Accident Reporting and Investigation
+
+All accidents, incidents, near misses, and dangerous occurrences must be reported to [HS_LEAD_NAME] immediately. Reportable incidents must also be reported to the Health and Safety Executive (HSE) under the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR).
+
+RIDDOR reportable events include:
+
+- Deaths and specified injuries to employees.
+- Over-seven-day incapacitation of workers.
+- Non-fatal accidents to non-workers.
+- Occupational diseases.
+- Dangerous occurrences.
+- Gas incidents.
+
+Details of the accident reporting process are set out in the First Aid Policy (CORP-HS-004).
+
+---
+
+## 6. Emergency Procedures
+
+[ORG_NAME] maintains documented emergency procedures, including a fire evacuation plan. In the event of an emergency requiring evacuation, all persons must proceed to the designated assembly point at [EVACUATION_ASSEMBLY_POINT]. Full details are contained in the Fire Safety Policy (CORP-HS-003).
+
+---
+
+## 7. Health and Safety Training
+
+[ORG_NAME] will ensure that all employees receive adequate health and safety training, including:
+
+- Health and safety induction training on commencement of employment.
+- Role-specific health and safety training as required by risk assessment.
+- Refresher training at appropriate intervals.
+- Training following any significant change in working practices, equipment, or legislation.
+
+Training records will be maintained by [HS_LEAD_NAME] and HR.
+
+---
+
+## 8. Occupational Health
+
+[ORG_NAME] works with [OCCUPATIONAL_HEALTH_PROVIDER] to support the health and wellbeing of employees. Occupational health referrals may be made following long-term sickness absence, where an employee's health may affect their ability to work safely, or where a new or expectant mother requires a specific risk assessment. Referrals are coordinated through HR at [HR_EMAIL].
+
+---
+
+## 9. Consultation with Employees
+
+[ORG_NAME] is committed to consulting with employees and, where applicable, their representatives on health and safety matters. Employees have the right to be consulted on:
+
+- Significant changes to the workplace or working practices that may affect health and safety.
+- The introduction of new technology.
+- The outcome of risk assessments.
+- Health and safety training arrangements.
+- The appointment of competent persons and emergency procedures.
+
+Employees wishing to raise health and safety concerns should contact [HS_LEAD_NAME] at [HR_EMAIL] or speak to their line manager.
+
+---
+
+## 10. Performance Monitoring and Review
+
+[ORG_NAME] will monitor health and safety performance through:
+
+- Regular workplace inspections.
+- Accident and incident statistics.
+- Near miss reporting analysis.
+- Health and safety audit findings.
+- Review of risk assessments and safe systems of work.
+
+[HS_LEAD_NAME] will report health and safety performance to [CEO_NAME] and the senior leadership team at least quarterly. This policy will be reviewed annually or following any significant accident, change in legislation, or organisational change. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+---
+
+**Signed:**
+
+[CEO_NAME], Chief Executive Officer
+Date: [POLICY_EFFECTIVE_DATE]
+
+For queries regarding this policy, contact [HS_LEAD_NAME] at [HR_EMAIL].

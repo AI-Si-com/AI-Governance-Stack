@@ -1,0 +1,146 @@
+# Training & Development Policy
+
+**Policy Reference:** CORP-HR-007
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HR_LEAD_NAME], HR Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] recognises that investing in the learning and development of its people is essential to achieving organisational objectives, maintaining regulatory compliance, and ensuring employee engagement and retention. This policy sets out the organisation's approach to identifying, delivering, recording, and evaluating learning and development activity.
+
+This policy applies to all employees of [ORG_NAME] on permanent or fixed-term contracts. It applies across all departments, including [DEPARTMENTS_LIST]. Agency workers and contractors may be included in mandatory training programmes where required by law or contract.
+
+---
+
+## 2. Principles
+
+[ORG_NAME] is committed to:
+
+- Providing all employees with the skills and knowledge they need to perform their roles effectively.
+- Ensuring learning opportunities are accessible, inclusive, and fairly distributed.
+- Prioritising mandatory training to meet legal and regulatory obligations.
+- Supporting continuous professional development (CPD) aligned to individual career aspirations and business need.
+- Evaluating the effectiveness and return on investment of training activities.
+
+---
+
+## 3. Learning Needs Analysis
+
+**3.1 Organisational Level**
+[HR_LEAD_NAME] will conduct an annual organisation-wide Learning Needs Analysis (LNA) in the first quarter of each calendar year. The LNA will assess skills gaps relative to current and future business requirements, regulatory obligations, and strategic priorities. Outcomes will inform the annual training plan and budget allocation.
+
+**3.2 Team Level**
+Department heads across [DEPARTMENTS_LIST] will be asked to complete a team-level training needs assessment as part of the LNA process. This will identify technical and functional training requirements specific to each team.
+
+**3.3 Individual Level**
+Individual learning needs will be identified through the annual appraisal process (see Performance Management Policy, CORP-HR-006) and recorded in the employee's Personal Development Plan (PDP). Employees are encouraged to raise development needs with their line manager at any time throughout the year.
+
+---
+
+## 4. Mandatory Training
+
+Certain training is mandatory for all employees or specific groups and must be completed within the timescales set out below. Failure to complete mandatory training may result in action under the Disciplinary Policy (CORP-HR-002).
+
+**4.1 All-Staff Mandatory Training**
+
+| Training | Frequency | Deadline from Start Date |
+|----------|-----------|--------------------------|
+| Health & Safety Induction | Once (refresher every 3 years) | Within 30 days |
+| Fire Safety Awareness | Annual | Within 30 days |
+| Data Protection & UK GDPR Awareness | Annual | Within 30 days |
+| Equality, Diversity & Inclusion | Every 2 years | Within 60 days |
+| Anti-Bribery & Corruption | Annual | Within 30 days |
+| Safeguarding Awareness (where applicable) | Annual | Within 30 days |
+
+**4.2 Role-Specific Mandatory Training**
+Additional mandatory training requirements apply to specific roles and are set out in individual job descriptions and departmental induction plans. Managers are responsible for ensuring their team members complete all required training within the specified timescales.
+
+All mandatory training completions will be recorded centrally by HR at [HR_EMAIL].
+
+---
+
+## 5. Budget Allocation
+
+**5.1 Annual Training Budget**
+[ORG_NAME] allocates an annual training and development budget, approved by [CEO_NAME] as part of the annual financial planning process. The budget is managed by [HR_LEAD_NAME] in consultation with department heads.
+
+**5.2 Individual Development Budgets**
+[IF FIELD == "Yes" THEN]
+Each employee has access to an individual annual development budget. The allocation per employee is reviewed annually and communicated by HR at the start of each financial year. Employees should discuss their intended use of this budget with their line manager before making any booking.
+[END IF]
+
+**5.3 Requests Exceeding Budget**
+Where a training request exceeds the available budget, employees may request an exception through [HR_LEAD_NAME] at [HR_EMAIL]. Exceptions will be considered on the basis of business need, regulatory requirement, and strategic priority.
+
+---
+
+## 6. External Training and Qualifications
+
+**6.1 Approval Process**
+Requests for external training courses, professional qualifications, or conference attendance must be submitted to the employee's line manager for initial approval, and then to [HR_LEAD_NAME] at [HR_EMAIL] for final authorisation. Requests should be submitted at least four weeks in advance.
+
+**6.2 Professional Qualifications**
+Where [ORG_NAME] funds a professional qualification, a study support agreement may be required, setting out any repayment obligations in the event the employee leaves within a specified period of completing the qualification. Details will be confirmed at the time of approval.
+
+**6.3 Time Off for Study**
+Employees undertaking funded qualifications may be granted reasonable paid study leave at the discretion of their line manager and HR, subject to business needs.
+
+---
+
+## 7. Internal Training and Coaching
+
+[ORG_NAME] encourages internal knowledge sharing through:
+
+- In-house workshops and lunch-and-learn sessions.
+- Coaching and mentoring programmes.
+- Job shadowing and secondment opportunities across [DEPARTMENTS_LIST].
+- e-Learning modules available through the organisation's learning platform.
+
+Employees who have specialist expertise are encouraged to contribute to internal training delivery. Facilitation support is available from HR.
+
+---
+
+## 8. Record-Keeping
+
+HR is responsible for maintaining accurate and up-to-date training records for all employees. Records will include the training undertaken, date of completion, provider, cost, and any qualification or certificate awarded. Records will be retained in accordance with the Data Protection Policy (CORP-DP-001) for a minimum of six years from the date of the training.
+
+Employees may request a copy of their training record by contacting [HR_EMAIL].
+
+---
+
+## 9. Return on Investment
+
+[ORG_NAME] will assess the effectiveness of significant training investment through:
+
+- Pre- and post-training assessments where applicable.
+- Manager feedback on observed behaviour change.
+- Business performance indicators linked to training objectives.
+- Annual review of training spend versus outcomes as part of the LNA process.
+
+Findings will be reported to [CEO_NAME] and the senior leadership team annually.
+
+---
+
+## 10. Responsibilities
+
+**[CEO_NAME]** holds overall accountability for the organisation's commitment to learning and development.
+
+**[HR_LEAD_NAME]** is responsible for developing the annual training plan, managing the budget, maintaining records, and advising on development opportunities. Contact: [HR_EMAIL].
+
+**Line Managers** are responsible for supporting their team members in identifying and pursuing development opportunities, approving reasonable requests, and ensuring mandatory training is completed on time.
+
+**Employees** are responsible for engaging proactively in their own development, completing mandatory training within required timescales, and applying learning in their day-to-day roles.
+
+---
+
+## 11. Policy Review
+
+This policy will be reviewed annually by [HR_LEAD_NAME] or following any significant change in legislation, organisational structure, or business strategy. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For queries, contact [HR_EMAIL].

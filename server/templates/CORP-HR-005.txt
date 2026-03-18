@@ -1,0 +1,220 @@
+# Grievance Procedure
+## Policy Reference: CORP-HR-005
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**HR Lead:** [HR_LEAD_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] recognises that employees may, from time to time, have concerns about their work, working conditions, or their relationships with colleagues or management. This procedure provides a clear, fair, and consistent process for raising and resolving such concerns.
+
+[ORG_NAME] is committed to addressing grievances promptly and impartially, and to treating all parties with dignity and respect throughout the process.
+
+This procedure applies to all employees of [ORG_NAME]. It does not apply to workers, contractors, or the self-employed. Matters relating to collective employment disputes are addressed through separate arrangements.
+
+[IF USE_ACAS_SUPPORT == "Yes" THEN]
+This procedure complies with the ACAS Code of Practice on Disciplinary and Grievance Procedures. Employees may seek free, impartial advice from ACAS at any stage: [ACAS_CONTACT].
+[END IF]
+
+HR queries should be directed to [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 2. Guiding Principles
+
+[ORG_NAME] will ensure that:
+
+- Employees feel safe raising concerns without fear of detriment or victimisation
+- Grievances are taken seriously and investigated fairly
+- Employees are informed of outcomes and the reasoning behind decisions
+- The procedure is completed without unreasonable delay
+- Employees have the right to be accompanied at formal hearings
+- Employees have the right to appeal any grievance outcome
+
+---
+
+## 3. What is a Grievance?
+
+A grievance is a concern, problem, or complaint that an employee wishes to raise formally with [ORG_NAME]. Grievances may relate to, but are not limited to:
+
+- Terms and conditions of employment
+- Working environment or practices
+- Management style or treatment by a colleague or manager
+- Discrimination, harassment, or bullying (see also CORP-HR-003)
+- Health and safety concerns
+- Workload or working hours
+- Application of [ORG_NAME]'s policies and procedures
+- Concerns about whistleblowing (see the separate Whistleblowing Policy where applicable)
+
+---
+
+## 4. Stage 1 — Informal Resolution
+
+In many cases, concerns can be resolved quickly and informally without the need for a formal process. Employees are encouraged to raise concerns promptly with their line manager in the first instance.
+
+If the concern relates to the line manager, or if the employee does not feel comfortable approaching their manager directly, they should contact [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+HR may facilitate a facilitated discussion or mediation between the parties where appropriate. Where informal resolution is attempted, a brief record of the discussion and agreed actions should be kept by the line manager and shared with HR.
+
+Employees are under no obligation to use the informal process before raising a formal grievance. However, [ORG_NAME] encourages early resolution wherever possible.
+
+---
+
+## 5. Stage 2 — Formal Grievance
+
+### 5.1 Submitting a Formal Grievance
+
+Where informal resolution has not resolved the matter, or where the matter is too serious for informal handling, the employee should submit a formal written grievance to [HR_LEAD_NAME] at [HR_EMAIL].
+
+The written grievance should set out:
+
+- The nature of the grievance in sufficient detail
+- Key events, dates, and locations
+- The names of individuals involved
+- Any supporting evidence or witnesses
+- The resolution or outcome the employee is seeking
+
+### 5.2 Acknowledgement
+
+[HR_LEAD_NAME] will acknowledge receipt of the written grievance within three working days. An investigating manager will be appointed who has not been involved in the events giving rise to the grievance.
+
+### 5.3 Investigation
+
+The investigating manager will conduct a fair and impartial investigation, which may include:
+
+- Meeting with the grievant to understand the full circumstances
+- Interviewing relevant witnesses
+- Reviewing documents, correspondence, or other evidence
+
+Where the grievance concerns the conduct of another employee, that individual will be informed of the nature of the grievance and given the opportunity to respond. All parties are required to maintain confidentiality throughout the investigation.
+
+---
+
+## 6. The Grievance Hearing
+
+### 6.1 Invitation
+
+The employee will be invited in writing to a formal grievance hearing. The invitation will:
+
+- Set out the purpose and format of the hearing
+- Provide at least 48 hours' notice (or longer where reasonable)
+- Confirm the employee's right to be accompanied
+- Enclose any relevant investigation documents
+
+### 6.2 Right to be Accompanied
+
+The employee has the statutory right to be accompanied at a formal grievance hearing by:
+
+- A trade union representative or official, or
+- A fellow employee of [ORG_NAME]
+
+The companion may address the hearing and confer with the employee but may not answer questions on the employee's behalf or prevent the employer from explaining its position. If the chosen companion is unavailable at the proposed time, the employee may request a postponement of up to five working days.
+
+### 6.3 Format of the Hearing
+
+The hearing will be chaired by a manager with sufficient seniority to consider and resolve the grievance. HR will normally attend to advise. The hearing will:
+
+1. Allow the employee to explain the grievance fully in their own words
+2. Allow the employee to present evidence and call witnesses
+3. Allow the chair to ask questions and seek clarification
+4. Allow any respondent named in the grievance to respond where appropriate
+5. The chair will adjourn to consider the matter before communicating the outcome
+
+---
+
+## 7. Outcome and Decision
+
+The outcome of the grievance hearing will be communicated to the employee in writing within five working days of the hearing, unless the complexity of the matter reasonably requires more time, in which case the employee will be kept informed of progress.
+
+The written outcome will:
+
+- Set out the findings of the investigation
+- Confirm whether the grievance has been upheld, partially upheld, or not upheld
+- Set out any action [ORG_NAME] will take in response
+- Notify the employee of their right to appeal
+
+Possible outcomes include:
+
+- **Upheld** – [ORG_NAME] accepts the grievance and will take appropriate remedial action, which may include management intervention, process changes, or referral to the disciplinary procedure
+- **Partially upheld** – Some but not all elements of the grievance are substantiated
+- **Not upheld** – The investigation did not substantiate the grievance
+
+---
+
+## 8. Stage 3 — Appeal
+
+The employee has the right to appeal the grievance outcome if they are dissatisfied with the decision or the way the procedure was conducted. The appeal must be submitted in writing to [HR_LEAD_NAME] at [HR_EMAIL] within five working days of receiving the written outcome, setting out the specific grounds of appeal.
+
+The appeal will be heard by a more senior manager who was not involved in the original grievance hearing. The appeal will follow a similar format to the grievance hearing. The outcome of the appeal is final.
+
+[IF USE_ACAS_SUPPORT == "Yes" THEN]
+If an employee remains dissatisfied following the internal appeal, they may seek further guidance from ACAS at [ACAS_CONTACT] or consider other external options, including an Employment Tribunal claim (subject to applicable time limits).
+[END IF]
+
+---
+
+## 9. Timeline Summary
+
+| Stage | Target Timescale |
+|-------|-----------------|
+| Acknowledgement of formal grievance | Within 3 working days |
+| Investigation completed | Within 15 working days |
+| Grievance hearing | Within 5 working days of investigation completion |
+| Written outcome issued | Within 5 working days of hearing |
+| Appeal submission deadline | Within 5 working days of receiving outcome |
+| Appeal hearing | Within 10 working days of receiving appeal |
+| Appeal outcome | Within 5 working days of appeal hearing |
+
+Where timescales cannot be met, the employee will be notified and given a revised timetable with explanation.
+
+---
+
+## 10. Grievances Raised by Multiple Employees
+
+Where two or more employees raise the same or related grievance, [ORG_NAME] may consider the grievances together, provided this does not disadvantage any individual. Each employee retains the right to present their own case and to be accompanied separately.
+
+---
+
+## 11. Grievances Raised Against [CEO_NAME]
+
+Where a grievance is made against [CEO_NAME], it should be submitted to [HR_LEAD_NAME] at [HR_EMAIL], who will determine the appropriate escalation route including, where necessary, referral to the [BOARD_NAME].
+
+---
+
+## 12. Protection from Victimisation
+
+[ORG_NAME] will not tolerate retaliation against any employee who raises a grievance in good faith, supports another employee in a grievance, or acts as a witness. Victimisation is a serious disciplinary matter and will be addressed under CORP-HR-004.
+
+---
+
+## 13. Confidentiality
+
+All parties are required to treat grievance proceedings as confidential. Information must be shared only on a need-to-know basis. Unauthorised disclosure of information relating to a grievance may itself be treated as misconduct.
+
+---
+
+## 14. Record Keeping
+
+All grievance records are maintained confidentially by HR. Records are retained for a minimum of six years from the date the grievance was closed, in accordance with [ORG_NAME]'s data retention schedule, then securely destroyed.
+
+---
+
+## 15. Policy Review
+
+This procedure is reviewed annually by [HR_LEAD_NAME] in consultation with [CEO_NAME]. Contact [HR_EMAIL] or [HR_PHONE] with any queries.
+
+---
+
+## 16. Related Documents
+
+- CORP-HR-003: Anti-Harassment & Bullying Policy
+- CORP-HR-004: Disciplinary Procedure
+- ACAS Code of Practice on Disciplinary and Grievance Procedures
+- Employment Rights Act 1996
+- Equality Act 2010

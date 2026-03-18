@@ -1,0 +1,185 @@
+# Disciplinary Procedure
+## Policy Reference: CORP-HR-004
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**HR Lead:** [HR_LEAD_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] aims to maintain consistent standards of conduct and performance. Where concerns arise, this procedure provides a fair, transparent, and legally compliant process for addressing them. This procedure is designed to be corrective rather than punitive, except in cases of gross misconduct.
+
+This procedure applies to all employees of [ORG_NAME]. It does not apply to workers, contractors, or the self-employed, although [ORG_NAME] may operate analogous procedures for those groups. It does not apply to performance management unless conduct is also a factor.
+
+[IF USE_ACAS_SUPPORT == "Yes" THEN]
+This procedure has been designed to comply with the ACAS Code of Practice on Disciplinary and Grievance Procedures. Employees may contact ACAS for free, impartial advice at any stage: [ACAS_CONTACT].
+[END IF]
+
+HR queries should be directed to [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 2. Principles
+
+[ORG_NAME] will ensure that:
+
+- Employees are made aware of the standards expected of them
+- Concerns are raised and addressed promptly and consistently
+- Investigations are fair and thorough before any action is taken
+- Employees are informed of allegations and given the opportunity to respond
+- Employees have the right to be accompanied at formal hearings
+- Employees have the right to appeal any formal disciplinary outcome
+- No employee is dismissed for a first offence unless it amounts to gross misconduct
+
+---
+
+## 3. Informal Action
+
+Before invoking the formal procedure, [ORG_NAME] will consider whether informal action is appropriate. Where a concern about conduct is relatively minor and there is no history of similar behaviour, the line manager may address the issue informally through a private conversation, making clear what change in behaviour is expected and by when.
+
+A brief note of the informal discussion should be kept by the manager and provided to HR. Informal action is not a disciplinary sanction and does not appear on the employee's formal disciplinary record.
+
+---
+
+## 4. Formal Disciplinary Procedure
+
+### 4.1 Investigation
+
+No formal disciplinary action will be taken without a prior investigation to establish the facts. The investigation will be conducted by a manager not involved in the matter. The investigation should be completed promptly and will normally conclude within 10 working days.
+
+The investigator will:
+
+- Gather relevant facts including documents, correspondence, and CCTV where applicable
+- Interview relevant witnesses
+- Interview the employee under investigation (though this is not a disciplinary hearing)
+
+The investigation report will be shared with [HR_LEAD_NAME] to determine whether there is a case to answer.
+
+### 4.2 Suspension
+
+In serious cases, [ORG_NAME] may suspend the employee on full pay during the investigation and/or pending a disciplinary hearing. Suspension is a neutral act and does not prejudge the outcome. Suspension should be kept as brief as possible and will be reviewed regularly.
+
+### 4.3 Invitation to a Disciplinary Hearing
+
+If there is a case to answer, the employee will be invited in writing to a formal disciplinary hearing. The written invitation will:
+
+- Set out the nature of the alleged misconduct in sufficient detail
+- Provide copies of any evidence to be relied upon
+- Give at least 48 hours' notice of the hearing (or such longer period as is reasonable in the circumstances)
+- Confirm the employee's right to be accompanied
+
+### 4.4 Right to be Accompanied
+
+The employee has the statutory right to be accompanied at a formal disciplinary hearing by:
+
+- A trade union representative or official, or
+- A fellow employee of [ORG_NAME]
+
+The companion may address the hearing and confer with the employee but may not answer questions on their behalf or address the hearing in a way that prevents [ORG_NAME] from explaining its case. If the chosen companion is unavailable at the proposed time, the employee may request a postponement of up to five working days.
+
+### 4.5 The Disciplinary Hearing
+
+The disciplinary hearing will be chaired by a manager with the authority to impose the relevant sanction. HR will normally attend to advise. The hearing will follow this format:
+
+1. The chair introduces those present and explains the purpose
+2. The chair sets out the allegations and presents supporting evidence
+3. The employee (and companion) are given the opportunity to respond, ask questions, present their own evidence, and call witnesses
+4. The chair adjourns to consider the evidence
+5. The chair reconvenes and communicates the outcome, or adjourns to a further date where necessary
+
+### 4.6 Outcomes
+
+Following the hearing, the chair may determine:
+
+- **No further action** – where the allegation is not substantiated
+- **Informal guidance** – appropriate where the matter falls below the threshold for formal action
+- **First written warning** – appropriate for minor misconduct where informal action has failed or is insufficient
+- **Final written warning** – appropriate for serious misconduct, repeated misconduct, or where a first written warning is still live
+- **Dismissal with notice** – appropriate for continued misconduct where a final written warning is live, or for serious misconduct
+- **Summary dismissal (without notice)** – appropriate for gross misconduct
+
+The outcome will be confirmed in writing within five working days of the hearing, together with notification of the right to appeal.
+
+---
+
+## 5. Disciplinary Sanctions
+
+### 5.1 Written Warnings
+
+A first written warning is normally live for 12 months. A final written warning is normally live for 24 months. After the live period, warnings will be disregarded for future disciplinary purposes but will be retained on the employee's HR file. The length of a warning may be extended in exceptional circumstances.
+
+### 5.2 Gross Misconduct
+
+Gross misconduct is conduct so serious that it fundamentally undermines the employment relationship and justifies summary dismissal (without notice or pay in lieu of notice). Examples of gross misconduct include but are not limited to:
+
+- Theft, fraud, or deliberate falsification of records
+- Physical violence or serious threats of violence
+- Serious harassment or bullying (including sexual harassment)
+- Deliberate damage to [ORG_NAME]'s property
+- Serious breach of health and safety rules causing risk to life
+- Serious breach of the Information Security Management Policy (CORP-ISMS-001)
+- Bringing [ORG_NAME] into serious disrepute
+- Being under the influence of alcohol or illegal drugs at work
+- Serious insubordination
+
+This list is not exhaustive. In all cases of alleged gross misconduct, an investigation will be conducted and a hearing held before any decision is made.
+
+---
+
+## 6. Appeal
+
+The employee has the right to appeal any formal disciplinary sanction, including dismissal. The appeal must be submitted in writing to [HR_LEAD_NAME] at [HR_EMAIL] within five working days of receiving the written outcome, setting out the grounds of appeal.
+
+The appeal will be heard by a more senior manager who was not involved in the original hearing. The appeal hearing will follow a similar format to the disciplinary hearing. The outcome of the appeal is final and will be confirmed in writing.
+
+[IF USE_ACAS_SUPPORT == "Yes" THEN]
+If an employee remains dissatisfied after the internal appeal, they may seek further guidance from ACAS at [ACAS_CONTACT] or consider other external remedies.
+[END IF]
+
+---
+
+## 7. Special Circumstances
+
+### 7.1 Overlapping Grievance
+
+If an employee raises a grievance during a disciplinary process, [ORG_NAME] will consider whether the disciplinary process should be paused to allow the grievance to be heard, taking into account the circumstances and any potential overlap.
+
+### 7.2 Sickness Absence During Proceedings
+
+Where an employee is absent due to illness during the disciplinary process, [ORG_NAME] will obtain medical advice and consider appropriate adjustments. The process will not be delayed indefinitely.
+
+### 7.3 Trade Union Officials
+
+Before disciplinary proceedings are commenced against a trade union official, [HR_LEAD_NAME] will consult with a senior trade union representative.
+
+---
+
+## 8. Confidentiality
+
+All parties involved in disciplinary proceedings are required to maintain strict confidentiality. Information should only be shared on a need-to-know basis. Breach of confidentiality may itself be treated as misconduct.
+
+---
+
+## 9. Record Keeping
+
+All disciplinary records are maintained confidentially by HR. Live warnings are held on the employee's HR file. Expired warnings are retained for a minimum of six years after expiry in accordance with [ORG_NAME]'s data retention schedule, then securely destroyed.
+
+---
+
+## 10. Policy Review
+
+This procedure is reviewed annually by [HR_LEAD_NAME] in consultation with [CEO_NAME]. Contact [HR_EMAIL] or [HR_PHONE] with any queries.
+
+---
+
+## 11. Related Documents
+
+- CORP-HR-003: Anti-Harassment & Bullying Policy
+- CORP-HR-005: Grievance Procedure
+- ACAS Code of Practice on Disciplinary and Grievance Procedures
+- Employment Rights Act 1996

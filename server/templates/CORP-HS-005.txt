@@ -1,0 +1,173 @@
+# Mental Health & Wellbeing Policy
+
+**Policy Reference:** CORP-HS-005
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HR_LEAD_NAME], HR Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contacts:** [HR_EMAIL] | [HR_PHONE]
+
+---
+
+## 1. Policy Statement
+
+[ORG_NAME] recognises that mental health is as important as physical health and is fundamental to the wellbeing, performance, and resilience of our workforce. [CEO_NAME] and the senior leadership team are personally committed to creating a workplace culture in which mental health is treated with the same seriousness as any physical condition, and in which all employees feel safe to speak openly about their mental health without fear of stigma or negative consequences.
+
+[ORG_NAME] acknowledges its legal duties under the Health and Safety at Work etc. Act 1974, the Management of Health and Safety at Work Regulations 1999, the Equality Act 2010, and the Working Time Regulations 1998 to protect the health and wellbeing of its workforce, including mental health.
+
+---
+
+## 2. Scope
+
+This policy applies to all employees of [ORG_NAME], regardless of role, seniority, or working pattern. It also informs our approach to contractors and other workers whose mental health may be affected by their work with [ORG_NAME].
+
+---
+
+## 3. Wellbeing Strategy
+
+[ORG_NAME] takes a proactive approach to employee wellbeing. Our wellbeing strategy is built on four pillars:
+
+**Prevention** – reducing the risk of work-related mental ill-health through good job design, manageable workloads, clear communication, and a positive working environment.
+
+**Early Identification** – encouraging employees and managers to recognise the early signs of mental health difficulties and to seek help promptly.
+
+**Support and Intervention** – ensuring that employees experiencing mental health difficulties receive timely, appropriate, and compassionate support.
+
+**Recovery and Return to Work** – supporting employees to recover and return to work at the right time, with any necessary adjustments in place.
+
+[HR_LEAD_NAME] ([HR_EMAIL]) is responsible for coordinating the wellbeing strategy and reporting on outcomes to [CEO_NAME] and the senior leadership team annually.
+
+---
+
+## 4. Wellbeing Commitments
+
+[ORG_NAME] is committed to:
+
+- Conducting regular workload reviews and ensuring reasonable working hours in line with the Working Time Regulations 1998.
+- Providing a physically safe, clean, and comfortable working environment.
+- Fostering a culture of open communication, psychological safety, and mutual respect.
+- Training managers to recognise and respond appropriately to signs of mental ill-health.
+- Challenging stigma around mental health through awareness campaigns and open conversations.
+- Providing access to confidential support services at all times.
+- Making reasonable adjustments for employees with mental health conditions that meet the definition of disability under the Equality Act 2010.
+- Ensuring workloads and deadlines are realistic and communicated clearly.
+
+---
+
+## 5. Mental Health First Aiders
+
+[ORG_NAME] appoints trained Mental Health First Aiders (MHFAs) across the organisation. MHFAs are volunteers who have completed a nationally recognised Mental Health First Aid qualification. They are a first point of contact for colleagues who are experiencing mental health difficulties or emotional distress, and can:
+
+- Provide initial support and a non-judgemental listening ear.
+- Signpost to professional help and internal or external resources.
+- Help colleagues to access the Employee Assistance Programme or occupational health services.
+
+MHFAs are not counsellors or therapists and do not provide clinical treatment. They operate within clear boundaries and their own wellbeing is protected through regular supervision and review.
+
+A current list of Mental Health First Aiders, including their names and contact details, is displayed on notice boards and is available from HR at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 6. Employee Assistance Programme (EAP)
+
+[ORG_NAME] provides access to an Employee Assistance Programme (EAP) through [OCCUPATIONAL_HEALTH_PROVIDER]. The EAP offers all employees and, where eligible, their immediate family members, access to:
+
+- A confidential 24/7 helpline staffed by trained counsellors.
+- Short-term structured counselling (up to six sessions per issue per year).
+- Legal, financial, and practical advice.
+- Wellbeing resources and online self-help tools.
+- Manager support line for guidance on employee mental health issues.
+
+The EAP is completely confidential. [ORG_NAME] does not receive information about individual use of the service. Employees can self-refer at any time by contacting [OCCUPATIONAL_HEALTH_PROVIDER] directly. Details of how to access the EAP are available from HR at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 7. Occupational Health Referrals
+
+Where an employee's mental health is affecting their ability to work, or where work may be contributing to mental health difficulties, [HR_LEAD_NAME] may arrange a referral to [OCCUPATIONAL_HEALTH_PROVIDER] with the employee's consent. Occupational health assessments may result in:
+
+- Recommendations for reasonable adjustments.
+- A phased return to work plan.
+- Advice on fitness to work.
+- Signposting to specialist mental health services.
+
+Referrals are made through HR at [HR_EMAIL]. The process is always conducted with sensitivity and the employee's consent.
+
+---
+
+## 8. Absence Management and Return to Work
+
+Mental health-related absences will be managed with the same care and consistency as absences arising from physical illness. Specifically:
+
+- Employees will not be penalised for taking medically certified sickness absence related to mental health.
+- Return-to-work conversations will be conducted in a supportive and non-stigmatising manner.
+- Where absence extends beyond four weeks, HR will initiate a structured review process, which may include an occupational health referral.
+- Phased returns to work and temporary adjustments to duties or hours will be considered on a case-by-case basis and documented in a written return-to-work plan.
+
+Further details are set out in the Sickness Absence Management Policy.
+
+---
+
+## 9. Reasonable Adjustments
+
+Under the Equality Act 2010, where a mental health condition amounts to a disability (i.e. it has a substantial and long-term adverse effect on the employee's ability to carry out normal day-to-day activities), [ORG_NAME] is required to make reasonable adjustments. Examples of reasonable adjustments may include:
+
+- Adjusted working hours or pattern.
+- Temporary reallocation of duties.
+- Additional breaks or quiet working space.
+- Reduced targets during periods of recovery.
+- Additional supervision or check-ins.
+- Remote or flexible working arrangements.
+
+Employees seeking a reasonable adjustment should contact [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE]. All requests will be considered promptly and sensitively.
+
+---
+
+## 10. Manager Responsibilities
+
+Line managers play a crucial role in supporting employee mental health. [ORG_NAME] expects all managers to:
+
+- Undertake mental health awareness training as part of their management development.
+- Hold regular one-to-one meetings with team members and create opportunities for open conversation.
+- Be alert to signs of stress or mental health difficulties, including changes in behaviour, performance, or attendance.
+- Respond to disclosures with empathy and without judgement.
+- Know how to signpost employees to available support, including the EAP and Mental Health First Aiders.
+- Contact HR at [HR_EMAIL] or [HR_PHONE] for guidance when supporting an employee experiencing mental health difficulties.
+
+Managers should not attempt to diagnose or treat mental health conditions. Their role is to support, signpost, and adjust working conditions where appropriate.
+
+---
+
+## 11. Reducing Stigma
+
+[ORG_NAME] is committed to challenging the stigma associated with mental health. Actions include:
+
+- Marking key awareness events (e.g. World Mental Health Day, Mental Health Awareness Week) with internal communications and activities.
+- Sharing stories and resources that normalise conversations about mental health.
+- Training all staff in mental health awareness at least every two years.
+- Ensuring senior leaders, including [CEO_NAME], visibly champion mental health and model healthy working behaviours.
+
+Employees who experience discrimination, harassment, or victimisation related to their mental health should report this in accordance with the Dignity at Work Policy (CORP-HR-003).
+
+---
+
+## 12. Work-Related Stress
+
+[ORG_NAME] recognises that work-related stress is a significant cause of mental ill-health and is committed to managing it proactively. A stress risk assessment will be conducted using the HSE Management Standards framework, covering demands, control, support, relationships, role, and change. Where the assessment identifies significant stressors, action plans will be developed and implemented promptly.
+
+Employees who are experiencing stress should speak to their line manager or contact HR at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 13. Confidentiality
+
+[ORG_NAME] treats all disclosures about mental health with the utmost confidentiality. Information about an employee's mental health will only be shared with those who have a legitimate need to know, and only with the employee's consent, unless there is a serious risk to the employee or others. Full details are set out in the Data Protection Policy (CORP-DP-001).
+
+---
+
+## 14. Policy Review
+
+This policy will be reviewed annually by [HR_LEAD_NAME] in consultation with employee representatives, or following any significant change in legislation, guidance, or organisational circumstances. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For any queries about this policy, or for confidential support, contact [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].

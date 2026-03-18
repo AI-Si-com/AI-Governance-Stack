@@ -1,0 +1,127 @@
+# AI Governance Framework
+## Document Reference: AISI-GOV-001
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**AI Governance Authority:** [AI_APPROVAL_AUTHORITY]
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This AI Governance Framework establishes the structures, processes, and accountabilities by which [ORG_NAME] governs the development, procurement, deployment, and ongoing oversight of artificial intelligence (AI) and automated decision-making systems.
+
+[ORG_NAME] is committed to harnessing the benefits of AI responsibly — advancing operational efficiency, customer outcomes, and innovation — while managing the risks that AI systems present to individuals, the organisation, and wider society. This framework aligns with the UK Government's AI Regulation pro-innovation principles and applicable guidance from regulatory bodies.
+
+This framework applies to all AI systems used or deployed by [ORG_NAME], whether developed internally or procured from third parties. It applies to all employees, contractors, and third parties involved in AI activities on behalf of [ORG_NAME].
+
+[IF AI_TOOLS_IN_USE == "Yes" THEN]
+Current AI systems in use within [ORG_NAME] include: [AI_TOOLS_LIST]. Each of these systems is subject to the governance requirements set out in this framework.
+[END IF]
+
+---
+
+## 2. AI Governance Structure
+
+### 2.1 Board Accountability
+
+The Board of Directors holds ultimate accountability for AI governance. The Board is responsible for approving the organisation's AI strategy, setting risk appetite for AI, and receiving regular reports on the performance and risk profile of AI systems in use.
+
+[CEO_NAME] is accountable to the Board for the implementation of this framework.
+
+### 2.2 AI Oversight Committee
+
+[ORG_NAME] operates an AI Oversight Committee chaired by [AI_APPROVAL_AUTHORITY]. The committee meets at least quarterly and holds responsibility for:
+
+- Approving or rejecting new AI system proposals (see AISI-GOV-004)
+- Reviewing the AI risk register and approving risk treatment decisions
+- Overseeing AI ethics reviews (see AISI-GOV-002)
+- Monitoring the performance and outcomes of deployed AI systems
+- Reviewing AI incidents and approving post-incident remediation plans
+- Reporting material AI governance matters to the Board
+
+The committee is constituted by representatives from departments including [DEPARTMENTS_LIST], as well as Compliance, Legal, and IT. Meeting minutes are maintained and held on record.
+
+### 2.3 AI Incident Lead
+
+[AI_INCIDENT_LEAD] serves as the designated AI Incident Lead and holds responsibility for coordinating responses to AI incidents, near misses, and emerging risks. The AI Incident Lead reports to [AI_APPROVAL_AUTHORITY] and to [COMPLIANCE_EMAIL] on all incident matters.
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role | Responsibility |
+|------|---------------|
+| Board of Directors | Ultimate accountability; AI strategy; risk appetite |
+| [CEO_NAME] | Executive accountability; resource allocation; culture |
+| AI Oversight Committee ([AI_APPROVAL_AUTHORITY]) | Governance oversight; approvals; risk management |
+| [AI_INCIDENT_LEAD] | Incident response; operational risk escalation |
+| AI System Owners | Day-to-day management of individual AI systems |
+| Compliance ([COMPLIANCE_EMAIL]) | Policy compliance; regulatory liaison |
+| All Users | Responsible use; adherence to acceptable use policy |
+
+All departments across [DEPARTMENTS_LIST] must nominate an AI Liaison responsible for coordinating with the AI Oversight Committee on AI-related matters.
+
+---
+
+## 4. AI Risk Classification
+
+All AI systems deployed by [ORG_NAME] are classified according to a three-tier risk framework:
+
+### Tier 1 — High Risk
+
+AI systems that make or materially influence decisions with significant impacts on individuals, that process sensitive personal data at scale, or that present material operational, reputational, or regulatory risk. Tier 1 systems require full AI impact assessment, Ethics Review, Data Protection Impact Assessment (where applicable), Board notification, and [AI_APPROVAL_AUTHORITY] sign-off.
+
+### Tier 2 — Medium Risk
+
+AI systems that assist human decision-making, that process non-sensitive personal data, or that present moderate operational risk. Tier 2 systems require a proportionate risk assessment and AI Oversight Committee approval.
+
+### Tier 3 — Low Risk
+
+AI tools used for internal productivity purposes with no direct customer impact, no personal data processing, and low operational dependency. Tier 3 systems require registration and IT security review.
+
+All AI systems in [AI_TOOLS_LIST] have been assigned a risk tier documented in the AI Risk Register maintained by [AI_INCIDENT_LEAD].
+
+---
+
+## 5. AI Lifecycle Management
+
+### 5.1 Pre-Deployment
+
+Before any AI system is deployed, the following steps must be completed:
+- Completion of the AI procurement and approval process (AISI-GOV-004)
+- Risk classification and proportionate impact assessment
+- Ethics review for Tier 1 and Tier 2 systems (AISI-GOV-002)
+- Data protection review where personal data is involved
+- IT security assessment
+
+### 5.2 In-Use Monitoring
+
+Deployed AI systems are subject to ongoing monitoring by the designated AI System Owner. Monitoring activities include performance tracking, output auditing, bias and fairness monitoring where applicable, and review of user feedback. Material performance degradation or unexpected outputs must be reported to [AI_INCIDENT_LEAD].
+
+### 5.3 Review and Decommissioning
+
+All AI systems undergo a formal annual review. Systems that no longer meet governance standards, that present unacceptable risk, or that are superseded will be decommissioned in accordance with a managed exit plan approved by the AI Oversight Committee.
+
+---
+
+## 6. Regulatory Alignment
+
+This framework is designed to align with applicable UK AI regulation, ICO guidance on AI and data protection, the UK AI Safety Institute's emerging standards, and the Organisation for Economic Co-operation and Development (OECD) AI Principles. [ORG_NAME] will monitor regulatory developments and update this framework accordingly.
+
+Queries regarding this framework should be directed to [COMPLIANCE_EMAIL].
+
+---
+
+## 7. Framework Review
+
+This framework is reviewed annually by the AI Oversight Committee and approved by [POLICY_APPROVAL_AUTHORITY]. Interim reviews will be triggered by significant regulatory change, a material AI incident, or the introduction of a new high-risk AI system.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

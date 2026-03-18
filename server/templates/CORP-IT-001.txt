@@ -1,0 +1,124 @@
+# IT Acceptable Use Policy
+
+**Policy Reference:** CORP-IT-001
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** IT Department
+**Approved By:** [CEO_NAME], Chief Executive Officer
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out the acceptable and prohibited use of [DATA_CONTROLLER_NAME]'s information technology systems, networks, devices, and data. It applies to all employees, contractors, agency workers, and any other individuals granted access to organisational IT resources, whether on-site or working remotely.
+
+The Organisation's IT systems — including [CRITICAL_SYSTEMS] — are provided for business purposes. Authorised use of these systems is a condition of employment and engagement. Questions regarding acceptable use should be directed to [IT_EMAIL]. Compliance queries should be directed to [COMPLIANCE_EMAIL].
+
+---
+
+## 2. Authorised Use
+
+IT systems and resources are provided primarily to support the legitimate business activities of [DATA_CONTROLLER_NAME]. Authorised use includes:
+
+- Carrying out duties specified in your role and employment contract.
+- Communicating with colleagues, clients, suppliers, and other business contacts.
+- Accessing business systems, databases, and cloud services required for your role.
+- Accessing [CRITICAL_SYSTEMS] in accordance with your assigned access permissions.
+- Participating in training and professional development activities.
+- Reasonable personal use as described in Section 4.
+
+Access to IT systems is granted on the basis of the minimum permissions required for your role (least privilege principle). Access rights are reviewed periodically and upon any change in role or employment status.
+
+---
+
+## 3. Prohibited Activities
+
+The following activities are strictly prohibited on [DATA_CONTROLLER_NAME]'s IT systems and networks:
+
+**Legal and Regulatory Violations:**
+- Accessing, downloading, storing, or distributing unlawful material including material that is illegal under UK law.
+- Infringing third-party intellectual property rights, including software piracy.
+- Attempting to access systems, accounts, or data without authorisation.
+- Circumventing access controls, security software, or audit logging.
+
+**Security Risks:**
+- Installing unauthorised software, applications, browser extensions, or plugins.
+- Disabling antivirus, firewall, or endpoint protection software.
+- Connecting unapproved personal devices or removable media to organisational systems.
+- Attempting to exploit, probe, or test the security of IT systems without written authorisation from [IT_EMAIL].
+- Forwarding work emails to personal email accounts for purposes of circumventing monitoring or access controls.
+
+**Data Misuse:**
+- Accessing, copying, or transmitting personal data, confidential information, or intellectual property for unauthorised purposes.
+- Sharing login credentials, passwords, or authentication tokens with any other person.
+- Storing organisational data on unauthorised personal storage services or devices.
+
+**Reputational and Conduct Risks:**
+- Using IT systems to harass, bully, discriminate against, or intimidate any person.
+- Creating, accessing, or distributing offensive, discriminatory, or sexually explicit material.
+- Impersonating another user or creating false identities in communications.
+- Making defamatory, libellous, or misleading statements about the Organisation, its staff, clients, or partners.
+
+---
+
+## 4. Personal Use
+
+A reasonable level of personal use of the Organisation's IT systems is permitted, subject to the following conditions:
+
+- Personal use must not interfere with work duties or productivity.
+- Personal use must comply with all other provisions of this policy.
+- Excessive personal use that impairs system performance or consumes disproportionate bandwidth is not permitted.
+- Personal use does not create a right of privacy. The Organisation reserves the right to monitor and inspect all use of its systems (see Section 7).
+
+---
+
+## 5. Social Media
+
+When using social media — whether on organisational systems or personal devices during working hours — employees must not:
+
+- Post content that brings [DATA_CONTROLLER_NAME] into disrepute.
+- Share confidential, commercially sensitive, or personal data about the Organisation, colleagues, or clients.
+- Claim to represent the Organisation's views without explicit authorisation from [CEO_NAME] or an authorised communications lead.
+- Engage in conduct that would breach this policy or the Organisation's Code of Conduct.
+
+Designated social media accounts operated on behalf of the Organisation must be managed only by authorised personnel. Queries about social media use should be directed to [COMPLIANCE_EMAIL].
+
+---
+
+## 6. Cloud Services and External Platforms
+
+Staff must not use unapproved cloud storage, file-sharing, or collaboration platforms to store, process, or share organisational data. The use of [CRITICAL_SYSTEMS] is approved; all other cloud services require written approval from [IT_EMAIL] before use. This requirement applies equally to free consumer cloud services (e.g. personal Dropbox, personal Google Drive) and to new business-oriented platforms.
+
+Where a cloud service is approved, data must be stored in accordance with the Data Protection Policy (CORP-DG-001) and the Data Retention and Disposal Policy (CORP-DG-003).
+
+---
+
+## 7. Monitoring
+
+[DATA_CONTROLLER_NAME] reserves the right to monitor, log, inspect, and audit the use of its IT systems at any time and without prior notice. Monitoring may include:
+
+- Email content and metadata.
+- Internet browsing activity and history.
+- File access and transfer logs.
+- System access and authentication events.
+- Device activity on the organisational network.
+
+Monitoring is carried out for the purposes of ensuring security, compliance, and the proper use of organisational resources, in accordance with the Data Protection Policy (CORP-DG-001) and applicable employment law. Staff are made aware of monitoring through this policy and the Staff Privacy Notice (CORP-DG-002). Monitoring data is accessed only by authorised personnel and is not used for purposes beyond those stated.
+
+---
+
+## 8. Reporting IT Security Incidents
+
+All suspected security incidents — including malware, phishing emails, unauthorised access, lost or stolen devices, and accidental data disclosure — must be reported immediately to [IT_EMAIL]. Do not attempt to resolve security incidents independently. Further guidance is provided in the Data Breach Response Policy (CORP-DG-005).
+
+---
+
+## 9. Consequences of Non-Compliance
+
+Breaches of this policy may result in disciplinary action up to and including dismissal, and may also result in civil or criminal liability. Access to IT systems may be suspended pending investigation. Serious breaches may be reported to relevant authorities. The Organisation reserves the right to preserve and disclose evidence of prohibited use where required by law or regulation.
+
+---
+
+## 10. Review
+
+This policy is reviewed annually by the IT Department in consultation with [COMPLIANCE_EMAIL]. The next review date is [ANNUAL_REVIEW_DATE].

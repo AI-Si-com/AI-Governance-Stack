@@ -1,0 +1,173 @@
+# AI Change Management Policy
+
+**Policy Reference:** AISI-CHANGE-001
+**AI Approval Authority:** [AI_APPROVAL_AUTHORITY]
+**Chief Executive:** [CEO_NAME]
+**IT Contact:** [IT_EMAIL]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the formal change control process that must be followed for any material change to an AI system operated by [ORG_NAME]. Uncontrolled changes to AI systems — including model updates, data changes, configuration modifications, and integration changes — can introduce bias, degrade performance, create security vulnerabilities, and give rise to regulatory non-compliance.
+
+This policy applies to all AI systems operated by [ORG_NAME] and to all personnel and third parties involved in proposing, developing, testing, approving, or implementing changes. It applies to changes originating internally and to changes delivered by third-party AI suppliers. It must be read alongside the AI Incident Response Policy (AISI-INC-001), the AI Auditing and Monitoring Policy (AISI-AUDIT-001), and the AI Third-Party Management Policy (AISI-THIRD-001).
+
+Departments affected by AI system changes include [DEPARTMENTS_LIST]. Communication to affected departments is a mandatory element of this process.
+
+---
+
+## 2. Definition of a Material Change
+
+A change is material — and therefore subject to this policy — if it involves any of the following:
+
+| Change Type | Examples |
+|---|---|
+| Model update or replacement | Retraining, fine-tuning, version upgrade, model swap |
+| Training data change | New data sources, removal of existing data, updated datasets |
+| Feature engineering change | Addition or removal of input variables; proxy variable changes |
+| Configuration change | Threshold adjustment, hyperparameter modification, sampling rate change |
+| Integration change | New data feeds, API changes, downstream system connections |
+| Deployment environment change | Cloud provider migration, infrastructure changes affecting model hosting |
+| Scope expansion | New use cases, new user groups, new geographies |
+| Third-party supplier change | Supplier model update or replacement; platform changes notified by supplier |
+
+Minor maintenance activities (e.g. bug fixes that do not affect model behaviour, infrastructure patching that does not alter AI functionality) are subject to the organisation's standard IT change management process but do not require the full AI change process unless they meet any of the above criteria.
+
+---
+
+## 3. Change Control Process
+
+All material AI system changes must follow the five-stage process below.
+
+### Stage 1: Change Request
+
+The proposing team or individual must submit a Change Request to [AI_APPROVAL_AUTHORITY] via [IT_EMAIL], including:
+
+- Description of the proposed change and its rationale
+- The AI system(s) affected
+- Expected benefits and business case
+- Preliminary risk assessment, including potential impact on model performance, fairness, privacy, and security
+- Proposed timeline
+- Identification of affected departments from [DEPARTMENTS_LIST]
+
+Change Requests must be logged in the AI Change Register maintained by [IT_EMAIL].
+
+### Stage 2: Impact Assessment
+
+Upon receipt, [AI_APPROVAL_AUTHORITY] will coordinate an impact assessment covering:
+
+- **Performance impact:** How might the change affect model accuracy, fairness metrics, and operational performance?
+- **Data protection impact:** Does the change trigger a new or updated DPIA under UK GDPR? [DPO_NAME] must be consulted if personal data processing is affected
+- **Compliance impact:** Does the change affect compliance with [APPLICABLE_REGULATIONS] or regulatory expectations? [COMPLIANCE_EMAIL] must be consulted
+- **Security impact:** Does the change introduce new attack surfaces, data exposure risks, or adversarial vulnerabilities? [IT_EMAIL] must assess
+- **Dependency impact:** What downstream systems, processes, or teams are affected?
+
+The impact assessment must be completed within five business days for standard changes and 24 hours for urgent changes.
+
+### Stage 3: Testing Requirements
+
+No material AI system change may be deployed to a production environment without completing the required testing. Testing must be carried out in an isolated, non-production environment.
+
+#### Mandatory Tests for All Material Changes
+
+- **Regression testing:** Confirming that existing functionality and performance benchmarks are maintained
+- **Fairness testing:** Re-running bias and fairness metrics as specified in AISI-BIAS-001
+- **Security testing:** Verifying that no new vulnerabilities have been introduced
+- **User acceptance testing (UAT):** Sign-off from a representative sample of operational users in affected departments from [DEPARTMENTS_LIST]
+
+#### Additional Tests for High-Risk Changes
+
+- **Stress testing:** Confirming stable performance under peak load conditions
+- **Adversarial testing:** Probing model robustness against manipulated or edge-case inputs
+- **Explainability review:** Confirming that explainability documentation (Model Card, AIA) remains accurate post-change
+
+All test results must be documented, with pass/fail criteria defined in advance. Failed tests must be remediated and retested before progressing to Stage 4.
+
+### Stage 4: Approval
+
+Changes must be approved by [AI_APPROVAL_AUTHORITY] before deployment. High-risk changes, or those that materially alter an AI system's scope or processing of personal data, require additional sign-off from [CEO_NAME].
+
+The approval decision must be documented in the AI Change Register, referencing the completed impact assessment and test results.
+
+### Stage 5: Deployment and Monitoring
+
+- Deployment must follow a documented deployment plan approved by [IT_EMAIL]
+- Where feasible, changes must be deployed in stages (e.g. canary release or phased rollout) to limit initial exposure
+- Stakeholders in affected departments ([DEPARTMENTS_LIST]) must be notified in advance of deployment, with sufficient detail to understand how the change will affect their workflows
+- Enhanced monitoring must be applied for a defined post-deployment period (minimum 30 days for high-risk changes, 14 days for standard changes)
+- Any deterioration in performance metrics during the monitoring period must be escalated to [AI_APPROVAL_AUTHORITY] and may trigger the rollback procedure in Section 4
+
+---
+
+## 4. Rollback Procedures
+
+Every material AI system change must have a documented rollback plan approved before deployment. The rollback plan must specify:
+
+- The criteria (performance, fairness, security, or operational thresholds) that would trigger a rollback
+- The technical steps required to revert the AI system to the prior version
+- The person authorised to initiate a rollback (minimum: [AI_APPROVAL_AUTHORITY] or, in an emergency, [IT_EMAIL] with immediate notification)
+- The estimated time to complete rollback
+- Communication steps for affected departments ([DEPARTMENTS_LIST]) following rollback
+
+Rollback capabilities must be tested as part of the change deployment process. Where a rollback is executed, it must be logged as an AI incident under AISI-INC-001 and subject to a post-incident review.
+
+---
+
+## 5. Version Management
+
+[ORG_NAME] requires formal version control for all AI systems. Version management must capture:
+
+- A unique version identifier for each model configuration deployed
+- The training dataset version used (cross-referenced to AISI-DATA-002 records)
+- Configuration parameters at the point of deployment
+- Deployment date, approver, and deployment environment
+- Change history, including the Change Request reference for each version transition
+
+Version records must be maintained by [IT_EMAIL] and retained for the operational life of the AI system plus five years.
+
+---
+
+## 6. Third-Party Change Notifications
+
+Where a third-party AI supplier notifies [ORG_NAME] of a planned change to an AI system under the provisions of AISI-THIRD-001, [IT_EMAIL] must:
+
+- Log the notification in the AI Change Register within 24 hours of receipt
+- Conduct an impact assessment as per Stage 2
+- Determine whether the third-party change constitutes a material change requiring internal change management
+- Communicate with affected departments ([DEPARTMENTS_LIST]) as appropriate
+
+Third-party changes that are outside [ORG_NAME]'s control but pose material risk must be escalated to [AI_APPROVAL_AUTHORITY] and [CEO_NAME].
+
+---
+
+## 7. Emergency Changes
+
+Where an AI system change is required urgently (e.g. to contain an active incident or address a critical security vulnerability), the following emergency change procedure applies:
+
+- [AI_APPROVAL_AUTHORITY] or [CEO_NAME] must verbally authorise the emergency change
+- [IT_EMAIL] must implement only the minimum change necessary to address the emergency
+- A full Change Request and impact assessment must be retrospectively completed within three business days
+- The emergency change must be reviewed at the next available governance cycle
+
+---
+
+## 8. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [AI_APPROVAL_AUTHORITY] | Change approval; impact assessment coordination; escalation |
+| [CEO_NAME] | High-risk change approval; emergency authorisation |
+| [IT_EMAIL] | AI Change Register; technical implementation; version management |
+| [COMPLIANCE_EMAIL] | Compliance and privacy impact; regulatory notification where required |
+| Department Heads ([DEPARTMENTS_LIST]) | UAT participation; change communication to teams |
+
+---
+
+## 9. Review
+
+This policy will be reviewed annually, or following a significant change management failure, major AI system change, or update to applicable law. Next scheduled review: [ANNUAL_REVIEW_DATE].

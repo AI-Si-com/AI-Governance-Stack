@@ -1,0 +1,130 @@
+# Data Retention and Disposal Policy
+
+**Policy Reference:** CORP-DG-003
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [DPO_NAME], Data Protection Officer
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the requirements for retaining, reviewing, and securely disposing of records and personal data held by [DATA_CONTROLLER_NAME]. It applies to all staff, contractors, and third parties who create, store, or manage records in any format (electronic or paper) on behalf of the Organisation.
+
+Retention of data beyond its necessary period increases risk and may constitute a breach of UK GDPR data minimisation and storage limitation principles. Equally, premature destruction of records may breach legal or regulatory obligations. This policy strikes the appropriate balance between these requirements.
+
+Regulatory requirements reflected in this policy include: [APPLICABLE_REGULATIONS].
+
+---
+
+## 2. Roles and Responsibilities
+
+- **Data Protection Officer ([DPO_NAME])** — owns this policy, maintains the retention schedule, and approves disposal actions. Contact: [COMPLIANCE_EMAIL].
+- **IT Department** — responsible for technical disposal of electronic records. Contact: [IT_EMAIL].
+- **Department Heads** — responsible for ensuring their teams apply retention schedules and report records ready for disposal.
+- **All Staff** — responsible for following this policy and not retaining personal data beyond its scheduled period.
+
+---
+
+## 3. Retention Schedule
+
+The following retention schedule applies to the main categories of records held by [DATA_CONTROLLER_NAME]. Where a legal hold is in place (see Section 6), normal retention periods are suspended.
+
+### 3.1 Human Resources Records
+
+| Record Type | Retention Period | Trigger |
+|---|---|---|
+| Recruitment applications (unsuccessful) | 6 months | Date of rejection |
+| Recruitment applications (successful) | Duration of employment + 6 years | Date employment ends |
+| Employment contracts | Duration of employment + 6 years | Date employment ends |
+| Personnel files (general) | Duration of employment + 6 years | Date employment ends |
+| Payroll records | 6 years | End of relevant tax year |
+| Pension records | Duration of membership + 12 years | Date membership ends |
+| Sickness absence records | 3 years | Date employment ends |
+| Disciplinary and grievance records | 6 years | Date of outcome |
+| Training and qualifications records | Duration of employment + 3 years | Date employment ends |
+| DBS check records | 6 months | Date check issued |
+| P60 / P45 records | 6 years | End of relevant tax year |
+
+### 3.2 Financial and Accounting Records
+
+| Record Type | Retention Period | Trigger |
+|---|---|---|
+| Statutory accounts and audit reports | 6 years | Year end |
+| VAT records | 6 years | Date of transaction |
+| Expense claims | 6 years | Date of submission |
+| Contracts with financial obligations | 6 years | Contract expiry |
+| Insurance documents | Duration + 3 years | Policy expiry |
+| Purchase orders and invoices | 6 years | Date of invoice |
+
+### 3.3 Legal and Compliance Records
+
+| Record Type | Retention Period | Trigger |
+|---|---|---|
+| Contracts (general commercial) | 6 years | Contract expiry |
+| Contracts (under deed) | 12 years | Contract expiry |
+| Litigation files | 6 years | Conclusion of proceedings |
+| Board minutes and resolutions | Permanent | Date of meeting |
+| Regulatory correspondence | 6 years | Date of correspondence |
+| Data protection records (DPIAs, ROPA) | Duration of processing + 3 years | Processing ceases |
+| Consent records | Duration of reliance + 3 years | Consent withdrawn or expires |
+| Data breach records | 3 years | Date of incident |
+
+### 3.4 Client and Customer Records
+
+| Record Type | Retention Period | Trigger |
+|---|---|---|
+| Client contracts and engagement letters | 6 years | Contract expiry |
+| Client correspondence (material) | 6 years | End of engagement |
+| Client identification (KYC/AML) | 5 years | End of business relationship |
+| Project files | 6 years | Project completion |
+| Complaints records | 3 years | Date of resolution |
+
+### 3.5 IT and Systems Records
+
+| Record Type | Retention Period | Trigger |
+|---|---|---|
+| Access logs and system audit trails | 12 months | Date of log |
+| Email correspondence (business) | 3 years | Date of email |
+| Backup data | See Backup Policy | Automated cycle |
+| Security incident records | 3 years | Date of incident |
+| Software licences | Duration + 1 year | Licence expiry |
+
+---
+
+## 4. Disposal Methods
+
+Records must be disposed of securely using a method appropriate to the sensitivity of the data.
+
+### 4.1 Electronic Records
+
+- Personal data held on IT systems must be permanently deleted using a method that prevents recovery. Simple deletion to the recycle bin is not sufficient.
+- Hard drives and portable media being decommissioned must be wiped using [DATA_CONTROLLER_NAME]-approved overwrite software or physically destroyed by an approved third party.
+- Cloud-hosted data must be deleted from the service and confirmed as deleted by the provider.
+- All electronic disposal must be logged. Contact [IT_EMAIL] to arrange disposal of IT assets.
+
+### 4.2 Paper Records
+
+- Documents containing personal or confidential data must be cross-cut shredded using an approved shredder (minimum DIN 66399 security level P-4) or placed in a designated confidential waste sack for collection and destruction by an approved contractor.
+- Bulk disposal of paper records must be authorised by [DPO_NAME] and a destruction certificate obtained from the contractor.
+- Plain waste paper recycling must not be used for documents containing any personal data.
+
+---
+
+## 5. Disposal Logging
+
+All disposal of personal data — whether electronic or paper — must be recorded in the Organisation's Disposal Register, maintained by [DPO_NAME]. Entries must include: date of disposal, description of data, volume, disposal method, and name of authorising person. The Disposal Register is available from [COMPLIANCE_EMAIL].
+
+---
+
+## 6. Legal Hold
+
+Where records may be relevant to litigation, a regulatory investigation, a data subject rights request, or an audit, normal retention and disposal rules are suspended. A legal hold notice will be issued by [DPO_NAME] or the Organisation's legal advisers specifying the records subject to hold and the hold period. Staff must not destroy any records subject to a legal hold, even if the scheduled retention period has expired. Legal hold queries should be directed to [COMPLIANCE_EMAIL].
+
+---
+
+## 7. Review
+
+This policy is reviewed annually by [DPO_NAME] in line with changes to [APPLICABLE_REGULATIONS] and operational requirements. The next review date is [ANNUAL_REVIEW_DATE].

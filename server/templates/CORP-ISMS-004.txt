@@ -1,0 +1,190 @@
+# Security Incident Response Policy
+## Policy Reference: CORP-ISMS-004
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**Data Protection Officer:** [DPO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+This Security Incident Response Policy establishes the framework for detecting, reporting, managing, and learning from information security incidents affecting [ORG_NAME]. Prompt and effective incident response minimises harm, supports regulatory compliance, and protects the organisation's reputation.
+
+This policy applies to all employees, contractors, and third parties. It covers all information security incidents regardless of whether they involve digital systems, physical assets, or human factors. All incidents are recorded and tracked in [INCIDENT_TRACKING_SYSTEM].
+
+---
+
+## 2. Definition of a Security Incident
+
+A security incident is any event that has, or could have, an adverse impact on the confidentiality, integrity, or availability of [ORG_NAME]'s information assets. Examples include but are not limited to:
+
+### 2.1 Category 1 – Critical
+
+- Ransomware or destructive malware infection
+- Confirmed data breach involving personal or Restricted data
+- Unauthorised access to financial systems or administrative accounts
+- Compromise of [CRITICAL_SYSTEMS]
+- Sustained denial of service attack preventing business operations
+
+### 2.2 Category 2 – High
+
+- Suspected data breach or unauthorised disclosure of Confidential information
+- Targeted phishing attack with credential compromise
+- Loss or theft of unencrypted device containing business data
+- Significant system or account compromise
+
+### 2.3 Category 3 – Medium
+
+- Malware infection on individual workstation (contained)
+- Loss of encrypted device with business data
+- Suspected but unconfirmed unauthorised access
+- Policy violation with potential security impact
+
+### 2.4 Category 4 – Low
+
+- Phishing email received but not acted upon
+- Minor policy violations with no security impact
+- Near-miss events with no actual compromise
+
+---
+
+## 3. Incident Response Team
+
+The Incident Response Team (IRT) is activated for Category 1 and 2 incidents. Members include:
+
+| Role | Responsibility |
+|------|---------------|
+| IT Lead (IRT Lead) | Technical investigation, containment, and recovery. Contact: [IT_EMAIL] |
+| [CEO_NAME] | Executive authority for major decisions, external communications, regulatory notification |
+| [DPO_NAME] | Data protection assessment, ICO notification decisions, data subject communications |
+| Compliance Lead | Regulatory and legal obligations. Contact: [COMPLIANCE_EMAIL] |
+| HR Lead | Staff-related incidents and disciplinary matters |
+
+For Category 3 and 4 incidents, the IT Lead manages the response with support as needed.
+
+---
+
+## 4. Incident Reporting
+
+### 4.1 Staff Reporting Obligations
+
+All staff must report any actual or suspected security incident immediately to the IT team at [IT_EMAIL]. Staff must not attempt to investigate or remediate incidents themselves, as this may destroy evidence or worsen the situation.
+
+When reporting, staff should provide:
+
+- Date, time, and location of the incident
+- Systems or data potentially affected
+- Description of what was observed
+- Any actions already taken
+- Their contact details
+
+### 4.2 Third-Party Reporting
+
+Third parties and suppliers must report security incidents affecting [ORG_NAME] data to [IT_EMAIL] within 24 hours of discovery, as required by their contractual obligations.
+
+---
+
+## 5. Incident Response Procedure
+
+### 5.1 Identification and Triage (Target: Within 1 hour of report)
+
+The IT Lead assesses the reported incident, assigns a category, and determines whether to activate the full IRT. The incident is logged in [INCIDENT_TRACKING_SYSTEM] with an incident reference number.
+
+### 5.2 Containment (Target: Within 2 hours for Category 1; 4 hours for Category 2)
+
+Immediate containment actions are taken to prevent the incident from escalating or spreading. This may include:
+
+- Isolating affected systems from the network
+- Disabling compromised user accounts
+- Blocking malicious IP addresses or domains
+- Preserving evidence (system images, logs) before remediation
+- Restricting access to affected data stores
+
+Containment actions must be documented in [INCIDENT_TRACKING_SYSTEM].
+
+### 5.3 Investigation and Assessment
+
+The IT Lead leads a technical investigation to determine:
+
+- Root cause and attack vector
+- Scope of compromise (systems, data, accounts affected)
+- Whether personal data has been accessed, exfiltrated, or destroyed
+- Whether [CRITICAL_SYSTEMS] have been affected
+
+[DPO_NAME] is notified immediately if personal data may have been compromised to assess notification obligations.
+
+### 5.4 Eradication
+
+Once the cause is understood, affected systems are cleaned, vulnerabilities are patched, and compromised credentials are reset. Eradication is confirmed through technical testing before recovery begins.
+
+### 5.5 Recovery
+
+Systems are restored to normal operation in a controlled manner. Monitoring is enhanced following recovery to detect any recurrence. Recovery from [CRITICAL_SYSTEMS] follows the procedures defined in CORP-ISMS-005.
+
+### 5.6 Communication
+
+The IT Lead provides regular updates to [CEO_NAME] throughout the response. External communications (including to clients, partners, or regulators) are approved by [CEO_NAME] before issue.
+
+---
+
+## 6. Regulatory Notification Obligations
+
+### 6.1 ICO Notification (UK GDPR Article 33)
+
+If the incident involves personal data and poses a risk to individuals' rights and freedoms, [DPO_NAME] will assess whether notification to the Information Commissioner's Office (ICO) is required. Where required, notification must be made within 72 hours of [ORG_NAME] becoming aware of the breach.
+
+### 6.2 Data Subject Notification (UK GDPR Article 34)
+
+Where a breach is likely to result in high risk to the rights and freedoms of individuals, [DPO_NAME] will coordinate notification to affected data subjects without undue delay.
+
+### 6.3 Other Regulatory Notifications
+
+[COMPLIANCE_EMAIL] will assess whether other regulatory notifications are required under [APPLICABLE_REGULATIONS] and coordinate with [CEO_NAME] accordingly.
+
+---
+
+## 7. Evidence Preservation
+
+All evidence related to a security incident must be preserved in its original state where possible. Evidence includes logs, system images, emails, and physical items. Evidence may be required for disciplinary proceedings or law enforcement. The IT Lead is responsible for evidence custody and chain of custody documentation.
+
+---
+
+## 8. Post-Incident Review
+
+A post-incident review must be completed for all Category 1 and 2 incidents within 10 working days of incident closure, and for Category 3 incidents within 20 working days. The review must be documented in [INCIDENT_TRACKING_SYSTEM] and must address:
+
+- Chronological timeline of the incident
+- Root cause analysis
+- Effectiveness of the response
+- Regulatory notification assessment and outcome
+- Lessons learned
+- Recommended improvements to controls, processes, or training
+
+The IT Lead presents findings to [CEO_NAME] and the Information Security Committee.
+
+---
+
+## 9. Lessons Learned and Continuous Improvement
+
+Actions arising from post-incident reviews are tracked in [INCIDENT_TRACKING_SYSTEM] as security improvement tasks. The IT Lead monitors completion and reports status to the Information Security Committee quarterly. Systemic issues may result in updates to the ISMS, staff training, or technical controls.
+
+---
+
+## 10. Policy Review
+
+This policy is reviewed annually or following any Category 1 incident. Queries should be directed to [IT_EMAIL] or [COMPLIANCE_EMAIL].
+
+---
+
+## 11. Related Documents
+
+- CORP-ISMS-001: Information Security Management Policy
+- CORP-ISMS-002: Access Control Policy
+- CORP-ISMS-003: Data Classification Policy
+- CORP-ISMS-005: Business Continuity & Disaster Recovery Policy
+- UK GDPR Articles 33 and 34
+- ICO Breach Reporting Guidance

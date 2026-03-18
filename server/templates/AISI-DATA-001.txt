@@ -1,0 +1,145 @@
+# AI Data Management Policy
+
+**Policy Reference:** AISI-DATA-001
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Data Protection Officer:** [DPO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the data management framework governing all data inputs, processing activities, and outputs associated with artificial intelligence (AI) and machine learning (ML) systems operated by [DATA_CONTROLLER_NAME]. It applies to all employees, contractors, and third-party service providers who interact with AI systems, and to all AI tools currently deployed, including [AI_TOOLS_LIST].
+
+This policy supports [DATA_CONTROLLER_NAME]'s obligations under the UK General Data Protection Regulation (UK GDPR), the Data Protection Act 2018, and relevant sector-specific guidance. Technical queries should be directed to [IT_EMAIL].
+
+---
+
+## 2. Data Inputs to AI Systems
+
+### 2.1 Approved Data Sources
+
+All data fed into AI systems must originate from approved, documented sources. Prior to use, data sources must be assessed for accuracy, completeness, and legal permissibility. The following categories of data inputs are subject to heightened controls:
+
+- Personal data as defined under UK GDPR
+- Special category data (as defined in Article 9 UK GDPR)
+- Commercially sensitive or confidential business data
+- Data obtained from third parties under contractual licence
+
+[IF AI_PROCESSES_PERSONAL_DATA == "Yes" THEN]
+**Personal Data Notice:** [DATA_CONTROLLER_NAME] confirms that one or more AI systems in scope process personal data. All such processing must have a documented lawful basis under UK GDPR Article 6 (and Article 9 where applicable), recorded in the organisation's Data Processing Register.
+[END IF]
+
+### 2.2 Data Input Validation
+
+Before data is introduced to any AI system, it must undergo:
+
+- **Format validation:** Confirming data conforms to expected schemas and structures
+- **Completeness checks:** Verifying that mandatory fields are populated and meaningful
+- **Consistency checks:** Identifying anomalies, outliers, or contradictory records
+- **Provenance verification:** Confirming the origin and chain of custody of the dataset
+
+Responsibility for data input validation rests with the system owner, in coordination with [IT_EMAIL].
+
+---
+
+## 3. Data Quality Requirements
+
+[DATA_CONTROLLER_NAME] recognises that AI outputs are only as reliable as the data on which they are based. All data used within AI systems must meet the following quality standards:
+
+| Dimension | Requirement |
+|---|---|
+| Accuracy | Data must reflect real-world conditions at the point of collection |
+| Completeness | Missing values must be documented, justified, and imputed only where methodologically sound |
+| Timeliness | Data must be sufficiently current for the intended AI application |
+| Consistency | Data must not contradict other verified datasets |
+| Representativeness | Training and inference datasets must be assessed for demographic and contextual balance |
+
+Data quality assessments must be documented and retained for audit purposes. Where data quality falls below acceptable thresholds, AI system deployment or continued operation must be suspended pending remediation.
+
+---
+
+## 4. Data Lineage
+
+[DATA_CONTROLLER_NAME] requires that full data lineage is maintained for all AI systems. Data lineage documentation must capture:
+
+- The original source of each dataset
+- All transformation, cleansing, and preprocessing steps applied
+- The identities of personnel who processed or modified the data
+- Version history of datasets used across model iterations
+- Any merging, splitting, or augmentation of datasets
+
+Data lineage records must be stored in a durable, queryable format and be accessible to the Data Protection Officer ([DPO_NAME]) and the IT function ([IT_EMAIL]) upon request. These records must be retained in accordance with the organisation's data retention schedule.
+
+---
+
+## 5. Training Data vs Inference Data
+
+A clear distinction must be maintained between:
+
+- **Training data:** Data used to develop, fine-tune, or calibrate an AI model
+- **Inference data:** Data processed by a deployed AI system in live or production environments
+
+The following requirements apply to each category:
+
+### 5.1 Training Data
+
+- Must not include live personal data unless explicitly authorised, with a lawful basis documented
+- Must be version-controlled and immutably archived following model training
+- Must not be repurposed for inference without a fresh data quality and legal assessment
+
+### 5.2 Inference Data
+
+- Must be processed in accordance with the purpose limitation principle (UK GDPR Article 5(1)(b))
+- Inputs to AI systems during inference involving personal data must be logged to the extent required for accountability and audit
+- Real-time inference pipelines must incorporate input sanitisation controls to prevent adversarial manipulation
+
+---
+
+## 6. Data Minimisation for AI
+
+In accordance with the data minimisation principle (UK GDPR Article 5(1)(c)), [DATA_CONTROLLER_NAME] requires that:
+
+- Only the minimum data necessary to achieve the defined AI objective is collected, retained, and processed
+- Feature selection and engineering processes must document the justification for each data variable included in an AI model
+- Requests to expand the data inputs of an existing AI system must be assessed against the minimisation principle and approved by [DPO_NAME] before implementation
+
+[IF AI_PROCESSES_PERSONAL_DATA == "Yes" THEN]
+Where AI systems process personal data, a Data Protection Impact Assessment (DPIA) must be completed or updated before any new personal data categories are introduced as inputs.
+[END IF]
+
+---
+
+## 7. Retention of AI Outputs
+
+AI-generated outputs are subject to the organisation's data retention framework. The following specific requirements apply:
+
+- AI outputs that form the basis of a significant decision affecting an individual must be retained for a minimum of three years, or longer where required by sector-specific regulation
+- Outputs must be labelled as AI-generated and stored with a reference to the model version and input dataset used
+- Automated outputs stored as records must be subject to the same access controls, integrity protections, and disposal procedures as other organisational records
+- Outputs must not be retained beyond their stated retention period; secure deletion must be confirmed and logged
+
+---
+
+## 8. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [DPO_NAME] (DPO) | Oversight of personal data compliance in AI systems; DPIA approval |
+| IT Function ([IT_EMAIL]) | Technical implementation of data controls; lineage tooling; input validation |
+| AI System Owners | Day-to-day compliance with this policy for their respective systems |
+| [POLICY_APPROVAL_AUTHORITY] | Policy approval and periodic review |
+
+---
+
+## 9. Breaches and Escalation
+
+Any actual or suspected breach of this policy must be reported immediately to [DPO_NAME] and [IT_EMAIL]. Where a breach involves personal data, it will be assessed under the organisation's Data Breach Response Procedure and reported to the Information Commissioner's Office (ICO) within 72 hours if required.
+
+---
+
+## 10. Review
+
+This policy will be reviewed annually, or sooner following a material change to the AI systems operated by [DATA_CONTROLLER_NAME], relevant legislation, or regulatory guidance. The next scheduled review is [ANNUAL_REVIEW_DATE].

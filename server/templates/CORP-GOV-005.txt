@@ -1,0 +1,152 @@
+# Code of Conduct & Business Ethics Policy
+
+**Policy Reference:** CORP-GOV-005
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+[ORG_NAME] is built on a foundation of ethical conduct, mutual respect, and professional integrity. This Code of Conduct sets out the standards of behaviour that [ORG_NAME] expects from every individual who works for or represents the organisation, including employees, contractors, agency workers, volunteers, and Board members.
+
+These standards are not simply a set of rules — they reflect our values and the trust placed in us by our clients, partners, funders, regulators, and the public. Each of us is responsible for upholding these standards in everything we do, and for supporting a culture in which ethical concerns can be raised openly and without fear.
+
+This Code applies to all conduct carried out in connection with [ORG_NAME]'s work, including conduct outside normal working hours where it may have an impact on the organisation or its stakeholders.
+
+---
+
+## 2. Professional Standards
+
+### 2.1 General Conduct
+
+All individuals representing [ORG_NAME] are expected to:
+
+- Act with honesty, fairness, and integrity in all dealings, both internal and external
+- Treat colleagues, clients, suppliers, and members of the public with dignity and respect
+- Maintain a professional standard in communications, presentations, and all work output
+- Comply with all applicable laws, regulations, and organisational policies at all times
+- Not bring [ORG_NAME] into disrepute through personal conduct, whether in person or online
+
+### 2.2 Equality, Diversity, and Inclusion
+
+[ORG_NAME] is committed to equality of opportunity and does not tolerate discrimination, harassment, or victimisation on any protected characteristic as defined by the Equality Act 2010. All staff are expected to treat each other fairly and to challenge discriminatory behaviour when they encounter it.
+
+### 2.3 Attendance and Reliability
+
+Employees are expected to be punctual, reliable, and to communicate promptly and honestly with their manager when they are unable to fulfil their responsibilities. Persistent or unexplained absence may be subject to formal management action.
+
+---
+
+## 3. Conflicts of Interest
+
+All individuals must avoid situations where their personal interests, or those of a connected person, conflict or could appear to conflict with the interests of [ORG_NAME]. Full guidance is set out in the Conflicts of Interest Policy (CORP-GOV-003). Any concern about a potential conflict should be raised with [CEO_NAME] or by contacting [COMPLIANCE_EMAIL].
+
+---
+
+## 4. Gifts, Hospitality, and Anti-Bribery
+
+### 4.1 Policy Principles
+
+[ORG_NAME] operates a zero-tolerance approach to bribery and corruption, consistent with the Bribery Act 2010. No individual may offer, give, request, or accept a bribe in any form.
+
+Gifts and hospitality can be legitimate parts of business life but must never be used to gain an improper advantage or to influence a business decision.
+
+### 4.2 Acceptable and Unacceptable Gifts
+
+The following guidelines apply:
+
+- **Acceptable:** Branded promotional items of modest value (under £25), occasional business meals within reasonable value, attendance at legitimate industry events
+- **Unacceptable:** Cash or cash equivalents, gifts above £50 in value without prior approval, gifts offered immediately before or after a procurement or contracting decision, personal hospitality of a lavish or unusual nature
+
+All gifts and hospitality received must be recorded in the Gifts and Hospitality Register, regardless of value. The register is maintained by the compliance function and can be accessed via [COMPLIANCE_EMAIL].
+
+Where an individual is uncertain whether a gift or invitation is appropriate, they should seek prior guidance from [CEO_NAME] before accepting.
+
+---
+
+## 5. Confidentiality and Information Security
+
+### 5.1 Confidential Information
+
+In the course of their work, individuals may have access to confidential information about [ORG_NAME], its clients, employees, suppliers, or business plans. This information must not be disclosed to any unauthorised person, either during employment or following its conclusion.
+
+Confidentiality obligations continue after an individual leaves [ORG_NAME] and are enforceable under contract and, in certain cases, general law.
+
+### 5.2 Data Protection
+
+All individuals must handle personal data in accordance with the UK GDPR, the Data Protection Act 2018, and [ORG_NAME]'s Data Protection Policy. Any suspected data breach must be reported immediately to [IT_EMAIL] and the designated Data Protection Officer.
+
+### 5.3 Intellectual Property
+
+All work product, inventions, and intellectual property created in the course of employment belong to [ORG_NAME], unless otherwise agreed in writing.
+
+---
+
+## 6. Social Media and Public Communications
+
+### 6.1 Personal Use of Social Media
+
+Individuals are free to use social media in a personal capacity, but must ensure that:
+
+- They do not identify themselves as an employee or representative of [ORG_NAME] when expressing personal opinions that could reflect negatively on the organisation
+- They do not disclose confidential, commercially sensitive, or personal information about [ORG_NAME], its clients, or colleagues
+- Their online conduct is consistent with the values and standards set out in this Code
+
+### 6.2 Official Communications
+
+Only individuals authorised by [CEO_NAME] may post or publish content on behalf of [ORG_NAME]'s official channels, including the website ([WEBSITE_URL]), social media accounts, and press statements.
+
+---
+
+## 7. Use of Organisational Resources
+
+All employees are entrusted with [ORG_NAME]'s resources, including IT equipment, financial resources, premises, and intellectual property. These must be used responsibly and primarily for the purposes of [ORG_NAME]'s work. Incidental personal use may be permitted in line with the IT Acceptable Use Policy.
+
+Resources must not be used for personal commercial activity, for any illegal purpose, or in a way that creates a conflict of interest.
+
+---
+
+## 8. Anti-Money Laundering and Financial Crime
+
+[ORG_NAME] will not knowingly facilitate money laundering or other financial crime. Individuals who suspect money laundering activity must report their concern promptly to [CEO_NAME] or [COMPLIANCE_EMAIL]. Tipping off a suspected money launderer is itself a criminal offence.
+
+---
+
+## 9. Compliance with Laws and Regulations
+
+All individuals are expected to be aware of and comply with the laws and regulations applicable to their role. The key regulatory framework applicable to [ORG_NAME] includes [APPLICABLE_REGULATIONS]. Specific guidance on regulatory obligations is available from [COMPLIANCE_EMAIL].
+
+---
+
+## 10. Raising Concerns
+
+[ORG_NAME] encourages a culture of openness. Any individual who believes this Code has been breached, or who has a concern about unethical behaviour, should raise the matter promptly. Concerns may be raised with:
+
+- A line manager or HR: [HR_EMAIL]
+- The compliance function: [COMPLIANCE_EMAIL]
+- Anonymously, via the whistleblowing mechanism in CORP-GOV-004
+
+Individuals who raise concerns in good faith will be protected from retaliation in accordance with the Whistleblowing Policy.
+
+### 10.1 Breaches of This Code
+
+Breaches of this Code will be addressed through [ORG_NAME]'s disciplinary procedure. The severity of the response will be proportionate to the nature of the breach. Serious breaches, including dishonesty, bribery, or wilful concealment, may result in summary dismissal and referral to the relevant authorities.
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [CEO_NAME] | Initial issue |

@@ -1,0 +1,171 @@
+# First Aid Policy
+
+**Policy Reference:** CORP-HS-004
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HS_LEAD_NAME], Health & Safety Lead
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to ensuring that adequate first aid provision is available to all employees and others who may be injured or taken ill at work. This policy sets out the organisation's arrangements for first aid in compliance with the Health and Safety (First-Aid) Regulations 1981 and the associated HSE guidance.
+
+This policy applies to all [ORG_NAME] premises and all employees, contractors, and visitors on those premises. It covers the appointment and training of first aiders, the provision and maintenance of first aid equipment, the reporting and recording of accidents, and referrals to occupational health.
+
+---
+
+## 2. First Aid Needs Assessment
+
+[HS_LEAD_NAME] will carry out a first aid needs assessment to determine the level of first aid provision required. The assessment will consider:
+
+- The nature of the work and the hazards involved.
+- The number of employees and their distribution across the workplace.
+- The working patterns, including shift work and lone working.
+- The location of the workplace and proximity to emergency medical services.
+- The history of accidents and ill-health at the workplace.
+
+[IF FIELD == "Yes" THEN]
+Given the high-risk nature of [ORG_NAME]'s workplace, enhanced first aid provision is maintained, including Appointed First Aiders at Work (FAW) on all shifts and within all work areas. A defibrillator (AED) is also maintained on site.
+[END IF]
+
+The first aid needs assessment will be reviewed at least annually and whenever significant changes occur.
+
+---
+
+## 3. First Aiders
+
+**3.1 Levels of First Aider**
+
+[ORG_NAME] appoints the following categories of first aider:
+
+- **First Aider at Work (FAW)** – holds a three-day First Aid at Work qualification approved by the HSE. Responsible for providing comprehensive first aid treatment.
+- **Emergency First Aider at Work (EFAW)** – holds a one-day Emergency First Aid at Work qualification. Responsible for providing basic emergency first aid.
+- **Appointed Person** – responsible for taking charge of first aid arrangements in the absence of a trained first aider, calling the emergency services, and maintaining first aid equipment.
+
+**3.2 Names and Locations**
+A current list of all first aiders and appointed persons, together with their locations, is displayed on first aid notices throughout [ORG_NAME]'s premises and is maintained by [HS_LEAD_NAME]. Employees must familiarise themselves with the identity and location of their nearest first aider.
+
+**3.3 Training and Renewal**
+First Aider at Work certificates are valid for three years. [HS_LEAD_NAME] is responsible for monitoring certificate expiry dates and arranging refresher training in good time. Emergency First Aid at Work certificates are also valid for three years.
+
+Training records, including the names of first aiders, qualifications held, and expiry dates, are maintained by [HS_LEAD_NAME] and HR.
+
+---
+
+## 4. First Aid Boxes and Equipment
+
+**4.1 Provision**
+[ORG_NAME] provides adequately stocked first aid boxes in prominent, accessible locations throughout its premises, as identified in the first aid needs assessment. The contents of first aid boxes comply with the HSE's recommended minimum contents.
+
+**4.2 Inspection and Restocking**
+First aid boxes are inspected monthly by [HS_LEAD_NAME] or a nominated first aider to ensure they are fully stocked and that items are within their expiry dates. Inspection records are maintained in the first aid log.
+
+**4.3 No Medications**
+First aid boxes will not contain medicines, including over-the-counter medications such as paracetamol or aspirin, unless a specific medical need has been identified and a risk assessment carried out in consultation with [OCCUPATIONAL_HEALTH_PROVIDER]. Employees requiring medication must manage this themselves.
+
+[IF FIELD == "Yes" THEN]
+**4.4 Automated External Defibrillator (AED)**
+[ORG_NAME] maintains an AED on site. Its location is marked on the first aid notices and emergency signage throughout the building. Named first aiders are trained in its use. The AED is serviced in accordance with the manufacturer's guidance and records are maintained by [HS_LEAD_NAME].
+[END IF]
+
+---
+
+## 5. Accident Reporting
+
+**5.1 Reporting Procedure**
+Any employee who is injured at work, or who witnesses an accident or near miss, must:
+
+1. Ensure immediate first aid is provided as needed.
+2. Report the accident or near miss to their line manager and to [HS_LEAD_NAME] as soon as practicable.
+3. Complete an accident or near miss report in [INCIDENT_TRACKING_SYSTEM] within 24 hours of the incident.
+
+All accidents, no matter how minor, must be recorded. Prompt and accurate reporting supports [ORG_NAME]'s RIDDOR obligations and enables investigation to prevent recurrence.
+
+**5.2 Accident Investigation**
+[HS_LEAD_NAME] will investigate all reported accidents and near misses. The investigation will identify the immediate and root causes and any corrective actions required. Investigation findings will be recorded in [INCIDENT_TRACKING_SYSTEM] and shared with the relevant line manager.
+
+Serious accidents or dangerous occurrences will be escalated to [CEO_NAME] immediately.
+
+---
+
+## 6. RIDDOR Reporting
+
+[ORG_NAME] is required to report certain accidents, diseases, and dangerous occurrences to the Health and Safety Executive (HSE) under the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR). Reportable events include:
+
+- Deaths: must be reported without delay online or by telephone via the HSE RIDDOR report system.
+- Specified injuries (e.g. fractures, amputations, loss of consciousness): must be reported without delay.
+- Over-seven-day incapacitation (absence from work for more than seven consecutive days, not counting the day of the accident): must be reported within 15 days.
+- Reportable occupational diseases: must be reported when a written diagnosis is received from a doctor.
+- Dangerous occurrences: must be reported without delay.
+
+[HS_LEAD_NAME] is responsible for submitting all RIDDOR reports and for maintaining copies of reports. All RIDDOR reports are recorded in [INCIDENT_TRACKING_SYSTEM].
+
+---
+
+## 7. Emergency Procedures
+
+In any medical emergency:
+
+1. Do not move the casualty unless they are in immediate danger.
+2. Call the emergency services (999) immediately if the situation is serious.
+3. Alert the nearest first aider.
+4. Ensure clear access for emergency services to the premises.
+5. Notify [HS_LEAD_NAME] and the line manager as soon as possible.
+
+Employees must not attempt first aid beyond their level of training.
+
+---
+
+## 8. Lone Workers
+
+Employees who work alone or in isolated locations must have access to communication equipment at all times and must know how to summon first aid and emergency assistance. A lone worker risk assessment will determine what additional first aid provision is required. Details are set out in the Risk Assessment Policy (CORP-HS-002).
+
+---
+
+## 9. Occupational Health Referrals
+
+[ORG_NAME] works with [OCCUPATIONAL_HEALTH_PROVIDER] to support employees whose health may be affected by their work or whose work may be affected by their health. Referrals to [OCCUPATIONAL_HEALTH_PROVIDER] may be made:
+
+- Following an accident resulting in injury.
+- Following a period of sickness absence of four weeks or more.
+- Where there are concerns about an employee's fitness to continue their current role.
+- Where a health surveillance requirement has been identified by risk assessment.
+
+Referrals are coordinated by HR at [HR_EMAIL] in consultation with [HS_LEAD_NAME].
+
+---
+
+## 10. Record-Keeping
+
+The following records will be maintained by [HS_LEAD_NAME]:
+
+- First aid needs assessment.
+- Details of all first aiders and appointed persons.
+- First aid training records and certificate expiry dates.
+- First aid box inspection records.
+- Accident and near miss reports (held in [INCIDENT_TRACKING_SYSTEM]).
+- RIDDOR reports submitted to the HSE.
+- Occupational health referral records.
+
+Accident records must be retained for a minimum of three years. Records relating to accidents arising from exposure to hazardous substances must be retained for 40 years under COSHH.
+
+---
+
+## 11. Responsibilities
+
+**[HS_LEAD_NAME]** is responsible for overseeing all aspects of first aid provision, conducting the needs assessment, maintaining records in [INCIDENT_TRACKING_SYSTEM], managing RIDDOR reporting, and coordinating with [OCCUPATIONAL_HEALTH_PROVIDER].
+
+**Line Managers** are responsible for ensuring employees know how to access first aid, encouraging prompt accident reporting, and cooperating with accident investigations.
+
+**All Employees** are responsible for reporting all accidents, injuries, and near misses promptly and for cooperating with investigations.
+
+---
+
+## 12. Policy Review
+
+This policy will be reviewed annually by [HS_LEAD_NAME] or following any significant accident or change in legislation. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For queries, contact [HS_LEAD_NAME] at [HR_EMAIL].

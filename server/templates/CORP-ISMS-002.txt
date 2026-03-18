@@ -1,0 +1,167 @@
+# Access Control Policy
+## Policy Reference: CORP-ISMS-002
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**Approval Authority:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+This Access Control Policy defines the requirements for managing access to [ORG_NAME]'s information systems, applications, and data. It ensures that access is granted only to authorised individuals, based on business need, and is revoked promptly when no longer required.
+
+This policy applies to all employees, contractors, temporary staff, and third parties across all departments including [DEPARTMENTS_LIST]. It covers all systems, applications, databases, and network infrastructure operated by or on behalf of [ORG_NAME].
+
+---
+
+## 2. Principles of Access Control
+
+[ORG_NAME] applies the following core principles to all access decisions:
+
+**Least Privilege:** Users are granted the minimum level of access required to perform their job function. No access is granted by default.
+
+**Need to Know:** Access to information is restricted to those with a demonstrable business need.
+
+**Separation of Duties:** Critical functions are divided between individuals to reduce the risk of fraud or error.
+
+**Accountability:** All access is linked to individually identified accounts. Shared accounts are prohibited except where operationally unavoidable and formally approved.
+
+---
+
+## 3. User Provisioning
+
+### 3.1 New User Access Requests
+
+All requests for access to [ORG_NAME] systems must be submitted to the IT team at [IT_EMAIL] using the approved Access Request Form. Requests must be:
+
+- Raised by the relevant line manager
+- Specify the systems, applications, and data access required
+- Include business justification
+- Be approved by the relevant department head
+
+Access will not be provisioned without documented approval.
+
+### 3.2 Standard Access Profiles
+
+Where possible, standard access profiles are defined per role within each department. Department heads are responsible for maintaining up-to-date role profiles in coordination with the IT Lead.
+
+---
+
+## 4. Joiners, Movers, and Leavers
+
+### 4.1 Joiners
+
+HR will notify the IT team at [IT_EMAIL] no less than five working days before a new employee or contractor commences. The notification must include the individual's role, start date, line manager, and required system access based on the agreed role profile. Access will be provisioned prior to the start date and confirmed to the line manager.
+
+### 4.2 Movers
+
+When an individual changes role, their line manager must notify IT at [IT_EMAIL] within two working days of the change taking effect. Access associated with the previous role will be revoked and new access appropriate to the new role provisioned. Temporary access to support handover may be granted for a period not exceeding 30 days, with documented approval.
+
+### 4.3 Leavers
+
+HR will notify the IT team at [IT_EMAIL] on or before the last day of employment or engagement. Upon notification, all system access will be disabled within four working hours and fully removed within five working days. For individuals leaving under disciplinary circumstances or with immediate effect, access will be disabled at the time of notification. Line managers are responsible for recovering all company devices and access credentials.
+
+---
+
+## 5. Privileged Access Management
+
+### 5.1 Privileged Accounts
+
+Privileged access (administrative, root, or elevated rights) poses significantly higher security risk. The following controls apply to all privileged accounts:
+
+- Privileged accounts must be separate from standard user accounts
+- A register of all privileged accounts is maintained by the IT Lead
+- Privileged access is reviewed quarterly
+- All privileged access activity is logged and retained for a minimum of 12 months
+- Privileged accounts must not be used for routine daily tasks
+
+### 5.2 Service Accounts
+
+Service and system accounts must be documented, have named owners, and use long, complex passwords. Service account credentials are stored in an approved secrets management tool and rotated at least annually or upon personnel changes.
+
+---
+
+## 6. Multi-Factor Authentication
+
+[IF MFA_ENABLED == "Yes" THEN]
+Multi-factor authentication (MFA) is mandatory for all user accounts accessing [ORG_NAME] systems. This requirement applies without exception to:
+
+- Remote access (VPN, remote desktop)
+- Cloud-based applications and email
+- Administrative and privileged accounts
+- Any system accessible from outside the corporate network
+
+Users who are unable to enrol in MFA must contact [IT_EMAIL] immediately. Access will not be granted until MFA is configured.
+[END IF]
+
+[IF MFA_ENABLED == "No" THEN]
+The organisation is actively working to implement MFA across all systems as a priority security objective. Until MFA is in place, enhanced password controls are enforced: minimum 12 characters, complexity requirements, and 90-day rotation for privileged accounts.
+[END IF]
+
+---
+
+## 7. Password Policy
+
+All user-created passwords must meet the following minimum standards:
+
+- Minimum 12 characters in length
+- Combination of uppercase, lowercase, numbers, and special characters
+- Not based on personal information or dictionary words
+- Not reused from the previous 12 passwords
+- Changed immediately upon any suspected compromise
+
+Passwords must never be shared, written down insecurely, or transmitted via email or messaging platforms.
+
+---
+
+## 8. Remote Access
+
+Remote access to [ORG_NAME] systems is permitted only via approved, encrypted channels. Personal or unmanaged devices may only be used for remote access where formally approved and where appropriate device controls are in place. All remote access activity is logged.
+
+---
+
+## 9. Third-Party Access
+
+Third-party access to [ORG_NAME] systems must be:
+
+- Formally requested and approved by the relevant business owner
+- Time-limited to the duration of the engagement
+- Restricted to the specific systems required
+- Subject to the same controls as internal users
+- Revoked immediately upon completion of the engagement
+
+---
+
+## 10. Access Reviews
+
+Formal access reviews are conducted at least every six months for standard users and quarterly for privileged users. Department heads are responsible for reviewing and confirming the access rights of their team members. The IT Lead coordinates reviews across all departments including [DEPARTMENTS_LIST]. Any access that is no longer required must be revoked within five working days of the review.
+
+---
+
+## 11. Monitoring and Audit
+
+All access to [ORG_NAME] systems is logged. Logs are reviewed regularly by the IT team for anomalous activity. Attempts to access systems without authorisation will be investigated as a security incident under CORP-ISMS-004.
+
+---
+
+## 12. Non-Compliance
+
+Breach of this policy may result in immediate revocation of access rights and disciplinary action under CORP-HR-004. In serious cases, this may include dismissal or termination of contract.
+
+---
+
+## 13. Policy Review
+
+This policy is reviewed annually by the IT Lead and approved by [CEO_NAME]. Contact [IT_EMAIL] for any queries relating to access requests or this policy.
+
+---
+
+## 14. Related Documents
+
+- CORP-ISMS-001: Information Security Management Policy
+- CORP-ISMS-004: Security Incident Response Policy
+- CORP-HR-004: Disciplinary Procedure

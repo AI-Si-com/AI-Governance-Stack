@@ -1,0 +1,138 @@
+# Complaints Handling Policy
+## Document Reference: CORP-COMP-005
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Commitment
+
+[ORG_NAME] is committed to providing high-quality products and services to all customers and stakeholders. We recognise that complaints, when handled well, provide valuable insight that helps us improve. This policy sets out how we receive, investigate, resolve, and learn from complaints in a fair, timely, and consistent manner.
+
+[CEO_NAME] and the Board are committed to a culture in which complaints are treated as a positive opportunity for improvement and in which complainants are treated with courtesy and respect throughout the process.
+
+This policy has been designed to comply with the requirements of [PRIMARY_REGULATOR] and with all applicable consumer protection and dispute resolution legislation.
+
+---
+
+## 2. Scope
+
+This policy applies to complaints received from any customer, client, member of the public, or third party relating to the products, services, conduct, or actions of [ORG_NAME] or its staff. It does not apply to employment-related grievances, which are addressed under the organisation's separate Grievance Policy.
+
+---
+
+## 3. How to Submit a Complaint
+
+Complaints may be submitted by any of the following methods:
+
+- **Email:** [COMPLIANCE_EMAIL] or [GENERAL_EMAIL]
+- **Post:** Addressed to the Complaints Team at the registered office of [ORG_NAME]
+- **Telephone:** Via the main customer contact number, requesting to be directed to the Complaints Team
+- **In person:** At any operational location during normal business hours
+
+[ORG_NAME] will endeavour to accept complaints in any format and will provide reasonable adjustments for complainants with accessibility requirements.
+
+---
+
+## 4. Acknowledgement of Complaints
+
+### 4.1 Timescales
+
+All complaints will be acknowledged promptly. The following timescales apply:
+
+- **Written complaints (email/post):** Acknowledgement within three business days of receipt
+- **Telephone complaints:** Acknowledgement confirmed verbally at time of call, with written confirmation sent within three business days
+- **In-person complaints:** Verbal acknowledgement immediately, with written confirmation within three business days
+
+The acknowledgement will confirm:
+- The date on which the complaint was received
+- A unique complaint reference number
+- The name and contact details of the case handler
+- An outline of the investigation process and expected timescales
+
+---
+
+## 5. Investigation
+
+### 5.1 Standard Investigations
+
+The Complaints Team will conduct a fair and impartial investigation of all complaints. The investigator will not be the individual against whom the complaint is made. Investigations will include review of all relevant records, correspondence, and, where appropriate, interview with relevant staff.
+
+### 5.2 Resolution Timescales
+
+- **Straightforward complaints:** A final response will be issued within 15 business days of the complaint being received
+- **Complex complaints:** Where a complaint requires extended investigation, an interim update will be provided within 15 business days, with a final response within 35 business days. Complainants will be notified if this extended timescale applies
+- **Regulatory timescales:** Where [PRIMARY_REGULATOR] prescribes specific timescales applicable to the nature of the complaint, those timescales take precedence
+
+### 5.3 Final Response
+
+The final response will:
+- Summarise the complaint and the matters investigated
+- Set out the findings of the investigation
+- Explain the outcome and any remedy offered
+- Inform the complainant of their right to escalate if they remain dissatisfied
+
+---
+
+## 6. Resolution and Remedies
+
+Where a complaint is upheld, [ORG_NAME] will offer an appropriate remedy, which may include:
+
+- A written apology
+- An explanation of what went wrong and what has been changed
+- A refund or goodwill payment, where appropriate and proportionate
+- Corrective action to remedy any ongoing issue
+
+All remedies are offered on a without-prejudice basis unless otherwise agreed.
+
+---
+
+## 7. Escalation
+
+### 7.1 Internal Escalation
+
+Where a complainant is not satisfied with the initial resolution, they may request a review by a senior manager within [ORG_NAME]. Such requests must be made within 28 days of receiving the initial final response. The senior manager's review will be completed within 20 business days.
+
+Escalation requests should be sent to [COMPLIANCE_EMAIL], clearly marked as an escalation request and quoting the complaint reference number.
+
+### 7.2 Referral to Ombudsman or Regulator
+
+Where a complaint remains unresolved after the internal process is exhausted, or where the maximum timescale for resolution has been reached without a satisfactory outcome, complainants have the right to refer their complaint to an appropriate external body. Depending on the nature of the complaint, this may include referral to [PRIMARY_REGULATOR] or an applicable ombudsman scheme.
+
+The final response will always include details of the relevant external referral route and the applicable timescales for referral. [ORG_NAME] will cooperate fully with any investigation by [PRIMARY_REGULATOR] or an ombudsman.
+
+---
+
+## 8. Learning from Complaints
+
+[ORG_NAME] treats complaints as a source of intelligence to improve products, services, and processes. The Complaints Team produces a quarterly complaints report for senior management that includes:
+
+- Volume and nature of complaints received
+- Outcomes (upheld, partially upheld, not upheld)
+- Average resolution timescales
+- Recurring themes and root cause analysis
+- Actions taken to address systemic issues
+- Comparison with previous periods
+
+This report is reviewed by [CEO_NAME] and reported to [POLICY_APPROVAL_AUTHORITY] for Board oversight purposes. Significant trends or systemic issues are notified to [COMPLIANCE_EMAIL] and [PRIMARY_REGULATOR] as required.
+
+---
+
+## 9. Record Keeping
+
+All complaints and their handling are recorded in full. Records are retained for a minimum of seven years in accordance with regulatory requirements. Records are held securely and in compliance with applicable data protection legislation.
+
+---
+
+## 10. Policy Review
+
+This policy is reviewed annually, or following any significant regulatory change issued by [PRIMARY_REGULATOR]. All revisions are approved by [POLICY_APPROVAL_AUTHORITY] and communicated to relevant staff.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

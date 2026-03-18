@@ -1,0 +1,133 @@
+# AI and Privacy Policy
+
+**Policy Reference:** AISI-PRIV-001
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Data Protection Officer:** [DPO_NAME]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Primary Regulator:** [PRIMARY_REGULATOR]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy governs the privacy obligations of [DATA_CONTROLLER_NAME] in relation to its use of artificial intelligence systems. It addresses the intersection of AI capabilities with data protection law, setting out requirements for lawful, fair, and transparent AI-based data processing.
+
+This policy applies to all AI systems that process personal data, to all employees and contractors who operate or administer such systems, and to third-party AI providers operating on behalf of [DATA_CONTROLLER_NAME]. It is informed by the UK General Data Protection Regulation (UK GDPR), the Data Protection Act 2018, the ICO's guidance on AI and data protection, and applicable sector-specific requirements overseen by [PRIMARY_REGULATOR].
+
+[IF AI_PROCESSES_PERSONAL_DATA == "Yes" THEN]
+**Personal Data Processing Confirmation:** [DATA_CONTROLLER_NAME] confirms that AI systems currently in operation process personal data. All relevant processing activities are documented in the Record of Processing Activities (RoPA) maintained by [DPO_NAME].
+[END IF]
+
+---
+
+## 2. Data Protection Impact Assessments for AI Systems
+
+A Data Protection Impact Assessment (DPIA) is mandatory before deploying any AI system that is likely to result in high risk to the rights and freedoms of individuals. In the context of AI, a DPIA is required where the system:
+
+- Processes personal data at scale
+- Applies automated processing to make or substantially influence decisions about individuals
+- Processes special category data or criminal offence data
+- Involves systematic monitoring of individuals
+- Uses new or innovative technology where the privacy risks are not fully understood
+- Combines datasets in ways that could result in re-identification of anonymised data
+
+DPIAs must be completed before deployment commences and must be reviewed by [DPO_NAME]. Where the DPIA identifies residual high risk that cannot be mitigated, [DPO_NAME] must consult the Information Commissioner's Office (ICO) under UK GDPR Article 36 before processing begins.
+
+DPIAs must be refreshed following any material change to an AI system's processing activities, scope, or data inputs.
+
+---
+
+## 3. Lawful Basis for AI Processing
+
+[DATA_CONTROLLER_NAME] must identify and document a lawful basis under UK GDPR Article 6 for every AI processing activity involving personal data. The lawful basis must be determined before processing commences and must be recorded in the RoPA.
+
+### 3.1 Commonly Applicable Bases
+
+- **Article 6(1)(b) – Contract:** AI processing necessary for the performance of a contract with the data subject (e.g. credit decisioning for a customer contract)
+- **Article 6(1)(c) – Legal obligation:** AI processing required to comply with a legal or regulatory obligation
+- **Article 6(1)(e) – Public task:** AI processing in exercise of official authority (applicable to certain regulated entities)
+- **Article 6(1)(f) – Legitimate interests:** AI processing justified by [DATA_CONTROLLER_NAME]'s legitimate interests, subject to a documented Legitimate Interests Assessment (LIA) reviewed by [DPO_NAME]
+
+Consent (Article 6(1)(a)) will generally not be the primary lawful basis for core AI processing activities, given the risks associated with reliance on consent for complex technical processing. Where consent is used, it must be specific, informed, freely given, and easily withdrawable.
+
+### 3.2 Special Category Data
+
+Where AI systems process special category data (Article 9 UK GDPR), an additional condition under Article 9(2) must also be identified and documented. Use of special category data in AI systems requires prior approval from [DPO_NAME].
+
+---
+
+## 4. Automated Decision-Making Rights (UK GDPR Article 22)
+
+[IF AI_AUTOMATED_DECISIONS == "Yes" THEN]
+[DATA_CONTROLLER_NAME] operates AI systems that engage in solely automated decision-making that produces legal or similarly significant effects on individuals. The following obligations apply to all such systems:
+
+### 4.1 Prohibition and Exceptions
+
+Solely automated decisions with legal or similarly significant effects are prohibited unless one of the following Article 22(2) conditions is met and documented:
+
+- The decision is necessary for entering into or performing a contract between [DATA_CONTROLLER_NAME] and the data subject
+- The decision is authorised by UK law applicable to [DATA_CONTROLLER_NAME], including appropriate safeguards
+- The data subject has given explicit consent
+
+### 4.2 Mandatory Safeguards
+
+Where automated decision-making is permitted, [DATA_CONTROLLER_NAME] must:
+
+- Inform affected individuals of the existence of automated decision-making, the logic involved, and its significance
+- Implement a mechanism allowing individuals to request human review of any automated decision
+- Enable individuals to contest the decision and express their point of view
+- Ensure the human reviewer has genuine authority to override the automated output
+- Record all requests for human review and their outcomes
+
+### 4.3 Register of Automated Decisions
+
+[DPO_NAME] must maintain a Register of Automated Decision-Making Systems recording each system, the lawful basis and Article 22 condition relied upon, the human oversight mechanism in place, and the volume of decisions processed.
+
+[END IF]
+
+[IF AI_AUTOMATED_DECISIONS == "No" THEN]
+[DATA_CONTROLLER_NAME] does not currently operate AI systems that make solely automated decisions with legal or similarly significant effects on individuals. Any future deployment of such capability must be reviewed by [DPO_NAME] before implementation.
+[END IF]
+
+---
+
+## 5. Data Minimisation and Purpose Limitation in AI
+
+In accordance with UK GDPR Article 5, AI processing of personal data must observe the following principles:
+
+- **Purpose limitation:** Personal data collected for one purpose must not be fed into AI systems for an incompatible purpose. Any new AI use of existing personal data must be assessed against the original purpose of collection
+- **Data minimisation:** AI systems must be designed and configured to use no more personal data than is strictly necessary for the defined purpose. Feature selection processes must document the necessity of each personal data variable
+- **Accuracy:** Personal data used as AI inputs must be accurate and kept up to date; inaccurate data that could result in an adverse decision must be corrected before the model is re-run
+
+---
+
+## 6. Individual Rights in the Context of AI
+
+Individuals retain all rights under UK GDPR in relation to personal data processed by AI systems. [DATA_CONTROLLER_NAME] must ensure procedures are in place to honour:
+
+- **Right of access (Article 15):** Individuals may request a copy of personal data processed by AI systems and information about the processing logic
+- **Right to rectification (Article 16):** Inaccurate personal data used in AI processing must be corrected promptly
+- **Right to erasure (Article 17):** Requests for erasure of personal data from AI systems must be assessed; erasure from training datasets may require model retraining
+- **Right to object (Article 21):** Individuals may object to processing based on legitimate interests; objections must be assessed by [DPO_NAME]
+
+All data subject rights requests relating to AI systems must be escalated to [DPO_NAME] and responded to within the statutory one-calendar-month timeframe.
+
+---
+
+## 7. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [DPO_NAME] (DPO) | DPIA oversight; lawful basis documentation; Article 22 register; rights requests |
+| [COMPLIANCE_EMAIL] | Regulatory liaison; compliance monitoring; audit coordination |
+| AI System Owners | Day-to-day compliance; DPIA initiation; data subject rights escalation |
+| [POLICY_APPROVAL_AUTHORITY] | Policy approval; executive accountability |
+
+---
+
+## 8. Review
+
+This policy will be reviewed annually, or upon any material change to AI processing activities, applicable law, or guidance from [PRIMARY_REGULATOR] or the ICO. Next scheduled review: [ANNUAL_REVIEW_DATE].

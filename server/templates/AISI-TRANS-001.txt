@@ -1,0 +1,152 @@
+# AI Transparency and Explainability Policy
+
+**Policy Reference:** AISI-TRANS-001
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Primary Regulator:** [PRIMARY_REGULATOR]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out [ORG_NAME]'s commitment to transparency and explainability in the deployment and operation of artificial intelligence systems. Transparency — making AI systems understandable to those who design, operate, and are affected by them — is a foundational principle of responsible AI governance and a requirement under applicable law and regulatory expectations.
+
+This policy applies to all AI systems operated by [ORG_NAME], all personnel involved in AI procurement, deployment, and operation, and all decisions made using or supported by AI. It must be read alongside the AI & Privacy Policy (AISI-PRIV-001) and the Human Oversight of AI Policy (AISI-HUMAN-001).
+
+Primary regulatory oversight is provided by [PRIMARY_REGULATOR].
+
+---
+
+## 2. Explainability Requirements
+
+[ORG_NAME] distinguishes between two levels of explainability:
+
+- **Functional explainability:** A plain-language description of what an AI system does, what inputs it uses, and what outputs it produces, sufficient for a non-technical stakeholder to understand its purpose and general operation
+- **Technical explainability:** A sufficiently detailed description of model architecture, feature importance, decision logic, and uncertainty quantification to support audit, challenge, and regulatory review
+
+Both levels of explainability are required for all AI systems in scope. The required depth of technical explainability scales with the risk level of the system, as assessed under the AI Risk Assessment Framework.
+
+### 2.1 Minimum Explainability Standards
+
+For every deployed AI system, [AI_INCIDENT_LEAD] must ensure the following are documented and maintained:
+
+- A description of the AI system's intended purpose and the decisions or outputs it supports
+- The key input variables (features) used by the model and their relative importance
+- The type of model or algorithm deployed (e.g. logistic regression, neural network, large language model)
+- Known limitations, edge cases, and failure modes
+- The population or context for which the model was designed and validated
+
+[IF AI_AUTOMATED_DECISIONS == "Yes" THEN]
+**Automated Decision-Making Notice:** [ORG_NAME] operates AI systems that make or substantially influence decisions about individuals without human intervention. Enhanced explainability requirements apply to these systems, as detailed in Section 4 below, to satisfy obligations under UK GDPR Article 22 and related guidance.
+[END IF]
+
+---
+
+## 3. Model Cards and Technical Documentation
+
+[ORG_NAME] requires a Model Card to be produced and maintained for every AI model that is trained, fine-tuned, or deployed by the organisation. Model Cards must be held in the AI System Register maintained by [AI_INCIDENT_LEAD].
+
+### 3.1 Model Card Contents
+
+Each Model Card must include:
+
+- **Model identity:** Name, version, owner, deployment date, and system reference
+- **Intended use:** Primary use cases and explicitly out-of-scope uses
+- **Model type and architecture:** Algorithm family and any framework or platform used
+- **Training data summary:** Reference to the training dataset documentation (see AISI-DATA-002), including known limitations
+- **Performance metrics:** Accuracy, precision, recall, F1 score, AUC-ROC or equivalent, segmented by key demographic groups where applicable
+- **Fairness and bias assessment:** Summary of bias testing outcomes (see AISI-BIAS-001), including fairness metrics
+- **Limitations and risks:** Known failure modes, performance degradation conditions, and out-of-distribution behaviour
+- **Human oversight provisions:** Description of human review processes applicable to this model (see AISI-HUMAN-001)
+- **Contact:** System owner and escalation path
+
+Model Cards must be reviewed and updated following any material model change, retraining event, or significant performance incident.
+
+---
+
+## 4. Algorithmic Impact Assessments
+
+An Algorithmic Impact Assessment (AIA) must be completed before deploying any AI system that:
+
+- Makes or substantially influences decisions about individuals
+- Is applied in a high-risk context (employment, credit, healthcare, benefits, housing, education, law enforcement)
+- Processes special category data
+- Is subject to scrutiny by [PRIMARY_REGULATOR]
+
+The AIA must assess:
+
+- The nature and severity of potential harms to affected individuals or groups
+- The explainability of the system to affected individuals and relevant stakeholders
+- The adequacy of human oversight provisions
+- Mitigation measures in place to limit adverse impacts
+- The proportionality of AI use relative to the decision at stake
+
+AIAs must be reviewed by [COMPLIANCE_EMAIL] and approved by [CEO_NAME] before deployment. They must be refreshed following any material change to the AI system or its operating context, and at least annually.
+
+---
+
+## 5. Stakeholder Communication
+
+### 5.1 Internal Communication
+
+All employees who operate, manage, or are affected by AI systems must be informed of:
+
+- The fact that AI is being used in relevant processes
+- The purpose of the AI system and the nature of outputs it produces
+- How to escalate concerns or challenge AI-generated outputs
+- Their obligations under this and related AI governance policies
+
+### 5.2 External Communication
+
+Where AI systems affect external parties (customers, service users, partners, the public), [ORG_NAME] will:
+
+- Provide clear, accessible information about the use of AI in interactions that materially affect those parties
+- Avoid presenting AI-generated content as human-authored without disclosure
+- Ensure that any communication to affected individuals about AI-assisted decisions includes a meaningful explanation of the factors considered
+
+[IF AI_AUTOMATED_DECISIONS == "Yes" THEN]
+Where a solely automated decision is made about an individual under UK GDPR Article 22, [ORG_NAME] must proactively inform that individual of: the existence of the automated decision; the logic involved; the significance and envisaged consequences; and their right to request human review.
+[END IF]
+
+### 5.3 Regulatory Communication
+
+[ORG_NAME] will cooperate fully with [PRIMARY_REGULATOR] and any other competent authority in relation to AI transparency. Upon request, [ORG_NAME] will provide:
+
+- Model Cards and technical documentation
+- Algorithmic Impact Assessments
+- Bias and fairness testing reports
+- Audit logs and decision records
+
+Requests from regulators must be coordinated through [COMPLIANCE_EMAIL] and escalated to [CEO_NAME] where appropriate.
+
+---
+
+## 6. Documentation Standards
+
+All AI transparency documentation must:
+
+- Be written in plain English accessible to a non-specialist audience, with technical annexes where needed
+- Be version-controlled and dated
+- Identify the author and approver
+- Be stored in the AI System Register and accessible to [AI_INCIDENT_LEAD], [COMPLIANCE_EMAIL], and [CEO_NAME]
+- Be retained for the operational life of the AI system plus five years
+
+---
+
+## 7. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [CEO_NAME] (CEO) | Approval of AIAs; executive accountability for transparency obligations |
+| [AI_INCIDENT_LEAD] (AI Incident Lead) | Maintenance of AI System Register; Model Card oversight |
+| [COMPLIANCE_EMAIL] | AIA review; regulatory communication coordination; policy compliance |
+| System Owners | Day-to-day documentation maintenance; stakeholder communication |
+
+---
+
+## 8. Review
+
+This policy will be reviewed annually, or following a material change to deployed AI systems, applicable law, or regulatory guidance from [PRIMARY_REGULATOR]. The next scheduled review is [ANNUAL_REVIEW_DATE].

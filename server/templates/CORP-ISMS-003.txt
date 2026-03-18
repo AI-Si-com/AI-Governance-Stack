@@ -1,0 +1,175 @@
+# Data Classification Policy
+## Policy Reference: CORP-ISMS-003
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [POLICY_APPROVAL_AUTHORITY]
+**Data Protection Officer:** [DPO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] handles a wide range of information in the course of its operations. This Data Classification Policy establishes a framework for categorising information assets according to their sensitivity and the potential impact of unauthorised disclosure, modification, or loss. Correct classification ensures that appropriate protective controls are applied proportionately.
+
+This policy applies to all information held by [ORG_NAME] in any format — digital, physical, or verbal — and to all employees, contractors, and third parties who handle such information. Questions regarding classification decisions should be directed to [DPO_NAME] or [COMPLIANCE_EMAIL].
+
+---
+
+## 2. Classification Framework
+
+[ORG_NAME] uses four classification levels. All information must be assigned one of the following classifications. Where there is doubt, the higher classification level must be applied until formally reviewed.
+
+---
+
+## 3. Classification Level 1: Public
+
+### 3.1 Definition
+
+Information that has been formally approved for release to the public or that carries no risk if publicly disclosed. This includes published marketing materials, publicly available reports, and general website content hosted at [WEBSITE_URL].
+
+### 3.2 Handling Requirements
+
+- No special controls required beyond standard IT policies
+- May be shared freely via any channel including email, websites, and social media
+- No labelling requirement, though "Public" may be applied where helpful
+- May be stored on any approved system without encryption requirement
+
+### 3.3 Examples
+
+Published annual reports, press releases, job advertisements, publicly available product information, approved marketing collateral.
+
+---
+
+## 4. Classification Level 2: Internal
+
+### 4.1 Definition
+
+General business information intended for internal use only. Disclosure outside [ORG_NAME] would not be catastrophic but could cause inconvenience, minor reputational damage, or breach contractual obligations.
+
+### 4.2 Handling Requirements
+
+- Must be labelled "INTERNAL" on all documents and email subject lines where practicable
+- Must not be shared with external parties without line manager approval
+- Must be stored on approved [ORG_NAME] systems only; personal cloud storage is prohibited
+- Email containing Internal information should be sent via [ORG_NAME]'s approved email platform only
+- Physical documents must be stored securely and disposed of via cross-cut shredding
+
+### 4.3 Examples
+
+Internal meeting minutes, operational procedures, general staff communications, internal project plans, supplier contact lists.
+
+---
+
+## 5. Classification Level 3: Confidential
+
+### 5.1 Definition
+
+Sensitive business information or personal data whose unauthorised disclosure could cause significant harm including financial loss, reputational damage, regulatory penalty, or breach of legal obligations under UK GDPR.
+
+### 5.2 Handling Requirements
+
+- Must be labelled "CONFIDENTIAL" on all documents, emails, and files
+- Access restricted to named individuals with a documented business need (see CORP-ISMS-002)
+- Must only be transmitted via encrypted channels
+- Must only be stored on approved, access-controlled systems
+
+[IF DATA_ENCRYPTION_AT_REST == "Yes" THEN]
+- Encryption at rest is applied to all systems storing Confidential data in accordance with the organisation's encryption standard
+[END IF]
+
+[IF DATA_ENCRYPTION_AT_REST == "No" THEN]
+- Pending full implementation of encryption at rest, Confidential data must be stored only on access-controlled servers and must not be stored on portable devices without prior IT approval
+[END IF]
+
+- Physical copies must be stored in locked cabinets; secure disposal is mandatory
+- Must not be shared with third parties without a signed NDA or Data Processing Agreement
+- Any suspected unauthorised disclosure must be reported to [COMPLIANCE_EMAIL] and [DPO_NAME] immediately
+
+### 5.3 Examples
+
+Employee personal data, payroll records, performance reviews, financial forecasts, client contracts, commercially sensitive proposals, information subject to legal professional privilege.
+
+---
+
+## 6. Classification Level 4: Restricted
+
+### 6.1 Definition
+
+The highest classification level. Restricted information is extremely sensitive and its unauthorised disclosure could cause severe harm including serious regulatory sanction, significant financial loss, legal liability, or risk to personal safety.
+
+### 6.2 Handling Requirements
+
+- Must be labelled "RESTRICTED" prominently on all versions
+- Access limited to specifically named, individually authorised individuals only; no role-based access
+- Must be stored in dedicated, separately access-controlled locations
+- Must be encrypted in transit and at rest without exception
+- Transmission is permitted only via end-to-end encrypted channels approved by the IT Lead ([IT_EMAIL])
+- Physical copies must be stored in safes or equivalent high-security storage
+- Printing is discouraged; where necessary, documents must be retrieved immediately and not left unattended
+- Destruction must be carried out by approved secure destruction services
+- Any access to Restricted information must be logged; logs reviewed monthly
+- Incidents involving Restricted data must be reported immediately to [DPO_NAME] and [COMPLIANCE_EMAIL]
+
+### 6.3 Examples
+
+Special category personal data (health, biometric, criminal records), legally privileged documents under active litigation, merger and acquisition information, credentials and encryption keys, information subject to regulatory restriction.
+
+---
+
+## 7. Labelling Standards
+
+All documents and files containing Internal, Confidential, or Restricted information must be labelled clearly. Labelling applies to:
+
+- Document headers and footers
+- Email subject lines (prefix with classification level, e.g., "CONFIDENTIAL:")
+- File names where the classification is not otherwise obvious
+- Physical envelopes and folders
+
+Labels must not be downgraded without formal approval from the original information owner or [DPO_NAME].
+
+---
+
+## 8. Information Owner Responsibilities
+
+Every information asset must have a designated information owner, typically the head of the creating department. Information owners are responsible for:
+
+- Assigning and reviewing classification levels
+- Approving access requests for their information assets
+- Ensuring handling requirements are communicated to their team
+- Reviewing classification at least annually or upon material change
+
+---
+
+## 9. Reclassification
+
+Information classification may change over time. Reclassification may only be performed by the information owner or [DPO_NAME]. Any reclassification must be documented and communicated to all parties who hold copies of the affected information.
+
+---
+
+## 10. Third-Party Information
+
+Information received from third parties must be treated at the classification level specified by the third party, or Confidential as a minimum if no classification is provided.
+
+---
+
+## 11. Compliance and Breach
+
+Misclassification or mishandling of information is a disciplinary matter. Deliberate downgrading of classification to circumvent controls may constitute gross misconduct. Any suspected breach must be reported to [DPO_NAME] at [COMPLIANCE_EMAIL]. Where a breach involves personal data, the Data Protection Officer will assess whether notification to the ICO is required under UK GDPR Article 33.
+
+---
+
+## 12. Policy Review
+
+This policy is reviewed annually by [DPO_NAME] in conjunction with the IT Lead. Queries should be directed to [IT_EMAIL] or [COMPLIANCE_EMAIL].
+
+---
+
+## 13. Related Documents
+
+- CORP-ISMS-001: Information Security Management Policy
+- CORP-ISMS-002: Access Control Policy
+- CORP-ISMS-004: Security Incident Response Policy
+- UK GDPR / Data Protection Act 2018

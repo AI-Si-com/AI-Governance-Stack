@@ -1,0 +1,158 @@
+# Bring Your Own Device (BYOD) Policy
+
+**Policy Reference:** CORP-IT-004
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** IT Department
+**Approved By:** [CEO_NAME], Chief Executive Officer
+
+---
+
+## 1. Purpose and Scope
+
+This policy governs the use of personally owned devices — including smartphones, tablets, and laptops — to access [DATA_CONTROLLER_NAME]'s systems, data, email, and networks. It applies to all employees, contractors, and authorised third parties who wish to use a personal device for work-related purposes.
+
+The Organisation recognises that BYOD can offer flexibility and productivity benefits. However, personal devices used for work must meet minimum security standards to protect organisational data and comply with the UK GDPR and the Data Protection Act 2018.
+
+BYOD participation is voluntary but conditional on compliance with this policy. All queries should be directed to [IT_EMAIL].
+
+---
+
+## 2. Eligible Devices
+
+The following device types may be enrolled under the BYOD programme, subject to meeting the minimum requirements in Section 3:
+
+- Smartphones (iOS 15 or later; Android 11 or later)
+- Tablets (iPadOS 15 or later; Android 11 or later)
+- Laptops (Windows 10/11 — fully updated; macOS 12 or later)
+
+Devices running end-of-life or unsupported operating systems are not eligible for BYOD enrolment and must not be used to access organisational systems.
+
+---
+
+## 3. Minimum Device Requirements
+
+Before a personal device can be enrolled, it must meet the following requirements:
+
+- **Operating system:** Running a currently supported OS version with automatic security updates enabled.
+- **Encryption:** Full-device encryption enabled. The required encryption standard is [DATA_ENCRYPTION_AT_REST].
+- **Screen lock:** A PIN, password, pattern, or biometric lock active with a maximum 5-minute auto-lock timeout.
+- **Passcode strength:** Device PIN or password must comply with the Password and Authentication Policy (CORP-IT-002).
+- **Antivirus/endpoint protection:** Applicable to laptops — an approved endpoint security solution must be installed.
+- **Not jailbroken or rooted:** Devices that have been jailbroken or rooted are ineligible and pose an unacceptable security risk.
+
+[IT_EMAIL] will assess each device prior to enrolment and may decline devices that do not meet these requirements.
+
+---
+
+## 4. Mobile Device Management (MDM) Enrolment
+
+All BYOD devices must be enrolled in the Organisation's Mobile Device Management (MDM) platform before accessing any organisational system, application, or data. Enrolment is managed by [IT_EMAIL].
+
+By enrolling a device in the MDM platform, the device owner agrees that:
+
+- The Organisation can push security configuration profiles to the device.
+- The Organisation can enforce and verify compliance with security requirements.
+- The Organisation can remotely wipe **organisational data and applications** from the device if required (see Section 8).
+- The Organisation **does not** have the ability to access personal data, applications, photos, or communications on the device through MDM — only the organisational data partition or container is within scope.
+
+Enrolment does not give the Organisation ownership of or responsibility for the personal device. The employee remains responsible for the hardware, any costs arising from its use, and its maintenance.
+
+---
+
+## 5. Acceptable Use of BYOD Devices
+
+Enrolled personal devices may be used to:
+
+- Access organisational email and calendar.
+- Connect to approved cloud collaboration tools.
+- Access approved applications available through the Organisation's app catalogue.
+- Attend video calls and meetings using approved communication platforms.
+
+Personal devices must not be used to:
+
+- Download or store bulk organisational data locally outside of approved applications.
+- Access systems containing highly sensitive data (e.g. payroll, HR case files, legal files) unless specifically approved in writing by [IT_EMAIL].
+- Connect to internal network drives or servers without VPN (see Remote Working Security Policy CORP-IT-003).
+- Share organisational data with personal applications (e.g. copying work emails to a personal email app).
+
+---
+
+## 6. Data Separation
+
+Organisational data and applications on enrolled devices must be kept separate from personal data and applications. The MDM platform enforces this separation by creating a managed container for work applications.
+
+Users must not manually copy, move, or share organisational data from the managed work container to personal applications, storage, or cloud services. Doing so may constitute a data breach under the Data Breach Response Policy (CORP-DG-005).
+
+[DATA_ENCRYPTION_AT_REST] encryption is applied to the organisational data partition on all enrolled devices.
+
+---
+
+## 7. Multi-Factor Authentication
+
+[IF MFA_ENABLED == "Yes" THEN]
+MFA is required for all access to organisational systems from BYOD devices. Users must install and register an approved authenticator application as part of the enrolment process. MFA cannot be disabled on enrolled devices for organisational app access.
+[END IF]
+
+[IF MFA_ENABLED == "No" THEN]
+MFA deployment is in progress. Until MFA is fully available, strong passwords must be used for all organisational account access from BYOD devices. Contact [IT_EMAIL] for current guidance.
+[END IF]
+
+---
+
+## 8. Remote Wipe
+
+The Organisation reserves the right to perform a remote wipe of **organisational data and applications** from an enrolled device in the following circumstances:
+
+- The device is reported lost or stolen.
+- Employment or engagement ends.
+- The device is found to be non-compliant with this policy.
+- A data breach or security incident involving the device is suspected.
+
+The remote wipe will target only the organisational data container managed by MDM. The Organisation will use reasonable endeavours to avoid wiping personal data; however, it cannot guarantee personal data will be unaffected in all circumstances. Device owners are responsible for maintaining backups of personal data.
+
+Lost or stolen enrolled devices must be reported immediately to [IT_EMAIL] to initiate remote wipe procedures.
+
+---
+
+## 9. Exit Process
+
+Upon leaving [DATA_CONTROLLER_NAME], or upon withdrawal of BYOD permission, the following exit process applies:
+
+1. IT will remotely wipe all organisational data, accounts, and applications from the enrolled device.
+2. MDM enrolment will be removed from the device.
+3. The employee or contractor must confirm that no organisational data remains on the device.
+4. Any organisational data downloaded to the device during the period of enrolment must be deleted and not retained.
+
+The Organisation will not wipe personal data, but the device owner must ensure that any organisational data they can see or access is removed. Failure to delete organisational data upon departure may constitute a breach of confidentiality.
+
+---
+
+## 10. Costs and Liability
+
+The Organisation is not responsible for:
+
+- The cost of purchasing or repairing personal devices.
+- Data charges or usage costs arising from BYOD use.
+- Loss or damage to personal devices, howsoever caused.
+- Any loss of personal data arising from MDM management or remote wipe actions.
+
+Employees are encouraged to ensure their personal device is covered by appropriate insurance.
+
+---
+
+## 11. Non-Compliance
+
+Failure to comply with this policy may result in:
+
+- Immediate revocation of BYOD access.
+- Disciplinary action in accordance with the Organisation's disciplinary procedure.
+- Reporting to regulators where a data breach has occurred.
+
+Any suspected security incidents involving a personal device must be reported immediately to [IT_EMAIL].
+
+---
+
+## 12. Review
+
+This policy is reviewed annually. The next scheduled review is [ANNUAL_REVIEW_DATE].

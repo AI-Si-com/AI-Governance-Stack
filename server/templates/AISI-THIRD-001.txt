@@ -1,0 +1,151 @@
+# AI Third-Party Management Policy
+
+**Policy Reference:** AISI-THIRD-001
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**AI Approval Authority:** [AI_APPROVAL_AUTHORITY]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**IT Contact:** [IT_EMAIL]
+**Applicable Regulations:** [APPLICABLE_REGULATIONS]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+
+---
+
+## 1. Purpose and Scope
+
+This policy governs [ORG_NAME]'s relationships with third-party AI suppliers, vendors, and service providers. As organisations increasingly rely on external parties to deliver AI capabilities — through software-as-a-service platforms, pre-trained models, APIs, or managed AI services — robust third-party management is essential to maintain accountability, manage risk, and comply with applicable law and regulation.
+
+This policy applies to all third-party arrangements involving AI systems or AI-enabled services that are procured, integrated, or operated on behalf of [ORG_NAME]. It covers new procurement decisions and the ongoing management of existing supplier relationships. Applicable regulatory requirements are set out in [APPLICABLE_REGULATIONS].
+
+Nothing in this policy limits [ORG_NAME]'s obligations as a data controller under UK GDPR; data protection obligations applicable to third-party AI processors are governed jointly by this policy and the organisation's Data Processing Agreement (DPA) framework.
+
+---
+
+## 2. Vendor Due Diligence
+
+Before entering into any arrangement with a third-party AI supplier, [ORG_NAME] must complete a structured due diligence assessment. The scope and depth of due diligence must be commensurate with the risk associated with the AI system and the sensitivity of data it will access.
+
+### 2.1 Due Diligence Scope
+
+Due diligence must assess, at minimum:
+
+- **AI governance:** Does the supplier have documented AI governance policies, ethical AI commitments, and bias testing procedures?
+- **Security posture:** What information security controls are in place? What certifications does the supplier hold (e.g. ISO 27001, Cyber Essentials Plus, SOC 2)?
+- **Data protection:** Is the supplier registered with the ICO (where required)? Do they have a published privacy policy and data processing terms? Are sub-processors disclosed?
+- **Model transparency:** Is documentation available describing the AI model(s) used, including intended use, known limitations, and performance benchmarks?
+- **Regulatory compliance:** Does the supplier comply with [APPLICABLE_REGULATIONS] and any relevant sector-specific standards?
+- **Financial and operational stability:** Is the supplier financially viable and capable of providing ongoing service and support?
+- **Incident history:** Has the supplier experienced AI-related incidents, data breaches, or regulatory sanctions? How were they handled?
+- **Exit capability:** Can data and configurations be extracted and migrated in the event of contract termination?
+
+Due diligence must be completed before contract execution and documented in the AI Supplier Register maintained by [IT_EMAIL] and [COMPLIANCE_EMAIL].
+
+### 2.2 Approval Authority
+
+All new third-party AI supplier engagements require approval from [AI_APPROVAL_AUTHORITY] before contract execution. Requests must be submitted with the completed due diligence assessment. [CEO_NAME] must approve engagements assessed as high-risk.
+
+---
+
+## 3. Contractual Requirements
+
+Every agreement with a third-party AI supplier must include, as a minimum, the following provisions:
+
+### 3.1 Mandatory Contract Clauses
+
+| Clause | Requirement |
+|---|---|
+| **Scope of permitted use** | The supplier must use [ORG_NAME]'s data only for the purposes specified in the contract |
+| **Data processing agreement** | Where the supplier processes personal data, a UK GDPR-compliant DPA must be executed prior to any processing |
+| **Sub-processor notification** | The supplier must notify [ORG_NAME] before engaging any new sub-processor |
+| **Security standards** | The supplier must maintain industry-standard security controls and notify [ORG_NAME] of any security incident affecting [ORG_NAME] data within 24 hours |
+| **AI change notification** | The supplier must notify [ORG_NAME] of any material change to the AI model, training data, or system configuration at least 30 days in advance |
+| **Audit rights** | [ORG_NAME] retains the right to audit, or appoint a third party to audit, the supplier's AI systems and controls relevant to [ORG_NAME]'s engagement |
+| **Regulatory cooperation** | The supplier must cooperate with any investigation or enquiry by [ORG_NAME]'s regulators related to the use of the supplier's AI services |
+| **Remediation obligations** | The supplier must remediate identified deficiencies within agreed timeframes |
+| **Termination and exit** | Clear provisions for contract termination, data return or deletion, and transition support |
+
+### 3.2 Liability and Indemnity
+
+Contracts must include appropriate liability caps, warranties regarding AI system fitness for purpose, and indemnities covering losses arising from supplier AI failures, data breaches, or regulatory sanctions attributable to the supplier.
+
+---
+
+## 4. Shared Responsibility Model
+
+[ORG_NAME] maintains clear accountability for all AI outcomes, regardless of the extent to which AI capabilities are provided by third parties. The following shared responsibility principles apply:
+
+- **[ORG_NAME] retains accountability** for the decision to deploy a third-party AI system and the uses to which it is put
+- **[ORG_NAME] is responsible** for ensuring that third-party AI systems are integrated, configured, and operated in compliance with this and related AI governance policies
+- **[ORG_NAME] remains the data controller** for all personal data processed by third-party AI systems operating under its instruction
+- **Suppliers are responsible** for the underlying model quality, security of their infrastructure, and compliance with the representations made in their contracts and due diligence submissions
+
+A Shared Responsibility Matrix must be documented for each material third-party AI engagement, identifying which party is responsible for each control domain. This must be agreed with the supplier and held by [COMPLIANCE_EMAIL].
+
+---
+
+## 5. Ongoing Supplier Monitoring
+
+Third-party AI supplier relationships must be subject to ongoing monitoring throughout the contract term. Monitoring must include:
+
+### 5.1 Regular Performance Reviews
+
+- Formal performance reviews at least annually, or more frequently for high-risk suppliers
+- Assessment of the supplier's AI system performance against agreed SLAs and quality metrics
+- Review of any AI incidents, service disruptions, or material changes notified by the supplier
+
+### 5.2 Continuous Intelligence
+
+- Monitoring of public reporting, regulatory action, and press coverage relating to AI suppliers in scope
+- Review of supplier-issued security bulletins, AI safety advisories, and model change notifications
+- Annual review of supplier financial health and operational continuity status
+
+### 5.3 Re-Assessment Triggers
+
+A full due diligence re-assessment must be triggered by:
+
+- A material change to the AI system or supplier's organisational structure
+- An AI incident or data breach at the supplier affecting [ORG_NAME]
+- Regulatory action against the supplier
+- Contract renewal
+
+---
+
+## 6. Right to Audit
+
+[ORG_NAME] must preserve and exercise audit rights in relation to third-party AI suppliers proportionate to the risk they represent. The right to audit encompasses:
+
+- Review of documentation (policies, procedures, model cards, test results, incident records)
+- On-site or remote inspection of relevant controls and infrastructure (with reasonable notice)
+- Review of third-party audit reports (e.g. SOC 2 Type II, ISO 27001 audit reports, penetration test reports)
+
+Audit requests must be coordinated by [COMPLIANCE_EMAIL] in consultation with [IT_EMAIL]. [CEO_NAME] must be notified of any audit that reveals material deficiencies.
+
+---
+
+## 7. Exit Planning
+
+All third-party AI supplier arrangements must have a documented exit plan, maintained by [IT_EMAIL] and reviewed annually. The exit plan must cover:
+
+- Data extraction, portability, and migration procedures
+- Model-specific dependencies and replacement options
+- Business continuity provisions for the transition period
+- Contractual notice periods and termination procedures
+- Secure deletion or return of [ORG_NAME] data following contract termination
+
+---
+
+## 8. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [AI_APPROVAL_AUTHORITY] | Approval of new supplier engagements |
+| [CEO_NAME] | Approval of high-risk engagements; escalated supplier issues |
+| [COMPLIANCE_EMAIL] | Due diligence; contract review; audit coordination; register maintenance |
+| [IT_EMAIL] | Technical assessment; integration controls; AI Supplier Register |
+| Procurement / Contract Managers | Contract execution; ongoing relationship management |
+
+---
+
+## 9. Review
+
+This policy will be reviewed annually, or following a material third-party incident, significant change to [APPLICABLE_REGULATIONS], or a change in [ORG_NAME]'s AI supplier landscape. Next review: [ANNUAL_REVIEW_DATE].

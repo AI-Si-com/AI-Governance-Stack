@@ -1,0 +1,146 @@
+# AI Regulatory Compliance Policy
+
+**Policy Reference:** AISI-COMPL-001
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Primary Regulator:** [PRIMARY_REGULATOR]
+**Applicable Regulations:** [APPLICABLE_REGULATIONS]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes [ORG_NAME]'s framework for identifying, monitoring, and complying with the regulatory and legal obligations applicable to its use of artificial intelligence systems, including [AI_TOOLS_LIST]. The AI regulatory landscape is evolving rapidly; this policy provides a structured approach to staying current with legal developments and embedding compliance into AI governance.
+
+This policy applies to all AI deployments within [ORG_NAME] and to all personnel with responsibility for AI governance, procurement, operation, or oversight. It should be read alongside all other AI Governance policies (AISI series) and the organisation's broader Legal and Regulatory Compliance Policy.
+
+---
+
+## 2. Applicable Regulatory Framework
+
+[ORG_NAME]'s AI activities are subject to the following regulatory landscape:
+
+### 2.1 UK AI Governance Framework
+
+The UK does not currently have a single, comprehensive AI-specific statute. Instead, AI regulation operates through a cross-sectoral framework based on the following:
+
+- **UK Government AI Regulation White Paper (2023) principles:** Safety, security, fairness, transparency and explainability, accountability, contestability and redress. [ORG_NAME] adopts these principles as minimum standards for all AI systems
+- **ICO guidance on AI and data protection:** Including guidance on explaining AI decisions, fairness in AI, and AI auditing. All AI processing of personal data must comply with this guidance
+- **FCA/PRA (where applicable):** Expectations on model risk management, algorithmic fairness, and explainability in regulated financial services contexts
+- **MHRA, NHS, CQC (where applicable):** Sector-specific requirements for AI used in medical devices, clinical decision support, or health services
+
+### 2.2 EU AI Act (Awareness and Preparedness)
+
+Although the UK is not subject to EU law, [ORG_NAME] recognises that:
+
+- UK-based organisations that supply AI systems to EU customers, process data of EU individuals, or operate within the EU single market may be subject to the EU AI Act
+- The EU AI Act establishes a risk-based classification of AI systems (Unacceptable, High, Limited, Minimal risk) with corresponding obligations
+- High-risk AI categories under the EU AI Act include: employment and workers management, education, essential private and public services, law enforcement, biometric identification, and critical infrastructure
+
+[AI_TOOLS_LIST] must be assessed against EU AI Act risk categories by [COMPLIANCE_EMAIL] where any EU nexus exists.
+
+### 2.3 Additional Applicable Regulations
+
+The following regulations and requirements apply to [ORG_NAME]'s AI activities:
+
+[APPLICABLE_REGULATIONS]
+
+---
+
+## 3. Risk-Based Compliance Classification
+
+[ORG_NAME] applies a risk-based approach to AI compliance, consistent with emerging regulatory frameworks. All AI systems must be classified into the following risk tiers and managed accordingly:
+
+| Risk Tier | Description | Compliance Requirements |
+|---|---|---|
+| **Prohibited** | AI systems that pose unacceptable risks (e.g. social scoring, real-time biometric surveillance in public spaces) | Must not be deployed under any circumstances |
+| **High-risk** | AI systems that pose significant risk of harm to individuals or society | Full AISI policy suite compliance; DPIA; AIA; regular audit; regulatory notification where required |
+| **Limited-risk** | AI systems with transparency obligations (e.g. chatbots, deepfakes) | Transparency disclosures required; periodic review |
+| **Minimal-risk** | Low-risk AI applications | Baseline governance; included in annual review |
+
+Risk classification decisions must be made by [AI_APPROVAL_AUTHORITY] and documented in the AI System Register.
+
+---
+
+## 4. Compliance Monitoring
+
+[ORG_NAME] maintains active compliance monitoring across AI regulatory developments. [COMPLIANCE_EMAIL] is responsible for:
+
+- Subscribing to regulatory publications, consultation papers, and guidance updates from [PRIMARY_REGULATOR] and other relevant bodies
+- Tracking parliamentary bills and statutory instruments affecting AI governance
+- Monitoring ICO enforcement actions, regulatory fines, and published investigations relevant to AI
+- Reviewing EU AI Act implementation milestones and applicability assessments
+- Attending or reviewing output from relevant industry bodies (e.g. AI Safety Institute, Centre for Data Ethics and Innovation, BSI AI standards programme)
+
+A compliance intelligence summary must be prepared by [COMPLIANCE_EMAIL] and presented to [CEO_NAME] on a quarterly basis.
+
+---
+
+## 5. Compliance Assessment Cycle
+
+All AI systems must undergo a formal compliance assessment at least annually, and at any of the following trigger events:
+
+- A new AI system is introduced or an existing system is materially changed
+- New legislation, regulation, or regulatory guidance is published affecting AI in [ORG_NAME]'s sector
+- [PRIMARY_REGULATOR] issues an enforcement action, consultation, or significant guidance relevant to [ORG_NAME]'s AI activities
+- A regulatory breach or near-miss is identified
+
+Compliance assessments must be documented and retained for a minimum of five years. Material compliance gaps must be escalated to [CEO_NAME] and remediated within agreed timescales.
+
+---
+
+## 6. Sector-Specific AI Regulations
+
+[ORG_NAME] operates under the oversight of [PRIMARY_REGULATOR] and must comply with all sector-specific requirements applicable to AI use. [COMPLIANCE_EMAIL] is responsible for maintaining a sector-specific compliance matrix that maps each AI system to the specific regulatory obligations applicable to it.
+
+Where sector-specific guidance conflicts with cross-sectoral standards, the more stringent requirement applies unless sector guidance explicitly provides otherwise.
+
+---
+
+## 7. Regulatory Engagement
+
+[ORG_NAME] will engage proactively and cooperatively with [PRIMARY_REGULATOR] and other relevant authorities. This includes:
+
+- Responding to regulatory consultations on AI governance where [ORG_NAME] has relevant expertise or interests
+- Participating in regulatory sandboxes, pilots, or innovation programmes where appropriate
+- Notifying [PRIMARY_REGULATOR] of AI incidents or significant AI deployments where required by applicable rules
+- Maintaining open and transparent communication in the event of a regulatory investigation
+
+All regulatory correspondence relating to AI must be managed by [COMPLIANCE_EMAIL] and copied to [CEO_NAME]. No individual should communicate with a regulator regarding AI governance matters without prior coordination with [COMPLIANCE_EMAIL].
+
+---
+
+## 8. Compliance Training
+
+All personnel with AI governance responsibilities must receive training on applicable AI regulations as part of the AI staff training programme (AISI-TRAIN-001). Training must be reviewed and updated annually to reflect regulatory developments.
+
+---
+
+## 9. Breach Identification and Escalation
+
+Where a potential or actual breach of applicable AI regulation is identified:
+
+1. The identifying employee must immediately notify [COMPLIANCE_EMAIL]
+2. [COMPLIANCE_EMAIL] must assess the nature and severity of the breach within 24 hours
+3. [CEO_NAME] must be notified of any breach carrying material regulatory, financial, or reputational risk
+4. Where the breach requires regulatory notification, this must be coordinated by [COMPLIANCE_EMAIL] within applicable timeframes
+5. Root cause analysis and remediation must be documented and tracked to closure
+
+---
+
+## 10. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [CEO_NAME] (CEO) | Executive accountability; regulatory engagement sign-off |
+| [COMPLIANCE_EMAIL] | Regulatory monitoring; compliance assessments; regulatory notification |
+| AI System Owners | Day-to-day compliance; trigger event reporting |
+| [AI_APPROVAL_AUTHORITY] | Risk classification decisions; approval of high-risk systems |
+
+---
+
+## 11. Review
+
+This policy will be reviewed annually, or upon any material regulatory development. Given the pace of change in the AI regulatory landscape, interim updates may be issued by [COMPLIANCE_EMAIL] without full policy revision. Next scheduled full review: [ANNUAL_REVIEW_DATE].

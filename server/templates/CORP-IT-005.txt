@@ -1,0 +1,147 @@
+# Email and Communications Policy
+
+**Policy Reference:** CORP-IT-005
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** IT Department
+**Data Protection Officer:** [DPO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy governs the use of email and other electronic communications systems provided by or operated on behalf of [DATA_CONTROLLER_NAME]. It applies to all employees, contractors, agency workers, and any individual using the Organisation's communications infrastructure.
+
+Electronic communications — including email, instant messaging, collaboration platforms, and video communications — are central to the Organisation's operations. These systems must be used responsibly, professionally, and in compliance with applicable law including the UK GDPR, the Data Protection Act 2018, the Computer Misuse Act 1990, and the Regulation of Investigatory Powers Act 2000.
+
+For technical assistance, contact [IT_EMAIL]. For compliance or data protection queries, contact [COMPLIANCE_EMAIL].
+
+---
+
+## 2. Authorised Use of Email
+
+The Organisation's email systems are provided primarily for business communications. Authorised use includes:
+
+- Communicating with colleagues, clients, suppliers, regulators, and other business contacts on matters relating to your role.
+- Sending and receiving documents, data, and information as part of legitimate business activities.
+- Using email for reasonable personal communications on a limited basis (see Section 5).
+
+All email sent using [DATA_CONTROLLER_NAME]'s systems represents the Organisation. Staff must communicate professionally, accurately, and courteously at all times.
+
+---
+
+## 3. Prohibited Use of Email and Communications Systems
+
+The following uses of the Organisation's communications systems are strictly prohibited:
+
+- Sending, forwarding, or storing material that is offensive, harassing, discriminatory, threatening, or defamatory.
+- Sending, receiving, or storing pornographic, extremist, or illegal material.
+- Using the Organisation's email to conduct a private business or to solicit commercial activity for personal gain.
+- Misrepresenting yourself as another individual, or sending emails under a false identity.
+- Sending unsolicited bulk email (spam) to internal or external recipients.
+- Forwarding chain messages, hoaxes, or unverified information.
+- Forwarding work email to personal email accounts for purposes other than approved remote working arrangements.
+- Sharing confidential, commercially sensitive, or personal data via unencrypted email where an alternative secure channel exists.
+- Using email to circumvent the Organisation's document management, records, or approval processes.
+- Using the Organisation's email systems after your access has been revoked.
+
+---
+
+## 4. Email Security and Handling Sensitive Data
+
+Email is not inherently secure and staff must apply appropriate caution when transmitting sensitive information.
+
+**Before sending any email containing personal data or confidential information:**
+
+- Verify that the recipient address is correct. Misdirected emails are among the most common causes of personal data breaches.
+- Use the "Reply All" function with care — ensure all recipients are intended.
+- For distribution lists, use BCC rather than CC when recipient identities should not be mutually disclosed.
+- Do not include sensitive personal data in the email subject line.
+
+**Encrypted email:**
+Where the communication involves special category personal data, financial account details, legal correspondence, or other highly sensitive material, encrypted email or a secure file transfer service approved by [IT_EMAIL] must be used. Contact [IT_EMAIL] for guidance on encrypted communication options.
+
+**Automatic forwarding:**
+Setting up automatic forwarding of organisational email to personal or external accounts is prohibited unless specifically approved by [IT_EMAIL] for a defined business purpose.
+
+---
+
+## 5. Personal Use
+
+Limited personal use of the Organisation's email is permitted where it does not interfere with work duties, does not consume excessive resources, and complies with all other provisions of this policy.
+
+Staff must be aware that the Organisation reserves the right to monitor email communications (see Section 8). Personal emails sent via organisational email systems are not private. Staff are encouraged to use personal devices and personal email accounts for personal matters.
+
+---
+
+## 6. Email Retention
+
+Business emails are organisational records and must be managed in accordance with the Data Retention and Disposal Policy (CORP-DG-003). Key points:
+
+- Business emails must be retained for a minimum of **3 years** from the date of sending or receipt, unless a longer period applies (e.g. emails forming part of a contract or legal matter).
+- Emails must not be deleted before the end of their retention period.
+- Personal email content that does not relate to business matters need not be retained and may be deleted at the user's discretion.
+- Where a legal hold is in operation, all email within scope must be preserved regardless of age. Legal hold notices are issued by [DPO_NAME] via [COMPLIANCE_EMAIL].
+- Upon leaving the Organisation, email accounts are retained and accessible to authorised IT staff and line managers for a minimum of 3 months or as otherwise required.
+
+---
+
+## 7. Phishing and Social Engineering Awareness
+
+Phishing emails — messages designed to deceive the recipient into disclosing credentials, clicking malicious links, or downloading malware — represent one of the most significant cyber threats faced by organisations.
+
+Staff must:
+
+- Be vigilant about unexpected emails requesting login credentials, payment authorisation, or urgent action.
+- Check sender addresses carefully — display names can be spoofed.
+- Not click links in unsolicited emails; instead, navigate directly to the relevant website.
+- Not open unexpected attachments, particularly from unknown senders or unusual file types (.exe, .zip, .docm, .js).
+- Report any suspected phishing email immediately to [IT_EMAIL] using the Organisation's phishing report button or by forwarding the email as an attachment.
+- Not attempt to respond to, interact with, or investigate suspected phishing emails independently.
+
+[DATA_CONTROLLER_NAME] conducts periodic phishing simulation exercises to test and improve staff awareness. Participation is mandatory.
+
+---
+
+## 8. Monitoring of Communications
+
+[DATA_CONTROLLER_NAME] reserves the right to monitor, log, review, and audit email and other electronic communications made using organisational systems. Monitoring may include:
+
+- Automated filtering for spam, malware, and data loss prevention.
+- Logging of email metadata (sender, recipient, date, subject line).
+- Content review by authorised staff where there is a legitimate reason to suspect policy breach, data loss, or misconduct.
+- Retention and review of communications of departing staff.
+
+Monitoring is conducted in accordance with the UK GDPR, the Regulation of Investigatory Powers Act 2000, and the Organisation's Staff Privacy Notice (CORP-DG-002). Staff are informed of monitoring through this policy and the Privacy Notice. Access to monitored communications is restricted to authorised personnel with a legitimate business need. Monitoring data is not used for purposes other than those set out above.
+
+---
+
+## 9. Instant Messaging and Collaboration Platforms
+
+The Organisation provides approved instant messaging and collaboration platforms for business use. The same standards of professionalism, confidentiality, and security that apply to email apply equally to all other business communications channels.
+
+Specifically:
+
+- Approved platforms only: Organisational data must not be shared via unapproved consumer messaging apps (e.g. personal WhatsApp, personal iMessage) unless specifically authorised by [IT_EMAIL].
+- Data shared via approved collaboration platforms remains subject to the Data Protection Policy (CORP-DG-001) and retention obligations.
+- Communications sent via approved platforms may be monitored and retained in the same manner as email.
+
+---
+
+## 10. Departing Employees
+
+Upon termination of employment or engagement, access to all organisational email and communications accounts will be revoked on the last day of employment (or earlier if required). Auto-reply messages will be configured by [IT_EMAIL] to direct external correspondents to an appropriate alternative contact. The contents of the departed employee's mailbox will be retained in accordance with the Data Retention and Disposal Policy (CORP-DG-003) and may be accessed by authorised personnel for business continuity purposes.
+
+---
+
+## 11. Non-Compliance
+
+Breaches of this policy may result in disciplinary action up to and including dismissal, and may have legal consequences. Where a breach results in a personal data incident, it must be reported in accordance with the Data Breach Response Policy (CORP-DG-005). Any concerns about email misuse by colleagues should be reported confidentially to [COMPLIANCE_EMAIL].
+
+---
+
+## 12. Review
+
+This policy is reviewed annually by the IT Department in consultation with [DPO_NAME]. The next scheduled review is [ANNUAL_REVIEW_DATE].

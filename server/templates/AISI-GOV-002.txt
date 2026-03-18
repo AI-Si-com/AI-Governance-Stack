@@ -1,0 +1,128 @@
+# AI Ethics Policy
+## Document Reference: AISI-GOV-002
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Commitment
+
+[ORG_NAME] is committed to developing, deploying, and using artificial intelligence in a manner that is ethical, responsible, and aligned with our values and obligations to employees, customers, and society. This policy establishes the ethical principles that govern all AI activities at [ORG_NAME] and sets out the processes by which ethical compliance is assessed and maintained.
+
+[CEO_NAME] and the Board endorse this policy as a statement of the organisation's fundamental approach to AI. Ethical AI is not merely a compliance requirement but a reflection of who we are as an organisation.
+
+---
+
+## 2. Scope
+
+This policy applies to all AI systems developed, procured, or used by [ORG_NAME], and to all employees, contractors, and third parties involved in AI activities on behalf of the organisation. It supplements the AI Governance Framework (AISI-GOV-001) and should be read alongside the AI Risk Management Policy (AISI-GOV-003) and the AI Acceptable Use Policy (AISI-GOV-005).
+
+---
+
+## 3. AI Ethical Principles
+
+### 3.1 Fairness
+
+[ORG_NAME] is committed to ensuring that AI systems do not perpetuate, amplify, or introduce unfair bias or discrimination. AI systems must not treat individuals unfairly on the basis of protected characteristics as defined under the Equality Act 2010, including age, disability, gender reassignment, race, religion or belief, sex, sexual orientation, marriage and civil partnership, or pregnancy and maternity.
+
+[IF AI_BIAS_TESTING_DONE == "Yes" THEN]
+[ORG_NAME] has conducted bias testing and fairness assessments on AI systems currently in use. Testing results and remediation actions are documented in the AI Risk Register maintained by [AI_INCIDENT_LEAD].
+[END IF]
+
+[IF AI_BIAS_TESTING_DONE == "No" THEN]
+[ORG_NAME] has not yet completed formal bias testing for all AI systems in use. The AI Oversight Committee has been notified, and a bias assessment programme is being established. Interim safeguards are in place as documented in the AI Risk Register. [AI_INCIDENT_LEAD] is responsible for coordinating this work.
+[END IF]
+
+### 3.2 Transparency
+
+[ORG_NAME] commits to being open about when and how AI is being used in ways that materially affect individuals. Where AI or automated decision-making is used in interactions with customers or in employment decisions, affected individuals will be informed in a manner consistent with applicable data protection legislation and ICO guidance.
+
+Internal documentation of AI systems — including their purpose, data inputs, logic, and limitations — will be maintained to a standard that enables meaningful oversight and audit.
+
+### 3.3 Accountability
+
+Clear accountability for every AI system will be established and maintained. Each AI system will have a designated System Owner accountable for its ethical performance. [AI_INCIDENT_LEAD] holds organisation-wide accountability for AI ethics compliance and must be notified of any identified ethical concern.
+
+Accountability cannot be delegated entirely to an AI system. Where AI systems influence decisions, there must be an identifiable human decision-maker who can be held responsible for the outcome.
+
+### 3.4 Privacy and Data Protection
+
+AI systems must be designed and operated in compliance with UK GDPR, the Data Protection Act 2018, and ICO guidance on AI. Where AI processes personal data, a Data Protection Impact Assessment (DPIA) must be completed prior to deployment. AI systems must apply data minimisation principles and must not process personal data beyond what is necessary for the stated purpose.
+
+The Data Protection Officer (where appointed) must be consulted on AI systems that process special category data or that are used for high-risk automated decision-making.
+
+### 3.5 Security and Robustness
+
+AI systems must be technically robust and secure. They must be tested for reliability, accuracy, and resilience before deployment and monitored throughout their operational life. Known limitations and failure modes must be documented, and appropriate controls implemented.
+
+Cybersecurity risks associated with AI systems — including adversarial attacks, data poisoning, and model extraction — must be assessed as part of the IT security review process.
+
+### 3.6 Human Oversight
+
+AI systems must be subject to meaningful human oversight, particularly where they influence decisions that affect individuals. [ORG_NAME] will not deploy AI systems that remove human oversight from high-stakes decisions without explicit approval from the AI Oversight Committee and [AI_APPROVAL_AUTHORITY].
+
+Employees must be empowered to challenge, override, or escalate AI outputs where they have genuine concerns. No employee will be penalised for exercising legitimate human oversight of an AI system.
+
+---
+
+## 4. AI Values
+
+In addition to the principles above, [ORG_NAME]'s approach to AI is guided by the following values:
+
+- **Human-centred:** AI should augment and support human capabilities, not replace human judgment in matters requiring ethical discretion
+- **Trustworthy:** We build and use AI that stakeholders can rely upon, that behaves predictably, and that does what it is intended to do
+- **Beneficial:** AI should create genuine value for customers, employees, and society — not simply optimise narrow metrics at the expense of broader wellbeing
+- **Responsible innovation:** We embrace AI's potential while remaining alert to unintended consequences and willing to pause or stop where risks are unacceptable
+
+---
+
+## 5. Ethics Review Process
+
+### 5.1 When an Ethics Review is Required
+
+An AI Ethics Review is mandatory for all Tier 1 (high-risk) AI systems and strongly recommended for Tier 2 (medium-risk) systems, as classified under the AI Governance Framework (AISI-GOV-001). Reviews must be completed before deployment and repeated following material changes to a system.
+
+### 5.2 Conducting the Review
+
+Ethics Reviews are coordinated by [AI_INCIDENT_LEAD] and involve:
+- Identification of affected stakeholders and potential impacts
+- Assessment against each ethical principle in Section 3
+- Documentation of identified risks and proposed mitigations
+- Sign-off by the AI Oversight Committee
+
+### 5.3 Outcomes
+
+A completed Ethics Review results in one of three outcomes:
+- **Approved:** The system may proceed to deployment subject to any conditions specified
+- **Approved with conditions:** Deployment may proceed once specified conditions are met
+- **Not approved:** Deployment is prohibited pending fundamental redesign or external review
+
+Ethics Review records are maintained by [AI_INCIDENT_LEAD] and are available to [COMPLIANCE_EMAIL] on request.
+
+---
+
+## 6. Whistleblowing for AI Ethics Concerns
+
+[ORG_NAME] encourages all employees to raise concerns about the ethical use of AI without fear of retaliation. AI ethics concerns — including concerns about bias, unlawful use, harmful outputs, or violations of this policy — may be reported to:
+
+- [AI_INCIDENT_LEAD] directly
+- [COMPLIANCE_EMAIL]
+- The organisation's whistleblowing channel (anonymous reporting is available)
+
+All reports will be investigated promptly and impartially. Retaliation against anyone who raises a genuine concern in good faith is a disciplinary offence.
+
+---
+
+## 7. Policy Review
+
+This policy is reviewed annually by the AI Oversight Committee and approved by [POLICY_APPROVAL_AUTHORITY]. Changes in AI technology, regulation, or organisational AI use will trigger interim reviews as appropriate.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

@@ -1,0 +1,190 @@
+# Anti-Harassment & Bullying Policy
+## Policy Reference: CORP-HR-003
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**HR Lead:** [HR_LEAD_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Statement of Commitment
+
+[ORG_NAME] is committed to providing a working environment where all individuals are treated with dignity, courtesy, and respect. Harassment and bullying in any form are unacceptable and will not be tolerated. This commitment extends to all work-related contexts, including external events, business travel, and online communications.
+
+[CEO_NAME] takes personal responsibility for setting the standard and expects every member of staff to uphold it.
+
+---
+
+## 2. Purpose and Scope
+
+This policy defines harassment and bullying, explains how to report it, and sets out how [ORG_NAME] will respond. It applies to:
+
+- All employees, workers, and contractors of [ORG_NAME]
+- Third parties including clients, suppliers, and visitors who interact with staff
+
+This policy applies to conduct that occurs during working hours, at work premises, at work-related events, and in any online or digital communications related to work.
+
+HR queries should be directed to [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 3. Definitions
+
+### 3.1 Harassment
+
+Harassment is unwanted conduct related to a relevant protected characteristic (as defined by the Equality Act 2010: age, disability, gender reassignment, race, religion or belief, sex, or sexual orientation) that has the purpose or effect of:
+
+- Violating an individual's dignity; or
+- Creating an intimidating, hostile, degrading, humiliating, or offensive environment
+
+Whether conduct constitutes harassment is assessed from the perspective of the individual affected. Intent is relevant but not determinative; conduct may be harassment even if unintentional.
+
+### 3.2 Sexual Harassment
+
+Sexual harassment is unwanted conduct of a sexual nature that has the purpose or effect described above. It includes unwanted physical contact, sexual comments or jokes, sending sexually explicit messages or images, and any conduct that creates a hostile environment based on sex. Under the Worker Protection (Amendment of Equality Act 2010) Act 2023, [ORG_NAME] has an active duty to take reasonable steps to prevent sexual harassment.
+
+### 3.3 Bullying
+
+Bullying is offensive, intimidating, malicious, or insulting behaviour that involves an abuse or misuse of power or position. It may be physical, verbal, or non-verbal. It is conduct that causes an individual to feel threatened, humiliated, undermined, or demeaned. Bullying is unacceptable whether or not it is related to a protected characteristic.
+
+### 3.4 Examples of Unacceptable Behaviour
+
+The following examples are illustrative, not exhaustive:
+
+- Unwanted physical contact or proximity
+- Derogatory or offensive comments, jokes, or nicknames
+- Displaying or circulating offensive material (including via email, messaging apps, or social media)
+- Excluding, ignoring, or isolating an individual
+- Undermining a person's work by constant unwarranted criticism
+- Spreading malicious rumours or gossip
+- Withholding information necessary for someone to do their job
+- Setting unreasonable targets or workloads with the intention of causing failure
+- Shouting, threatening, or aggressive behaviour
+
+---
+
+## 4. Third-Party Harassment
+
+[ORG_NAME] takes all reasonable steps to protect staff from harassment by third parties, including clients, customers, or contractors. Staff who experience harassment from a third party should report it in accordance with section 5 of this policy. [ORG_NAME] will take appropriate action, which may include raising the matter with the third party's organisation or ending the relationship.
+
+---
+
+## 5. Reporting Procedure
+
+### 5.1 Informal Resolution
+
+In some cases, the individual experiencing the behaviour may feel able to address it directly with the person responsible, making clear that the behaviour is unwanted and must stop. This can be done in person or in writing. Where this is not possible or appropriate, the individual should seek support.
+
+### 5.2 Seeking Informal Support
+
+Any individual who feels they are experiencing harassment or bullying is encouraged to speak confidentially with [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE]. HR can provide guidance, facilitate a managed conversation, or help identify next steps without initiating a formal process unless the individual wishes.
+
+### 5.3 Formal Complaint
+
+Where informal resolution has not resolved the matter, or where the behaviour is sufficiently serious, a formal written complaint should be submitted to [HR_LEAD_NAME] at [HR_EMAIL]. The complaint should set out:
+
+- The name of the respondent
+- A description of the behaviour complained of
+- Dates and locations of incidents
+- Names of any witnesses
+- Any supporting evidence (e.g., messages or emails)
+- The outcome sought
+
+### 5.4 Complaints Against [CEO_NAME]
+
+Where a complaint is made against [CEO_NAME], it should be submitted directly to [HR_LEAD_NAME] at [HR_EMAIL], who will determine the appropriate escalation route.
+
+---
+
+## 6. Investigation Process
+
+### 6.1 Acknowledgement
+
+HR will acknowledge receipt of a formal complaint within three working days and will appoint an investigating manager who has no prior involvement in the matter.
+
+### 6.2 Investigation
+
+The investigator will conduct a fair and thorough investigation, which will include:
+
+- Meeting with the complainant to understand the full details
+- Informing the respondent of the complaint and giving them the opportunity to respond
+- Speaking with relevant witnesses
+- Reviewing any documentary evidence
+
+Both parties will be kept informed of progress. The investigation will normally be completed within 20 working days. If this is not possible, the parties will be notified of the revised timescale.
+
+### 6.3 Confidentiality
+
+All parties are required to maintain confidentiality throughout the investigation. Information will be shared only on a need-to-know basis. Breach of confidentiality may itself constitute misconduct.
+
+### 6.4 Investigation Outcome
+
+The investigator will produce a written report with findings and recommendations. HR will review the report and determine next steps, which may include:
+
+- No further action (if the complaint is not upheld)
+- Informal resolution measures (e.g., mediation, management guidance)
+- Formal disciplinary action under CORP-HR-004
+
+---
+
+## 7. Support for Complainants
+
+[ORG_NAME] recognises that raising a complaint can be stressful. The following support is available:
+
+- HR advice and guidance: [HR_EMAIL] / [HR_PHONE]
+- The right to be accompanied at any formal meeting by a colleague or trade union representative
+- Referral to occupational health where appropriate
+
+[IF USE_ACAS_SUPPORT == "Yes" THEN]
+- ACAS (Advisory, Conciliation and Arbitration Service) provides free, impartial advice for employees: [ACAS_CONTACT]
+[END IF]
+
+Where there is any indication that continuing to work with the respondent during the investigation would be distressing or impractical, HR will consider whether temporary interim measures are appropriate (such as adjusted working arrangements). Any such measures will not be used to prejudge the outcome.
+
+---
+
+## 8. Protection from Victimisation
+
+[ORG_NAME] will not tolerate retaliation against any individual who raises a complaint in good faith, participates in an investigation as a witness, or supports a complainant. Victimisation is a serious disciplinary matter and may constitute gross misconduct.
+
+---
+
+## 9. False Complaints
+
+Whilst [ORG_NAME] encourages staff to raise genuine concerns, making a deliberately false or malicious complaint is itself misconduct and may be subject to disciplinary action.
+
+---
+
+## 10. Sanctions
+
+Confirmed acts of harassment or bullying will be addressed through the Disciplinary Procedure (CORP-HR-004). Depending on the severity, this may result in a written warning, final written warning, or dismissal. Acts of serious sexual harassment or conduct amounting to gross misconduct may result in summary dismissal.
+
+---
+
+## 11. Prevention
+
+[ORG_NAME] takes active steps to prevent harassment and bullying, including:
+
+- Providing training for all staff on acceptable behaviour and this policy
+- Providing additional training for managers on recognising and addressing inappropriate behaviour
+- Conducting regular culture and wellbeing assessments
+- Taking early, decisive action when concerns are raised
+
+---
+
+## 12. Policy Review
+
+This policy is reviewed annually by [HR_LEAD_NAME] in consultation with [CEO_NAME]. Contact [HR_EMAIL] or [HR_PHONE] with any queries.
+
+---
+
+## 13. Related Documents
+
+- CORP-HR-002: Equal Opportunities Policy
+- CORP-HR-004: Disciplinary Procedure
+- CORP-HR-005: Grievance Procedure
+- Equality Act 2010
+- Worker Protection (Amendment of Equality Act 2010) Act 2023

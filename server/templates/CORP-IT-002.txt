@@ -1,0 +1,128 @@
+# Password and Authentication Policy
+
+**Policy Reference:** CORP-IT-002
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** IT Department
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the minimum requirements for password creation, management, and multi-factor authentication (MFA) across all systems, applications, and services operated or used by [DATA_CONTROLLER_NAME]. Strong authentication is a fundamental control for protecting organisational data and systems, including [CRITICAL_SYSTEMS].
+
+This policy applies to all employees, contractors, and third parties who access organisational systems. Questions or requests for technical assistance should be directed to [IT_EMAIL].
+
+---
+
+## 2. Password Complexity Requirements
+
+All passwords created for organisational accounts must meet the following minimum complexity standards:
+
+- **Minimum length:** 14 characters for standard user accounts; 20 characters for privileged or administrator accounts.
+- **Character diversity:** Passwords must include at least three of the following character types: uppercase letters (A–Z), lowercase letters (a–z), numbers (0–9), and special characters (e.g. ! @ # $ % ^ & *).
+- **Prohibited patterns:** Passwords must not contain the account holder's name, username, email address, or any portion thereof. Passwords must not consist of dictionary words, common phrases, sequential characters (e.g. "123456", "abcdef"), or keyboard patterns (e.g. "qwerty").
+- **Previous passwords:** Users must not reuse any of their last 12 passwords.
+- **Obvious passwords:** Passwords such as "Password1", "Welcome1", or the organisation's name in any form are never acceptable.
+
+The Organisation recommends the use of a passphrase — a string of four or more unrelated words — as an approach that meets complexity requirements while being easier to remember (e.g. "Coral7-Ladder-Penguin-Frost").
+
+---
+
+## 3. Password Rotation
+
+- **Standard user accounts:** Passwords must be changed at least every **90 days**.
+- **Privileged and administrator accounts:** Passwords must be changed at least every **60 days**.
+- **Service accounts:** Passwords must be changed at least every **180 days** and whenever a member of staff with knowledge of the credential leaves or changes role.
+- **Immediate reset:** Passwords must be changed immediately if there is any reason to suspect they have been compromised, shared, or observed by an unauthorised party.
+- **New accounts:** Temporary passwords issued on account creation must be changed at first login. Temporary passwords must not be reused after the initial login.
+
+---
+
+## 4. Multi-Factor Authentication (MFA)
+
+[IF MFA_ENABLED == "Yes" THEN]
+Multi-factor authentication is **enabled and mandatory** across [DATA_CONTROLLER_NAME]'s systems. MFA requires users to verify their identity using at least two of the following factors:
+
+- **Something you know** — a password or PIN.
+- **Something you have** — an authenticator app (e.g. Microsoft Authenticator, Google Authenticator), hardware token, or SMS one-time code.
+- **Something you are** — biometric verification where supported by the device.
+
+MFA is required for:
+- All remote access to organisational systems (including VPN and cloud platforms).
+- Access to email and collaboration tools.
+- Access to systems containing personal data, financial data, or other sensitive information.
+- All privileged and administrator accounts without exception.
+- Access to [CRITICAL_SYSTEMS].
+
+Users must not approve MFA prompts they did not initiate. Unexpected MFA requests should be refused and reported immediately to [IT_EMAIL] as a potential account compromise.
+[END IF]
+
+[IF MFA_ENABLED == "No" THEN]
+Multi-factor authentication is currently being implemented. Until MFA is fully deployed, users must apply enhanced password controls and be particularly vigilant about suspected account compromise. Deployment queries should be directed to [IT_EMAIL].
+[END IF]
+
+---
+
+## 5. Password Managers
+
+The Organisation encourages and supports the use of IT-approved password manager software to generate, store, and retrieve strong, unique passwords. Using the same password across multiple systems is prohibited.
+
+- Only password managers approved by [IT_EMAIL] may be used for organisational accounts.
+- The master password for an approved password manager must comply with the complexity requirements in Section 2 and must be unique — not used for any other account.
+- Staff must not store passwords in unsecured formats such as unencrypted spreadsheets, text files, sticky notes, or browser-saved passwords on shared or unmanaged devices.
+
+---
+
+## 6. Sharing and Disclosure of Passwords
+
+Passwords are personal and must never be shared with any other person, including IT staff, managers, or external contractors. Specifically:
+
+- IT support staff will never ask for your password. If asked, refuse and report to [IT_EMAIL].
+- Passwords must not be shared verbally, by email, by instant message, or in writing.
+- If a password has been shared accidentally or compromised, change it immediately and report the incident to [IT_EMAIL].
+
+---
+
+## 7. Shared and Service Accounts
+
+Where a shared account is technically necessary (e.g. a service account or integration credential), the following controls apply:
+
+- Shared accounts must be approved and registered with [IT_EMAIL] prior to creation.
+- Access to shared account credentials is restricted to those with a documented business need.
+- All access to shared accounts must be logged.
+- Shared account passwords must be changed whenever a member of the authorised group leaves or changes role.
+- Shared accounts must not be used for general day-to-day access where individual accounts are available.
+
+---
+
+## 8. Privileged Credentials and Administrator Accounts
+
+Privileged accounts (including domain administrator, local administrator, and cloud platform administrator accounts) must:
+
+- Be used only for tasks requiring elevated privileges. Standard tasks must be performed using a standard account.
+- Be subject to MFA at all times (see Section 4).
+- Have credentials stored in an approved privileged access management (PAM) solution registered with [IT_EMAIL].
+- Be subject to session logging and periodic access review.
+- Not be used to browse the internet or read email.
+
+Data encryption settings (currently: [DATA_ENCRYPTION_AT_REST]) must be verified as active on all devices used by privileged account holders.
+
+---
+
+## 9. Default and Vendor Credentials
+
+All default manufacturer, vendor, or application passwords must be changed before any system or device is connected to the organisational network. Default credentials are publicly known and represent a critical security vulnerability. Verification that default credentials have been changed is required as part of any new system deployment and must be documented with [IT_EMAIL].
+
+---
+
+## 10. Non-Compliance
+
+Failure to comply with this policy may result in disciplinary action and may contribute to a data security breach, which the Organisation is required to report to its regulator. If you are unsure whether your current password or authentication setup meets these requirements, contact [IT_EMAIL] for assistance.
+
+---
+
+## 11. Review
+
+This policy is reviewed annually. The next scheduled review is [ANNUAL_REVIEW_DATE].

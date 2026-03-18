@@ -1,0 +1,97 @@
+# Regulatory Compliance Policy
+## Document Reference: CORP-COMP-001
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This Regulatory Compliance Policy establishes the framework by which [ORG_NAME] identifies, monitors, manages, and fulfils its obligations under all applicable laws, regulations, and regulatory guidance. Compliance is a core organisational value and a fundamental responsibility of every employee, contractor, and officer acting on behalf of [ORG_NAME].
+
+This policy applies to all employees, directors, officers, contractors, agency staff, and third parties acting under delegation from [ORG_NAME].
+
+---
+
+## 2. Regulatory Landscape
+
+[ORG_NAME] operates within a regulated environment and is subject to oversight by [PRIMARY_REGULATOR] as its primary regulatory body. The organisation additionally adheres to requirements arising from: [APPLICABLE_REGULATIONS].
+
+Legal advice and interpretation of regulatory obligations is sought from [LEGAL_COUNSEL_FIRM] as required. All significant regulatory changes identified by legal counsel must be communicated to the Compliance function within five working days of receipt.
+
+---
+
+## 3. Compliance Framework
+
+### 3.1 Governance Structure
+
+The Board of Directors holds ultimate accountability for regulatory compliance. Day-to-day compliance oversight is delegated to [POLICY_APPROVAL_AUTHORITY], who is responsible for maintaining the compliance programme, monitoring regulatory developments, and reporting material compliance matters to the Board.
+
+[CEO_NAME], as Chief Executive Officer, is responsible for ensuring that adequate resources are allocated to compliance activity and that a culture of compliance is embedded across all business functions.
+
+### 3.2 Three Lines of Defence
+
+[ORG_NAME] adopts a three-lines-of-defence model:
+
+- **First Line:** Business units own and manage compliance within their operations. Every employee is responsible for understanding and adhering to the regulatory requirements applicable to their role.
+- **Second Line:** The Compliance function provides oversight, guidance, monitoring, and reporting. Compliance team members must not be placed in positions where they are required to approve the same activities they supervise.
+- **Third Line:** Internal Audit provides independent assurance over the effectiveness of the compliance programme.
+
+---
+
+## 4. Compliance Calendar and Monitoring
+
+The Compliance function maintains a regulatory calendar that records all statutory filing deadlines, regulatory reporting obligations, renewal dates, and scheduled supervisory interactions with [PRIMARY_REGULATOR]. This calendar is reviewed and updated at least quarterly.
+
+Compliance monitoring activities, including transaction monitoring, file reviews, and thematic reviews, are conducted on a risk-based schedule approved annually by [POLICY_APPROVAL_AUTHORITY]. Monitoring findings are reported to senior management and the Board as appropriate.
+
+---
+
+## 5. Regulatory Breach Reporting
+
+### 5.1 Internal Reporting
+
+Any employee who identifies or suspects a regulatory breach must report it immediately to their line manager and to the Compliance function at [COMPLIANCE_EMAIL]. Reports must be made without delay and must not be suppressed or withheld.
+
+### 5.2 Investigation
+
+The Compliance function will assess all reported matters and classify them by severity. Material breaches will be escalated to [CEO_NAME] and [POLICY_APPROVAL_AUTHORITY] within 24 hours of identification.
+
+### 5.3 Regulatory Notification
+
+Where a regulatory breach meets the threshold for mandatory notification to [PRIMARY_REGULATOR] or any other regulator under [APPLICABLE_REGULATIONS], the Compliance function is responsible for preparing and submitting such notifications within the timeframes prescribed by applicable rules. [LEGAL_COUNSEL_FIRM] will be engaged to advise on notification obligations in all material cases.
+
+### 5.4 Record Keeping
+
+All identified breaches, near misses, investigations, and regulatory notifications must be recorded. Records must be retained for a minimum of seven years unless a longer period is required by regulation.
+
+---
+
+## 6. Training and Competence
+
+All employees must complete mandatory compliance training relevant to their role within 30 days of joining [ORG_NAME] and annually thereafter. Training records are maintained by the HR function and are subject to audit.
+
+Employees in regulated roles must meet and maintain the competency standards prescribed by [PRIMARY_REGULATOR]. Compliance with individual competency requirements is monitored by HR in conjunction with the Compliance function.
+
+Failure to complete required training within prescribed timescales will be treated as a performance matter and may also constitute a breach of regulatory requirements.
+
+---
+
+## 7. Policy Breaches
+
+Breach of this policy may result in disciplinary action up to and including dismissal. Where a breach also constitutes a regulatory infringement, the matter will be reported to [PRIMARY_REGULATOR] as required. [ORG_NAME] reserves the right to pursue civil or criminal remedies where applicable.
+
+---
+
+## 8. Policy Review
+
+This policy is reviewed annually by the Compliance function and approved by [POLICY_APPROVAL_AUTHORITY]. Material regulatory changes may require an off-cycle review. All revisions are version-controlled and communicated to all staff.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

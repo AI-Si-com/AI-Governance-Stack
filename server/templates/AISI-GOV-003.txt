@@ -1,0 +1,165 @@
+# AI Risk Management Policy
+## Document Reference: AISI-GOV-003
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**Risk Owner:** [RISK_OWNER]
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the framework for identifying, assessing, treating, monitoring, and reporting risks associated with artificial intelligence (AI) systems across [ORG_NAME]. It applies to all AI systems in use or under evaluation, including those listed in [AI_TOOLS_LIST], and to all employees, contractors, and third parties involved in AI activities.
+
+This policy supplements the AI Governance Framework (AISI-GOV-001) and the AI Ethics Policy (AISI-GOV-002) and should be read in conjunction with [ORG_NAME]'s enterprise risk management framework.
+
+---
+
+## 2. Risk Appetite for AI
+
+[ORG_NAME]'s Board-approved risk appetite is: [RISK_APPETITE].
+
+Applied to AI, this means:
+
+- [ORG_NAME] will accept AI-related risks where these are proportionate to the anticipated benefits, where adequate controls are in place, and where risks remain within appetite
+- [ORG_NAME] will not accept AI risks that compromise legal or regulatory compliance, that may cause material harm to customers or employees, or that exceed the tolerances defined in the AI Risk Register
+- High-risk AI systems presenting residual risk above appetite require explicit approval by [AI_APPROVAL_AUTHORITY] and notification to [COMPLIANCE_EMAIL]
+
+[RISK_OWNER] is responsible for maintaining alignment between AI risk management and the enterprise risk appetite statement.
+
+---
+
+## 3. AI Risk Taxonomy
+
+[ORG_NAME] uses the following taxonomy to classify AI risks:
+
+### 3.1 Algorithmic and Model Risks
+- Bias and discriminatory outputs
+- Model drift and performance degradation over time
+- Overfitting to training data leading to poor generalisation
+- Hallucination or generation of inaccurate outputs
+- Lack of explainability in model decisions
+
+### 3.2 Data Risks
+- Use of inaccurate, incomplete, or unrepresentative training data
+- Unlawful processing of personal data
+- Data quality degradation affecting model performance
+- Data poisoning attacks targeting training datasets
+
+### 3.3 Operational Risks
+- Over-reliance on AI outputs without adequate human oversight
+- Integration failures between AI systems and business processes
+- Third-party AI provider failure or service interruption
+- Shadow AI — use of unapproved AI tools introducing uncontrolled risk
+
+### 3.4 Regulatory and Legal Risks
+- Non-compliance with UK GDPR, the Data Protection Act 2018, and emerging AI regulation
+- Failure to meet sector-specific AI-related regulatory requirements
+- Intellectual property infringement through AI-generated content
+- Liability exposure arising from harmful AI outputs
+
+### 3.5 Reputational Risks
+- Public perception of unethical AI use
+- Media or regulatory scrutiny following an AI incident
+- Customer trust erosion resulting from AI-related harm
+
+### 3.6 Strategic Risks
+- AI investments failing to deliver anticipated value
+- Competitive disadvantage from delayed or inadequate AI adoption
+- Dependence on a single AI vendor or technology
+
+---
+
+## 4. Risk Assessment Methodology
+
+All AI systems are assessed using a standardised risk assessment methodology. Assessments are conducted:
+
+- Before any new AI system is approved for deployment
+- Following any material change to an existing system
+- Annually for all deployed systems
+- Following any significant incident or near miss
+
+The assessment process involves:
+
+1. **Identification:** Identify risks using the taxonomy in Section 3, stakeholder input, and review of available information about the AI system
+2. **Analysis:** Assess the likelihood and potential impact of each identified risk on a five-point scale (1 = Negligible to 5 = Critical)
+3. **Evaluation:** Calculate the inherent risk score (likelihood × impact). Assess existing controls and determine the residual risk score
+4. **Treatment:** For risks above appetite, define treatment actions (avoid, reduce, transfer, or accept) with owners and timescales
+5. **Documentation:** Record findings in the AI Risk Register
+
+Assessments are completed using the standard AI Risk Assessment template and must be reviewed by [AI_INCIDENT_LEAD] before finalisation.
+
+---
+
+## 5. AI Risk Register
+
+[ORG_NAME] maintains a centralised AI Risk Register, owned by [AI_INCIDENT_LEAD] and overseen by [RISK_OWNER]. The register records:
+
+- AI system name and risk tier classification
+- Identified risks and risk scores (inherent and residual)
+- Existing controls and their assessed effectiveness
+- Treatment actions, owners, and target completion dates
+- Current status of treatment actions
+- Date of last review
+
+The AI Risk Register is reviewed and updated at each meeting of the AI Oversight Committee and is reported to [COMPLIANCE_EMAIL] quarterly. The full register is available to [RISK_OWNER] and the AI Oversight Committee on request.
+
+[IF AI_TOOLS_IN_USE == "Yes" THEN]
+The following AI systems currently have active risk register entries: [AI_TOOLS_LIST].
+[END IF]
+
+---
+
+## 6. Monitoring
+
+AI systems are subject to ongoing risk monitoring by their designated System Owners. Monitoring activities include:
+
+- Performance and accuracy tracking against agreed benchmarks
+- Regular review of outputs for bias, errors, or unexpected behaviour
+- Review of user feedback and incident reports
+- Assessment of vendor security advisories and model updates
+
+Monitoring findings that indicate risk escalation — such as performance degradation, evidence of bias, or security vulnerabilities — must be reported immediately to [AI_INCIDENT_LEAD] and [COMPLIANCE_EMAIL].
+
+---
+
+## 7. Escalation Thresholds
+
+The following escalation thresholds apply to AI risk events:
+
+| Risk Level | Description | Escalation |
+|---|---|---|
+| Low | Residual risk within appetite; no immediate action required | Document in register; review at next scheduled assessment |
+| Medium | Residual risk approaching appetite; treatment action required | Notify [AI_INCIDENT_LEAD]; action plan required within 30 days |
+| High | Residual risk exceeds appetite; significant control enhancement required | Notify [AI_APPROVAL_AUTHORITY] and [COMPLIANCE_EMAIL] within 5 business days |
+| Critical | Risk of material harm, regulatory breach, or significant operational failure | Immediate suspension of AI system; escalate to [CEO_NAME] within 24 hours |
+
+---
+
+## 8. AI Incidents and Near Misses
+
+Any incident or near miss involving an AI system must be reported immediately to [AI_INCIDENT_LEAD] and [COMPLIANCE_EMAIL]. [AI_INCIDENT_LEAD] is responsible for leading the incident response process, which includes:
+
+- Containment and assessment of immediate harm
+- Root cause analysis
+- Communication to affected parties as required
+- Regulatory notification where applicable
+- Post-incident review and lessons-learned documentation
+- Risk register update
+
+All incidents are reviewed by the AI Oversight Committee at the next available meeting.
+
+---
+
+## 9. Policy Review
+
+This policy is reviewed annually by [RISK_OWNER] and the AI Oversight Committee, and approved by [POLICY_APPROVAL_AUTHORITY]. Material changes to the organisation's AI landscape or risk environment will trigger an interim review.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

@@ -1,0 +1,124 @@
+# Subject Access Request Procedure
+
+**Policy Reference:** CORP-DG-004
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [DPO_NAME], Data Protection Officer
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This procedure sets out how [DATA_CONTROLLER_NAME] receives, validates, processes, and responds to Subject Access Requests (SARs) submitted under Article 15 of the UK General Data Protection Regulation (UK GDPR). A SAR is a written request by an individual (the data subject) to be provided with a copy of the personal data the Organisation holds about them, together with supplementary information about how that data is used.
+
+This procedure applies to all staff involved in handling SARs, including those who receive initial requests, those who search for responsive data, and those responsible for reviewing and authorising the response. All SARs must be co-ordinated through [DPO_NAME], who can be contacted at [COMPLIANCE_EMAIL].
+
+---
+
+## 2. Who Can Submit a SAR
+
+A SAR may be submitted by:
+
+- **The data subject themselves** — any living individual about whom [DATA_CONTROLLER_NAME] holds personal data.
+- **An authorised representative** — a solicitor, agent, or other third party with demonstrable written authority to act on behalf of the data subject.
+- **A parent or guardian** — acting on behalf of a child where the child lacks capacity to exercise their own rights.
+
+Requests submitted on behalf of another person require written evidence of authorisation before the request can be actioned.
+
+---
+
+## 3. Receiving a SAR
+
+SARs may be submitted in any format — in writing, by email, verbally, or via online form. There is no prescribed wording required. Staff who receive a request that could reasonably be interpreted as a SAR must not attempt to handle it themselves; they must forward it to [COMPLIANCE_EMAIL] on the same day of receipt.
+
+Upon receipt, [DPO_NAME] will:
+
+1. Log the request in the SAR register with the date of receipt.
+2. Acknowledge receipt to the requester within three working days.
+3. Initiate identity verification (see Section 4).
+4. Begin the response process within the statutory timeframe.
+
+The Organisation does not charge a fee for responding to a SAR unless the request is manifestly unfounded or excessive, in which case a reasonable fee reflecting administrative cost may be applied.
+
+---
+
+## 4. Identity Verification
+
+Before disclosing any personal data, [DATA_CONTROLLER_NAME] must verify the identity of the requester to a reasonable degree of certainty. This protects both the data subject and the Organisation.
+
+- **For employees and former employees:** verification against HR records (e.g. name, employee number, personal email, date of birth) is sufficient.
+- **For external individuals:** the requester should provide two forms of identification — one confirming identity (e.g. passport, driving licence) and one confirming address (e.g. utility bill dated within three months).
+- **For authorised representatives:** written authority from the data subject (e.g. signed letter of authority or solicitor's engagement letter) must be provided.
+
+Where identity cannot be verified, the Organisation will not fulfil the request. The requester will be informed of what additional information is required. The response clock does not begin until identity has been confirmed.
+
+---
+
+## 5. The 30-Day Response Timeline
+
+[DATA_CONTROLLER_NAME] must respond to a SAR within **one calendar month** of the date of receipt (or from the date identity is confirmed, if later). This deadline applies even where the request is complex.
+
+Where a request is complex or involves a large volume of data, the response period may be extended by a further two calendar months. In such cases, the requester must be informed of the extension — and the reasons for it — within the original one-month period.
+
+The DPO ([DPO_NAME]) is responsible for monitoring SAR deadlines and escalating risks of non-compliance to [POLICY_APPROVAL_AUTHORITY].
+
+---
+
+## 6. Searching for Responsive Data
+
+Upon confirming identity, [DPO_NAME] will issue a data search instruction to relevant departments and IT. The search must cover:
+
+- HR and payroll systems
+- Email accounts (where personal data is likely to be held)
+- CRM, finance, and case management systems
+- Paper records in relevant filing systems
+- Archived or backup data where the subject's data is reasonably likely to be found
+
+All responsive data must be provided to [DPO_NAME] within 10 working days of the search instruction. Department heads are responsible for conducting thorough and timely searches within their areas.
+
+---
+
+## 7. Exemptions and Redactions
+
+Not all personal data found must be disclosed. The following exemptions under UK GDPR and the Data Protection Act 2018 may apply:
+
+- **Third-party data** — personal data relating to other identifiable individuals must be redacted unless those individuals have consented to disclosure or it is reasonable in the circumstances to disclose without consent.
+- **Legal professional privilege** — legally privileged communications need not be disclosed.
+- **Prevention or detection of crime** — data held for law enforcement purposes may be exempt.
+- **Management forecasts and negotiations** — data that would prejudice commercial negotiations may be withheld.
+- **Confidential references** — references given in confidence are exempt from disclosure.
+
+All redactions must be documented and the reason for each redaction recorded. Redaction decisions must be reviewed by [DPO_NAME] prior to disclosure. Where data is withheld, the requester must be informed of the categories of data withheld and the reasons, unless doing so would itself cause harm.
+
+---
+
+## 8. Response Format
+
+SAR responses must be provided:
+
+- In a concise, transparent, and intelligible format.
+- Accompanied by a covering letter setting out: the categories of personal data provided; the purposes of processing; any recipients; retention periods; and the data subject's remaining rights.
+- In electronic format where the request was made electronically, unless the requester requests otherwise.
+- Free of charge in the first instance.
+
+Responses must be reviewed and authorised by [DPO_NAME] before despatch.
+
+---
+
+## 9. Manifestly Unfounded or Excessive Requests
+
+Where [DPO_NAME] considers a SAR to be manifestly unfounded or excessive (particularly where requests are repetitive), the Organisation may either charge a reasonable fee or refuse to act. In either case, the requester must be informed within one month, with reasons. Any decision to refuse must be documented and approved by [DPO_NAME].
+
+---
+
+## 10. Escalation to [PRIMARY_REGULATOR]
+
+If a data subject is dissatisfied with the Organisation's response to their SAR, they have the right to complain to [PRIMARY_REGULATOR]. The Organisation will co-operate fully with any resulting investigation. If [PRIMARY_REGULATOR] issues an Information Notice or Enforcement Notice relating to a SAR, [DPO_NAME] must be notified immediately and legal advice sought.
+
+---
+
+## 11. Record Keeping
+
+All SARs — including those received, those refused, and the responses provided — must be recorded in the SAR register maintained by [DPO_NAME]. Records must be retained for a minimum of three years. The SAR register is reviewed as part of the annual data protection audit.

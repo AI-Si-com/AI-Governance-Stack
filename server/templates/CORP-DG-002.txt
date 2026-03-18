@@ -1,0 +1,123 @@
+# Staff Privacy Notice
+
+**Document Reference:** CORP-DG-002
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Issued By:** [DPO_NAME], Data Protection Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [CEO_NAME], Chief Executive Officer
+
+---
+
+## 1. Introduction
+
+This Privacy Notice is provided to you as an employee, worker, or contractor of [DATA_CONTROLLER_NAME] ("the Organisation") in accordance with Article 13 of the UK General Data Protection Regulation (UK GDPR). It explains what personal data we collect about you, why we collect it, how we use it, and what rights you have in relation to your data.
+
+[DATA_CONTROLLER_NAME] is the Data Controller for the personal data described in this notice. We are registered with [PRIMARY_REGULATOR] and take our obligations under data protection law seriously. If you have any questions about this notice, please contact our Data Protection Officer, [DPO_NAME], at [COMPLIANCE_EMAIL].
+
+---
+
+## 2. Categories of Personal Data We Collect
+
+During the course of your employment or engagement, we collect and process the following categories of personal data:
+
+**Identification and Contact Data:**
+Name, home address, personal email address, personal telephone number, date of birth, national insurance number, and photographic identification.
+
+**Employment and HR Data:**
+Job title, department, employment start and end dates, employment contract terms, salary, pay scale, bonus entitlements, working hours, holiday and absence records, performance appraisal records, training records, disciplinary and grievance records, references, and qualifications.
+
+**Payroll and Financial Data:**
+Bank account details, tax code, pension contributions, expense claims, and benefits information.
+
+**Health and Wellbeing Data (Special Category):**
+Sickness absence records, fit notes, occupational health reports, disability information (where provided), and details of workplace adjustments. This data is processed under Schedule 1, Part 1 of the Data Protection Act 2018 (employment, social security, and social protection).
+
+**Monitoring and IT Data:**
+System access logs, email metadata, device usage records, and building access records. Refer to the IT Acceptable Use Policy (CORP-IT-001) for further details.
+
+**Equal Opportunities Monitoring Data (Special Category):**
+Ethnic origin, gender, sexual orientation, religion or belief, and disability status, collected on a voluntary basis for equality monitoring purposes only.
+
+**Emergency Contact Data:**
+Name and contact details of next of kin or nominated emergency contacts, provided voluntarily.
+
+---
+
+## 3. Purposes and Lawful Bases for Processing
+
+| Purpose | Lawful Basis |
+|---|---|
+| Performing your employment contract (payroll, benefits, leave management) | Contract performance (Article 6(1)(b)) |
+| Complying with employment law, tax, and regulatory obligations | Legal obligation (Article 6(1)(c)) |
+| Managing performance, conduct, and grievance matters | Legitimate interests (Article 6(1)(f)) |
+| Occupational health and managing sickness absence | Legal obligation / Employment law Schedule 1 DPA 2018 |
+| Equality and diversity monitoring | Explicit consent (Article 9(2)(a)) |
+| IT system security and monitoring | Legitimate interests (Article 6(1)(f)) |
+| Emergency contact information | Vital interests / Legitimate interests |
+| Pension scheme administration | Legal obligation / Contract performance |
+
+---
+
+## 4. How We Share Your Data
+
+We may share your personal data with the following categories of third parties, only to the extent necessary and subject to appropriate contractual safeguards:
+
+- **Payroll and pension providers** — to process salary payments and pension contributions.
+- **HMRC and other government bodies** — where required by law.
+- **Occupational health providers** — where a referral is made with your knowledge.
+- **Legal advisers** — in connection with employment disputes or regulatory matters.
+- **Background screening agencies** — for pre-employment verification checks.
+- **[PRIMARY_REGULATOR]** — in response to any regulatory investigation or information request.
+
+We do not sell your personal data to third parties. We do not use your data for direct marketing.
+
+---
+
+## 5. International Transfers
+
+Where your personal data is transferred outside the UK (for example, to a cloud service provider), the Organisation ensures that appropriate safeguards are in place as required by UK GDPR. Details of any such transfers are available from [DPO_NAME] at [COMPLIANCE_EMAIL].
+
+---
+
+## 6. Retention Periods
+
+We retain your personal data for only as long as is necessary for the purposes for which it was collected, or as required by law. Key retention periods are as follows:
+
+| Data Category | Retention Period |
+|---|---|
+| Payroll and tax records | 6 years after the end of the tax year |
+| Employment contracts and personnel files | 6 years after employment ends |
+| Sickness and absence records | 3 years after employment ends |
+| Disciplinary records (formal) | 6 years after employment ends |
+| Training records | Duration of employment + 3 years |
+| Equal opportunities monitoring data | Anonymised after 1 year |
+
+Full retention schedules are maintained in the Data Retention and Disposal Policy (CORP-DG-003).
+
+---
+
+## 7. Your Rights
+
+Under UK GDPR, you have the following rights in relation to your personal data:
+
+- **Access** — to request a copy of the personal data we hold about you.
+- **Rectification** — to request correction of inaccurate data.
+- **Erasure** — to request deletion of data where there is no lawful reason for continued retention.
+- **Restriction** — to ask us to limit how we use your data in certain circumstances.
+- **Portability** — to receive your data in a portable format.
+- **Object** — to object to processing based on legitimate interests.
+
+To exercise any of these rights, please contact [DPO_NAME] at [COMPLIANCE_EMAIL]. We will respond within one calendar month. If you are not satisfied with our response, you have the right to complain to [PRIMARY_REGULATOR].
+
+---
+
+## 8. Right to Complain
+
+If you believe your data protection rights have been infringed, you may lodge a complaint with [PRIMARY_REGULATOR]. Contact details are publicly available on [PRIMARY_REGULATOR]'s website.
+
+---
+
+## 9. Changes to This Notice
+
+We may update this Privacy Notice from time to time to reflect changes in our processing activities or legal requirements. The latest version will always be available from [COMPLIANCE_EMAIL] or your line manager. The current version is effective from [POLICY_EFFECTIVE_DATE] and will be reviewed on [ANNUAL_REVIEW_DATE].

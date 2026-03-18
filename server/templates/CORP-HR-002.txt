@@ -1,0 +1,162 @@
+# Equal Opportunities Policy
+## Policy Reference: CORP-HR-002
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**HR Lead:** [HR_LEAD_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Statement of Commitment
+
+[ORG_NAME] is committed to creating a working environment in which all individuals are treated with dignity, respect, and fairness. We believe that equal opportunities benefit everyone — our people, our organisation, and the clients and communities we serve.
+
+[CEO_NAME], on behalf of [ORG_NAME], takes personal responsibility for this commitment and expects every member of staff to support it. This policy is endorsed at the highest level and its implementation is championed by [HR_LEAD_NAME] and the leadership team.
+
+---
+
+## 2. Purpose and Scope
+
+This policy sets out [ORG_NAME]'s approach to equal opportunities and diversity in employment. It applies to:
+
+- All current employees, workers, and contractors
+- Job applicants and candidates
+- Individuals engaged through agencies or on a consultancy basis
+- Volunteers
+
+It covers all aspects of the employment relationship including recruitment and selection, terms and conditions, pay, training and development, promotion, performance management, and the ending of employment.
+
+---
+
+## 3. Legal Framework
+
+This policy is designed to give effect to [ORG_NAME]'s obligations under the Equality Act 2010 and all related legislation. It should be read alongside [APPLICABLE_REGULATIONS] as applicable to [ORG_NAME]'s sector.
+
+---
+
+## 4. Protected Characteristics
+
+Under the Equality Act 2010, it is unlawful to discriminate on the grounds of any of the following protected characteristics:
+
+- **Age** – including both younger and older workers
+- **Disability** – including physical, mental, and long-term health conditions
+- **Gender reassignment** – including individuals who are proposing to, are undergoing, or have undergone gender reassignment
+- **Marriage and civil partnership** – in relation to employment decisions
+- **Pregnancy and maternity** – including during and after pregnancy and maternity leave
+- **Race** – including colour, nationality, and ethnic or national origins
+- **Religion or belief** – including lack of religion or belief
+- **Sex** – including both men and women
+- **Sexual orientation** – including heterosexual, gay, lesbian, and bisexual orientations
+
+[ORG_NAME] also extends protection to other characteristics that may place individuals at a disadvantage, including socioeconomic background and caring responsibilities, where these do not directly overlap with the protected characteristics above.
+
+---
+
+## 5. Forms of Discrimination
+
+[ORG_NAME] prohibits all forms of unlawful discrimination, including:
+
+### 5.1 Direct Discrimination
+
+Treating someone less favourably because of a protected characteristic. For example, refusing to promote a woman because of an assumption that she may take maternity leave.
+
+### 5.2 Indirect Discrimination
+
+Applying a provision, criterion, or practice that is neutral on its face but puts those sharing a protected characteristic at a particular disadvantage, unless it can be objectively justified as a proportionate means of achieving a legitimate aim.
+
+### 5.3 Harassment
+
+Unwanted conduct related to a protected characteristic that has the purpose or effect of violating an individual's dignity, or creating an intimidating, hostile, degrading, humiliating, or offensive environment. Harassment will be treated seriously and may constitute gross misconduct. See also CORP-HR-003.
+
+### 5.4 Victimisation
+
+Subjecting an individual to a detriment because they have made, or are suspected of making, a complaint under equality legislation, or because they have supported someone else who has done so.
+
+### 5.5 Discrimination Arising from Disability
+
+Treating someone unfavourably because of something arising from their disability, where this cannot be justified.
+
+### 5.6 Failure to Make Reasonable Adjustments
+
+Failing to take reasonable steps to remove a disadvantage experienced by a disabled person. [ORG_NAME] is committed to making reasonable adjustments to working arrangements, premises, and processes to support disabled employees and applicants.
+
+---
+
+## 6. Positive Action
+
+[ORG_NAME] may take positive action measures where permitted by the Equality Act 2010 to address under-representation or disadvantage relating to a protected characteristic. This may include targeted training programmes, development opportunities, and outreach activities. Positive action does not mean appointing less qualified candidates but rather taking proactive steps to ensure all groups have an equal opportunity to compete.
+
+---
+
+## 7. Responsibilities
+
+### 7.1 Senior Leadership
+
+[CEO_NAME] and the senior leadership team are accountable for embedding equal opportunities throughout [ORG_NAME]. They will ensure this policy is resourced, implemented, and reviewed.
+
+### 7.2 Managers
+
+All managers are responsible for promoting an inclusive culture within their teams, applying this policy consistently, and addressing any concerns or complaints they become aware of promptly. Managers who breach this policy or fail to act on complaints may face disciplinary action.
+
+### 7.3 All Staff
+
+Every employee has a personal responsibility to treat colleagues, clients, and others with respect. Conduct that violates this policy will be treated as misconduct. Staff are encouraged to challenge and report inappropriate behaviour, whether or not they are directly affected.
+
+---
+
+## 8. Recruitment and Promotion
+
+All decisions about recruitment, promotion, and other employment matters will be based solely on objective criteria related to the requirements of the role. [ORG_NAME]'s Recruitment & Selection Policy (CORP-HR-001) sets out the procedures that support this commitment.
+
+---
+
+## 9. Training and Development
+
+[ORG_NAME] provides equal access to training, development, and career progression opportunities for all staff, based on individual need and organisational requirement. HR monitors participation in training and development by workforce characteristics to identify and address any disparities.
+
+---
+
+## 10. Pay and Conditions
+
+[ORG_NAME] is committed to equal pay for work of equal value. Pay and terms are reviewed regularly to identify and address any unjustifiable differentials. [HR_LEAD_NAME] oversees pay equity monitoring.
+
+---
+
+## 11. Monitoring and Reporting
+
+[ORG_NAME] collects and monitors workforce data, including recruitment outcomes, pay, training participation, and disciplinary and grievance cases, broken down by protected characteristic where it is lawful and practicable to do so. This data is used to identify patterns, assess the impact of our policies, and drive improvement.
+
+Monitoring data is reviewed at least annually by [HR_LEAD_NAME] and reported to [CEO_NAME]. Significant findings are shared with the leadership team and, where appropriate, with the wider workforce. Concerns about patterns of inequality should be raised with [HR_EMAIL] or [COMPLIANCE_EMAIL].
+
+---
+
+## 12. Complaints
+
+Any employee who believes they have been subjected to discrimination, harassment, or victimisation should raise this through the Grievance Procedure (CORP-HR-005). Complainants will be treated with sensitivity, and investigations will be conducted fairly and confidentially. [ORG_NAME] will not tolerate retaliation against anyone who raises a genuine concern in good faith.
+
+Complaints may also be directed to [HR_LEAD_NAME] at [HR_EMAIL] in the first instance.
+
+---
+
+## 13. Breaches of Policy
+
+Breaches of this policy are treated seriously. Confirmed acts of discrimination, harassment, or victimisation will be dealt with through the Disciplinary Procedure (CORP-HR-004) and may constitute gross misconduct leading to dismissal.
+
+---
+
+## 14. Policy Review
+
+This policy is reviewed annually by [HR_LEAD_NAME] in consultation with [CEO_NAME]. Earlier review may be triggered by changes in legislation, case law, or organisational circumstances. Contact [HR_EMAIL] with any queries.
+
+---
+
+## 15. Related Documents
+
+- CORP-HR-001: Recruitment & Selection Policy
+- CORP-HR-003: Anti-Harassment & Bullying Policy
+- CORP-HR-004: Disciplinary Procedure
+- CORP-HR-005: Grievance Procedure
+- Equality Act 2010

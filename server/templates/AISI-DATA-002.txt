@@ -1,0 +1,131 @@
+# AI Training Data Policy
+
+**Policy Reference:** AISI-DATA-002
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Data Protection Officer:** [DPO_NAME]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy governs the sourcing, assessment, use, and protection of data used to train, fine-tune, validate, and test artificial intelligence and machine learning models operated by or on behalf of [DATA_CONTROLLER_NAME]. It applies to all AI tools and systems within scope, including [AI_TOOLS_LIST], and to all personnel and third parties involved in model development or procurement.
+
+This policy complements AISI-DATA-001 (AI Data Management Policy) and should be read alongside [DATA_CONTROLLER_NAME]'s Data Protection Policy and Intellectual Property Policy. Technical queries should be directed to [IT_EMAIL]; compliance queries to [COMPLIANCE_EMAIL].
+
+---
+
+## 2. Permissible Training Data Sources
+
+Training data used in AI systems must be sourced only from approved categories. Prior to use, each data source must be reviewed and documented in the AI Training Data Register maintained by [IT_EMAIL].
+
+### 2.1 Approved Source Categories
+
+- **First-party operational data:** Data generated through [DATA_CONTROLLER_NAME]'s own business operations, subject to purpose limitation and data minimisation requirements
+- **Publicly available datasets:** Open datasets released under appropriate licences (e.g. Creative Commons, Open Government Licence), where the terms of use explicitly permit commercial or model-training use
+- **Licensed third-party datasets:** Datasets acquired under a formal data licence agreement reviewed by [COMPLIANCE_EMAIL] and the DPO ([DPO_NAME])
+- **Synthetic data:** Artificially generated data created in accordance with Section 4 of this policy
+- **Anonymised data:** Data that has been irreversibly anonymised to the ICO standard, confirmed by [DPO_NAME]
+
+### 2.2 Prohibited Sources
+
+The following sources are prohibited without express written approval from [POLICY_APPROVAL_AUTHORITY]:
+
+- Web-scraped data where the terms of service of the source prohibit scraping or commercial use
+- Data acquired from data brokers without verified provenance and lawful basis documentation
+- Data sets that contain unlawfully obtained personal information
+- Any dataset where the intellectual property rights are unclear or disputed
+
+---
+
+## 3. Intellectual Property in Training Data
+
+[DATA_CONTROLLER_NAME] recognises that training AI models on copyrighted material raises significant intellectual property (IP) risks under UK copyright law and the Copyright, Designs and Patents Act 1988.
+
+### 3.1 IP Assessment Requirements
+
+Before any dataset is used for AI training, a formal IP assessment must be completed by [COMPLIANCE_EMAIL] covering:
+
+- The copyright status of all content within the dataset
+- Whether any applicable text and data mining (TDM) exception applies under UK law
+- The terms of any applicable licence and whether model training is an expressly permitted use
+- Whether the AI model outputs could constitute a reproduction or derivative work of copyrighted inputs
+
+### 3.2 Attribution and Licence Compliance
+
+Where datasets are used under licence:
+
+- Licence terms must be stored in the AI Training Data Register alongside the dataset record
+- Any attribution requirements must be satisfied in documentation and, where required, in deployed model outputs
+- Licence renewals and expiry dates must be tracked; use of data must cease upon licence expiry unless renewed
+
+---
+
+## 4. Synthetic Data
+
+Synthetic data may be used to supplement or replace real data in training pipelines, particularly where real data is insufficient, sensitive, or unavailable at the required scale.
+
+### 4.1 Synthetic Data Requirements
+
+- Synthetic data generation methodology must be documented, including the generative model or algorithm used
+- Synthetic datasets derived from real personal data must be assessed by [DPO_NAME] to confirm they cannot be re-identified
+- The statistical properties of synthetic data must be validated against the real-world distribution it is intended to represent before use in model training
+- Use of synthetic data does not remove the obligation to assess and document training data quality in accordance with AISI-DATA-001
+
+---
+
+## 5. Data Poisoning Risks
+
+Data poisoning — the deliberate manipulation of training data to compromise model behaviour — represents a significant AI security threat. [DATA_CONTROLLER_NAME] requires the following controls:
+
+### 5.1 Prevention Controls
+
+- All training datasets ingested from external sources must undergo integrity verification (e.g. hash validation, provenance attestation)
+- Access to training data pipelines must be restricted to authorised personnel only, with access logs maintained by [IT_EMAIL]
+- Changes to training datasets after initial ingestion must require a formal change request and approval
+
+### 5.2 Detection Controls
+
+- Training runs must include anomaly detection steps to identify unexpected shifts in data distribution
+- Model performance benchmarks must be compared against baseline metrics; significant degradation must trigger a data integrity review
+- Suspected data poisoning incidents must be reported immediately to [IT_EMAIL] and [COMPLIANCE_EMAIL] and managed under the AI Incident Response Policy (AISI-INC-001)
+
+---
+
+## 6. Third-Party Datasets
+
+Where training data is sourced from third-party providers, the following requirements apply in addition to those in Section 2:
+
+- A vendor assessment must be completed covering the provider's data collection practices, legal basis for collection, and any sub-processing arrangements
+- Contractual provisions must include: warranties of data ownership or authority to licence; indemnities against third-party IP claims; audit rights; and data breach notification obligations
+- [DATA_CONTROLLER_NAME] must receive and retain a data sheet or data card for each third-party dataset, describing its contents, provenance, known limitations, and recommended use cases
+- Third-party datasets must be re-assessed annually, or whenever the provider issues updated terms or a new version of the dataset
+
+---
+
+## 7. Training Data Versioning and Archiving
+
+- All datasets used to train or fine-tune a model must be versioned and immutably archived at the point of training
+- The version of the training dataset must be recorded in the model's technical documentation and model card
+- Archived training datasets must be retained for the life of the deployed model plus two years, to support audit, explainability, and incident investigation requirements
+- Deletion of archived training data must be approved by [DPO_NAME] and [IT_EMAIL]
+
+---
+
+## 8. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [DPO_NAME] (DPO) | IP and data protection assessment of training datasets; synthetic data sign-off |
+| [COMPLIANCE_EMAIL] | IP licence review; third-party dataset compliance |
+| IT Function ([IT_EMAIL]) | Training Data Register; technical controls; versioning and archiving |
+| AI System Owners | Day-to-day compliance; sourcing requests; data poisoning reporting |
+
+---
+
+## 9. Review
+
+This policy will be reviewed annually or following any material change to the organisation's AI training activities, applicable law, or regulatory guidance. Next scheduled review: [ANNUAL_REVIEW_DATE].

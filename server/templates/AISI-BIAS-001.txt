@@ -1,0 +1,134 @@
+# AI Bias and Fairness Policy
+
+**Policy Reference:** AISI-BIAS-001
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to the fair and ethical deployment of artificial intelligence. This policy establishes the standards, responsibilities, and processes for identifying, testing, monitoring, and remediating bias in AI systems. It applies to all AI tools and models deployed by [ORG_NAME], including [AI_TOOLS_LIST], and to all employees, contractors, and partners involved in their design, procurement, deployment, or operation.
+
+Failure to manage AI bias can result in discriminatory outcomes, regulatory sanctions, reputational harm, and erosion of trust with customers and staff. This policy reflects [ORG_NAME]'s commitment to the principles set out in the Equality Act 2010, the Human Rights Act 1998, and emerging AI governance frameworks.
+
+---
+
+## 2. Definition of AI Bias
+
+AI bias is a systematic and unjustified skew in AI outputs that produces unfair outcomes for individuals or groups. Bias may arise from the data used to train a model, the design of the model itself, or the context in which it is deployed. Bias is not always intentional; it can emerge from historical inequalities embedded in data or from incomplete representation of affected populations.
+
+---
+
+## 3. Types of AI Bias
+
+[ORG_NAME] recognises the following primary categories of AI bias:
+
+| Bias Type | Description |
+|---|---|
+| **Historical bias** | Training data reflects past discrimination or structural inequalities |
+| **Representation bias** | Certain groups are under- or over-represented in training data |
+| **Measurement bias** | Proxies or features used in the model correlate with protected characteristics |
+| **Aggregation bias** | A single model is applied to diverse groups with different underlying distributions |
+| **Deployment bias** | The model is used in a context different from the one it was trained for |
+| **Feedback loop bias** | Model outputs influence future inputs, amplifying initial biases over time |
+
+Awareness of these bias types must be included in all AI literacy training programmes (see AISI-TRAIN-001).
+
+---
+
+## 4. Bias Testing Methodology
+
+[IF AI_BIAS_TESTING_DONE == "Yes" THEN]
+[ORG_NAME] has completed initial bias testing for AI systems currently in deployment. Bias testing documentation is held by [AI_INCIDENT_LEAD] and is subject to ongoing review per the schedule in Section 6.
+[END IF]
+
+[IF AI_BIAS_TESTING_DONE == "No" THEN]
+**Action Required:** [ORG_NAME] has not yet completed bias testing for all deployed AI systems. [AI_INCIDENT_LEAD] is responsible for ensuring that bias testing is completed for all in-scope systems within 90 days of this policy's effective date ([POLICY_EFFECTIVE_DATE]).
+[END IF]
+
+### 4.1 Pre-Deployment Bias Testing
+
+Before any AI system is deployed in a live environment, the following bias testing steps must be completed:
+
+- **Demographic parity analysis:** Assess whether the model produces materially different outcome rates across protected characteristic groups (age, sex, race, disability, religion, sexual orientation, gender reassignment, pregnancy/maternity)
+- **Equalised odds testing:** Evaluate whether error rates (false positives and false negatives) are consistent across groups
+- **Counterfactual testing:** Test model sensitivity to changes in protected characteristics while holding all other variables constant
+- **Intersectionality review:** Assess outcomes for individuals with multiple protected characteristics
+- **Proxy variable audit:** Identify and document any input features that serve as proxies for protected characteristics and assess their justification
+
+All pre-deployment bias testing must be documented in a Bias Assessment Report and approved by [AI_INCIDENT_LEAD] before go-live.
+
+### 4.2 Testing Data Requirements
+
+Bias testing must use datasets that are representative of the population the model will affect in production. Where representative test data is unavailable, this limitation must be documented and a plan to obtain such data must be in place before the model is deployed in high-risk contexts.
+
+---
+
+## 5. Fairness Metrics
+
+[ORG_NAME] adopts the following fairness metrics as primary indicators of acceptable AI performance:
+
+- **Demographic parity difference:** Must not exceed 5 percentage points across protected groups without documented justification
+- **Equalised odds difference:** Must not exceed 5 percentage points in either false positive rate or false negative rate across protected groups
+- **Individual fairness score:** Similar individuals must receive similar outcomes; material divergence requires review
+- **Calibration:** Predicted probabilities must accurately reflect observed outcomes across all demographic subgroups
+
+Where a model cannot simultaneously satisfy all fairness metrics, the trade-offs must be explicitly documented, reviewed by [AI_INCIDENT_LEAD], and approved by [CEO_NAME] before deployment.
+
+---
+
+## 6. Bias Monitoring Schedule
+
+Bias does not remain static; it can emerge or worsen over time as data distributions shift or the operating context changes. The following monitoring schedule applies to all deployed AI systems:
+
+| System Risk Level | Monitoring Frequency | Responsible |
+|---|---|---|
+| High-risk (decisions affecting individuals) | Monthly | [AI_INCIDENT_LEAD] |
+| Medium-risk | Quarterly | System Owner |
+| Low-risk | Annually | System Owner |
+
+Monitoring must include re-running fairness metrics against current inference data and comparing results against the baseline established during pre-deployment testing. Any deterioration beyond accepted thresholds must trigger the remediation process in Section 7.
+
+---
+
+## 7. Remediation Process
+
+Where bias is identified — either through scheduled monitoring or incident reporting — the following remediation process applies:
+
+1. **Immediate containment:** [AI_INCIDENT_LEAD] must assess whether the model should be suspended or its outputs overridden pending investigation
+2. **Root cause analysis:** The source of bias must be identified (data, model design, deployment context, or feedback loop)
+3. **Remediation options assessment:** Options may include dataset rebalancing, model retraining, feature removal, threshold adjustment, or system decommissioning
+4. **Remediation implementation:** Changes must be subject to the AI Change Management Policy (AISI-CHANGE-001) before redeployment
+5. **Verification testing:** Bias tests must be re-run following remediation before the system is returned to production
+6. **Incident record:** All bias incidents and remediations must be recorded at [COMPLIANCE_EMAIL] and reviewed at the next governance cycle
+
+---
+
+## 8. Affected Individual Rights
+
+Where an AI system has produced a biased outcome affecting an individual, [ORG_NAME] will:
+
+- Provide a human review of the decision upon request
+- Correct any adverse decision found to have been affected by algorithmic bias
+- Consider whether a notification obligation arises under UK GDPR or sector-specific regulation
+
+---
+
+## 9. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [CEO_NAME] (CEO) | Executive accountability for AI fairness; approval of fairness trade-off decisions |
+| [AI_INCIDENT_LEAD] (AI Incident Lead) | Bias testing oversight; monitoring; remediation management |
+| [COMPLIANCE_EMAIL] | Compliance records; regulatory reporting; policy review |
+| System Owners | Day-to-day monitoring; escalation of bias concerns |
+
+---
+
+## 10. Review
+
+This policy will be reviewed annually. The next scheduled review is [ANNUAL_REVIEW_DATE]. Earlier review is required following a material bias incident, significant model change, or update to applicable law or regulatory guidance.

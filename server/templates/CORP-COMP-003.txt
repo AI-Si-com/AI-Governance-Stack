@@ -1,0 +1,95 @@
+# Modern Slavery Statement
+## Document Reference: CORP-COMP-003
+
+**Organisation:** [ORG_NAME]
+**Approved By:** [CEO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Introduction
+
+This statement is made pursuant to section 54 of the Modern Slavery Act 2015 and sets out the steps that [ORG_NAME] has taken during the financial year to ensure that modern slavery and human trafficking are not occurring in its business or supply chains.
+
+[ORG_NAME] has a zero-tolerance approach to modern slavery in all its forms. We are committed to acting ethically and with integrity in all our business relationships and to implementing and enforcing effective systems and controls to ensure that modern slavery and human trafficking do not take place anywhere in our business or supply chain.
+
+---
+
+## 2. Our Business Structure and Operations
+
+[ORG_NAME] employs approximately [EMPLOYEE_COUNT] people across its operations. The organisation is committed to full compliance with all applicable employment laws and standards, including [APPLICABLE_REGULATIONS].
+
+[ORG_NAME] operates in accordance with all UK employment legislation, including the National Minimum Wage Act 1998, the Working Time Regulations 1998, and the Employment Rights Act 1996. All employees have the right to work in the UK, and this is verified through appropriate right-to-work checks prior to employment commencement.
+
+---
+
+## 3. Our Supply Chain
+
+[ORG_NAME] works with a range of suppliers across its operations, including providers of goods, services, and technology. We recognise that supply chains can present risks of modern slavery and human trafficking, particularly where they involve labour-intensive sectors, goods manufactured in high-risk countries, or extended multi-tier supply arrangements.
+
+We require all direct suppliers to confirm their compliance with applicable modern slavery legislation. Where suppliers are based in or source goods from jurisdictions identified as higher risk by the Global Slavery Index or similar assessments, enhanced due diligence is applied.
+
+---
+
+## 4. Risk Assessment
+
+[ORG_NAME] undertakes a periodic risk assessment of its business and supply chain to identify areas of potential modern slavery risk. Risk factors considered include:
+
+- **Country risk:** Suppliers or sourcing in countries with weak labour protections or high incidence of forced labour
+- **Sector risk:** Labour-intensive sectors such as manufacturing, cleaning, catering, and agriculture
+- **Workforce risk:** Use of agency labour, migrant workers, or seasonal workers
+- **Supply chain complexity:** Multi-tier supply chains where direct oversight is limited
+
+The most recent assessment was conducted in accordance with [APPLICABLE_REGULATIONS] and identified the following areas as warranting enhanced focus: supply chains involving overseas manufacturing and third-party labour providers.
+
+---
+
+## 5. Due Diligence
+
+[ORG_NAME] takes the following due diligence steps to identify and address modern slavery risks:
+
+- **Supplier onboarding:** All new suppliers are required to complete a modern slavery questionnaire and confirm their compliance with the Modern Slavery Act 2015 or equivalent legislation in their jurisdiction
+- **Contractual protections:** Supplier contracts include anti-slavery representations, warranties, audit rights, and termination clauses
+- **Ongoing monitoring:** Existing suppliers presenting elevated risk are subject to periodic reassessment. Material concerns identified through monitoring are escalated to [COMPLIANCE_EMAIL] for review
+- **Audits:** Site audits are conducted for high-risk suppliers where resources permit. Where direct audit is not feasible, third-party audit certifications (e.g. SMETA, SA8000) are sought
+- **Incident response:** Identified incidents of modern slavery are treated as serious matters. [ORG_NAME] will take appropriate action, including suspension or termination of the supplier relationship, and will notify relevant authorities as required
+
+---
+
+## 6. Training and Awareness
+
+All employees are provided with awareness training on modern slavery on joining [ORG_NAME] and periodically thereafter. Employees in procurement, HR, and compliance roles receive enhanced training that addresses recognition of indicators of modern slavery and the appropriate escalation pathway.
+
+Concerns may be reported to [COMPLIANCE_EMAIL] or via the whistleblowing channel.
+
+---
+
+## 7. Key Performance Indicators
+
+[ORG_NAME] measures the effectiveness of its modern slavery programme using the following indicators:
+
+- Percentage of direct suppliers who have completed the modern slavery questionnaire
+- Number of modern slavery training completions
+- Number of concerns or incidents reported and investigated
+- Number of supplier audits or assessments completed
+- Number of supplier contracts updated to include modern slavery provisions
+
+Progress against these KPIs is reported annually to [POLICY_APPROVAL_AUTHORITY].
+
+---
+
+## 8. Statement Approval
+
+This statement has been approved by the Board of Directors of [ORG_NAME] and signed by:
+
+**[CEO_NAME]**
+Chief Executive Officer
+[ORG_NAME]
+
+**Date:** [POLICY_EFFECTIVE_DATE]
+
+---
+
+*This statement is published on the [ORG_NAME] website in accordance with section 54 of the Modern Slavery Act 2015.*

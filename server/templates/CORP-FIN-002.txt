@@ -1,0 +1,141 @@
+# Expense Claims Policy
+
+**Policy Reference:** CORP-FIN-002
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [HR_LEAD_NAME]
+**Finance Oversight:** [FINANCE_LEAD_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+[ORG_NAME] will reimburse employees for reasonable, legitimate expenses incurred wholly, exclusively, and necessarily in the performance of their duties. This policy sets out what expenses are eligible for reimbursement, the limits that apply, the process for claiming, and the controls in place to ensure propriety and compliance with HMRC requirements.
+
+This policy applies to all employees of [ORG_NAME], including permanent, fixed-term, and part-time staff. Board members and contractors with expense entitlements should refer to their individual terms of appointment.
+
+Employees are reminded that they are stewards of the organisation's resources. All expense claims must be honest, accurate, and represent genuine business expenditure. Fraudulent or inflated claims will be treated as a disciplinary matter in accordance with CORP-FIN-004 and may also constitute a criminal offence.
+
+---
+
+## 2. Principles
+
+- Expenses must be incurred for a genuine business purpose and not for personal benefit
+- Employees should seek the most economical means of meeting their business needs
+- Prior approval should be obtained where expenditure is significant or unusual
+- All claims must be supported by valid receipts or documentary evidence
+- Claims should be submitted promptly and in accordance with the deadlines set out in Section 6
+
+---
+
+## 3. Eligible Expenses and Approved Limits
+
+### 3.1 Business Travel
+
+**Rail Travel:** Standard class for all journeys, unless first class is demonstrably more cost-effective or the journey duration exceeds three hours and advance booking is impractical. First class requires pre-approval by [FINANCE_LEAD_NAME].
+
+**Air Travel:** Economy class for all domestic and short-haul flights. Business class is not reimbursable without written pre-approval from [CEO_NAME]. Travel should be booked in advance through the organisation's preferred booking process.
+
+**Mileage (Private Vehicle):** Reimbursed at HMRC Advisory Fuel Rates, currently 45p per mile for the first 10,000 miles and 25p per mile thereafter, reviewed annually. Employees must hold a valid driving licence and appropriate business insurance, evidence of which may be requested by [HR_LEAD_NAME].
+
+**Taxis and Ride-Hailing:** Reimbursable where public transport is not reasonably available, or where safety, time, or luggage constraints make it impractical. Receipts required for all journeys over £5.
+
+**Congestion Charges and Parking:** Reimbursable where incurred for business travel. Parking fines and penalty charges are not reimbursable under any circumstances.
+
+### 3.2 Accommodation
+
+Overnight accommodation is reimbursed at up to £150 per night (inclusive of VAT) in London and up to £100 per night elsewhere in the UK. Rates outside the UK are assessed on a case-by-case basis. Pre-approval from [FINANCE_LEAD_NAME] is required for rates exceeding these limits.
+
+### 3.3 Subsistence
+
+- **Breakfast:** Up to £8.00 (only where an overnight stay was required and breakfast is not included)
+- **Lunch:** Up to £10.00 (only where the employee cannot return to their normal place of work for lunch due to business travel)
+- **Evening Meal:** Up to £25.00 (only where required by an overnight stay away from home)
+
+Alcohol is not reimbursable as a subsistence expense. Subsistence is not claimable for meals taken at or near the employee's normal place of work.
+
+### 3.4 Business Entertainment
+
+Entertainment of clients, partners, or stakeholders must be pre-approved by [FINANCE_LEAD_NAME] and is subject to the following guidance:
+
+- Maximum per-head spend: £50 for working lunches; £75 for dinner
+- The names, roles, and organisations of all attendees must be recorded on the claim form
+- All entertainment must have a clear, documented business purpose
+
+Entertainment that could constitute a bribe under the Bribery Act 2010 is not permitted. Refer to the Code of Conduct (CORP-GOV-005) for further guidance.
+
+### 3.5 Professional Subscriptions and Training
+
+Reimbursement of professional membership fees and subscriptions is available where the membership is relevant to the employee's role and pre-approved by their line manager and [HR_LEAD_NAME]. Training costs are managed separately through the Learning and Development budget.
+
+### 3.6 Home Working Expenses
+
+Employees regularly working from home may be entitled to a home working allowance in line with HMRC guidelines. Specific arrangements are confirmed in individual employment contracts or through agreement with [HR_LEAD_NAME].
+
+---
+
+## 4. Non-Eligible Expenses
+
+The following are not reimbursable under any circumstances:
+
+- Personal toiletries, clothing, or grooming items (unless required for specific roles)
+- Alcohol purchased as a personal item (distinct from pre-approved hospitality)
+- Fines, penalties, or charges resulting from employee conduct
+- Personal subscriptions or leisure activities
+- Expenditure incurred by family members or friends not on [ORG_NAME] business
+- Purchases of personal gifts unconnected to business hospitality
+- Costs that are the responsibility of a third party, such as a conference organiser or client
+
+---
+
+## 5. Approval Process
+
+All expense claims must be approved by the employee's direct line manager before submission to the finance function. The following exceptions apply:
+
+- Claims by the CEO ([CEO_NAME]) must be approved by [FINANCE_LEAD_NAME]
+- Claims by [FINANCE_LEAD_NAME] must be approved by [CEO_NAME]
+- Claims by Board members must be approved by the Chair of the [BOARD_NAME]
+
+Approvers are responsible for verifying that claimed expenditure is legitimate, within policy limits, and properly evidenced. Approvers should not approve claims where they have a personal interest in the expenditure.
+
+---
+
+## 6. Submission Deadlines and Processing
+
+Expense claims should be submitted within 30 days of the expenditure being incurred. Claims submitted more than three months after the date of expenditure will not normally be reimbursed without the written approval of [FINANCE_LEAD_NAME].
+
+Approved claims are processed by [ORG_NAME]'s payroll and finance function through [PAYROLL_PROVIDER] and are typically reimbursed within the next available payroll run or within 10 working days for out-of-cycle payments. Reimbursements are made directly to the employee's nominated bank account.
+
+All queries regarding payment should be directed to [FINANCE_EMAIL].
+
+---
+
+## 7. Receipts and Evidence Requirements
+
+A valid receipt or invoice must be provided for all items over £5. Where a receipt is not available (for example, for road tolls or small incidentals), a written explanation must be included on the claim form. Repeated claims without receipts may be investigated.
+
+Receipts must be legible and show: the supplier name, date, description of goods or services, and total amount including VAT where applicable.
+
+---
+
+## 8. Tax Implications
+
+Expense reimbursements made in accordance with this policy are intended to be non-taxable in the hands of the employee. [FINANCE_LEAD_NAME] is responsible for ensuring that the organisation's dispensation arrangements with HMRC remain current and that any taxable benefits are reported appropriately through payroll or on form P11D.
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [HR_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| Finance Lead | [FINANCE_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [HR_LEAD_NAME] | Initial issue |

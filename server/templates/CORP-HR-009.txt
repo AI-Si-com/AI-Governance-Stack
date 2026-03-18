@@ -1,0 +1,121 @@
+# Leave Management Policy
+
+**Policy Reference:** CORP-HR-009
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HR_LEAD_NAME], HR Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contacts:** [HR_EMAIL] | [HR_PHONE]
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out [ORG_NAME]'s approach to all forms of employee leave, including annual leave, sickness absence, family-related leave, compassionate leave, and unpaid leave. It ensures compliance with the Working Time Regulations 1998, the Employment Rights Act 1996, the Maternity and Parental Leave etc. Regulations 1999, and all other applicable UK legislation.
+
+This policy applies to all employees of [ORG_NAME] on permanent or fixed-term contracts. Where relevant, it interacts with the Flexible Working Policy (CORP-HR-008) and the Sickness Absence Management Policy.
+
+All leave must be recorded in [LEAVE_MANAGEMENT_SYSTEM]. Any queries regarding leave entitlements should be directed to [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 2. Annual Leave
+
+**2.1 Entitlement**
+All full-time employees are entitled to [IF FIELD == "Enhanced" THEN] 28 days [END IF] [IF FIELD == "Statutory" THEN] 28 days [END IF] of paid annual leave per holiday year, inclusive of bank and public holidays (8 days). This equates to the statutory minimum of 5.6 weeks under the Working Time Regulations 1998.
+
+Part-time employees receive a pro-rated entitlement calculated on the basis of their contracted hours.
+
+The holiday year runs from [POLICY_EFFECTIVE_DATE] to the anniversary thereof, unless otherwise stated in the employee's contract.
+
+**2.2 Booking Annual Leave**
+All annual leave requests must be submitted in advance via [LEAVE_MANAGEMENT_SYSTEM] and approved by the employee's line manager. The required notice period is a minimum of twice the duration of the leave requested (e.g. two weeks' notice for one week of leave). Managers will endeavour to accommodate requests wherever possible, subject to operational requirements.
+
+**2.3 Carry-Over**
+Employees are expected to take their full annual leave entitlement within the holiday year. A maximum of 5 days may be carried forward into the following holiday year, subject to manager approval. Carry-over requests must be made to [HR_LEAD_NAME] at [HR_EMAIL] before the end of the holiday year. Untaken leave will not be paid out except on termination of employment.
+
+**2.4 Leave on Termination**
+On leaving [ORG_NAME], employees will receive payment for any accrued but untaken annual leave. Any leave taken in excess of accrued entitlement may be deducted from the final salary. Payroll administration is managed through [PAYROLL_PROVIDER].
+
+---
+
+## 3. Sickness Absence
+
+**3.1 Notification Procedure**
+If an employee is unable to attend work due to illness or injury, they must contact their line manager by telephone (not text or email) before their contracted start time on the first day of absence. The employee should provide an estimated return date and details of any urgent matters requiring cover. Daily contact is not required for absences of more than three days unless specifically agreed.
+
+**3.2 Certification**
+- Absences of up to seven consecutive calendar days (including weekends): the employee must complete a self-certification form upon return.
+- Absences exceeding seven consecutive calendar days: a fit note (Statement of Fitness for Work) issued by a GP or other authorised healthcare professional must be submitted to HR.
+
+**3.3 Statutory Sick Pay (SSP)**
+Employees who satisfy the qualifying conditions are entitled to Statutory Sick Pay (SSP) at the prevailing HMRC rate for up to 28 weeks. SSP is administered through [PAYROLL_PROVIDER]. Where [ORG_NAME] operates an enhanced sick pay scheme, details will be set out in the employee's contract of employment.
+
+**3.4 Return to Work**
+Following any sickness absence, a return-to-work conversation will be conducted by the line manager. This is a supportive discussion and not a disciplinary process. Notes from the conversation will be retained by HR.
+
+**3.5 Long-Term Absence**
+Where an employee has been absent for four or more consecutive weeks, HR will initiate a formal review process. This may include referral to [ORG_NAME]'s Occupational Health provider and consideration of reasonable adjustments, phased return, or, where appropriate, ill-health capability proceedings.
+
+---
+
+## 4. Maternity Leave
+
+Employees who are pregnant are entitled to up to 52 weeks of maternity leave (26 weeks ordinary maternity leave and 26 weeks additional maternity leave), regardless of length of service. Statutory Maternity Pay (SMP) is payable for up to 39 weeks to qualifying employees. Employees must notify [HR_LEAD_NAME] at [HR_EMAIL] of their pregnancy and intended leave dates at least 15 weeks before the expected week of childbirth. Pension contributions by [PENSION_PROVIDER] will continue during paid maternity leave.
+
+---
+
+## 5. Paternity Leave
+
+Eligible employees (those with 26 weeks' continuous service by the 15th week before the expected week of childbirth) are entitled to up to two weeks' paternity leave. Statutory Paternity Pay (SPP) is payable during this period to eligible employees. Notice must be given to HR at [HR_EMAIL] no later than 15 weeks before the expected due date.
+
+---
+
+## 6. Shared Parental Leave
+
+Shared Parental Leave (SPL) enables eligible parents to share up to 50 weeks of leave and up to 37 weeks of Shared Parental Pay (ShPP) following the birth or adoption of a child. Employees wishing to take SPL must notify HR at [HR_EMAIL] at least 8 weeks before the intended start of any period of SPL. Full details of eligibility, notification requirements, and pay are available from [HR_LEAD_NAME] at [HR_EMAIL]. Pension contributions by [PENSION_PROVIDER] will continue during periods of paid SPL.
+
+---
+
+## 7. Adoption Leave
+
+Employees matched with a child for adoption are entitled to adoption leave and pay on equivalent terms to maternity leave and pay, subject to the same notice and eligibility requirements. Primary adopters should notify HR at [HR_EMAIL] within 7 days of being matched.
+
+---
+
+## 8. Parental Leave (Unpaid)
+
+Employees with at least one year's continuous service and who have responsibility for a child under 18 are entitled to up to 18 weeks of unpaid parental leave per child, up to a maximum of four weeks in any one year. Requests must be submitted to [HR_LEAD_NAME] at [HR_EMAIL] at least 21 days in advance.
+
+---
+
+## 9. Compassionate Leave
+
+[ORG_NAME] recognises that employees may need time away from work following bereavement or a serious family emergency. Employees are entitled to a minimum of five days' paid compassionate leave in the event of the death of an immediate family member (spouse, civil partner, parent, child, or sibling). Additional paid or unpaid leave may be granted at the discretion of [HR_LEAD_NAME]. Requests should be made to the employee's line manager or HR at [HR_EMAIL] or [HR_PHONE] as soon as practicable.
+
+---
+
+## 10. Carer's Leave
+
+Under the Carer's Leave Act 2023, eligible employees are entitled to one week of unpaid carer's leave per year to provide or arrange care for a dependent with a long-term care need. Requests must be submitted at least three days in advance (or twice the length of leave requested, whichever is greater) to [HR_LEAD_NAME] via [LEAVE_MANAGEMENT_SYSTEM] or at [HR_EMAIL].
+
+---
+
+## 11. Unpaid Leave
+
+Requests for unpaid leave for reasons not covered elsewhere in this policy (e.g. extended travel, voluntary work) will be considered on a case-by-case basis. There is no automatic entitlement to unpaid leave. Requests must be submitted in writing to [HR_LEAD_NAME] at [HR_EMAIL] at least four weeks in advance. Approval is at the discretion of the line manager and [HR_LEAD_NAME], subject to operational requirements.
+
+---
+
+## 12. Record-Keeping and Payroll
+
+All leave taken must be recorded in [LEAVE_MANAGEMENT_SYSTEM]. HR will provide monthly leave data to [PAYROLL_PROVIDER] to ensure accurate payroll processing. Pension deductions and contributions during leave periods will be administered in accordance with [PENSION_PROVIDER]'s requirements.
+
+---
+
+## 13. Policy Review
+
+This policy will be reviewed annually by [HR_LEAD_NAME] or following any significant legislative change. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For all leave-related queries, contact [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].

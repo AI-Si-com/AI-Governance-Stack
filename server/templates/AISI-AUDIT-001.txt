@@ -1,0 +1,184 @@
+# AI Auditing and Monitoring Policy
+
+**Policy Reference:** AISI-AUDIT-001
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**IT Contact:** [IT_EMAIL]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Chief Executive:** [CEO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes [ORG_NAME]'s framework for the ongoing auditing and monitoring of artificial intelligence systems. Auditing and monitoring are essential controls for maintaining AI system integrity, detecting performance degradation, identifying bias and fairness issues, and demonstrating accountability to regulators, stakeholders, and the public.
+
+This policy applies to all AI systems in operation across [ORG_NAME] and to all personnel responsible for their governance, operation, or oversight. It complements the AI Incident Response Policy (AISI-INC-001), the AI Bias and Fairness Policy (AISI-BIAS-001), and the AI Transparency and Explainability Policy (AISI-TRANS-001).
+
+---
+
+## 2. Audit Schedule
+
+AI systems must be subject to both continuous monitoring and periodic structured audits. The audit schedule is determined by the risk classification of each system.
+
+| Risk Level | Continuous Monitoring | Periodic Internal Audit | External/Independent Audit |
+|---|---|---|---|
+| High-risk | Automated, real-time | Quarterly | Annually |
+| Medium-risk | Automated, periodic | Bi-annually | Every two years |
+| Low-risk | Periodic sampling | Annually | As required |
+
+Risk classifications are assigned at deployment and reviewed annually by [AI_INCIDENT_LEAD]. The audit calendar must be maintained by [COMPLIANCE_EMAIL] and reviewed by [CEO_NAME] on a quarterly basis.
+
+---
+
+## 3. Audit Scope
+
+Each AI audit must cover the following domains:
+
+### 3.1 Governance and Documentation
+
+- Verify that Model Cards, Algorithmic Impact Assessments (AIAs), and DPIAs are current and complete
+- Confirm that the AI system is operating within its documented scope and intended use
+- Assess compliance with this policy and related AI governance policies
+
+### 3.2 Data Quality and Lineage
+
+- Review data inputs against the requirements in AISI-DATA-001 and AISI-DATA-002
+- Verify data lineage records are complete and accurate
+- Assess compliance with data minimisation and purpose limitation principles
+
+### 3.3 Model Performance
+
+- Evaluate performance metrics against benchmarks established at deployment
+- Identify any material deterioration in accuracy, precision, recall, or other key indicators
+- Review model output samples for quality, relevance, and coherence
+
+### 3.4 Fairness and Bias
+
+- Re-run fairness metrics as specified in AISI-BIAS-001
+- Compare outcomes against prior audit baselines
+- Review any bias incidents or complaints received since the previous audit
+
+### 3.5 Security Controls
+
+- Verify that access controls to model infrastructure and training data are appropriate and enforced
+- Confirm that input validation and output sanitisation controls are operating as intended
+- Review any security incidents or attempted manipulations recorded since the previous audit
+
+### 3.6 Human Oversight
+
+- Confirm that human oversight provisions are operating as documented in AISI-HUMAN-001
+- Review a sample of override or challenge decisions to assess quality
+- Assess whether automation bias indicators are present in the review population
+
+### 3.7 Third-Party Compliance
+
+- For AI systems provided by third parties, review contractual compliance and any supplier-issued audit or assurance reports
+- Confirm that third-party AI providers have been assessed under AISI-THIRD-001
+
+---
+
+## 4. Performance Metrics and Thresholds
+
+[ORG_NAME] requires each AI system to have documented performance metrics with defined acceptable ranges. The following represents the minimum set of metrics to be tracked:
+
+| Metric Category | Examples | Review Frequency |
+|---|---|---|
+| Accuracy metrics | Accuracy, F1, AUC-ROC, RMSE | Continuous / per audit cycle |
+| Fairness metrics | Demographic parity, equalised odds (see AISI-BIAS-001) | Per audit cycle |
+| Operational metrics | Latency, throughput, error rate, uptime | Continuous |
+| Drift indicators | Data drift, concept drift, covariate shift | Continuous |
+| Output quality | Hallucination rate (LLMs), confidence calibration | Per audit cycle |
+
+Where a metric falls outside its acceptable range, the system owner must notify [AI_INCIDENT_LEAD] within 48 hours. [AI_INCIDENT_LEAD] will determine whether this constitutes an AI incident under AISI-INC-001.
+
+---
+
+## 5. Drift Detection
+
+Model drift occurs when an AI system's performance degrades over time due to changes in the underlying data distribution or operating environment. [ORG_NAME] requires:
+
+### 5.1 Data Drift Monitoring
+
+Statistical tests (e.g. Population Stability Index, Kolmogorov-Smirnov test, Jensen-Shannon divergence) must be applied to input data distributions at intervals appropriate to the system's risk level. Significant drift must be logged and reported to [AI_INCIDENT_LEAD].
+
+### 5.2 Concept Drift Monitoring
+
+Model predictions must be compared against ground truth labels on a rolling basis where ground truth is available. A material decline in prediction accuracy relative to baseline must trigger a model review and potential retraining.
+
+### 5.3 Drift Response Thresholds
+
+| Drift Severity | Response |
+|---|---|
+| Minor (within tolerance bands) | Log; monitor at increased frequency |
+| Moderate (outside tolerance, below critical) | Formal review by [AI_INCIDENT_LEAD]; consider retraining |
+| Severe (above critical threshold) | Suspend model pending investigation and retraining |
+
+---
+
+## 6. Output Monitoring
+
+Ongoing monitoring of AI outputs is required to detect quality degradation, harmful outputs, and unexpected behaviour. Output monitoring must include:
+
+- Automated sampling and quality scoring of model outputs at a frequency appropriate to volume and risk
+- Human review of a representative sample of outputs by qualified staff
+- Logging of all outputs used to support significant decisions, with sufficient context to reconstruct the decision
+- User feedback mechanisms that allow recipients of AI outputs to flag concerns directly to [AI_INCIDENT_LEAD]
+
+For generative AI systems (e.g. large language models), additional content safety monitoring must be implemented to detect toxic, harmful, or misleading outputs.
+
+---
+
+## 7. Audit Trail Requirements
+
+[ORG_NAME] requires comprehensive audit trails for all AI systems. Audit trails must capture:
+
+- All inputs and outputs processed by the system, at a level of granularity commensurate with risk
+- Identity of the user or system that invoked the AI function
+- Timestamp of all processing events
+- Version of the model at the time of each inference
+- Any human override, correction, or escalation events
+- System configuration changes
+
+Audit trail records must be:
+
+- Immutable and tamper-evident
+- Retained for a minimum of five years, or longer where required by regulation
+- Accessible to [AI_INCIDENT_LEAD], [COMPLIANCE_EMAIL], and authorised auditors upon request
+- Protected against unauthorised access or deletion
+
+Technical implementation of audit trail infrastructure is the responsibility of [IT_EMAIL].
+
+---
+
+## 8. Internal Audit Reports
+
+Following each periodic audit, [AI_INCIDENT_LEAD] must produce an Audit Report covering:
+
+- Systems audited and scope of the audit
+- Findings against each domain in Section 3
+- Risk ratings assigned to each finding
+- Recommended remediation actions with assigned owners and target dates
+- Management response
+
+Audit Reports must be submitted to [CEO_NAME] and [COMPLIANCE_EMAIL] within 15 business days of audit completion. Remediation actions must be tracked to closure through [INCIDENT_TRACKING_SYSTEM] or the organisation's governance tracking tool.
+
+---
+
+## 9. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [AI_INCIDENT_LEAD] | Audit coordination; drift monitoring oversight; audit report production |
+| [IT_EMAIL] | Audit trail infrastructure; monitoring tooling; technical audit support |
+| [COMPLIANCE_EMAIL] | Audit calendar; regulatory liaison; findings documentation |
+| [CEO_NAME] | Audit report review; remediation escalation; governance oversight |
+| System Owners | Day-to-day metric tracking; anomaly escalation; cooperation with auditors |
+
+---
+
+## 10. Review
+
+This policy will be reviewed annually, or following a significant audit finding, material change to AI systems, or update to applicable law or regulatory guidance. Next scheduled review: [ANNUAL_REVIEW_DATE].

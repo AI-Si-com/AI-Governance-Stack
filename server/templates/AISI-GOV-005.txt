@@ -1,0 +1,142 @@
+# AI Acceptable Use Policy
+## Document Reference: AISI-GOV-005
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [IT_EMAIL] | [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This AI Acceptable Use Policy sets out the standards that all users of AI systems at [ORG_NAME] must follow. It defines what constitutes permitted and prohibited use of AI tools, establishes data input restrictions, sets requirements for verifying AI outputs, and addresses intellectual property and confidentiality considerations.
+
+This policy applies to all employees, contractors, agency staff, and third parties who use AI tools while working for or on behalf of [ORG_NAME]. It applies to all AI systems approved for use by [ORG_NAME], including [AI_TOOLS_LIST].
+
+Users are reminded that only AI tools approved in accordance with the AI Procurement & Approval Policy (AISI-GOV-004) may be used for business purposes. Any questions about which tools are approved should be directed to [IT_EMAIL].
+
+---
+
+## 2. Approved AI Tools
+
+The following AI tools have been approved for use within [ORG_NAME]: [AI_TOOLS_LIST].
+
+Each approved tool is subject to specific conditions of use as documented in its approval record. Users must familiarise themselves with the approved scope and limitations of each tool before use. The approved tools list is maintained and updated by [IT_EMAIL].
+
+---
+
+## 3. Permitted Uses
+
+Approved AI tools may be used for the following purposes, subject to the restrictions and requirements set out in this policy:
+
+- Drafting, editing, and summarising internal documents and communications
+- Research assistance, information gathering, and synthesis of publicly available information
+- Coding assistance, debugging, and documentation for internal software development
+- Analysis and processing of anonymised or non-personal business data
+- Generating ideas, brainstorming, and creative ideation activities
+- Translation and language support for business communications
+- Accessibility support, such as transcription and text formatting
+
+This list is not exhaustive. Where a proposed use is not listed, users must seek guidance from [IT_EMAIL] or [COMPLIANCE_EMAIL] before proceeding.
+
+---
+
+## 4. Prohibited Uses
+
+The following uses of AI tools are prohibited at all times:
+
+### 4.1 Data and Privacy
+- Inputting personal data about customers, employees, or third parties into any AI tool without prior approval and a confirmed lawful basis under UK GDPR
+- Inputting special category personal data (health data, biometric data, financial data, etc.) into any AI tool under any circumstances unless explicitly authorised
+- Using AI to conduct surveillance, profiling, or monitoring of individuals without appropriate authorisation
+- Using AI to circumvent any data protection control or consent requirement
+
+### 4.2 Decision-Making
+[IF AI_AUTOMATED_DECISIONS == "Yes" THEN]
+- Making fully automated decisions about individuals that produce legal or similarly significant effects without human review, except where explicitly authorised and appropriate safeguards are in place as confirmed by [COMPLIANCE_EMAIL]
+[END IF]
+- Using AI outputs as the sole basis for significant business, employment, or customer-facing decisions without independent human verification
+
+### 4.3 Confidential and Proprietary Information
+- Inputting [ORG_NAME]'s confidential business information, trade secrets, financial data, or strategic plans into AI tools unless the tool has been specifically approved for that purpose
+- Inputting client or third-party confidential information without authorisation and appropriate contractual protections
+- Using AI to reverse-engineer, extract, or infer confidential information belonging to third parties
+
+### 4.4 Legal and Regulatory Non-Compliance
+- Using AI to generate content that is unlawful, defamatory, fraudulent, discriminatory, or harmful
+- Using AI to impersonate individuals or organisations, including generating deepfakes or synthetic media of real persons
+- Using AI to assist in any activity that violates applicable law, regulation, or [ORG_NAME] policy
+- Using AI to circumvent security controls, access systems without authorisation, or conduct offensive cybersecurity activities
+
+### 4.5 Academic and Professional Integrity
+- Submitting AI-generated content as one's own original work in academic, professional, or regulatory contexts without appropriate disclosure
+- Using AI to complete mandatory assessments, qualifications, or examinations on one's behalf
+- Using AI-generated analysis or recommendations in regulatory submissions without verification and attribution
+
+---
+
+## 5. Data Input Restrictions
+
+Before inputting any data into an approved AI tool, users must consider:
+
+- **Sensitivity classification:** Check the sensitivity of the data against [ORG_NAME]'s data classification policy. Confidential, restricted, or personal data requires explicit authorisation before input
+- **Vendor data use terms:** Understand how the AI vendor uses input data. Some AI tools may use inputs to train models. Users must confirm the data use terms of each approved tool with [IT_EMAIL] before inputting business data
+- **Data minimisation:** Input only the minimum data necessary to achieve the intended purpose
+- **Anonymisation:** Where possible, anonymise or pseudonymise data before inputting it into an AI tool
+
+Any uncertainty about whether data may be input into an AI tool must be resolved by contacting [IT_EMAIL] or [COMPLIANCE_EMAIL] before proceeding.
+
+---
+
+## 6. Output Verification Requirements
+
+AI-generated outputs must not be treated as inherently accurate, complete, or reliable. All users must apply appropriate verification before acting on or sharing AI outputs:
+
+- **Factual claims:** Verify independently against authoritative sources before relying on or communicating AI-generated factual assertions
+- **Legal, regulatory, or financial content:** AI outputs in these areas must be reviewed and approved by a qualified professional before use
+- **Code:** AI-generated code must be reviewed by a qualified developer for security vulnerabilities, bugs, and compliance with coding standards before deployment
+- **Customer-facing content:** AI-generated content intended for external distribution must be reviewed and approved by the appropriate manager before publication
+- **Sensitive decisions:** AI-generated analysis used in support of significant decisions must be documented, and the human decision-maker must record their independent assessment
+
+The responsibility for any action taken on the basis of an AI output rests with the individual user, not the AI system. [DATA_CONTROLLER_NAME] as data controller bears accountability for how AI is used in the processing of personal data.
+
+---
+
+## 7. Intellectual Property Considerations
+
+Users must be aware that AI-generated content may raise intellectual property (IP) concerns:
+
+- AI tools may generate content that is substantially similar to existing copyrighted works, potentially creating infringement risk. Users must not use AI-generated content commercially or publish it without a review of potential IP conflicts
+- The ownership of AI-generated content may be uncertain. Where AI is used to produce work product, users must flag this to their manager and legal counsel where IP ownership is material
+- [ORG_NAME]'s own proprietary information, code, or data must not be used to fine-tune, adapt, or train external AI models without explicit authorisation from [AI_APPROVAL_AUTHORITY]
+- Users must not input third-party copyrighted material into AI systems in a manner that would constitute infringement of that copyright
+
+Questions about AI and intellectual property should be directed to [COMPLIANCE_EMAIL].
+
+---
+
+## 8. Reporting AI Concerns and Incidents
+
+Users who observe unexpected, harmful, or concerning AI outputs or behaviours must report them to [IT_EMAIL] and [COMPLIANCE_EMAIL] as soon as practicable. This includes outputs that appear biased, inaccurate in a potentially harmful way, or that produce content that may be unlawful.
+
+Users who suspect that AI is being misused by colleagues, including use of unapproved tools (shadow AI), should report this to [IT_EMAIL] or via the whistleblowing channel. Reports may be made anonymously.
+
+---
+
+## 9. Training
+
+All employees who use approved AI tools must complete AI acceptable use training before first use and annually thereafter. Training is coordinated by [IT_EMAIL] and records are maintained by the HR function. Completion of training is a condition of access to approved AI tools.
+
+---
+
+## 10. Policy Review
+
+This policy is reviewed annually by [IT_EMAIL] and [COMPLIANCE_EMAIL] in conjunction with the AI Oversight Committee, and approved by [POLICY_APPROVAL_AUTHORITY]. Changes to the approved AI tools list may require more frequent updates.
+
+---
+
+*This document is the property of [ORG_NAME] as data controller ([DATA_CONTROLLER_NAME]). Unauthorised distribution outside the organisation is prohibited.*

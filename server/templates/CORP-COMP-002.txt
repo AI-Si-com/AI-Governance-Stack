@@ -1,0 +1,109 @@
+# Anti-Bribery & Corruption Policy
+## Document Reference: CORP-COMP-002
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to conducting all business honestly and with integrity. This policy sets out the organisation's obligations under the Bribery Act 2010 and establishes the standards expected of all persons acting on its behalf.
+
+This policy applies to all employees, directors, officers, temporary and agency staff, contractors, consultants, and any third parties acting as agents or representatives of [ORG_NAME] globally.
+
+---
+
+## 2. Definition of Bribery
+
+Bribery is the offering, promising, giving, accepting, or soliciting of any financial or other advantage with the intent to induce or reward improper performance of a function or activity, or to obtain or retain business or a business advantage. Corruption is the misuse of entrusted power for private gain.
+
+Under the Bribery Act 2010, it is a criminal offence to:
+- Offer, promise, or give a bribe to any person (active bribery)
+- Request, agree to receive, or accept a bribe (passive bribery)
+- Bribe a foreign public official
+- Fail (as a commercial organisation) to prevent bribery being carried out by an associated person
+
+[ORG_NAME] commits to maintain adequate procedures to prevent bribery in accordance with the guidance issued under the Bribery Act 2010.
+
+---
+
+## 3. Prohibited Activities
+
+The following activities are absolutely prohibited, regardless of local custom or business practice:
+
+- Offering, paying, or authorising any payment, gift, or benefit to obtain a business advantage
+- Accepting any payment, gift, or benefit in return for awarding business or exercising discretion improperly
+- Making or accepting facilitation payments (see Section 5)
+- Using a third party as a conduit for a bribe
+- Authorising others to engage in bribery on behalf of [ORG_NAME]
+- Retaliating against any employee who refuses to participate in bribery
+
+Breach of any of these prohibitions may constitute a criminal offence under the Bribery Act 2010 and will result in immediate disciplinary action up to and including dismissal.
+
+---
+
+## 4. Gifts, Hospitality & Entertainment
+
+### 4.1 Permitted Gifts and Hospitality
+
+Modest, reasonable, and proportionate gifts and hospitality may be accepted or offered where they:
+- Are permitted under applicable law
+- Are given openly and transparently
+- Do not create a sense of obligation or improper influence
+- Are not cash or cash equivalents
+- Would not embarrass [ORG_NAME] if made public
+
+### 4.2 Gifts & Hospitality Register
+
+All gifts and hospitality with a value above £25 received or offered must be recorded in the Gifts & Hospitality Register maintained by [FINANCE_LEAD_NAME] and overseen by the Compliance function at [COMPLIANCE_EMAIL]. The register records the date, nature of the gift or hospitality, estimated value, name of the giver or recipient, and the business relationship involved.
+
+The register is reviewed quarterly by [COMPLIANCE_EMAIL] and reported annually to [POLICY_APPROVAL_AUTHORITY].
+
+### 4.3 Declined Gifts
+
+Where a gift or hospitality offer is declined as contrary to this policy, employees should notify [COMPLIANCE_EMAIL] and, where possible, provide a polite written explanation to the offeror.
+
+---
+
+## 5. Facilitation Payments
+
+Facilitation payments — unofficial payments made to public officials to speed up or secure routine government actions — are prohibited regardless of jurisdiction or custom. Where an employee is solicited for a facilitation payment, they should decline politely, depart safely, and report the incident to [COMPLIANCE_EMAIL] and [CEO_NAME] as soon as practicable.
+
+In situations involving a genuine threat to personal safety, employee welfare takes precedence. Any payment made under duress must be reported immediately upon return to a safe location.
+
+---
+
+## 6. Due Diligence on Third Parties
+
+All third parties representing or acting on behalf of [ORG_NAME] — including agents, intermediaries, distributors, and joint venture partners — must be subject to appropriate anti-bribery due diligence before engagement. The level of due diligence is proportionate to the risk presented, taking into account factors such as country risk, sector risk, and the nature of the role.
+
+[FINANCE_LEAD_NAME] is responsible for maintaining a risk-based third-party screening programme. Due diligence findings must be documented. High-risk engagements require sign-off by [CEO_NAME] and review by [LEGAL_COUNSEL_FIRM].
+
+All third-party contracts must include appropriate anti-bribery representations, warranties, and termination rights.
+
+---
+
+## 7. Reporting Concerns
+
+Any person who suspects bribery or corruption must report their concern promptly to [COMPLIANCE_EMAIL] or via the organisation's whistleblowing channel. Reports may be made anonymously. [ORG_NAME] will not tolerate retaliation against anyone who raises a genuine concern in good faith.
+
+---
+
+## 8. Training
+
+All employees must complete anti-bribery training on joining and at least every two years thereafter. Staff in high-risk roles, including those involved in sales, procurement, or interaction with public officials, must receive enhanced annual training.
+
+---
+
+## 9. Policy Review
+
+This policy is reviewed annually by the Compliance function, with input from [LEGAL_COUNSEL_FIRM], and approved by [POLICY_APPROVAL_AUTHORITY]. Any significant changes to the Bribery Act 2010 or associated guidance will trigger an immediate review.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

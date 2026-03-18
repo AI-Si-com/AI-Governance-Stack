@@ -1,0 +1,160 @@
+# Financial Management Policy
+
+**Policy Reference:** CORP-FIN-001
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [FINANCE_LEAD_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+Sound financial management is fundamental to the sustainability, reputation, and effective operation of [ORG_NAME]. This policy establishes the framework within which all financial activities are conducted, ensuring that resources are managed with propriety, regularity, economy, efficiency, and effectiveness.
+
+This policy applies to all employees, Board members, and contractors who are involved in managing, authorising, or accounting for the financial resources of [ORG_NAME]. It must be read alongside the Delegation of Authority Policy (CORP-GOV-002), the Procurement & Purchasing Policy (CORP-FIN-003), and the Fraud Prevention Policy (CORP-FIN-004).
+
+Overall financial accountability rests with [FINANCE_LEAD_NAME] as Finance Lead, operating under the strategic oversight of [CEO_NAME] and the [BOARD_NAME].
+
+---
+
+## 2. Financial Governance and Oversight
+
+### 2.1 Board Responsibility
+
+The [BOARD_NAME] is ultimately responsible for the financial health of [ORG_NAME]. The [BOARD_NAME] meets [BOARD_MEETING_FREQUENCY] and at each meeting receives a financial management report covering:
+
+- Year-to-date income and expenditure against budget
+- Cash flow position and forecast
+- Significant variances and their explanations
+- Any emerging financial risks or pressures
+
+The [BOARD_NAME] approves the annual budget, the statutory accounts, and any significant unbudgeted expenditure as defined in CORP-GOV-002.
+
+### 2.2 Finance Lead Responsibilities
+
+[FINANCE_LEAD_NAME] is responsible for:
+
+- Maintaining accurate and up-to-date financial records at all times
+- Producing timely and accurate management accounts, typically within 15 working days of each month end
+- Preparing the draft annual budget for approval by the [BOARD_NAME]
+- Managing the organisation's banking arrangements and cash flow
+- Overseeing accounts payable and accounts receivable functions
+- Ensuring compliance with all relevant tax and statutory reporting obligations
+- Overseeing the preparation of statutory financial statements
+
+### 2.3 All Budget Holders
+
+Managers with delegated budget responsibility are accountable for expenditure within their area. They must:
+
+- Monitor their budget on a monthly basis
+- Promptly report significant variances or anticipated overspends to [FINANCE_LEAD_NAME]
+- Ensure all expenditure is properly authorised in accordance with CORP-GOV-002
+- Confirm that expenditure serves a legitimate organisational purpose
+
+---
+
+## 3. Financial Controls
+
+### 3.1 Segregation of Duties
+
+[ORG_NAME] operates a principle of segregation of duties to reduce the risk of error and fraud. No single individual should be solely responsible for initiating, authorising, and recording a financial transaction.
+
+At a minimum, the following controls apply:
+
+- Purchase orders must be raised by one individual and approved by a second
+- Payments must be processed by one individual and authorised by a second with appropriate delegated authority
+- New suppliers must be set up on the system by one person and verified independently before the first payment is made
+- Bank mandate changes require dual authorisation from signatories approved by the [BOARD_NAME]
+
+Where the size of [ORG_NAME] makes full segregation impractical, compensating controls — such as enhanced management review, periodic reconciliation, or independent spot checks — shall be applied and documented.
+
+### 3.2 Authorisation of Expenditure
+
+All expenditure must be authorised in accordance with the thresholds set out in the Delegation of Authority Policy (CORP-GOV-002). Payments must not be made without a valid purchase order or pre-approval, other than in defined emergency circumstances, which must be reported retrospectively to [FINANCE_LEAD_NAME].
+
+### 3.3 Bank and Cash Management
+
+[ORG_NAME] maintains its principal banking arrangements with its approved bankers. All changes to bank mandates, signatories, or account structures require the authorisation of the [BOARD_NAME] or its delegated committee.
+
+Petty cash holdings, where maintained, must not exceed £200 and must be subject to monthly reconciliation. All petty cash expenditure must be supported by a receipt.
+
+### 3.4 Income and Receipts
+
+All income received by [ORG_NAME] must be recorded promptly and in full. Responsibility for the collection, recording, and banking of income rests with [FINANCE_LEAD_NAME]. No income may be offset against expenditure without the knowledge and approval of [FINANCE_LEAD_NAME].
+
+---
+
+## 4. Financial Reporting
+
+### 4.1 Management Accounts
+
+Monthly management accounts will be produced by [FINANCE_LEAD_NAME] and circulated to [CEO_NAME] and the [EXEC_COMMITTEE_NAME] within 15 working days of the month end. Reports will include:
+
+- Income and expenditure account (actual vs. budget, year-to-date)
+- Balance sheet
+- Cash flow statement and 13-week cash flow forecast
+- Commentary on material variances
+
+### 4.2 Annual Statutory Accounts
+
+[ORG_NAME] will prepare statutory financial statements in accordance with UK Generally Accepted Accounting Practice (UK GAAP) and applicable statutory requirements. Accounts will be prepared annually and submitted to the relevant regulatory body within the statutory deadlines.
+
+[IF ORG_TYPE == "Charity" THEN]
+As a registered charity, financial statements will be prepared in accordance with the Charities SORP (FRS 102) and submitted to the Charity Commission within ten months of the financial year end.
+[END IF]
+
+### 4.3 Tax Compliance
+
+[FINANCE_LEAD_NAME] is responsible for ensuring that [ORG_NAME] meets all tax obligations, including but not limited to VAT, PAYE, Corporation Tax (or equivalent), and any sector-specific levies. All tax returns will be submitted on time and any amounts due paid by the applicable deadline.
+
+---
+
+## 5. Audit Arrangements
+
+### 5.1 External Audit
+
+[ORG_NAME] will appoint external auditors in accordance with applicable statutory requirements and good governance practice. The external auditors will conduct an annual audit of the statutory financial statements and report their findings to the [BOARD_NAME].
+
+The appointment, reappointment, and removal of external auditors is a matter reserved to the [BOARD_NAME].
+
+### 5.2 Internal Audit
+
+[IF ORG_TYPE == "Public Sector" THEN]
+An internal audit function, operating in accordance with the Public Sector Internal Audit Standards (PSIAS), will review the adequacy and effectiveness of internal controls and report to the [BOARD_NAME] on a [BOARD_MEETING_FREQUENCY] basis.
+[END IF]
+
+Where a formal internal audit function is not maintained, [FINANCE_LEAD_NAME] will commission periodic independent reviews of financial controls, at least once every two years. Findings and management responses will be reported to the [BOARD_NAME].
+
+---
+
+## 6. Asset Management
+
+[ORG_NAME] will maintain an up-to-date asset register covering all significant tangible and intangible assets. The register will record the description, location, acquisition cost, and net book value of each asset. [FINANCE_LEAD_NAME] is responsible for maintaining the register and for ensuring assets are adequately insured.
+
+Assets may only be disposed of in accordance with the Delegation of Authority Policy (CORP-GOV-002) and the relevant section of the Procurement & Purchasing Policy (CORP-FIN-003).
+
+---
+
+## 7. Policy Compliance and Breaches
+
+Any employee who becomes aware of a financial irregularity, suspected fraud, or a breach of this policy must report it immediately to [FINANCE_LEAD_NAME] or, if [FINANCE_LEAD_NAME] is implicated, directly to [CEO_NAME]. Further guidance is provided in the Fraud Prevention Policy (CORP-FIN-004) and Whistleblowing Policy (CORP-GOV-004).
+
+Queries regarding this policy should be directed to [FINANCE_EMAIL].
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [FINANCE_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| CEO | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [FINANCE_LEAD_NAME] | Initial issue |

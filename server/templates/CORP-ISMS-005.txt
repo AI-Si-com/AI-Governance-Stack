@@ -1,0 +1,176 @@
+# Business Continuity & Disaster Recovery Policy
+## Policy Reference: CORP-ISMS-005
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] depends on the continued availability of its people, systems, and information to deliver services to clients and meet its obligations. This Business Continuity and Disaster Recovery Policy establishes the framework to ensure that [ORG_NAME] can continue operating, or recover rapidly, following a significant disruption.
+
+This policy applies to all operations, staff, contractors, and third parties. It covers all critical business functions and the systems that support them, with particular focus on [CRITICAL_SYSTEMS]. Detailed response procedures are set out in the Business Continuity Plan (BCP) and the Disaster Recovery Plan (DRP), which are maintained by the IT Lead and reviewed in accordance with this policy.
+
+---
+
+## 2. Business Continuity Framework
+
+### 2.1 Objectives
+
+[ORG_NAME]'s business continuity objectives are to:
+
+- Protect the safety and welfare of staff and stakeholders
+- Maintain critical business services during and after a disruption
+- Recover full operational capability within defined timeframes
+- Meet all regulatory, contractual, and legal obligations during a disruption
+- Communicate effectively with staff, clients, and regulators during an incident
+
+### 2.2 Governance
+
+[CEO_NAME] holds executive responsibility for business continuity. The IT Lead is responsible for maintaining the technical disaster recovery capability. Each department head is responsible for maintaining their departmental continuity arrangements and ensuring these are reflected in the Business Continuity Plan.
+
+The BCP and DRP are reviewed [RISK_REVIEW_FREQUENCY] and following any invocation, material organisational change, or significant change to [CRITICAL_SYSTEMS].
+
+---
+
+## 3. Business Impact Analysis
+
+A Business Impact Analysis (BIA) is conducted at least annually to identify:
+
+- Critical business functions and the processes that underpin them
+- Interdependencies between functions, people, and systems
+- Maximum tolerable downtime for each critical function
+- Minimum resource requirements to sustain critical operations
+
+The BIA informs prioritisation within the BCP and DRP and is reviewed whenever significant organisational or technological changes occur.
+
+---
+
+## 4. Recovery Objectives
+
+Recovery time and recovery point objectives are established for each critical system and function. The following targets apply to the systems and services identified in [CRITICAL_SYSTEMS]:
+
+| Priority Tier | Recovery Time Objective (RTO) | Recovery Point Objective (RPO) |
+|---------------|-------------------------------|-------------------------------|
+| Tier 1 – Mission Critical | 4 hours | 1 hour |
+| Tier 2 – Business Critical | 24 hours | 4 hours |
+| Tier 3 – Important | 72 hours | 24 hours |
+
+Tier assignments for each system in [CRITICAL_SYSTEMS] are documented in the Disaster Recovery Plan. RTOs and RPOs are validated through testing and updated following each test or invocation.
+
+---
+
+## 5. Critical Systems Recovery
+
+### 5.1 Designated Critical Systems
+
+The following systems are designated as critical to [ORG_NAME]'s operations and are subject to enhanced continuity and recovery provisions: [CRITICAL_SYSTEMS].
+
+### 5.2 Recovery Approach
+
+Each critical system has a documented recovery procedure within the DRP, including:
+
+- Recovery owner (named individual)
+- Step-by-step restoration procedure
+- Dependencies and pre-requisites
+- Verification steps to confirm successful recovery
+- Escalation contacts
+
+Recovery procedures are stored both digitally and in physical form accessible during a major incident where IT systems may be unavailable. The IT Lead is contactable at [IT_EMAIL] for all recovery matters.
+
+---
+
+## 6. Backup and Data Recovery
+
+### 6.1 Backup Policy
+
+Data backups are performed [BACKUP_FREQUENCY] for all systems classified as Tier 1 or Tier 2. Backups are stored at [BACKUP_LOCATION].
+
+Backup procedures ensure:
+
+- All critical data and system configurations are included
+- Backups are encrypted in transit and at rest
+- Backups are stored separately from primary systems to protect against ransomware, fire, flood, and other co-located threats
+- Backup integrity is verified at least monthly through test restores
+
+### 6.2 Retention
+
+Backup retention periods are set in accordance with business, legal, and regulatory requirements. As a minimum:
+
+- Daily backups are retained for 30 days
+- Weekly backups are retained for 3 months
+- Monthly backups are retained for 12 months
+
+Retention periods for specific data types may be longer where required by regulation or contractual obligation.
+
+### 6.3 Restoration
+
+Test restores from backup are performed at least quarterly and following any significant infrastructure change. Results are documented and any failures are treated as a high-priority remediation item. Full restoration capability is validated as part of the annual DR exercise.
+
+---
+
+## 7. Invocation
+
+### 7.1 Invocation Criteria
+
+The BCP may be invoked when a disruption has occurred or is imminent that will materially impact [ORG_NAME]'s ability to operate. Scenarios include but are not limited to: major IT failure, cyber attack, loss of premises, critical staff unavailability, supply chain failure, or public health emergency.
+
+### 7.2 Invocation Authority
+
+[CEO_NAME] has authority to invoke the BCP. In the absence of [CEO_NAME], the most senior available member of the leadership team may invoke. Invocation is logged with the date, time, circumstances, and name of the person invoking.
+
+### 7.3 Communication During Invocation
+
+The preferred communication method during a continuity incident is [COMMS_METHOD]. The IT Lead will maintain an incident log throughout. Staff will be kept informed via [COMMS_METHOD] throughout the incident.
+
+---
+
+## 8. Crisis Communications
+
+[CEO_NAME] is responsible for approving all external communications during a business continuity incident, including communications to clients, regulators, and the media. A communications log is maintained throughout. Template statements for common scenarios are held within the BCP.
+
+---
+
+## 9. Supplier and Third-Party Continuity
+
+Key suppliers are assessed for their own business continuity arrangements as part of supplier due diligence. Contracts with critical suppliers include continuity and recovery obligations. Alternatives for critical single-source suppliers are identified and documented in the BCP.
+
+---
+
+## 10. Testing and Exercising
+
+The BCP and DRP are tested in accordance with the following schedule:
+
+| Exercise Type | Frequency | Owner |
+|---------------|-----------|-------|
+| Desktop walkthrough exercise | Every 6 months | IT Lead |
+| Technical DR restore test | Quarterly | IT Lead |
+| Full invocation exercise | Annually | [CEO_NAME] |
+
+Test results are documented, including any gaps identified. All gaps are assigned owners and tracked to resolution. Testing outcomes are reported to [CEO_NAME] and the Information Security Committee.
+
+---
+
+## 11. Awareness and Training
+
+All staff receive business continuity awareness training during induction. Staff with specific BCP roles receive role-specific training and participate in exercises. The BCP is accessible to all staff via [COMMS_METHOD].
+
+---
+
+## 12. Policy Review
+
+This policy is reviewed [RISK_REVIEW_FREQUENCY] by the IT Lead and approved by [CEO_NAME]. Contact [IT_EMAIL] with any queries.
+
+---
+
+## 13. Related Documents
+
+- CORP-ISMS-001: Information Security Management Policy
+- CORP-ISMS-004: Security Incident Response Policy
+- Business Continuity Plan (BCP) – Internal Document
+- Disaster Recovery Plan (DRP) – Internal Document
+- ISO 22301:2019 (Business Continuity Management)

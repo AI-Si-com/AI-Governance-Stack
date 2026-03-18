@@ -1,0 +1,140 @@
+# Data Breach Response Policy
+
+**Policy Reference:** CORP-DG-005
+**Data Controller:** [DATA_CONTROLLER_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [DPO_NAME], Data Protection Officer
+**Approved By:** [CEO_NAME], Chief Executive Officer
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes the process [DATA_CONTROLLER_NAME] will follow when a personal data breach is suspected or confirmed. It is designed to meet the requirements of Articles 33 and 34 of the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018, which impose mandatory notification obligations on Data Controllers.
+
+This policy applies to all employees, contractors, system administrators, and any third party processing data on behalf of [DATA_CONTROLLER_NAME]. Every individual covered by this policy has a personal obligation to report suspected breaches without delay.
+
+---
+
+## 2. What Constitutes a Personal Data Breach
+
+A personal data breach is any security incident leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data. Examples include:
+
+- An email containing personal data sent to the wrong recipient.
+- A laptop or USB device containing unencrypted personal data being lost or stolen.
+- Unauthorised access to a system holding personal data.
+- Ransomware or malware affecting systems that process personal data.
+- A paper file containing personal data being left in a public place.
+- Accidental deletion of personal data without the ability to recover it.
+- A third-party processor suffering a breach affecting data provided by [DATA_CONTROLLER_NAME].
+
+Not every security incident constitutes a notifiable personal data breach. However, all suspected incidents must be reported and assessed.
+
+---
+
+## 3. Reporting a Breach — All Staff
+
+Any member of staff who discovers or suspects a personal data breach must report it **immediately** — and in any event within **2 hours** of discovery — to:
+
+- **Data Protection Officer:** [DPO_NAME] at [COMPLIANCE_EMAIL]
+- **IT Security:** [IT_EMAIL]
+
+Reports must include as much detail as possible: what happened, when, what data may be affected, how many individuals may be involved, and what immediate steps have been taken.
+
+Reports must be logged in [INCIDENT_TRACKING_SYSTEM]. All staff are required to co-operate fully with any subsequent investigation.
+
+---
+
+## 4. Breach Assessment and Triage
+
+Upon receiving a breach report, [DPO_NAME] will convene a Breach Response Team comprising, as appropriate:
+
+- Data Protection Officer ([DPO_NAME])
+- IT Security Lead
+- Relevant Department Head
+- Legal Adviser (if required)
+- [CEO_NAME] (for high-severity incidents)
+
+The Breach Response Team will conduct an initial triage assessment to determine:
+
+1. Whether a personal data breach has occurred (or is reasonably suspected).
+2. The nature, scope, and severity of the breach.
+3. The categories and approximate number of data subjects affected.
+4. The categories and approximate volume of personal data records affected.
+5. The likely consequences for affected individuals.
+6. Whether the breach is likely to result in a risk to individuals' rights and freedoms.
+
+Severity levels are assessed as: **Low** (minimal risk, no notification required), **Medium** (risk to rights and freedoms, [PRIMARY_REGULATOR] notification required), or **High** (high risk, individual notification also required).
+
+---
+
+## 5. Containment and Recovery
+
+In parallel with the assessment process, immediate containment steps must be taken to prevent further data loss or damage. These may include:
+
+- Isolating affected systems from the network (co-ordinated through [IT_EMAIL]).
+- Revoking or resetting compromised access credentials.
+- Recovering or retrieving misdirected data.
+- Notifying third parties who may hold affected data.
+- Preserving forensic evidence for investigation.
+
+Containment actions must be documented in [INCIDENT_TRACKING_SYSTEM] as they are taken.
+
+---
+
+## 6. Regulatory Notification — The 72-Hour Obligation
+
+Where a breach is likely to result in a risk to the rights and freedoms of natural persons, [DATA_CONTROLLER_NAME] is required to notify [PRIMARY_REGULATOR] **within 72 hours** of becoming aware of the breach, in accordance with Article 33 UK GDPR.
+
+The 72-hour clock starts from the point at which the Organisation has a reasonable degree of certainty that a breach has occurred. The initial report to [DPO_NAME] starts this clock.
+
+[DPO_NAME] is responsible for preparing and submitting the regulatory notification. The notification will include:
+
+- A description of the nature of the breach.
+- Categories and approximate number of data subjects concerned.
+- Categories and approximate number of records concerned.
+- Name and contact details of [DPO_NAME].
+- Likely consequences of the breach.
+- Measures taken or proposed to address the breach.
+
+Where full information is not available within 72 hours, an initial notification will be submitted and supplemented as further information becomes available. [CEO_NAME] must be informed before any notification is submitted to [PRIMARY_REGULATOR].
+
+Where the breach is unlikely to result in a risk to rights and freedoms, formal notification is not required. However, the breach must still be documented in the internal breach register maintained in [INCIDENT_TRACKING_SYSTEM].
+
+---
+
+## 7. Notification to Affected Individuals
+
+Where a breach is likely to result in a **high risk** to the rights and freedoms of affected individuals, [DATA_CONTROLLER_NAME] must notify those individuals **without undue delay** under Article 34 UK GDPR. Notification to individuals is not required if:
+
+- Appropriate technical measures (e.g., encryption) have rendered the data unintelligible.
+- Subsequent measures have been taken to ensure the high risk is no longer likely to materialise.
+- Notification would involve a disproportionate effort, in which case a public communication may be used instead.
+
+Notifications to individuals will be drafted by [DPO_NAME], reviewed by [CEO_NAME], and must clearly describe: the nature of the breach; the name and contact details of the DPO; likely consequences; and measures taken or proposed. Notifications are sent via [COMPLIANCE_EMAIL] or by post where email is not available.
+
+---
+
+## 8. Root Cause Analysis and Lessons Learned
+
+Following containment and notification, [DPO_NAME] will lead a post-incident review within 14 days of the breach being resolved. The review will identify:
+
+- Root cause of the breach.
+- Whether existing policies, controls, or training were adequate.
+- Remedial actions required to prevent recurrence.
+- Whether any third-party processors require additional oversight.
+
+A root cause analysis report will be prepared and reviewed by [POLICY_APPROVAL_AUTHORITY]. Actions arising will be tracked in [INCIDENT_TRACKING_SYSTEM].
+
+---
+
+## 9. Internal Breach Register
+
+[DATA_CONTROLLER_NAME] maintains an internal breach register as required by Article 33(5) UK GDPR, regardless of whether regulatory notification was required. The register is maintained in [INCIDENT_TRACKING_SYSTEM] by [DPO_NAME] and records all suspected and confirmed breaches, assessment outcomes, notification decisions, and remediation actions. The register is available for inspection by [PRIMARY_REGULATOR] upon request.
+
+---
+
+## 10. Training and Awareness
+
+All staff must complete data breach awareness training as part of induction and annually thereafter. Staff must know how to recognise a breach and report it immediately to [COMPLIANCE_EMAIL] and [IT_EMAIL]. Failure to report a known or suspected breach promptly may constitute a disciplinary matter.

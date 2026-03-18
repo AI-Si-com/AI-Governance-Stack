@@ -1,0 +1,171 @@
+# AI Staff Training and Awareness Policy
+
+**Policy Reference:** AISI-TRAIN-001
+**HR Lead:** [HR_LEAD_NAME]
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**HR Contact:** [HR_EMAIL]
+**Chief Executive:** [CEO_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy establishes [ORG_NAME]'s requirements for training and awareness programmes relating to artificial intelligence. As AI becomes increasingly embedded in organisational processes and decision-making, it is essential that all employees have the knowledge and skills needed to use AI responsibly, recognise AI-related risks, and fulfil their obligations under [ORG_NAME]'s AI governance framework.
+
+This policy applies to all [EMPLOYEE_COUNT] employees, contractors, and agency workers at [ORG_NAME]. Specific requirements are differentiated by role, with enhanced training obligations for those in departments where AI is actively used: [DEPARTMENTS_LIST]. It applies to new starters, existing staff, and those transitioning into new roles involving AI.
+
+Responsibility for implementing this policy rests with [HR_LEAD_NAME] (HR) and [AI_INCIDENT_LEAD] (AI Incident Lead), with operational coordination through [HR_EMAIL].
+
+---
+
+## 2. Mandatory AI Literacy Training (All Staff)
+
+All employees must complete a baseline AI literacy training programme within 30 days of joining [ORG_NAME] and annually thereafter. This training is mandatory for all staff regardless of whether they directly use AI tools.
+
+### 2.1 Core AI Literacy Programme — Learning Objectives
+
+By completing the core programme, all employees will be able to:
+
+- Describe what AI and machine learning are in plain terms and how they differ from conventional software
+- Identify the AI tools in use at [ORG_NAME] and understand their intended purposes
+- Recognise situations where AI outputs should be treated with caution or verified
+- Understand [ORG_NAME]'s AI governance policies and their personal responsibilities under them
+- Know how to report an AI-related concern or incident
+- Understand the basics of data protection as it applies to AI processing, including the use of personal data in AI systems
+- Recognise AI-generated content and understand the risks of presenting it without review or disclosure
+
+### 2.2 Core Programme Format and Duration
+
+- Minimum duration: 2 hours (may be delivered as e-learning, instructor-led, or blended)
+- Must include a knowledge assessment with a pass mark of at least 80%
+- Must be refreshed annually; staff who have not completed the annual refresh may not operate AI tools beyond basic use
+
+---
+
+## 3. Role-Specific Training
+
+In addition to the core programme, employees in specific roles must complete enhanced training tailored to their responsibilities.
+
+### 3.1 AI Operators and End Users
+
+Employees who use AI tools as part of their day-to-day role within [DEPARTMENTS_LIST] must complete:
+
+- **Tool-specific onboarding training** for each AI system they are authorised to use, covering its purpose, inputs, outputs, limitations, and safe use guidelines
+- **Practical exercises** demonstrating appropriate and inappropriate uses of the tool
+- **Quality review skills** — how to assess, verify, and where necessary override AI outputs in their domain
+- Training specific to their department must be designed and maintained jointly by [HR_LEAD_NAME] and the relevant department head
+
+### 3.2 AI Decision Reviewers
+
+Employees who review or rely on AI outputs to inform significant decisions (see AISI-HUMAN-001) must complete:
+
+- **Automation bias awareness training** — understanding the psychological risks of over-reliance on AI
+- **Critical review techniques** — structured methodologies for evaluating AI recommendations independently
+- **Domain-specific AI risk training** relevant to their area (e.g. HR AI tools in recruitment, credit models in financial services, clinical AI in health settings)
+- Minimum duration: 4 hours, refreshed annually
+
+### 3.3 AI System Owners and Technical Staff
+
+Employees responsible for configuring, maintaining, or overseeing AI systems must complete:
+
+- All core and operator training
+- Technical AI governance training covering [ORG_NAME]'s full AISI policy suite
+- AI bias detection and testing methodologies (see AISI-BIAS-001)
+- Data management and lineage requirements for AI (see AISI-DATA-001 and AISI-DATA-002)
+- AI incident identification and response (see AISI-INC-001)
+- Minimum duration: 8 hours, refreshed annually, with additional updates when material policy changes occur
+
+### 3.4 AI Governance Leads and Senior Management
+
+[AI_INCIDENT_LEAD], members of the senior leadership team, and those with specific AI governance responsibilities must complete:
+
+- Senior leadership AI governance training covering ethical AI, accountability, regulatory developments, and the organisation's AI risk appetite
+- Training on the UK AI governance framework and applicable regulatory expectations
+- Minimum duration: 4 hours per year, including at least 2 hours from an external provider to ensure exposure to independent perspectives
+
+---
+
+## 4. Training Frequency
+
+| Training Programme | Initial | Refresh |
+|---|---|---|
+| Core AI literacy (all staff) | Within 30 days of joining | Annually |
+| Tool-specific onboarding | Before first use of each tool | Upon material tool changes |
+| Automation bias awareness (reviewers) | Before undertaking review role | Annually |
+| Technical AI governance (system owners) | Within 60 days of appointment | Annually + ad hoc |
+| Senior leadership AI governance | Within 60 days of appointment | Annually |
+| Emerging risks briefings (all staff) | As issued | Per briefing |
+
+---
+
+## 5. Competency Assessment
+
+Training completion is a necessary but not sufficient measure of competence. [HR_LEAD_NAME] and [AI_INCIDENT_LEAD] must ensure that:
+
+- All mandatory training programmes include a formal assessment at completion
+- Pass marks must be achieved before the employee is permitted to proceed to the relevant AI activity
+- Employees who fail an assessment must be given one additional attempt following remedial support; persistent failure must be escalated to the relevant line manager and [HR_EMAIL]
+- For AI decision reviewers and system owners, competency must be re-assessed annually or following a relevant incident
+
+Competency assessment records must be maintained by [HR_EMAIL] alongside training completion records.
+
+---
+
+## 6. Training Records
+
+[ORG_NAME] is required to maintain accurate training records to demonstrate compliance with this policy and with applicable regulatory expectations. Training records must:
+
+- Record each employee's completion of each mandatory programme, including date, method of delivery, and assessment outcome
+- Be maintained for the duration of employment plus three years
+- Be accessible to [HR_LEAD_NAME], [AI_INCIDENT_LEAD], and authorised auditors upon request
+- Be reported to [CEO_NAME] quarterly, showing completion rates across [DEPARTMENTS_LIST]
+
+Employees who are overdue for mandatory refresher training must be notified by [HR_EMAIL] and given a maximum of 30 days to complete the outstanding training before their access to AI systems is restricted.
+
+---
+
+## 7. Emerging Risks Awareness
+
+The AI landscape evolves rapidly, and new risks — including adversarial attacks, hallucination in large language models, deepfake content, and novel regulatory requirements — emerge regularly. [ORG_NAME] will issue timely awareness communications to all staff as significant new risks are identified.
+
+[AI_INCIDENT_LEAD] is responsible for:
+
+- Monitoring AI risk developments from the AI Safety Institute, ICO, NCSC, and other relevant bodies
+- Issuing briefings to all relevant staff within 10 business days of a significant development
+- Determining whether emerging risks require an immediate update to training content
+
+[HR_LEAD_NAME] will ensure that awareness communications are distributed effectively across all departments and that receipt is confirmed where appropriate.
+
+---
+
+## 8. Induction for New Starters
+
+All new starters must complete the core AI literacy programme as part of their induction before being granted access to any AI tools. [HR_LEAD_NAME] is responsible for ensuring AI training is embedded in the standard induction programme for all new joiners. Role-specific training must commence within 60 days of the employee taking up their substantive role.
+
+---
+
+## 9. Contractors and Third Parties
+
+Contractors, agency workers, and third parties who access [ORG_NAME]'s AI systems or data must confirm completion of equivalent AI governance training with their own employer, or complete [ORG_NAME]'s core programme, before access is granted. Compliance is the responsibility of the engaging manager, with oversight from [HR_EMAIL].
+
+---
+
+## 10. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [HR_LEAD_NAME] (HR Lead) | Training programme design; records management; induction integration; overdue notifications |
+| [AI_INCIDENT_LEAD] | Technical content; emerging risk briefings; competency standards |
+| [CEO_NAME] | Executive accountability; training completion oversight |
+| [HR_EMAIL] | Operational coordination; record maintenance; reminder communications |
+| Department Heads ([DEPARTMENTS_LIST]) | Ensuring team completion; role-specific training participation |
+| Line Managers | Monitoring team completion; supporting individuals requiring remediation |
+
+---
+
+## 11. Review
+
+This policy will be reviewed annually, or following a significant training gap identified through an audit or incident, a material change to [ORG_NAME]'s AI systems, or a significant regulatory development. Next scheduled review: [ANNUAL_REVIEW_DATE].

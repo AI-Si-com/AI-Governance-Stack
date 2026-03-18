@@ -1,0 +1,133 @@
+# Remote Working Security Policy
+
+**Policy Reference:** CORP-IT-003
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** IT Department
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out the security requirements that apply when employees, contractors, and other authorised users access [DATA_CONTROLLER_NAME]'s systems, data, and networks from locations outside the Organisation's premises. This includes working from home, travelling, working from client sites, or accessing organisational systems from any location other than an approved office.
+
+Remote working introduces security risks that do not exist in a controlled office environment. This policy mitigates those risks and ensures that the same standards of data protection and IT security apply regardless of where work takes place.
+
+All queries about remote working security should be directed to [IT_EMAIL].
+
+---
+
+## 2. Authorisation
+
+Remote working must be authorised by the employee's line manager. Access to organisational systems remotely is conditional on compliance with this policy. The Organisation reserves the right to withdraw remote access at any time if this policy is not observed.
+
+---
+
+## 3. Approved Devices
+
+Remote access to organisational systems must be carried out only from devices that have been approved and configured by [IT_EMAIL]. This includes:
+
+- Organisation-issued laptops, tablets, or mobile phones that have been enrolled in the Organisation's device management system.
+- Personal devices enrolled under the BYOD Policy (CORP-IT-004), where explicitly approved.
+
+Using non-enrolled personal devices to access organisational systems, email, or data is not permitted unless expressly authorised by [IT_EMAIL] in writing.
+
+---
+
+## 4. Device Encryption
+
+All devices used for remote working must have full-disk encryption enabled. The current encryption standard applied to all managed devices is [DATA_ENCRYPTION_AT_REST].
+
+- Encryption must not be disabled under any circumstances.
+- Users must not attempt to override or bypass device encryption.
+- If a device is not encrypted or encryption is suspected to have failed, it must not be used to access organisational systems. Report the issue to [IT_EMAIL] immediately.
+
+---
+
+## 5. VPN and Secure Connectivity
+
+All remote access to internal organisational systems — including file servers, internal applications, databases, and back-office platforms — must be conducted via the Organisation's approved Virtual Private Network (VPN).
+
+- The VPN must be connected before accessing any internal system or data.
+- Users must not attempt to circumvent the VPN or access systems via unsecured direct connections.
+- VPN credentials must comply with the Password and Authentication Policy (CORP-IT-002) and are subject to MFA requirements.
+- [IF MFA_ENABLED == "Yes" THEN] Multi-factor authentication is required for all VPN connections without exception. [END IF]
+- Any VPN connection issues must be reported to [IT_EMAIL] promptly.
+
+---
+
+## 6. Home Network Security
+
+Where remote working is conducted from home, users are responsible for ensuring that their home network meets minimum security requirements:
+
+- **Router password:** The default router password must be changed to a strong, unique password.
+- **Wi-Fi encryption:** Home Wi-Fi must use WPA2 or WPA3 encryption. WEP and open (unencrypted) networks must not be used.
+- **Router firmware:** Users should ensure their router firmware is kept up to date.
+- **Network separation:** Where possible, work devices should be connected to a separate network segment or VLAN from personal smart devices.
+- **Guest networks:** Work activity must not be conducted on a guest network accessible to others.
+
+The Organisation is not responsible for the security of employees' home networks, but failure to apply minimum standards above may result in withdrawal of remote access privileges.
+
+---
+
+## 7. Public Wi-Fi
+
+Connecting to public Wi-Fi networks (e.g. in coffee shops, hotels, airports, or co-working spaces) to access organisational systems is only permitted when the VPN is connected and active. Even with the VPN, users should be aware of the following risks:
+
+- Shoulder surfing — screens should be positioned to prevent observation by others.
+- Public USB charging ports must not be used with work devices due to the risk of "juice jacking".
+- Hotspot sharing from a personal mobile device is a permitted alternative to public Wi-Fi where VPN access is temporarily unavailable, subject to data usage limitations.
+
+---
+
+## 8. Screen Locking and Physical Security
+
+- Devices must be set to lock automatically after a maximum of **5 minutes** of inactivity, requiring password or biometric re-authentication.
+- Users must manually lock their screen (Windows: Win+L; Mac: Cmd+Ctrl+Q) whenever they leave their device unattended, even briefly.
+- Screens must not display confidential information in locations where it may be viewed by household members, visitors, or members of the public.
+- Printed documents containing organisational data must be stored securely and disposed of in accordance with the Data Retention and Disposal Policy (CORP-DG-003). They must not be left on desks, in recycling bins, or in shared areas.
+
+---
+
+## 9. Data Handling
+
+- Organisational data must be stored on approved systems only. Personal cloud storage, personal email accounts, and unapproved USB drives must not be used to store or transfer organisational data.
+- Data that must be transferred should use approved, encrypted channels. If uncertain, contact [IT_EMAIL] before transferring.
+- Where data backup is required, backup locations are: [BACKUP_LOCATION]. Backups to personal storage are not permitted.
+- Data accessed or created whilst working remotely remains subject to the Data Protection Policy (CORP-DG-001) and all applicable retention and disposal requirements.
+
+---
+
+## 10. Lost or Stolen Devices
+
+Any device used for remote working that is lost or stolen must be reported immediately to:
+
+- **IT Department:** [IT_EMAIL] (to initiate remote wipe and access revocation)
+- **Line Manager**
+- **DPO** (where personal data may have been accessible on the device — this may constitute a reportable data breach under CORP-DG-005)
+
+The Organisation will remotely wipe any enrolled device reported as lost or stolen. Users must not delay reporting in the hope the device will be found, as this increases the risk of data compromise.
+
+---
+
+## 11. Visiting Client Sites and Other Premises
+
+When working from client premises or other external locations:
+
+- Follow all security requirements set out in this policy.
+- Do not connect to unknown or unverified networks without VPN protection.
+- Do not leave devices unattended in client meeting rooms, reception areas, or vehicles.
+- Be conscious of verbal communications — do not discuss confidential matters in public areas.
+
+---
+
+## 12. Non-Compliance
+
+Failure to comply with this policy may result in disciplinary action and, where a data breach results from non-compliance, regulatory notification obligations may arise. All security incidents arising from remote working must be reported without delay to [IT_EMAIL].
+
+---
+
+## 13. Review
+
+This policy is reviewed annually. The next scheduled review is [ANNUAL_REVIEW_DATE].

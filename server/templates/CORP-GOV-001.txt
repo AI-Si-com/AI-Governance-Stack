@@ -1,0 +1,147 @@
+# Corporate Governance & Organisational Structure Policy
+
+**Policy Reference:** CORP-GOV-001
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+[ORG_NAME] is committed to the highest standards of corporate governance. This policy sets out the governance framework, organisational structure, and accountability arrangements that underpin the effective and ethical operation of the organisation.
+
+Good governance ensures that [ORG_NAME] is directed and controlled in a manner that promotes transparency, accountability, and the long-term interests of all stakeholders. This policy applies to all members of the Board, senior leadership, employees, and, where relevant, contractors and volunteers acting on behalf of [ORG_NAME].
+
+[IF ORG_TYPE == "Charity" THEN]
+As a registered charity, [ORG_NAME] operates in accordance with the Charities Act 2011 and the guidance issued by the Charity Commission for England and Wales. Trustees bear ultimate legal and financial responsibility for the organisation and must act in accordance with their fiduciary duties at all times.
+[END IF]
+
+[IF ORG_TYPE == "Public Sector" THEN]
+As a public sector body, [ORG_NAME] is subject to the requirements of the Public Services (Social Value) Act 2012, the Freedom of Information Act 2000, and relevant statutory frameworks governing public accountability. The organisation adheres to the Nolan Principles of Public Life: selflessness, integrity, objectivity, accountability, openness, honesty, and leadership.
+[END IF]
+
+[IF ORG_TYPE == "Limited Company" THEN]
+As a company registered in England and Wales, [ORG_NAME] operates in accordance with the Companies Act 2006 and, where applicable, the UK Corporate Governance Code. Directors fulfil their duties under sections 171–177 of the Companies Act 2006.
+[END IF]
+
+---
+
+## 2. Governance Structure
+
+### 2.1 Board of Directors / Governing Body
+
+The [BOARD_NAME] holds ultimate responsibility for the strategic direction, oversight, and governance of [ORG_NAME]. The [BOARD_NAME] meets [BOARD_MEETING_FREQUENCY] and is responsible for:
+
+- Setting and overseeing the strategic direction and objectives of [ORG_NAME]
+- Approving the annual budget, financial statements, and major capital expenditure
+- Ensuring the organisation operates within its legal, regulatory, and ethical obligations
+- Appointing and reviewing the performance of the Chief Executive Officer
+- Overseeing risk management and internal controls
+- Safeguarding the assets and reputation of [ORG_NAME]
+
+Decisions of the [BOARD_NAME] are recorded in formal minutes and maintained in accordance with the organisation's document retention policy. A quorum for [BOARD_NAME] meetings is defined in the Articles of Association or equivalent governing document.
+
+### 2.2 Executive Leadership
+
+Day-to-day management of [ORG_NAME] is delegated by the [BOARD_NAME] to the Chief Executive Officer, [CEO_NAME], who leads the Executive Committee.
+
+The [EXEC_COMMITTEE_NAME] meets [EXEC_MEETING_FREQUENCY] and is responsible for:
+
+- Implementing the strategy and decisions of the [BOARD_NAME]
+- Operational management and performance monitoring
+- Allocation of resources across the organisation
+- Managing organisational risk within agreed appetites
+- Ensuring regulatory compliance across all functions
+
+### 2.3 Organisational Departments
+
+[ORG_NAME] is structured around the following departments, each led by a designated Head of Department who reports to the [EXEC_COMMITTEE_NAME]:
+
+[DEPARTMENTS_LIST]
+
+Each department is responsible for operational delivery within its remit and for contributing to organisational objectives. Department heads are accountable for the performance, conduct, and compliance of their teams.
+
+---
+
+## 3. Decision-Making Authority
+
+### 3.1 Reserved Matters
+
+The following matters are reserved exclusively to the [BOARD_NAME] and may not be delegated:
+
+- Approval of the annual business plan and budget
+- Any significant change to the organisational structure or purpose
+- Approval of annual financial statements
+- Appointment or removal of the CEO and Company Secretary
+- Approval of policies with material strategic or legal significance
+- Any transaction exceeding the threshold set out in the Delegation of Authority Policy (CORP-GOV-002)
+
+### 3.2 Executive Authority
+
+The [EXEC_COMMITTEE_NAME], led by [CEO_NAME], is authorised to make decisions on all matters not reserved to the [BOARD_NAME], subject to the limits defined in CORP-GOV-002.
+
+### 3.3 Operational Authority
+
+Department heads are empowered to make operational decisions within their departmental budgets and responsibilities, in line with delegated authority levels.
+
+---
+
+## 4. Roles and Responsibilities
+
+### 4.1 Board Members / Trustees / Directors
+
+All members of the [BOARD_NAME] are expected to:
+
+- Act in the best interests of [ORG_NAME] and its stakeholders at all times
+- Attend and actively participate in [BOARD_NAME] meetings
+- Declare any actual or potential conflicts of interest promptly
+- Maintain appropriate confidentiality regarding Board deliberations
+- Undertake relevant training and development to fulfil their governance role
+
+### 4.2 Chief Executive Officer
+
+[CEO_NAME], as Chief Executive Officer, is responsible for:
+
+- The overall operational management and performance of [ORG_NAME]
+- Providing accurate and timely information to the [BOARD_NAME]
+- Implementing Board decisions and organisational strategy
+- Building and leading an effective executive team
+- Serving as the primary interface between the Board and the staff
+
+### 4.3 Employees
+
+All employees are responsible for understanding and adhering to the governance framework, supporting accountability processes, and raising concerns through appropriate channels as set out in the Whistleblowing Policy (CORP-GOV-004).
+
+---
+
+## 5. Governance Documentation and Review
+
+All governance documentation, including Board minutes, terms of reference, and committee papers, shall be stored at [POLICY_STORAGE_LOCATION] and maintained in accordance with the organisation's records management procedures.
+
+This policy is communicated to all staff via [COMMS_METHOD] and must be acknowledged as part of the induction process for new employees and Board members.
+
+This policy will be reviewed annually or following any significant change to the organisation's structure, legal obligations, or regulatory environment. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+---
+
+## 6. Compliance and Breaches
+
+Any breach of this policy should be reported to [CEO_NAME] or through the mechanism set out in the Whistleblowing Policy (CORP-GOV-004). Serious breaches may be escalated to the [BOARD_NAME] and, where required, to the relevant regulatory authority.
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [CEO_NAME] | Initial issue |

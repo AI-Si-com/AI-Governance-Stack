@@ -1,0 +1,134 @@
+# Performance Management Policy
+
+**Policy Reference:** CORP-HR-006
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HR_LEAD_NAME], HR Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to fostering a high-performance culture in which all employees understand what is expected of them, receive regular feedback on their performance, and are supported in their professional development. This policy sets out the framework for managing performance consistently and fairly across the organisation.
+
+This policy applies to all employees of [ORG_NAME] on permanent or fixed-term contracts. It does not apply to agency workers or self-employed contractors, unless otherwise agreed in writing.
+
+---
+
+## 2. Principles
+
+Performance management at [ORG_NAME] is built on the following principles:
+
+- Objectives are set collaboratively and aligned to organisational goals.
+- Feedback is ongoing, constructive, and delivered with respect.
+- All employees have access to support, development, and coaching.
+- Processes are applied consistently, fairly, and without discrimination.
+- High performance is recognised and rewarded appropriately.
+
+---
+
+## 3. Performance Review Cycle
+
+[ORG_NAME] operates an annual performance review cycle. The cycle consists of the following stages:
+
+**3.1 Objective Setting (Start of Year)**
+At the beginning of each performance year, managers and employees will agree a set of SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound). Objectives should reflect the employee's role, team priorities, and the organisation's strategic plan. All agreed objectives must be recorded in [LEAVE_MANAGEMENT_SYSTEM] within 30 days of the start of the review period.
+
+**3.2 Mid-Year Review (Six-Monthly Check-In)**
+A formal mid-year review will be conducted approximately six months into the performance year. This meeting is an opportunity to assess progress against objectives, identify any barriers to performance, agree any amendments to objectives where circumstances have changed, and discuss development needs.
+
+**3.3 End-of-Year Review (Annual Appraisal)**
+At the close of the performance year, a formal appraisal will take place between the employee and their line manager. The appraisal will assess overall performance against agreed objectives and behavioural standards, and will result in a performance rating being assigned.
+
+**3.4 Continuous Feedback**
+Managers are expected to provide informal, ongoing feedback throughout the year. Employees are also encouraged to seek feedback proactively and to raise any concerns about their objectives or workload with their manager or with HR at [HR_EMAIL].
+
+---
+
+## 4. Rating Scale
+
+Performance will be assessed using the following five-point rating scale:
+
+| Rating | Description |
+|--------|-------------|
+| 5 – Outstanding | Consistently exceeds all objectives and behavioural expectations; acts as a role model. |
+| 4 – Exceeds Expectations | Meets all objectives and regularly exceeds several; demonstrates strong behaviours. |
+| 3 – Meets Expectations | Meets the majority of objectives and demonstrates expected behaviours. |
+| 2 – Developing | Partially meets objectives; some areas require improvement with support. |
+| 1 – Unsatisfactory | Does not meet objectives; significant improvement required. |
+
+Ratings of 1 or 2 will trigger the underperformance process described in Section 6.
+
+---
+
+## 5. Setting and Reviewing Objectives
+
+Objectives must be agreed between the employee and their line manager and should not be imposed unilaterally. Employees may have between three and eight objectives depending on the complexity of their role. At least one objective should relate to personal or professional development.
+
+Where an employee changes role during the review year, objectives will be reviewed and reset as appropriate, with a pro-rated appraisal conducted at year end.
+
+---
+
+## 6. Underperformance Process
+
+Where an employee receives a rating of 1 or 2, or where performance concerns arise at any point during the year, the following process applies:
+
+**6.1 Informal Stage**
+The line manager will hold an informal meeting with the employee to discuss the concerns. A support plan will be agreed, including specific improvement targets, timescales, and any additional support or training to be provided. This stage will normally last four to eight weeks.
+
+**6.2 Formal Performance Improvement Plan (PIP)**
+If performance does not improve to the required standard following the informal stage, a formal Performance Improvement Plan will be initiated. The PIP will set out clear, measurable targets, a defined review period (normally 8–12 weeks), the support available, and the potential consequences of failure to improve. Employees will be notified in writing and may be accompanied by a trade union representative or a workplace colleague at any formal meeting.
+
+**6.3 Formal Outcomes**
+If performance does not reach the required standard by the end of the PIP, [ORG_NAME] may consider further action up to and including dismissal, in accordance with the Disciplinary Policy (CORP-HR-002). Employees retain the right to appeal any formal outcome.
+
+HR must be consulted before initiating any formal performance management process. Contact [HR_LEAD_NAME] at [HR_EMAIL].
+
+---
+
+## 7. Development Plans
+
+Every employee, regardless of their performance rating, will have a Personal Development Plan (PDP) agreed as part of their appraisal. The PDP will identify development goals, learning activities, and timescales. Development activities may include on-the-job learning, mentoring, coaching, internal training, or external courses. PDPs should be recorded in [LEAVE_MANAGEMENT_SYSTEM].
+
+---
+
+## 8. Link to Pay and Reward
+
+[IF FIELD == "Yes" THEN]
+Performance ratings are linked to pay review decisions. Employees rated 3 or above will be considered for an annual pay review in line with the organisation's pay and reward framework. Employees rated 1 or 2 may not receive a pay increase until performance reaches the required standard.
+[END IF]
+
+[IF FIELD == "No" THEN]
+Performance ratings are not directly linked to pay decisions at [ORG_NAME]. Pay reviews are conducted separately in accordance with the Reward and Remuneration Policy.
+[END IF]
+
+Any pay decisions arising from the performance review process will be communicated to employees in writing by [HR_LEAD_NAME].
+
+---
+
+## 9. Roles and Responsibilities
+
+**Line Managers** are responsible for setting clear objectives, holding scheduled review meetings, providing ongoing feedback, and initiating support processes where performance concerns arise.
+
+**Employees** are responsible for engaging constructively in the review process, working toward agreed objectives, seeking feedback, and raising concerns promptly.
+
+**HR** ([HR_LEAD_NAME], [HR_EMAIL]) is responsible for maintaining the policy, providing guidance to managers, overseeing consistency, and maintaining records in [LEAVE_MANAGEMENT_SYSTEM].
+
+**[CEO_NAME]** holds overall accountability for the performance culture of [ORG_NAME].
+
+---
+
+## 10. Confidentiality
+
+All performance-related discussions and records are confidential and will be handled in accordance with the Data Protection Policy (CORP-DP-001) and the UK General Data Protection Regulation (UK GDPR).
+
+---
+
+## 11. Policy Review
+
+This policy will be reviewed annually by [HR_LEAD_NAME] or following any significant legislative change. The next scheduled review date is [ANNUAL_REVIEW_DATE].
+
+For queries regarding this policy, contact [HR_EMAIL].

@@ -1,0 +1,159 @@
+# Human Oversight of AI Policy
+
+**Policy Reference:** AISI-HUMAN-001
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**AI Incident Lead:** [AI_INCIDENT_LEAD]
+**Compliance Contact:** [COMPLIANCE_EMAIL]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out [ORG_NAME]'s requirements for meaningful human oversight of AI systems. Human oversight is a non-negotiable component of responsible AI governance: it ensures that AI operates within acceptable boundaries, that errors can be identified and corrected, and that individuals retain the ability to challenge and override automated outputs.
+
+This policy applies to all AI systems deployed across [ORG_NAME] and to all employees who operate, supervise, or are affected by AI-assisted processes. It applies with particular force wherever AI influences decisions affecting individuals or involves significant operational or reputational risk. Departments in scope include [DEPARTMENTS_LIST].
+
+[IF AI_AUTOMATED_DECISIONS == "Yes" THEN]
+[ORG_NAME] operates AI systems that produce automated or semi-automated decisions. This policy establishes the minimum standards for human review of those decisions in compliance with UK GDPR Article 22 and [ORG_NAME]'s AI governance framework.
+[END IF]
+
+---
+
+## 2. Principles of Human Oversight
+
+[ORG_NAME] adopts the following principles to guide human oversight of AI:
+
+- **Genuine oversight:** Human review must be substantive and informed, not merely procedural. Reviewers must have the time, information, and authority to challenge AI outputs
+- **Proportionality:** The intensity of oversight must be commensurate with the risk and significance of the decision being supported
+- **Accountability:** Every AI-assisted decision must have a named human accountable for it
+- **Correctability:** Humans must always retain the ability to override, correct, or reverse AI outputs
+- **No automation by default:** Automation of a decision or process should be the result of a deliberate governance decision, not a default or default-forward setting
+
+---
+
+## 3. Minimum Human Review Requirements
+
+The following minimum human review requirements apply based on decision type and risk level:
+
+### 3.1 High-Risk Decisions (Mandatory Human Approval)
+
+The following categories of decision must never be finalised solely on the basis of AI output. A qualified human reviewer must review the AI output, consider available contextual information, and make the final decision:
+
+- Employment decisions (recruitment, promotion, performance assessment, disciplinary action, redundancy)
+- Credit, lending, or financial access decisions affecting individuals
+- Medical, clinical, or health-related decisions
+- Decisions affecting welfare, benefits, or housing
+- Legal or compliance determinations with significant consequences
+- Any decision where the affected individual has exercised a right to human review under UK GDPR Article 22
+
+The reviewer must document their reasoning independently of the AI output and retain a record of their decision.
+
+### 3.2 Medium-Risk Decisions (Human Review with Override Capability)
+
+For medium-risk decisions, AI outputs may be used as a primary input, but a human reviewer must:
+
+- Be presented with the AI output alongside the key factors that influenced it
+- Have access to the underlying data and the ability to query the reasoning
+- Have an accessible mechanism to override the AI recommendation before the decision is finalised
+- Be alerted to low-confidence or out-of-distribution AI outputs
+
+### 3.3 Low-Risk Decisions (Monitoring and Exception Review)
+
+For low-risk automated processes, continuous oversight by a designated individual is required, together with:
+
+- Regular sampling and review of AI outputs
+- Automated alerts for outputs outside defined confidence thresholds
+- A clear escalation pathway for exceptions
+
+---
+
+## 4. Override Mechanisms
+
+Every AI system deployed by [ORG_NAME] must incorporate a functioning override mechanism that enables authorised users to:
+
+- Reject or modify an AI output before it takes effect
+- Substitute an alternative human judgment for an AI recommendation
+- Suspend an AI function pending investigation
+
+Override events must be logged automatically, recording the user identity, timestamp, the AI output that was overridden, and the override decision. Override logs must be accessible to [AI_INCIDENT_LEAD] and reviewed as part of the audit process (AISI-AUDIT-001).
+
+Disabling or circumventing an override mechanism without express authorisation from [AI_APPROVAL_AUTHORITY] constitutes a policy breach.
+
+---
+
+## 5. Human-in-the-Loop Processes for High-Risk Decisions
+
+For all high-risk AI applications, [ORG_NAME] must maintain formally documented Human-in-the-Loop (HITL) processes specifying:
+
+- The point in the process at which human review occurs
+- The information made available to the reviewer
+- The qualifications and training required of reviewers
+- The expected time to be allocated to the review
+- The documentation to be completed by the reviewer
+- How conflicts between human judgment and AI output are resolved and recorded
+
+HITL process documentation must be held in the AI System Register by [AI_INCIDENT_LEAD] and reviewed annually or following any material change to the AI system or underlying process.
+
+---
+
+## 6. Automation Bias Prevention
+
+Automation bias — the tendency to over-rely on AI outputs and to discount conflicting human judgment — poses a significant risk to the quality of human oversight. [ORG_NAME] requires the following measures to counteract automation bias:
+
+### 6.1 Process Design
+
+- Review interfaces must present the AI recommendation as one input among several, not as a default answer requiring justification to deviate from
+- Where feasible, reviewers should be prompted to form their own initial assessment before seeing the AI output
+- Systems must display AI confidence levels and flag outputs where the model's confidence is low
+
+### 6.2 Training
+
+All employees who review AI outputs as part of their role must complete automation bias awareness training as part of the AI literacy programme (AISI-TRAIN-001). Training must cover the nature and risks of automation bias and practical techniques for maintaining independent judgment.
+
+### 6.3 Monitoring for Automation Bias
+
+[AI_INCIDENT_LEAD] must monitor override rates as a proxy indicator of automation bias. Abnormally low override rates in high-risk decision contexts must be investigated and addressed.
+
+---
+
+## 7. Accountability Chain
+
+For every AI-assisted decision process, [ORG_NAME] must document a clear accountability chain identifying:
+
+- The AI system involved and its owner
+- The role responsible for human review at each stage
+- The senior leader accountable for the process
+- The escalation path for concerns or disputes
+
+Accountability chain documentation must cover all departments using AI: [DEPARTMENTS_LIST]. This documentation is maintained by [AI_INCIDENT_LEAD] and reviewed by [COMPLIANCE_EMAIL] annually.
+
+---
+
+## 8. Affected Individual Rights
+
+Where an individual is affected by an AI-assisted decision, [ORG_NAME] will:
+
+- Inform them that AI was used in the decision-making process, upon request
+- Provide a meaningful explanation of the factors considered
+- Offer a human review of the decision upon request, conducted by a reviewer with authority to reach a different outcome
+- Not penalise individuals for requesting human review
+
+---
+
+## 9. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [CEO_NAME] (CEO) | Executive accountability for human oversight standards |
+| [AI_INCIDENT_LEAD] | HITL documentation; override log review; automation bias monitoring |
+| [COMPLIANCE_EMAIL] | Policy compliance; accountability chain documentation; rights requests |
+| Department Heads (across [DEPARTMENTS_LIST]) | Ensuring reviewers are trained and oversight processes are followed |
+| Individual Reviewers | Conducting genuine, documented human reviews |
+
+---
+
+## 10. Review
+
+This policy will be reviewed annually, or following any material change to AI systems, a significant oversight failure, or an update to applicable law. Next scheduled review: [ANNUAL_REVIEW_DATE].

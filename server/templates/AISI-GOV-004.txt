@@ -1,0 +1,151 @@
+# AI Procurement & Approval Policy
+## Document Reference: AISI-GOV-004
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**AI Approval Authority:** [AI_APPROVAL_AUTHORITY]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL] | [IT_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This policy governs the evaluation, approval, procurement, and deployment of all artificial intelligence (AI) tools, systems, and services by [ORG_NAME]. It ensures that AI is introduced in a controlled, risk-assessed, and ethically sound manner, and that all AI tools are subject to appropriate oversight before use begins.
+
+This policy applies to all employees, contractors, and third parties seeking to introduce, procure, or use any AI system — whether free or paid, cloud-based or on-premise, standalone or embedded within other software — on behalf of [ORG_NAME]. It applies equally to AI features introduced as part of software updates to existing tools.
+
+**The use of any AI system not approved in accordance with this policy is prohibited.** See Section 7 (Shadow AI Prohibition).
+
+---
+
+## 2. Prohibition on Unapproved AI
+
+No AI system may be used for any business purpose by any employee or contractor of [ORG_NAME] unless it has been approved through the process set out in this policy. This prohibition extends to:
+
+- Free-to-use AI tools and chatbots accessed via personal or work accounts
+- AI features within existing software that have been newly activated
+- AI pilots or proof-of-concept trials not submitted for approval
+- Tools introduced informally by individual employees or teams
+
+Any breach of this prohibition must be reported to [IT_EMAIL] and [COMPLIANCE_EMAIL] and will be treated as a disciplinary matter.
+
+---
+
+## 3. AI Tool Evaluation Criteria
+
+All AI tools submitted for consideration are assessed against the following criteria:
+
+### 3.1 Business Case
+- Clear articulation of the intended use and expected benefits
+- Alignment with organisational strategy and priorities
+- Total cost of ownership, including implementation, training, and ongoing licencing
+
+### 3.2 Risk Assessment
+- Risk tier classification in accordance with the AI Governance Framework (AISI-GOV-001)
+- Identification of risks using the AI risk taxonomy (AISI-GOV-003)
+- Assessment of impact on customers, employees, and third parties
+
+### 3.3 Data Protection and Privacy
+- Whether the tool processes personal data, and if so, the lawful basis for processing
+- Adequacy of the vendor's data protection practices and contractual commitments
+- Requirement for Data Protection Impact Assessment (DPIA) under UK GDPR
+
+[IF AI_PROCESSES_PERSONAL_DATA == "Yes" THEN]
+AI tools that process personal data require a DPIA prior to approval. The DPO or data protection lead must be engaged as part of the review process for any AI system that processes personal data.
+[END IF]
+
+### 3.4 Security
+- Cybersecurity review by [IT_EMAIL] covering data transmission security, access controls, and integration risks
+- Review of the vendor's security certifications and incident history
+- Assessment of risks of data leakage or unauthorised access via the AI system
+
+### 3.5 Ethics
+- Ethics review in accordance with the AI Ethics Policy (AISI-GOV-002) for Tier 1 and Tier 2 systems
+- Assessment of fairness, transparency, and human oversight provisions
+
+### 3.6 Vendor Stability and Dependency
+- Vendor financial standing and operational track record
+- Exit strategy and data portability in the event of vendor failure or contract termination
+- Single-vendor dependency risk
+
+---
+
+## 4. Approval Workflow
+
+The following approval workflow applies to all new AI tool requests:
+
+**Step 1 — Request Submission**
+The requesting team submits an AI Tool Request form to [IT_EMAIL], copying [COMPLIANCE_EMAIL]. The form must include: tool name and description, proposed use case, intended users and data involved, and the business case.
+
+**Step 2 — Initial Triage (IT)**
+[IT_EMAIL] performs an initial assessment within five business days to determine risk tier and identify the reviews required. Simple Tier 3 tools may be approved by IT following security review. Tier 1 and Tier 2 tools proceed to full assessment.
+
+**Step 3 — Multi-Disciplinary Review**
+For Tier 1 and Tier 2 systems, a multi-disciplinary review is coordinated by [AI_APPROVAL_AUTHORITY] involving Compliance, Legal, Finance (led by [FINANCE_LEAD_NAME]), IT, and Data Protection. Specialist input (e.g. ethics review) is commissioned as required.
+
+**Step 4 — AI Oversight Committee Decision**
+The AI Oversight Committee, chaired by [AI_APPROVAL_AUTHORITY], reviews the completed assessment pack and makes one of the following decisions: approved; approved with conditions; deferred pending further information; or rejected.
+
+**Step 5 — Contract and Deployment**
+Approved tools proceed to contract negotiation (see Section 6) and deployment planning, overseen by [IT_EMAIL]. The tool is registered in the AI Register and added to the AI Risk Register.
+
+Total timescales: Tier 3 — up to 10 business days; Tier 1/2 — up to 40 business days from receipt of complete request.
+
+---
+
+## 5. Vendor Due Diligence Checklist
+
+Before any AI vendor contract is signed, the following due diligence must be completed and documented:
+
+- [ ] Vendor identity and ownership verified
+- [ ] Vendor financial standing assessed
+- [ ] Data processing terms reviewed against UK GDPR requirements
+- [ ] Data localisation and cross-border transfer mechanisms confirmed
+- [ ] Security certifications reviewed (e.g. ISO 27001, SOC 2)
+- [ ] Incident response and breach notification obligations confirmed
+- [ ] Training data sources reviewed for IP, bias, and data rights
+- [ ] Model transparency and explainability assessed
+- [ ] Audit rights and monitoring provisions included in contract
+- [ ] Exit provisions and data return/deletion obligations confirmed
+
+All due diligence findings are documented and retained on the procurement file.
+
+---
+
+## 6. Contract Requirements
+
+All AI vendor contracts must include:
+
+- Clearly defined scope of permitted processing
+- Data processing agreement compliant with UK GDPR (where personal data is processed)
+- Confidentiality obligations protecting [ORG_NAME]'s data and intellectual property
+- Security standards and breach notification timescales
+- Audit and inspection rights
+- Transparency obligations regarding model updates or material changes
+- Termination rights including for material breach and insolvency
+- Data return and deletion obligations on termination
+
+[FINANCE_LEAD_NAME] must approve AI contracts above the organisation's standard financial approval threshold.
+
+---
+
+## 7. Shadow AI Prohibition
+
+"Shadow AI" refers to any AI tool or system used for business purposes that has not been approved through this process. Shadow AI is prohibited because it introduces uncontrolled data protection, security, legal, and reputational risks.
+
+Employees who become aware of shadow AI use must report it to [IT_EMAIL] and [COMPLIANCE_EMAIL]. Such reports are treated confidentially and will not result in adverse consequences for the person reporting in good faith.
+
+Individuals found to have used unapproved AI tools for business purposes are subject to disciplinary action. In cases involving data protection breaches, regulatory notification may also be required.
+
+---
+
+## 8. Policy Review
+
+This policy is reviewed annually by [AI_APPROVAL_AUTHORITY] with input from [IT_EMAIL] and [COMPLIANCE_EMAIL], and approved by [POLICY_APPROVAL_AUTHORITY]. Significant changes to the AI market or regulatory environment will trigger an interim review.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

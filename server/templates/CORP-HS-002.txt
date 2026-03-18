@@ -1,0 +1,165 @@
+# Risk Assessment Policy
+
+**Policy Reference:** CORP-HS-002
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HS_LEAD_NAME], Health & Safety Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+This policy sets out [ORG_NAME]'s approach to identifying, assessing, and controlling workplace hazards through a systematic risk assessment process. It underpins [ORG_NAME]'s duty under Regulation 3 of the Management of Health and Safety at Work Regulations 1999 to carry out suitable and sufficient risk assessments of all work activities that may present a risk to the health and safety of employees or others.
+
+This policy applies to all activities, processes, workplaces, and equipment under the control of [ORG_NAME], including activities carried out off-site. It applies to all employees, contractors, and any other persons who may be affected by [ORG_NAME]'s operations.
+
+[IF FIELD == "Yes" THEN]
+Given the high-risk nature of [ORG_NAME]'s operations, risk assessments are a critical control mechanism and must be completed before any new task or activity commences.
+[END IF]
+
+---
+
+## 2. Legal Framework
+
+[ORG_NAME]'s risk assessment process complies with:
+
+- The Management of Health and Safety at Work Regulations 1999 (Regulation 3).
+- The Health and Safety at Work etc. Act 1974.
+- The Workplace (Health, Safety and Welfare) Regulations 1992.
+- The Manual Handling Operations Regulations 1992.
+- The Control of Substances Hazardous to Health Regulations 2002 (COSHH).
+- The Display Screen Equipment Regulations 1992 (DSE).
+- The Provision and Use of Work Equipment Regulations 1998 (PUWER).
+- Any other applicable legislation specific to [ORG_NAME]'s activities.
+
+---
+
+## 3. Risk Assessment Methodology
+
+[ORG_NAME] uses the five-step risk assessment methodology recommended by the Health and Safety Executive (HSE):
+
+**Step 1: Identify the Hazards**
+Hazards are anything with the potential to cause harm, including physical, chemical, biological, ergonomic, and psychosocial hazards. Hazards will be identified through workplace inspections, observation of work activities, consultation with employees, review of accident and near miss records, and review of manufacturers' instructions and safety data sheets.
+
+**Step 2: Decide Who Might Be Harmed and How**
+All persons who may be affected must be considered, including employees, contractors, visitors, members of the public, young workers, new and expectant mothers, and persons with disabilities. The potential mechanism and severity of harm must be assessed.
+
+**Step 3: Evaluate the Risks and Decide on Precautions**
+The level of risk is evaluated by considering both the likelihood of harm occurring and the severity of the potential consequences. [ORG_NAME] uses the following risk matrix:
+
+| Likelihood | Severity | Risk Level |
+|------------|----------|------------|
+| Unlikely | Minor | Low |
+| Possible | Moderate | Medium |
+| Likely | Serious | High |
+| Almost Certain | Fatal/Catastrophic | Critical |
+
+Control measures must be selected using the hierarchy of controls:
+
+1. Elimination – remove the hazard entirely.
+2. Substitution – replace the hazard with something less dangerous.
+3. Engineering controls – isolate people from the hazard.
+4. Administrative controls – change the way people work.
+5. Personal Protective Equipment (PPE) – as a last resort.
+
+**Step 4: Record the Findings**
+All risk assessments must be recorded in writing. Records must include: the hazard identified, who is at risk, existing control measures, the residual risk rating, additional controls required, the name of the assessor, and the date of assessment. Records must be stored in [INCIDENT_TRACKING_SYSTEM] and be readily accessible to all relevant employees.
+
+**Step 5: Review and Update**
+Risk assessments must be reviewed at the intervals specified in Section 5 of this policy, or sooner if a review trigger occurs.
+
+---
+
+## 4. Types of Risk Assessment
+
+[ORG_NAME] will undertake the following types of risk assessment as required:
+
+**4.1 General Workplace Risk Assessments**
+Covering all routine activities and workplaces. Conducted at least annually or when triggered by a review event.
+
+**4.2 COSHH Assessments**
+Required for all hazardous substances used in [ORG_NAME]'s operations. Conducted before the introduction of any new substance and reviewed when formulations or quantities change.
+
+**4.3 Manual Handling Assessments**
+Required for any task involving lifting, carrying, pushing, or pulling. Conducted where manual handling cannot be avoided or reduced.
+
+**4.4 Display Screen Equipment (DSE) Assessments**
+Required for all employees who regularly use display screen equipment as a significant part of their work. Conducted at induction and whenever significant changes occur (e.g. change of workstation, new health concern).
+
+**4.5 Fire Risk Assessment**
+Conducted in accordance with the Regulatory Reform (Fire Safety) Order 2005. Details are set out in the Fire Safety Policy (CORP-HS-003).
+
+**4.6 New and Expectant Mother Risk Assessments**
+Conducted on notification of pregnancy and updated as the pregnancy progresses or circumstances change.
+
+**4.7 Young Worker Risk Assessments**
+Conducted before any worker under the age of 18 commences employment or work experience.
+
+**4.8 Dynamic Risk Assessment**
+Employees working in non-standard or changing environments (e.g. lone working, fieldwork) must be trained to carry out dynamic risk assessments as circumstances change. Guidance is available from [HS_LEAD_NAME].
+
+---
+
+## 5. Review Frequency and Triggers
+
+Risk assessments will be reviewed:
+
+- At least annually as a matter of routine.
+- Following any accident, incident, or near miss relating to the assessed activity.
+- When there is a significant change in working practices, equipment, materials, or the workplace environment.
+- When new hazards are introduced.
+- When monitoring reveals that control measures are not effective.
+- Following the introduction of new or updated legislation or guidance.
+- When an employee raises a concern about a specific risk.
+
+All reviews and amendments must be recorded in [INCIDENT_TRACKING_SYSTEM] with the date of review and the name of the reviewer.
+
+---
+
+## 6. Significant Findings and Communication
+
+Where a risk assessment identifies significant risks, [HS_LEAD_NAME] will ensure that:
+
+- The significant findings are communicated to all employees affected by the risk.
+- Control measures are implemented promptly and their effectiveness monitored.
+- A summary of significant findings is shared with line managers and, where relevant, employee representatives.
+- Any residual high or critical risks are escalated to [CEO_NAME] immediately.
+
+Communication of risk assessment findings will be recorded.
+
+---
+
+## 7. Record-Keeping
+
+All completed risk assessments must be stored in [INCIDENT_TRACKING_SYSTEM]. Records will be retained for a minimum of five years from the date of assessment, or longer where required by specific legislation (e.g. COSHH records must be retained for 40 years). HR at [HR_EMAIL] can provide access to historical records on request.
+
+---
+
+## 8. Training and Competence
+
+[HS_LEAD_NAME] is responsible for ensuring that all persons conducting risk assessments are competent to do so, having regard to their knowledge of the work activity, the relevant hazards, and the legal requirements. Where specialist risk assessments are required (e.g. COSHH, fire, asbestos), appropriately qualified persons or external specialists will be engaged.
+
+Line managers who are required to conduct risk assessments will receive appropriate training. Training records will be maintained by HR.
+
+---
+
+## 9. Responsibilities
+
+**[CEO_NAME]** holds overall accountability for the organisation's risk assessment programme and provides the resources necessary for its implementation.
+
+**[HS_LEAD_NAME]** ([HR_EMAIL]) is responsible for developing and maintaining the risk assessment programme, supporting managers in conducting assessments, maintaining records in [INCIDENT_TRACKING_SYSTEM], and reviewing the programme's effectiveness.
+
+**Line Managers** are responsible for ensuring that risk assessments are carried out for activities within their area of responsibility, that control measures are implemented and maintained, and that findings are communicated to their team.
+
+**Employees** are responsible for following the control measures identified in risk assessments, reporting any concerns about risks to their manager or to [HS_LEAD_NAME], and participating in the risk assessment process when asked.
+
+---
+
+## 10. Policy Review
+
+This policy will be reviewed annually by [HS_LEAD_NAME] or following any significant accident, change in legislation, or organisational change. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For queries regarding this policy, contact [HS_LEAD_NAME] at [HR_EMAIL].

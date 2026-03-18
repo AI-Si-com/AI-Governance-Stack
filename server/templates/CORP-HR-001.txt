@@ -1,0 +1,160 @@
+# Recruitment & Selection Policy
+## Policy Reference: CORP-HR-001
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**HR Lead:** [HR_LEAD_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to recruiting and selecting the best candidates for every role through a fair, transparent, and legally compliant process. This policy ensures that recruitment decisions are based on merit and that all applicants are treated with dignity and respect, free from unlawful discrimination.
+
+This policy applies to all recruitment activity at [ORG_NAME], including permanent and fixed-term appointments, internal moves, promotions, the engagement of agency workers, and the appointment of contractors. It applies to all individuals involved in the recruitment process, including hiring managers, interviewers, and HR.
+
+HR queries should be directed to [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 2. Legal Framework
+
+Recruitment and selection at [ORG_NAME] is conducted in accordance with [APPLICABLE_REGULATIONS], including the Equality Act 2010, the Employment Rights Act 1996, the Immigration, Asylum and Nationality Act 2006 (right to work), the Rehabilitation of Offenders Act 1974, and UK GDPR / Data Protection Act 2018.
+
+---
+
+## 3. Commitment to Equal Opportunities
+
+[ORG_NAME] is committed to equal opportunities in recruitment. All recruitment decisions are based solely on the requirements of the role. No applicant will be treated less favourably on the grounds of any protected characteristic as defined by the Equality Act 2010, including age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, or sexual orientation.
+
+Positive action measures may be used where permitted by the Equality Act 2010 to address under-representation, including targeted advertising and mentoring for underrepresented groups.
+
+---
+
+## 4. Authorisation to Recruit
+
+All recruitment must be authorised before commencing. Hiring managers must obtain written approval from [CEO_NAME] or the relevant senior leader and from [HR_LEAD_NAME] before advertising a vacancy. The authorisation must confirm the business case, grade, salary range, and whether the role is new or a replacement.
+
+---
+
+## 5. Job Descriptions and Person Specifications
+
+Every vacancy must have an up-to-date job description and person specification before recruitment begins. These documents must:
+
+- Accurately reflect the genuine requirements of the role
+- Distinguish clearly between essential and desirable criteria
+- Avoid criteria that could indirectly discriminate without objective justification
+- Be reviewed by HR before publication
+
+Criteria used in selection must be drawn directly from the person specification.
+
+---
+
+## 6. Advertising
+
+### 6.1 Channels
+
+Vacancies may be advertised internally, externally, or both. The decision on advertising channels is made by the hiring manager in consultation with [HR_LEAD_NAME]. Internal candidates are encouraged to apply for advertised vacancies.
+
+### 6.2 Advertisement Content
+
+Job advertisements must be inclusive, use gender-neutral language, and accurately describe the role. They must not include requirements that could be seen as discriminatory. All advertisements must be approved by HR before publication.
+
+### 6.3 Recruitment Agencies
+
+Where recruitment agencies are used, they must be approved by HR and provided with a copy of this policy and the equal opportunities requirements. Agencies are required to confirm compliance.
+
+---
+
+## 7. Application Process
+
+Applications must be received through [ORG_NAME]'s approved application process. Application forms or CVs should collect only information relevant to the role. Where anonymised shortlisting is used, personal information that may reveal protected characteristics will be removed before the shortlisting stage.
+
+Application data is processed in accordance with UK GDPR. The HR privacy notice for applicants is provided to all candidates at the point of application.
+
+---
+
+## 8. Shortlisting
+
+Shortlisting must be carried out against the essential and desirable criteria in the person specification. At least two individuals must be involved in the shortlisting process. Decisions must be documented using the approved shortlisting pro-forma and retained by HR.
+
+Shortlisting decisions must be made without reference to personal circumstances unrelated to the job requirements.
+
+---
+
+## 9. Interviews and Selection
+
+### 9.1 Interview Panels
+
+Interview panels must include at least two people. All panel members must have completed [ORG_NAME]'s recruitment and selection training, including unconscious bias awareness, before participating. Panels should be diverse where possible.
+
+### 9.2 Interview Questions
+
+Interview questions must be prepared in advance, applied consistently to all candidates, and based on the competencies and requirements of the role. Questions about protected characteristics are prohibited. Any questions about an applicant's health or disability may only be asked in limited circumstances as permitted by the Equality Act 2010 and must be discussed with HR in advance.
+
+### 9.3 Reasonable Adjustments
+
+[ORG_NAME] will make reasonable adjustments to the recruitment process for disabled applicants or those with particular needs. Applicants should be asked at the point of invitation to interview whether they require any adjustments.
+
+### 9.4 Interview Records
+
+Panel members must document their assessment against the agreed criteria. Records are retained by HR for a minimum of 12 months.
+
+---
+
+## 10. Pre-Employment Checks
+
+All conditional offers are subject to the following pre-employment checks as a minimum:
+
+### 10.1 Right to Work
+
+[ORG_NAME] is legally required to check that all new employees have the right to work in the UK before employment commences. HR is responsible for obtaining, checking, and retaining copies of the required documentation in accordance with Home Office guidance. Employment must not commence until a satisfactory right to work check has been completed.
+
+### 10.2 References
+
+A minimum of two satisfactory written references must be obtained, including the most recent employer. References are sought after a conditional offer is made. HR will follow up on any references that raise concerns.
+
+### 10.3 Criminal Record Checks
+
+Where the role requires a Disclosure and Barring Service (DBS) check (e.g., roles working with children or vulnerable adults, or as required by [APPLICABLE_REGULATIONS]), this will be carried out in accordance with DBS guidelines. An enhanced DBS check will be requested where appropriate. The Rehabilitation of Offenders Act 1974 is applied appropriately.
+
+### 10.4 Qualifications and Professional Memberships
+
+Where specific qualifications or professional memberships are an essential requirement, documentary evidence must be verified before the offer is confirmed.
+
+---
+
+## 11. Making an Offer
+
+Verbal offers may be made by the hiring manager following panel discussion and with HR agreement. All offers must be confirmed in writing by HR, clearly stating any conditions. Offer letters are issued by [HR_LEAD_NAME] or a nominated HR team member.
+
+---
+
+## 12. Unsuccessful Candidates
+
+Unsuccessful candidates at interview will be notified promptly and constructive feedback will be offered where requested. Shortlisting and interview records are retained for 12 months and then securely destroyed.
+
+---
+
+## 13. Induction
+
+[HR_LEAD_NAME] coordinates the induction programme for all new starters to ensure they are set up for success. Induction includes completion of all mandatory training, introduction to key policies, and a structured onboarding plan.
+
+---
+
+## 14. Policy Review
+
+This policy is reviewed annually. Queries should be directed to [HR_LEAD_NAME] at [HR_EMAIL] or [HR_PHONE].
+
+---
+
+## 15. Related Documents
+
+- CORP-HR-002: Equal Opportunities Policy
+- CORP-HR-004: Disciplinary Procedure
+- Equality Act 2010
+- Immigration, Asylum and Nationality Act 2006
+- UK GDPR / Data Protection Act 2018

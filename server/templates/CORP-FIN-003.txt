@@ -1,0 +1,153 @@
+# Procurement & Purchasing Policy
+
+**Policy Reference:** CORP-FIN-003
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [FINANCE_LEAD_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+Effective procurement is essential to achieving value for money, maintaining financial integrity, and managing organisational risk. This policy sets out the framework within which [ORG_NAME] sources and purchases goods, services, and works, ensuring that all procurement activity is conducted with transparency, fairness, and sound commercial judgement.
+
+This policy applies to all employees, contractors, and Board members who are involved in procuring goods or services on behalf of [ORG_NAME]. It applies to all expenditure regardless of the funding source, including grant-funded activity.
+
+All procurement activity must be conducted in accordance with applicable law, including the Bribery Act 2010 and, where applicable, the Procurement Act 2023 and related public sector procurement regulations. Employees who are uncertain about the requirements applicable to a specific procurement should seek guidance from [FINANCE_LEAD_NAME] or contact [FINANCE_EMAIL].
+
+[IF ORG_TYPE == "Public Sector" THEN]
+As a public sector body, [ORG_NAME] is subject to the Procurement Act 2023 (effective from February 2025) and associated secondary legislation. All procurement activity above statutory thresholds must comply with the transparency and competition requirements of the Act. Procurements above threshold must be published on Find a Tender Service (FTS) as required.
+[END IF]
+
+---
+
+## 2. Procurement Principles
+
+All procurement activity must adhere to the following principles:
+
+**Value for Money:** Procurement decisions must achieve the optimal combination of quality, cost, and risk over the lifetime of the contract — not merely the lowest price.
+
+**Fairness and Transparency:** All procurement processes must be conducted fairly, with decisions based on pre-defined criteria applied consistently to all suppliers.
+
+**Competition:** Effective competition must be sought wherever possible and proportionate to the value and risk of the procurement.
+
+**Ethical Conduct:** No individual involved in a procurement may have an undisclosed personal or financial interest in any supplier. Refer to CORP-GOV-003. Acceptance of gifts from suppliers is governed by CORP-GOV-005.
+
+**Accountability:** All procurement decisions must be documented, with the rationale for supplier selection clearly recorded.
+
+---
+
+## 3. Approval Thresholds and Procurement Routes
+
+The following thresholds determine the minimum procurement approach required. These thresholds refer to the total anticipated contract value, inclusive of VAT and any extension options.
+
+### 3.1 Below £1,000
+
+Routine low-value purchases may be made using a preferred supplier or via direct purchase, subject to approval in accordance with CORP-GOV-002. A receipt or invoice must be obtained and retained.
+
+### 3.2 £1,000 to £10,000
+
+At least **two written quotations** must be obtained. The quotations must be comparable (based on the same specification) and the decision documented. Approved by the relevant department head within their delegated authority.
+
+### 3.3 £10,001 to £50,000
+
+A minimum of **three written quotations** must be obtained following a documented specification. Quotations must be evaluated against pre-defined criteria. Approval required from [FINANCE_LEAD_NAME].
+
+### 3.4 £50,001 to £100,000
+
+A formal **competitive tender process** is required. A written specification must be issued to a minimum of three invited suppliers. Tenders must be evaluated using a documented scoring matrix. Approval required from [CEO_NAME].
+
+### 3.5 Above £100,000
+
+A formal **open competitive tender** process is required. The procurement must be approved by [POLICY_APPROVAL_AUTHORITY] and may require [BOARD_NAME] sign-off depending on the nature and duration of the contract. All stages must be fully documented.
+
+[IF ORG_TYPE == "Public Sector" THEN]
+For procurements above the relevant statutory thresholds under the Procurement Act 2023, [ORG_NAME] must advertise the opportunity publicly and follow the appropriate procedure (open, competitive flexible, or single source with justification). Legal advice should be sought where required.
+[END IF]
+
+---
+
+## 4. Supplier Selection and Due Diligence
+
+### 4.1 Supplier Eligibility
+
+Before entering a contract with any supplier, [ORG_NAME] must be satisfied that the supplier:
+
+- Is a legitimate, financially stable business
+- Holds appropriate insurance (public liability, professional indemnity as relevant)
+- Complies with applicable legal obligations, including health and safety, employment law, and data protection
+- Is not subject to sanctions or debarment
+
+For contracts with a value exceeding £25,000, formal due diligence, including Companies House checks and financial health assessment, must be completed and documented.
+
+### 4.2 Modern Slavery and Ethical Supply Chain
+
+[ORG_NAME] will not knowingly engage suppliers who use forced labour, child labour, or who breach fundamental employment rights. For significant contracts, suppliers may be required to confirm their compliance with the Modern Slavery Act 2015.
+
+### 4.3 Social Value
+
+[ORG_NAME] is committed to generating social value through its procurement activity. Where relevant and proportionate, social value criteria will be included in supplier evaluation frameworks.
+
+---
+
+## 5. Contract Management
+
+### 5.1 Written Contracts
+
+All contracts for goods or services with a value exceeding £5,000, or for any duration exceeding 12 months, must be in writing and signed by an authorised signatory in accordance with CORP-GOV-002.
+
+Standard contract templates must be used wherever possible. Any deviation from standard terms, or the use of a supplier's own terms, requires review and approval by [FINANCE_LEAD_NAME] and, for contracts above £50,000, legal review.
+
+### 5.2 Contract Performance
+
+Budget holders are responsible for monitoring the performance of suppliers against contractual obligations. Significant performance issues must be escalated to [FINANCE_LEAD_NAME] promptly.
+
+### 5.3 Contract Register
+
+[FINANCE_LEAD_NAME] maintains a contract register recording all active contracts, their key terms, expiry dates, and responsible managers. The register is reviewed quarterly to identify upcoming renewals and ensure timely re-procurement where required.
+
+---
+
+## 6. Preferred Suppliers
+
+[ORG_NAME] may maintain a list of approved preferred suppliers for categories of regularly purchased goods and services. The preferred supplier list is maintained by [FINANCE_LEAD_NAME] and reviewed annually.
+
+Use of a preferred supplier does not exempt a purchase from the financial thresholds above. However, where a preferred supplier has been selected following a compliant competitive process within the previous two years, the original competition may serve as the basis for further purchases within scope and duration of that agreement.
+
+---
+
+## 7. Single Source and Emergency Procurement
+
+Procurement without competition is only permissible in the following limited circumstances:
+
+- The requirement is genuinely unique and no alternative supplier exists
+- An emergency situation requires immediate procurement to prevent risk to life, significant financial loss, or serious operational disruption
+- A previous compliant competition has resulted in a sole viable supplier
+
+All single-source procurements must be documented with a written justification approved by [CEO_NAME] (or [POLICY_APPROVAL_AUTHORITY] for procurements above £50,000). The justification must be retained for audit purposes.
+
+---
+
+## 8. Policy Compliance
+
+Procurement activity that does not comply with this policy must be reported to [FINANCE_LEAD_NAME]. Retrospective approval does not remedy a non-compliant procurement but may be granted in exceptional circumstances with full documentation. Deliberate circumvention of this policy is a disciplinary matter.
+
+Questions regarding procurement requirements should be directed to [FINANCE_EMAIL].
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [FINANCE_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| CEO | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [FINANCE_LEAD_NAME] | Initial issue |

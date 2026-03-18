@@ -1,0 +1,171 @@
+# Fraud Prevention Policy
+
+**Policy Reference:** CORP-FIN-004
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+[ORG_NAME] is committed to preventing fraud and protecting its financial resources, reputation, and stakeholders from the harm that fraud causes. This policy sets out the organisation's approach to fraud prevention, detection, reporting, investigation, and sanctioning.
+
+Fraud represents a significant financial and reputational risk to any organisation. [ORG_NAME] adopts a zero-tolerance approach to fraud in all its forms, whether committed by employees, Board members, suppliers, contractors, or third parties acting against the organisation.
+
+This policy applies to all employees, Board members, contractors, volunteers, and agents acting on behalf of [ORG_NAME]. It should be read alongside the Financial Management Policy (CORP-FIN-001), the Procurement & Purchasing Policy (CORP-FIN-003), and the Whistleblowing Policy (CORP-GOV-004).
+
+---
+
+## 2. Definition of Fraud
+
+For the purposes of this policy, fraud is defined broadly to include any intentional act or omission designed to deceive, in order to make a gain (financial or otherwise) or to cause loss to [ORG_NAME] or a third party. Fraud encompasses, but is not limited to:
+
+**Internal Fraud:**
+- Theft of cash, assets, or intellectual property belonging to [ORG_NAME]
+- Falsification of expense claims, timesheets, or financial records
+- Misuse of organisational funds, credit cards, or procurement processes for personal gain
+- Payroll fraud, including ghost employees or unauthorised salary amendments
+- False representation of qualifications, credentials, or identity
+
+**External Fraud:**
+- Invoice fraud and mandate fraud (fraudulent requests to change bank details)
+- Identity fraud or impersonation of [ORG_NAME] or its employees
+- Cyber-enabled fraud including phishing, ransomware-enabled financial crime, and business email compromise
+- Grant or funding fraud: misrepresentation of use of funds or eligibility
+
+**Facilitated Fraud:**
+- Any act by an employee that facilitates fraud by a third party against [ORG_NAME] or its clients
+
+The Fraud Act 2006 and the Theft Act 1968 are the primary legislative frameworks applicable to fraud in England and Wales.
+
+---
+
+## 3. Responsibilities
+
+### 3.1 All Employees and Board Members
+
+Every individual associated with [ORG_NAME] has a responsibility to:
+
+- Be aware of the risk of fraud and the common indicators of fraudulent activity
+- Act honestly and transparently in all financial and business dealings
+- Report any suspected fraud promptly using the channels set out in Section 5
+- Cooperate fully with any fraud investigation
+
+### 3.2 Finance Lead
+
+[FINANCE_LEAD_NAME] is responsible for:
+
+- Maintaining and monitoring the financial controls set out in CORP-FIN-001 that form the primary defence against fraud
+- Reviewing and investigating anomalous financial transactions
+- Ensuring that all fraud incidents are recorded in [INCIDENT_TRACKING_SYSTEM]
+- Producing an annual fraud risk assessment for review by [CEO_NAME] and the [BOARD_NAME]
+
+### 3.3 HR Lead
+
+[HR_LEAD_NAME] is responsible for:
+
+- Ensuring that appropriate pre-employment screening, including identity verification and right to work checks, is conducted for all new employees
+- Managing the employment consequences of fraud investigations in accordance with the disciplinary procedure
+
+### 3.4 Chief Executive Officer
+
+[CEO_NAME] is responsible for:
+
+- Maintaining overall oversight of the organisation's fraud risk
+- Ensuring that fraud incidents are escalated appropriately to the [BOARD_NAME] and, where required, to external agencies
+- Championing an ethical culture in which fraud is neither tolerated nor concealed
+
+---
+
+## 4. Prevention Controls
+
+[ORG_NAME] operates the following primary controls to prevent and deter fraud:
+
+**Financial Controls:** Segregation of duties, dual authorisation of payments, supplier verification, and regular bank reconciliation as set out in CORP-FIN-001.
+
+**Access Controls:** Systems access is granted on a least-privilege basis and reviewed annually. Leavers' access is revoked on their last day of employment.
+
+**Mandate Fraud Controls:** All requests to change supplier or employee bank account details must be verified by a separate telephone call to a known contact number — not a number provided in the change request itself. Written confirmation alone is not sufficient.
+
+**Procurement Controls:** Competitive procurement processes and supplier due diligence as set out in CORP-FIN-003 reduce the risk of collusive tendering and supplier fraud.
+
+**Awareness Training:** All employees receive fraud awareness training as part of induction and on a periodic refresher basis. Phishing simulation exercises are conducted periodically.
+
+**Whistleblowing Channel:** An accessible and confidential reporting mechanism is maintained in accordance with CORP-GOV-004, enabling staff to report suspicions without fear of retaliation.
+
+---
+
+## 5. Reporting Suspected Fraud
+
+Any person who suspects that fraud has occurred or is occurring must report it immediately. Delay in reporting can allow fraud to continue and evidence to be destroyed.
+
+**Reports should be made to:**
+
+- [HR_LEAD_NAME] (HR Lead) for matters relating to employee conduct: [HR_EMAIL]
+- [FINANCE_LEAD_NAME] (Finance Lead) for financial irregularities: [FINANCE_EMAIL]
+- [CEO_NAME] for serious or complex concerns, or where the Finance Lead or HR Lead may be implicated
+- [COMPLIANCE_EMAIL] for anonymous reports
+
+Where the suspected fraud involves [CEO_NAME], the report should be made directly to the Chair of the [BOARD_NAME].
+
+All fraud reports will be treated confidentially and in accordance with the Whistleblowing Policy (CORP-GOV-004). No individual will suffer detriment for making a report in good faith.
+
+---
+
+## 6. Investigation Process
+
+Upon receipt of a fraud report, [CEO_NAME] or their nominated delegate will:
+
+1. **Immediately secure** any relevant financial records, systems access, and documentary evidence
+2. **Assess** whether interim protective measures are required (such as suspension of the individual concerned, freezing of accounts, or emergency system access changes)
+3. **Appoint an Investigating Officer**, independent of the subject of the investigation
+4. **Conduct a structured investigation**, ensuring that the rights of the individual under investigation are respected and that the process complies with relevant employment law
+5. **Document all findings** in [INCIDENT_TRACKING_SYSTEM]
+6. **Report to [CEO_NAME] and the [BOARD_NAME]** on the outcome
+
+Investigations will be conducted as expeditiously as possible. All individuals involved must maintain strict confidentiality.
+
+---
+
+## 7. External Reporting
+
+[ORG_NAME] will report fraud to external agencies where appropriate:
+
+- **Action Fraud** (the UK's national fraud reporting centre): All confirmed or suspected fraud incidents should be reported at actionfraud.police.uk or by calling 0300 123 2040
+- **CIFAS** (the UK's fraud prevention service): [ORG_NAME] will report confirmed instances of internal fraud to CIFAS where evidence supports it, in accordance with CIFAS membership obligations
+- **Police:** Where there is evidence of serious criminal conduct, [CEO_NAME] will consider reporting to the police in consultation with legal advisers
+- **Regulatory Authorities:** Where fraud involves regulated activities, the relevant regulator ([PRIMARY_REGULATOR]) must be notified as required by applicable rules
+
+---
+
+## 8. Sanctions
+
+Any employee found to have committed fraud will face dismissal. The organisation reserves the right to pursue civil recovery of any losses suffered as a result of fraudulent conduct.
+
+Where evidence supports a criminal offence, [ORG_NAME] will refer the matter to the police and cooperate fully with any prosecution. A CIFAS marker may be placed on the individual's record.
+
+---
+
+## 9. Review
+
+This policy will be reviewed annually by [FINANCE_LEAD_NAME] and [CEO_NAME]. The fraud risk assessment will be updated following any significant incident or change to the organisation's risk environment.
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| Finance Lead | [FINANCE_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| HR Lead | [HR_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [CEO_NAME] | Initial issue |

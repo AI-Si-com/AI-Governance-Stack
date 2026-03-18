@@ -1,0 +1,131 @@
+# Conflicts of Interest Policy
+
+**Policy Reference:** CORP-GOV-003
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+[ORG_NAME] is committed to maintaining the highest standards of integrity and impartiality in all its activities. A conflict of interest arises when an individual's personal interests, or those of a connected person, could actually or potentially influence the exercise of their duties and responsibilities to [ORG_NAME].
+
+This policy sets out the organisation's approach to identifying, disclosing, and managing conflicts of interest. It applies to all members of the [BOARD_NAME], members of the [EXEC_COMMITTEE_NAME], employees at all levels, contractors, consultants, and volunteers acting on behalf of [ORG_NAME].
+
+Failure to declare a conflict of interest is a serious matter that may constitute a breach of contract, a breach of fiduciary duty, or, in certain circumstances, a criminal offence. [ORG_NAME] will take appropriate action in response to any undisclosed conflict.
+
+---
+
+## 2. What Constitutes a Conflict of Interest
+
+A conflict of interest may be actual, potential, or perceived. It is not necessary for a conflict to result in actual impropriety — the appearance of impropriety is itself damaging to the organisation and must be managed.
+
+### 2.1 Examples of Conflicts
+
+The following are indicative examples of situations that may give rise to a conflict of interest:
+
+**Financial Interests:**
+- Holding a financial interest (shares, equity, loans, or debt) in a supplier, competitor, or partner organisation
+- Receiving personal financial benefit, commission, or remuneration from a third party in connection with your role at [ORG_NAME]
+- Having a family member or close associate employed by, or holding a significant interest in, a supplier or partner
+
+**Organisational Involvement:**
+- Serving as a director, trustee, or officer of another organisation whose interests may conflict with those of [ORG_NAME]
+- Holding a voluntary position or advisory role with a body that competes with or regulates [ORG_NAME]
+
+**Gifts, Hospitality, and Benefits:**
+- Accepting gifts, hospitality, or other benefits from suppliers, clients, or third parties that could influence or appear to influence your professional judgement (see also the Code of Conduct, CORP-GOV-005)
+
+**Personal Relationships:**
+- Involvement in recruitment, performance management, procurement, or contractual decisions involving a family member, close friend, or romantic partner
+
+This list is illustrative and not exhaustive. Where an individual is uncertain whether a situation constitutes a conflict, they should seek guidance from [CEO_NAME] or contact [COMPLIANCE_EMAIL].
+
+---
+
+## 3. Disclosure Requirements
+
+### 3.1 Duty to Declare
+
+All individuals within scope of this policy have a continuing duty to disclose any actual, potential, or perceived conflict of interest. Disclosure must be made:
+
+- At the point of joining [ORG_NAME] (during induction or on appointment to the [BOARD_NAME])
+- Promptly on becoming aware of a new or changed interest at any subsequent time
+- Prior to any meeting, decision-making process, or activity in which the conflict is relevant
+
+### 3.2 How to Declare
+
+Declarations should be made in writing to [CEO_NAME] using the Conflict of Interest Declaration Form, available from [COMPLIANCE_EMAIL]. Members of the [BOARD_NAME] must also declare relevant interests at the commencement of any [BOARD_NAME] meeting in which a conflicting matter arises.
+
+Where the conflict involves [CEO_NAME], the declaration should be made directly to the Chair of the [BOARD_NAME].
+
+---
+
+## 4. The Conflicts of Interest Register
+
+[ORG_NAME] maintains a Conflicts of Interest Register, overseen by the Company Secretary or designated compliance function. The register records all declared interests and the management measures applied to each.
+
+The register is reviewed:
+- At each [BOARD_NAME] meeting
+- Annually as part of the policy review cycle
+
+The register is stored at [POLICY_STORAGE_LOCATION] and access is restricted to authorised personnel only. Aggregate or anonymised summaries may be provided to the [BOARD_NAME] for assurance purposes.
+
+---
+
+## 5. Managing Conflicts of Interest
+
+Upon receiving a declaration, [CEO_NAME] (or the Board Chair where the conflict involves [CEO_NAME]) will determine the appropriate management measure. Options include:
+
+**Withdrawal:** The individual withdraws from all discussions, decisions, and access to information relating to the conflict.
+
+**Restriction:** The individual is permitted to participate in discussion but not in the decision or vote.
+
+**Monitoring:** Where the conflict is deemed low risk, it is recorded on the register and monitored without further restriction, with reasons documented.
+
+**Termination:** In the most serious cases, where a conflict cannot be adequately managed, the individual may be required to divest the conflicting interest or, in extreme cases, to resign from their role.
+
+The chosen management measure will be documented in the Conflicts of Interest Register along with the rationale. The individual concerned will be notified in writing.
+
+---
+
+## 6. Gifts and Hospitality
+
+All gifts and hospitality offered to or received by employees and Board members in connection with their role at [ORG_NAME] must be recorded in the Gifts and Hospitality Register. Guidance on acceptable thresholds is set out in the Code of Conduct (CORP-GOV-005). Any gift or hospitality that creates or could create a conflict of interest must be declared under this policy.
+
+---
+
+## 7. Enforcement and Consequences
+
+Any breach of this policy — including failure to declare a conflict, making a false declaration, or acting in a situation of undisclosed conflict — will be treated as a serious disciplinary matter. Depending on the circumstances, consequences may include:
+
+- Formal disciplinary action up to and including dismissal (for employees)
+- Removal from the [BOARD_NAME] (for directors or trustees)
+- Referral to a regulatory authority or law enforcement agency where a criminal offence may have been committed
+- Civil recovery of any financial benefit obtained through an undisclosed conflict
+
+Concerns about potential or undisclosed conflicts should be reported to [CEO_NAME] or to [COMPLIANCE_EMAIL]. Anonymous reports may be made via the whistleblowing mechanism set out in CORP-GOV-004.
+
+---
+
+## 8. Training and Awareness
+
+All new joiners will receive training on this policy as part of their induction. Refresher training will be provided annually and whenever a material update to the policy is made. Completion of training will be recorded by the HR function.
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [CEO_NAME] | Initial issue |

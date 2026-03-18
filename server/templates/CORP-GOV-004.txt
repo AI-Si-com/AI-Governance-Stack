@@ -1,0 +1,146 @@
+# Whistleblowing Policy
+
+**Policy Reference:** CORP-GOV-004
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+[ORG_NAME] is committed to conducting its business with honesty, integrity, and transparency. This policy provides a framework through which employees and others can raise genuine concerns about wrongdoing or malpractice without fear of retaliation.
+
+This policy is made pursuant to the Public Interest Disclosure Act 1998 (PIDA) and the Employment Rights Act 1996 (as amended). It reflects [ORG_NAME]'s commitment to creating a culture where speaking up is encouraged and concerns are treated seriously.
+
+This policy applies to all employees, workers, agency workers, contractors, and self-employed individuals working for [ORG_NAME]. It is not a substitute for the Grievance Policy, which deals with personal employment complaints, nor for the Complaints Policy, which handles concerns raised by service users or the public.
+
+---
+
+## 2. What is a Protected Disclosure?
+
+Under the Public Interest Disclosure Act 1998, a "qualifying disclosure" is one made by a worker who reasonably believes — and has reasonable grounds to believe — that the information disclosed tends to show one or more of the following:
+
+- **Criminal offences**, including fraud, theft, or bribery
+- **Failure to comply with a legal obligation**, such as a statutory duty, regulatory requirement, or court order
+- **Miscarriages of justice**
+- **Danger to the health and safety** of any person
+- **Damage to the environment**
+- **Deliberate concealment** of any of the above
+
+A qualifying disclosure is a protected disclosure where it is made to the appropriate person in good faith, as set out in this policy. The disclosure does not need to be correct, but the person making it must have a reasonable belief that the information is substantially true.
+
+Disclosures that relate solely to a personal employment grievance (such as a complaint about your own treatment) are not protected disclosures under PIDA and should instead be raised through the Grievance Policy.
+
+---
+
+## 3. Reporting Channels
+
+[ORG_NAME] provides the following confidential reporting channels. You are encouraged to raise concerns as early as possible.
+
+### 3.1 Internal Reporting
+
+**Step 1 – Line Manager:** In the first instance, concerns may be raised with your direct line manager, unless the concern relates to that individual.
+
+**Step 2 – HR Function:** Where the concern relates to your line manager, or where you do not feel comfortable approaching them, you should contact the HR function:
+
+- Email: [HR_EMAIL]
+- A written disclosure may also be submitted by post marked "Confidential – Whistleblowing" to the attention of [HR_LEAD_NAME]
+
+**Step 3 – Chief Executive:** Concerns that cannot be appropriately addressed through line management or HR may be raised directly with [CEO_NAME].
+
+**Step 4 – Board Level:** Where the concern relates to [CEO_NAME] or a member of the executive leadership, the disclosure should be made directly to the Chair of the [BOARD_NAME] by writing to [COMPLIANCE_EMAIL] and marking the communication "Strictly Confidential – Board Escalation."
+
+### 3.2 External Reporting
+
+In certain circumstances, employees are legally entitled to make a protected disclosure to a prescribed person or body. Relevant prescribed persons include:
+
+- **His Majesty's Revenue and Customs (HMRC):** Tax evasion and fraud
+- **The Financial Conduct Authority (FCA):** Financial services misconduct
+- **The Health and Safety Executive (HSE):** Health and safety concerns
+- **The Environment Agency:** Environmental damage
+- **The Information Commissioner's Office (ICO):** Data protection breaches
+- **Ofsted / Care Quality Commission:** Education and care sector concerns
+- **The Serious Fraud Office (SFO):** Serious or complex fraud
+
+[IF USE_ACAS_SUPPORT == "Yes" THEN]
+Independent confidential advice about whistleblowing rights is also available from Acas: [ACAS_CONTACT].
+[END IF]
+
+---
+
+## 4. Protection from Detriment and Retaliation
+
+[ORG_NAME] will not tolerate any form of retaliation against an individual who makes a protected disclosure in good faith. This protection applies regardless of whether the concern is ultimately substantiated.
+
+Prohibited retaliatory actions include but are not limited to:
+
+- Dismissal or redundancy selection motivated by the disclosure
+- Demotion, disciplinary action, or performance management used as a reprisal
+- Exclusion from meetings, projects, or opportunities
+- Harassment, bullying, or other forms of detrimental treatment
+- Threats or intimidation
+
+Any employee who subjects a whistleblower to detriment will be subject to disciplinary action, up to and including dismissal. [ORG_NAME] acknowledges that, under PIDA, employees have the right to bring a claim to an Employment Tribunal for detriment suffered as a result of a protected disclosure, and that such claims are not subject to a qualifying period of employment.
+
+### 4.1 Anonymous Disclosures
+
+Disclosures may be made anonymously. However, [ORG_NAME] encourages individuals to identify themselves where possible, as this makes it easier to investigate the concern and to provide feedback. Anonymous disclosures will be assessed and investigated as far as is practicable.
+
+---
+
+## 5. Confidentiality
+
+[ORG_NAME] will treat all whistleblowing disclosures with appropriate confidentiality. The identity of the disclosing individual will not be revealed without their consent, except where:
+
+- Disclosure is required by law
+- Disclosure is necessary to properly investigate the concern and cannot reasonably be avoided
+
+Where it is necessary to identify the individual in the course of an investigation, the individual will be informed in advance wherever possible.
+
+---
+
+## 6. Investigation Process
+
+Upon receipt of a whistleblowing disclosure, [ORG_NAME] will:
+
+1. **Acknowledge** receipt of the concern within five working days
+2. **Assess** whether the concern constitutes a qualifying disclosure under PIDA
+3. **Appoint an Investigating Officer** who is independent of the subject of the concern
+4. **Conduct an investigation** in a timely manner, typically within 28 working days (extensions will be communicated)
+5. **Report findings** to the appropriate authority within [ORG_NAME] (or externally where legally required)
+6. **Provide feedback** to the disclosing individual on the outcome, subject to confidentiality constraints
+
+Where the concern discloses an immediate risk to health, safety, or financial integrity, interim protective measures will be taken without delay.
+
+All investigation records will be maintained securely at [POLICY_STORAGE_LOCATION] and retained in accordance with the organisation's data retention schedule.
+
+---
+
+## 7. Malicious or Vexatious Disclosures
+
+This policy does not protect individuals who make disclosures that are knowingly false, malicious, or vexatious. Making a deliberately false allegation is itself a disciplinary offence and may result in action up to and including dismissal.
+
+---
+
+## 8. Review and Monitoring
+
+This policy will be reviewed annually. The HR function will maintain records of all disclosures received, actions taken, and outcomes. Summary data (anonymised) will be reported to the [BOARD_NAME] annually.
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| HR Lead | [HR_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [CEO_NAME] | Initial issue |

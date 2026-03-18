@@ -1,0 +1,153 @@
+# Information Security Management Policy
+## Policy Reference: CORP-ISMS-001
+
+**Organisation:** [ORG_NAME]
+**Approved by:** [CEO_NAME]
+**Approval Authority:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Version:** 1.0
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to protecting the confidentiality, integrity, and availability of all information assets. This Information Security Management Policy establishes the governance framework for information security across the organisation, aligned with ISO/IEC 27001:2022.
+
+This policy applies to all employees, contractors, consultants, temporary staff, and any third parties who access [ORG_NAME] systems, data, or premises. It covers all information assets including data stored on [CRITICAL_SYSTEMS], physical records, communications, and cloud-hosted services.
+
+---
+
+## 2. Information Security Objectives
+
+[ORG_NAME] will maintain the following security objectives, reviewed annually:
+
+- Protect personal data in compliance with UK GDPR and the Data Protection Act 2018
+- Ensure business continuity through resilient security controls
+- Meet all applicable legal, regulatory, and contractual obligations
+- Reduce the risk of security breaches through proactive controls and staff awareness
+- Achieve and maintain alignment with ISO/IEC 27001:2022
+
+All objectives are reviewed as part of the annual management review cycle.
+
+---
+
+## 3. Information Security Governance
+
+### 3.1 Roles and Responsibilities
+
+**Chief Executive Officer ([CEO_NAME])** holds ultimate accountability for information security risk and approves this policy.
+
+**IT Lead / CISO** is responsible for implementing and maintaining the Information Security Management System (ISMS), managing technical controls, and overseeing day-to-day security operations. Contact: [IT_EMAIL].
+
+**All Staff** are responsible for adhering to this policy and all supporting security procedures, reporting incidents promptly, and completing mandatory security awareness training.
+
+**Third Parties and Suppliers** must comply with [ORG_NAME]'s security requirements as set out in contractual agreements.
+
+### 3.2 Information Security Committee
+
+An Information Security Committee, chaired by the IT Lead, meets at least quarterly to review the ISMS, assess risks, evaluate incidents, and ensure objectives are being met.
+
+---
+
+## 4. Data Classification
+
+All information held by [ORG_NAME] must be classified in accordance with the Data Classification Policy (CORP-ISMS-003). Classification levels are:
+
+- **Public** – Information approved for external release
+- **Internal** – General business information for internal use
+- **Confidential** – Sensitive business or personal data requiring controlled access
+- **Restricted** – Highly sensitive data with strictly limited access
+
+Handling requirements for each level are defined in CORP-ISMS-003.
+
+---
+
+## 5. Technical Security Controls
+
+### 5.1 Encryption
+
+[IF DATA_ENCRYPTION_AT_REST == "Yes" THEN]
+All data stored on [ORG_NAME] systems and devices is encrypted at rest using industry-standard encryption (minimum AES-256). Encryption in transit is enforced via TLS 1.2 or higher for all network communications. Encryption keys are managed and rotated in accordance with the IT Security Standards.
+[END IF]
+
+[IF DATA_ENCRYPTION_AT_REST == "No" THEN]
+The organisation is currently implementing encryption at rest. In the interim, compensating controls are in place including strict access controls and physical security measures. Implementation of full encryption at rest is a priority security objective.
+[END IF]
+
+### 5.2 Multi-Factor Authentication
+
+[IF MFA_ENABLED == "Yes" THEN]
+Multi-factor authentication (MFA) is mandatory for all access to [ORG_NAME] systems, including remote access, cloud platforms, email, and all systems listed in [CRITICAL_SYSTEMS]. No exceptions are permitted without formal documented approval from the IT Lead.
+[END IF]
+
+[IF MFA_ENABLED == "No" THEN]
+The organisation recognises MFA as a critical control. Implementation of MFA across all systems is a current priority security objective. In the interim, strong password policies and access logging are enforced.
+[END IF]
+
+### 5.3 Critical Systems
+
+The following systems are designated as critical to business operations and subject to enhanced security controls: [CRITICAL_SYSTEMS]. These systems are subject to regular vulnerability assessments, enhanced monitoring, and are included in the Business Continuity and Disaster Recovery Plan (CORP-ISMS-005).
+
+---
+
+## 6. Access Control
+
+Access to information and systems is granted on the principle of least privilege. All access rights must be formally requested, approved, and documented. Access control is managed in accordance with the Access Control Policy (CORP-ISMS-002).
+
+---
+
+## 7. Security Incident Management
+
+All actual or suspected security incidents must be reported immediately to the IT Lead at [IT_EMAIL]. Incidents are logged, investigated, and managed in accordance with the Security Incident Response Policy (CORP-ISMS-004).
+
+[ORG_NAME] uses [INCIDENT_TRACKING_SYSTEM] to record and track all security incidents. Post-incident reviews are conducted to identify lessons learned and prevent recurrence.
+
+---
+
+## 8. Security Awareness and Training
+
+All staff must complete security awareness training upon joining [ORG_NAME] and at least annually thereafter. Training covers:
+
+- Recognising phishing and social engineering attacks
+- Password security and acceptable use
+- Data handling and classification requirements
+- Incident reporting procedures
+- Physical security obligations
+
+Completion of training is recorded and monitored by the IT Lead.
+
+---
+
+## 9. Physical and Environmental Security
+
+Physical access to areas where sensitive information is processed or stored is restricted to authorised personnel. Clear desk and clear screen policies are in force. Visitors must be supervised at all times in secure areas.
+
+---
+
+## 10. Supplier and Third-Party Security
+
+All suppliers and third parties with access to [ORG_NAME] data or systems must sign a Data Processing Agreement or Information Security Schedule. Supplier security is reviewed at least annually and upon contract renewal.
+
+---
+
+## 11. Compliance and Audit
+
+Compliance with this policy is monitored through internal audits conducted at least annually and by management review. Non-compliance may result in disciplinary action under the Disciplinary Procedure (CORP-HR-004).
+
+---
+
+## 12. Policy Review
+
+This policy will be reviewed annually by the IT Lead and approved by [CEO_NAME] / [POLICY_APPROVAL_AUTHORITY]. Earlier review will be triggered by significant changes to the threat landscape, organisational structure, or applicable regulations.
+
+---
+
+## 13. Related Documents
+
+- CORP-ISMS-002: Access Control Policy
+- CORP-ISMS-003: Data Classification Policy
+- CORP-ISMS-004: Security Incident Response Policy
+- CORP-ISMS-005: Business Continuity & Disaster Recovery Policy
+- UK GDPR / Data Protection Act 2018
+- ISO/IEC 27001:2022

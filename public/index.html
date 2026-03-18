@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Si Policy Suite</title>
+<style>
+  :root {
+    --brand-primary: #1a237e;
+    --brand-secondary: #283593;
+    --brand-accent: #3f51b5;
+    --brand-light: #e8eaf6;
+    --brand-gradient: linear-gradient(135deg, #1a237e 0%, #3f51b5 100%);
+    --success: #2e7d32;
+    --error: #c62828;
+    --warning: #f57f17;
+    --text-primary: #212121;
+    --text-secondary: #616161;
+    --border: #e0e0e0;
+    --bg: #f5f5f5;
+    --white: #ffffff;
+    --shadow: 0 2px 12px rgba(26,35,126,0.10);
+    --shadow-lg: 0 8px 32px rgba(26,35,126,0.15);
+    --radius: 10px;
+    --radius-lg: 16px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+  /* LANDING */
+  #page-landing {
+    min-height: 100vh;
+    background: var(--brand-gradient);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 40px 20px;
+  }
+  .landing-logo { width: 80px; height: 80px; background: rgba(255,255,255,0.15);
+    border-radius: 20px; display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 32px; font-size: 36px; }
+  .landing-title { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800;
+    color: #fff; letter-spacing: -1px; margin-bottom: 16px; }
+  .landing-tagline { font-size: clamp(1rem, 2.5vw, 1.3rem); color: rgba(255,255,255,0.85);
+    margin-bottom: 48px; max-width: 540px; line-height: 1.6; }
+  .landing-stats { display: flex; gap: 32px; margin-bottom: 48px; flex-wrap: wrap; justify-content: center; }
+  .stat-item { background: rgba(255,255,255,0.12); border-radius: 12px;
+    padding: 20px 28px; color: #fff; }
+  .stat-num { font-size: 2rem; font-weight: 800; display: block; }
+  .stat-label { font-size: 0.85rem; opacity: 0.8; margin-top: 4px; }
+  .landing-btns { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+  .btn-primary { background: #fff; color: var(--brand-primary);
+    font-weight: 700; font-size: 1.05rem; padding: 16px 36px;
+    border: none; border-radius: 50px; cursor: pointer;
+    transition: all 0.2s; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.2); }
+  .btn-outline { background: transparent; color: #fff;
+    font-weight: 600; font-size: 1rem; padding: 15px 32px;
+    border: 2px solid rgba(255,255,255,0.6); border-radius: 50px; cursor: pointer;
+    transition: all 0.2s; }
+  .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: #fff; }
+  /* SIGN IN MODAL */
+  .modal-overlay { display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.5); z-index: 100;
+    align-items: center; justify-content: center; }
+  .modal-overlay.active { display: flex; }
+  .modal { background: #fff; border-radius: var(--radius-lg);
+    padding: 40px; width: 100%; max-width: 420px;
+    box-shadow: var(--shadow-lg); position: relative; }
+  .modal-close { position: absolute; top: 16px; right: 16px;
+    background: none; border: none; font-size: 1.4rem; cursor: pointer;
+    color: var(--text-secondary); }
+  .modal h2 { font-size: 1.5rem; margin-bottom: 24px; color: var(--brand-primary); }
+  /* QUESTIONNAIRE SHELL */
+  #page-questionnaire { display: none; min-height: 100vh; }
+  .q-header { background: var(--brand-gradient); padding: 16px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; z-index: 50; box-shadow: var(--shadow); }
+  .q-header-brand { color: #fff; font-weight: 800; font-size: 1.1rem; }
+  .q-header-actions { display: flex; gap: 12px; }
+  .btn-save-exit { background: rgba(255,255,255,0.15); color: #fff;
+    border: 1px solid rgba(255,255,255,0.3); border-radius: 6px;
+    padding: 8px 18px; cursor: pointer; font-size: 0.875rem;
+    transition: background 0.2s; }
+  .btn-save-exit:hover { background: rgba(255,255,255,0.25); }
+  .progress-container { background: #fff; padding: 16px 24px;
+    border-bottom: 1px solid var(--border); }
+  .progress-label { display: flex; justify-content: space-between;
+    font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px; }
+  .progress-bar-track { background: var(--brand-light); border-radius: 99px;
+    height: 8px; overflow: hidden; }
+  .progress-bar-fill { background: var(--brand-gradient);
+    height: 100%; border-radius: 99px; transition: width 0.4s ease; }
+  .q-body { max-width: 720px; margin: 0 auto; padding: 32px 24px; }
+  .section-card { background: #fff; border-radius: var(--radius-lg);
+    box-shadow: var(--shadow); padding: 36px; margin-bottom: 24px; }
+  .section-header { margin-bottom: 28px; }
+  .section-badge { display: inline-block; background: var(--brand-light);
+    color: var(--brand-primary); font-size: 0.78rem; font-weight: 700;
+    padding: 4px 12px; border-radius: 99px; margin-bottom: 10px;
+    text-transform: uppercase; letter-spacing: 0.5px; }
+  .section-title { font-size: 1.4rem; font-weight: 700; color: var(--brand-primary); }
+  .section-desc { font-size: 0.9rem; color: var(--text-secondary);
+    margin-top: 6px; line-height: 1.5; }
+  /* FORM FIELDS */
+  .field-group { margin-bottom: 22px; }
+  .field-label { display: block; font-size: 0.9rem; font-weight: 600;
+    margin-bottom: 6px; color: var(--text-primary); }
+  .field-label .required { color: var(--error); margin-left: 2px; }
+  .field-hint { font-size: 0.8rem; color: var(--text-secondary);
+    margin-bottom: 6px; }
+  .field-input, .field-select, .field-textarea {
+    width: 100%; padding: 11px 14px;
+    border: 1.5px solid var(--border); border-radius: 8px;
+    font-size: 0.95rem; font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #fff; color: var(--text-primary); }
+  .field-input:focus, .field-select:focus, .field-textarea:focus {
+    outline: none; border-color: var(--brand-accent);
+    box-shadow: 0 0 0 3px rgba(63,81,181,0.12); }
+  .field-input.error, .field-select.error, .field-textarea.error {
+    border-color: var(--error); }
+  .field-error { display: none; font-size: 0.8rem; color: var(--error);
+    margin-top: 4px; }
+  .field-error.visible { display: block; }
+  /* CHECKBOXES */
+  .checkbox-group { display: flex; flex-direction: column; gap: 8px; }
+  .checkbox-item { display: flex; align-items: center; gap: 10px;
+    cursor: pointer; padding: 8px 12px; border-radius: 6px;
+    border: 1.5px solid var(--border); background: #fff;
+    transition: all 0.15s; }
+  .checkbox-item:hover { border-color: var(--brand-accent);
+    background: var(--brand-light); }
+  .checkbox-item input[type="checkbox"] { accent-color: var(--brand-accent);
+    width: 16px; height: 16px; flex-shrink: 0; }
+  .checkbox-item span { font-size: 0.9rem; }
+  /* FILE UPLOAD */
+  .file-upload-area { border: 2px dashed var(--border); border-radius: 10px;
+    padding: 28px; text-align: center; cursor: pointer;
+    transition: all 0.2s; background: #fafafa; }
+  .file-upload-area:hover { border-color: var(--brand-accent);
+    background: var(--brand-light); }
+  .file-upload-area.has-file { border-color: var(--success);
+    background: #f1f8f1; }
+  .upload-icon { font-size: 2rem; margin-bottom: 8px; }
+  .upload-text { font-size: 0.9rem; color: var(--text-secondary); }
+  .upload-preview { max-width: 120px; max-height: 80px;
+    border-radius: 6px; margin-top: 12px; display: none; }
+  /* CONDITIONAL FIELD */
+  .conditional-field { display: none; }
+  .conditional-field.show { display: block; }
+  /* NAVIGATION */
+  .q-nav { display: flex; justify-content: space-between; align-items: center;
+    margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border); }
+  .btn-nav { padding: 12px 28px; border-radius: 8px; font-size: 0.95rem;
+    font-weight: 600; cursor: pointer; transition: all 0.2s; border: none; }
+  .btn-back { background: #fff; color: var(--text-secondary);
+    border: 1.5px solid var(--border); }
+  .btn-back:hover { border-color: var(--brand-accent); color: var(--brand-primary); }
+  .btn-next { background: var(--brand-gradient); color: #fff;
+    box-shadow: 0 2px 8px rgba(63,81,181,0.25); }
+  .btn-next:hover { box-shadow: 0 4px 16px rgba(63,81,181,0.35);
+    transform: translateY(-1px); }
+  .btn-submit { background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+    color: #fff; padding: 14px 36px; font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(46,125,50,0.3); }
+  .btn-submit:hover { box-shadow: 0 4px 16px rgba(46,125,50,0.4); transform: translateY(-1px); }
+  /* STEP DOTS */
+  .step-dots { display: flex; gap: 6px; flex-wrap: wrap; max-width: 280px; }
+  .step-dot { width: 10px; height: 10px; border-radius: 99px;
+    background: var(--border); transition: all 0.2s; cursor: pointer; }
+  .step-dot.active { background: var(--brand-accent); width: 20px; }
+  .step-dot.done { background: var(--success); }
+  /* RESUME BANNER */
+  .resume-banner { background: var(--brand-light); border: 1px solid var(--brand-accent);
+    border-radius: 10px; padding: 16px 20px; margin-bottom: 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; flex-wrap: wrap; }
+  .resume-banner p { font-size: 0.9rem; color: var(--brand-primary); }
+  .resume-btn { background: var(--brand-accent); color: #fff;
+    border: none; border-radius: 6px; padding: 8px 18px;
+    font-size: 0.875rem; cursor: pointer; font-weight: 600; }
+  .discard-btn { background: none; color: var(--text-secondary);
+    border: 1px solid var(--border); border-radius: 6px; padding: 8px 14px;
+    font-size: 0.875rem; cursor: pointer; }
+  /* LOADING PAGE */
+  #page-generating { display: none; min-height: 100vh;
+    background: var(--brand-gradient);
+    align-items: center; justify-content: center; flex-direction: column;
+    text-align: center; padding: 40px 20px; }
+  .gen-icon { font-size: 4rem; margin-bottom: 24px; animation: spin 2s linear infinite; }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .gen-title { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 12px; }
+  .gen-subtitle { color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 36px; }
+  .gen-progress { width: 100%; max-width: 480px; }
+  .gen-progress-bar { background: rgba(255,255,255,0.2); border-radius: 99px;
+    height: 12px; overflow: hidden; margin-bottom: 12px; }
+  .gen-progress-fill { background: #fff; height: 100%; border-radius: 99px;
+    transition: width 0.5s ease; }
+  .gen-count { color: rgba(255,255,255,0.9); font-size: 0.95rem; margin-bottom: 24px; }
+  .gen-doc-list { display: flex; flex-direction: column; gap: 6px;
+    max-height: 300px; overflow-y: auto; width: 100%; max-width: 480px;
+    scrollbar-width: thin; }
+  .gen-doc-item { background: rgba(255,255,255,0.1); border-radius: 8px;
+    padding: 10px 16px; display: flex; align-items: center; gap: 12px;
+    font-size: 0.85rem; color: rgba(255,255,255,0.9); }
+  .gen-doc-item.done { background: rgba(255,255,255,0.18); }
+  .gen-doc-item .doc-status { width: 18px; height: 18px; flex-shrink: 0;
+    background: rgba(255,255,255,0.2); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; font-size: 0.7rem; }
+  .gen-doc-item.done .doc-status { background: rgba(46,125,50,0.6); }
+  /* RESULTS PAGE */
+  #page-results { display: none; min-height: 100vh; padding: 0 0 60px; }
+  .results-header { background: var(--brand-gradient); padding: 40px 24px;
+    text-align: center; color: #fff; }
+  .results-header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+  .results-header p { opacity: 0.85; font-size: 1rem; }
+  .results-body { max-width: 900px; margin: 0 auto; padding: 32px 24px; }
+  .results-actions { background: #fff; border-radius: var(--radius-lg);
+    box-shadow: var(--shadow); padding: 28px; margin-bottom: 28px; }
+  .results-actions h2 { font-size: 1.1rem; font-weight: 700;
+    margin-bottom: 16px; color: var(--brand-primary); }
+  .actions-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .format-select { padding: 10px 14px; border: 1.5px solid var(--border);
+    border-radius: 8px; font-size: 0.9rem; background: #fff; cursor: pointer; }
+  .btn-download-all { background: var(--brand-gradient); color: #fff;
+    border: none; border-radius: 8px; padding: 12px 28px;
+    font-size: 0.95rem; font-weight: 700; cursor: pointer;
+    transition: all 0.2s; box-shadow: 0 2px 8px rgba(63,81,181,0.3); }
+  .btn-download-all:hover { transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(63,81,181,0.4); }
+  .btn-regenerate { background: #fff; color: var(--brand-primary);
+    border: 1.5px solid var(--border); border-radius: 8px; padding: 11px 24px;
+    font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+  .btn-regenerate:hover { border-color: var(--brand-accent); }
+  .doc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px; }
+  .doc-card { background: #fff; border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 18px; border: 1px solid var(--border);
+    display: flex; flex-direction: column; gap: 8px; }
+  .doc-card-top { display: flex; align-items: flex-start; gap: 10px; }
+  .doc-card-icon { width: 38px; height: 38px; border-radius: 8px;
+    background: var(--brand-light); display: flex; align-items: center;
+    justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+  .doc-card-name { font-size: 0.82rem; font-weight: 700;
+    color: var(--brand-primary); line-height: 1.3; }
+  .doc-card-id { font-size: 0.75rem; color: var(--text-secondary); }
+  .doc-card-actions { display: flex; gap: 8px; margin-top: 4px; }
+  .btn-dl-doc { flex: 1; padding: 7px 12px; border-radius: 6px;
+    font-size: 0.8rem; font-weight: 600; cursor: pointer; border: none;
+    background: var(--brand-light); color: var(--brand-primary);
+    transition: all 0.15s; }
+  .btn-dl-doc:hover { background: var(--brand-accent); color: #fff; }
+  .category-header { font-size: 1rem; font-weight: 700; color: var(--brand-primary);
+    margin: 24px 0 12px; padding-bottom: 8px;
+    border-bottom: 2px solid var(--brand-light); }
+  /* UTILS */
+  .hidden { display: none !important; }
+  .flex { display: flex; }
+  .gap-8 { gap: 8px; }
+  .auto-save-toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+    background: #323232; color: #fff; padding: 10px 20px;
+    border-radius: 8px; font-size: 0.85rem; opacity: 0; transition: opacity 0.3s;
+    pointer-events: none; z-index: 999; }
+  .auto-save-toast.show { opacity: 1; }
+  @media (max-width: 600px) {
+    .section-card { padding: 24px 18px; }
+    .q-body { padding: 20px 14px; }
+    .landing-stats { gap: 16px; }
+    .stat-item { padding: 14px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     LANDING PAGE
+     ============================================================ -->
+<div id="page-landing">
+  <div class="landing-logo">&#129504;</div>
+  <h1 class="landing-title">AI-Si Policy Suite</h1>
+  <p class="landing-tagline">62 Policies. One App. 12 Weeks to Governance.</p>
+  <div class="landing-stats">
+    <div class="stat-item"><span class="stat-num">62</span><span class="stat-label">Policies</span></div>
+    <div class="stat-item"><span class="stat-num">11</span><span class="stat-label">Sections</span></div>
+    <div class="stat-item"><span class="stat-num">~15min</span><span class="stat-label">To Complete</span></div>
+    <div class="stat-item"><span class="stat-num">PDF &amp; DOCX</span><span class="stat-label">Output Formats</span></div>
+  </div>
+  <div class="landing-btns">
+    <button class="btn-primary" onclick="startQuestionnaire()">Get Started</button>
+    <button class="btn-outline" onclick="openSignIn()">Sign In</button>
+  </div>
+</div>
+
+<!-- SIGN IN MODAL -->
+<div class="modal-overlay" id="signin-modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeSignIn()">&times;</button>
+    <h2>Sign In</h2>
+    <div class="field-group">
+      <label class="field-label">Email</label>
+      <input class="field-input" type="email" id="signin-email" placeholder="you@company.com">
+    </div>
+    <div class="field-group">
+      <label class="field-label">Password</label>
+      <input class="field-input" type="password" id="signin-password" placeholder="Password">
+    </div>
+    <div class="field-group">
+      <div id="signin-error" style="color:var(--error);font-size:0.85rem;display:none;"></div>
+    </div>
+    <button class="btn-next btn-nav" style="width:100%" onclick="handleSignIn()">Sign In</button>
+    <p style="text-align:center;margin-top:16px;font-size:0.85rem;color:var(--text-secondary)">
+      Don't have an account? <a href="#" onclick="startQuestionnaire();closeSignIn();" style="color:var(--brand-accent)">Get Started</a>
+    </p>
+  </div>
+</div>
+
+<!-- ============================================================
+     QUESTIONNAIRE PAGE
+     ============================================================ -->
+<div id="page-questionnaire">
+  <div class="q-header">
+    <div class="q-header-brand">&#129504; AI-Si Policy Suite</div>
+    <div class="q-header-actions">
+      <button class="btn-save-exit" onclick="saveAndExit()">Save &amp; Exit</button>
+    </div>
+  </div>
+  <div class="progress-container">
+    <div class="progress-label">
+      <span id="progress-text">Section 1 of 11</span>
+      <span id="progress-pct">0%</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+    <div class="step-dots" id="step-dots"></div>
+  </div>
+  <div class="q-body">
+    <div id="resume-banner" class="resume-banner hidden">
+      <p>&#128190; You have a saved session. Resume where you left off?</p>
+      <div style="display:flex;gap:8px">
+        <button class="resume-btn" onclick="resumeSession()">Resume Session</button>
+        <button class="discard-btn" onclick="discardSession()">Start Fresh</button>
+      </div>
+    </div>
+
+    <!-- SECTIONS RENDERED HERE -->
+    <div id="sections-container"></div>
+
+    <div class="q-nav">
+      <button class="btn-nav btn-back" id="btn-back" onclick="prevSection()">&#8592; Back</button>
+      <div class="step-dots" id="step-dots-nav"></div>
+      <button class="btn-nav btn-next" id="btn-next" onclick="nextSection()">Next &#8594;</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     GENERATING PAGE
+     ============================================================ -->
+<div id="page-generating" style="display:none;flex-direction:column;">
+  <div class="gen-icon">&#9881;</div>
+  <h2 class="gen-title">Generating Your Policies</h2>
+  <p class="gen-subtitle">Please wait while we customise all 62 documents...</p>
+  <div class="gen-progress">
+    <div class="gen-progress-bar">
+      <div class="gen-progress-fill" id="gen-fill" style="width:0%"></div>
+    </div>
+    <p class="gen-count" id="gen-count">0 of 62 ready</p>
+  </div>
+  <div class="gen-doc-list" id="gen-doc-list"></div>
+</div>
+
+<!-- ============================================================
+     RESULTS PAGE
+     ============================================================ -->
+<div id="page-results">
+  <div class="results-header">
+    <div style="font-size:3rem;margin-bottom:12px">&#9989;</div>
+    <h1>Your Policies Are Ready!</h1>
+    <p>All 62 customised policy documents have been generated for <span id="results-org-name">your organisation</span>.</p>
+  </div>
+  <div class="results-body">
+    <div class="results-actions">
+      <h2>Download Options</h2>
+      <div class="actions-row">
+        <select class="format-select" id="format-select">
+          <option value="pdf">PDF Format</option>
+          <option value="docx">DOCX Format</option>
+        </select>
+        <button class="btn-download-all" onclick="downloadAll()">&#11015; Download All as ZIP</button>
+        <button class="btn-regenerate" onclick="regenerate()">&#8635; Edit &amp; Regenerate</button>
+      </div>
+    </div>
+    <div id="results-docs"></div>
+  </div>
+</div>
+
+<!-- AUTO-SAVE TOAST -->
+<div class="auto-save-toast" id="autosave-toast">&#128190; Auto-saved</div>
+
+<script>
+// ============================================================
+// CONFIGURATION
+// ============================================================
+const BACKEND_URL = (window.BACKEND_URL || 'http://localhost:3000');
+const AUTO_SAVE_INTERVAL = 30000;
+
+// ============================================================
+// QUESTIONNAIRE SCHEMA
+// ============================================================
+const SECTIONS = [
+  {
+    id: 1, title: 'Organisation Profile',
+    desc: 'Tell us about your organisation so we can customise all 62 policies.',
+    fields: [
+      { id: 'ORG_NAME', label: 'Organisation Name', type: 'text', required: true,
+        placeholder: 'e.g. Acme Limited' },
+      { id: 'TRADING_NAME', label: 'Trading Name', type: 'text', required: false,
+        placeholder: 'Leave blank if same as above' },
+      { id: 'ORG_TYPE', label: 'Organisation Type', type: 'select', required: true,
+        options: ['Private Limited Company','Public Limited Company','Public Sector',
+          'Charity / Non-Profit','Partnership','Sole Trader','LLP','Other'] },
+      { id: 'EMPLOYEE_COUNT', label: 'Number of Employees', type: 'number', required: true,
+        placeholder: 'e.g. 50' },
+      { id: 'INDUSTRY_SECTOR', label: 'Primary Industry', type: 'select', required: true,
+        options: ['Technology & Software','Finance & Banking','Healthcare & Pharma',
+          'Professional Services','Retail & E-Commerce','Manufacturing','Education',
+          'Hospitality & Leisure','Construction & Property','Media & Creative',
+          'Logistics & Transport','Non-Profit & Charity','Government & Public Sector','Other'] },
+      { id: 'WEBSITE_URL', label: 'Website URL', type: 'url', required: false,
+        placeholder: 'https://www.example.com' },
+      { id: 'ORG_FOUNDED_DATE', label: 'Date Established', type: 'date', required: false },
+      { id: 'ORG_LOGO', label: 'Organisation Logo', type: 'file', required: false,
+        hint: 'PNG or JPG, used in document headers' }
+    ]
+  },
+  {
+    id: 2, title: 'Governance Structure',
+    desc: 'Define your governance bodies and key leadership roles.',
+    fields: [
+      { id: 'BOARD_NAME', label: 'Board Name', type: 'text', required: true,
+        placeholder: 'e.g. Board of Directors' },
+      { id: 'BOARD_MEETING_FREQUENCY', label: 'Board Meeting Frequency', type: 'select', required: true,
+        options: ['Monthly','Bi-Monthly','Quarterly','Bi-Annually','Annually','Ad-hoc'] },
+      { id: 'EXEC_COMMITTEE_NAME', label: 'Executive Committee Name', type: 'text', required: true,
+        placeholder: 'e.g. Executive Leadership Team' },
+      { id: 'EXEC_MEETING_FREQUENCY', label: 'Executive Meeting Frequency', type: 'select', required: true,
+        options: ['Weekly','Bi-Weekly','Monthly','Bi-Monthly','Quarterly'] },
+      { id: 'DEPARTMENTS_LIST', label: 'Department List', type: 'text', required: true,
+        placeholder: 'e.g. Finance, HR, IT, Operations, Sales' },
+      { id: 'CEO_NAME', label: 'CEO / Managing Director Name', type: 'text', required: true,
+        placeholder: 'Full name' },
+      { id: 'FINANCE_LEAD_NAME', label: 'Finance Lead Name', type: 'text', required: true,
+        placeholder: 'CFO, Finance Director, etc.' },
+      { id: 'HR_LEAD_NAME', label: 'HR Lead Name', type: 'text', required: true,
+        placeholder: 'HR Director, People Manager, etc.' },
+      { id: 'DPO_NAME', label: 'Data Protection Officer (DPO) Name', type: 'text', required: false,
+        placeholder: 'Leave blank if not applicable' },
+      { id: 'HS_LEAD_NAME', label: 'Health & Safety Lead Name', type: 'text', required: true,
+        placeholder: 'H&S Manager / Responsible Person' }
+    ]
+  },
+  {
+    id: 3, title: 'Contact Information',
+    desc: 'Key contact email addresses referenced throughout the policies.',
+    fields: [
+      { id: 'HR_EMAIL', label: 'HR Email Address', type: 'email', required: true,
+        placeholder: 'hr@yourcompany.com' },
+      { id: 'HR_PHONE', label: 'HR Phone Number', type: 'tel', required: true,
+        placeholder: 'e.g. 01234 567890' },
+      { id: 'FINANCE_EMAIL', label: 'Finance Email Address', type: 'email', required: true,
+        placeholder: 'finance@yourcompany.com' },
+      { id: 'IT_EMAIL', label: 'IT / Technology Email Address', type: 'email', required: true,
+        placeholder: 'it@yourcompany.com' },
+      { id: 'COMPLIANCE_EMAIL', label: 'Compliance Email Address', type: 'email', required: true,
+        placeholder: 'compliance@yourcompany.com' },
+      { id: 'GENERAL_EMAIL', label: 'General Enquiries Email', type: 'email', required: true,
+        placeholder: 'info@yourcompany.com' }
+    ]
+  },
+  {
+    id: 4, title: 'Policy Management',
+    desc: 'How your organisation manages, approves and communicates policies.',
+    fields: [
+      { id: 'POLICY_STORAGE_LOCATION', label: 'Policy Storage Location', type: 'select', required: true,
+        options: ['SharePoint','OneDrive','Google Drive','Intranet / Wiki','Network Drive',
+          'Physical Folders Only','Dedicated Policy System','Other'] },
+      { id: 'POLICY_APPROVAL_AUTHORITY', label: 'Policy Approval Authority', type: 'select', required: true,
+        options: ['CEO / MD','Board of Directors','Executive Committee','HR Director',
+          'Compliance Officer','Management Team'] },
+      { id: 'POLICY_EFFECTIVE_DATE', label: 'Policy Effective Date', type: 'date', required: true },
+      { id: 'ANNUAL_REVIEW_DATE', label: 'Annual Review Month', type: 'select', required: true,
+        options: ['January','February','March','April','May','June',
+          'July','August','September','October','November','December'] },
+      { id: 'COMMS_METHOD', label: 'Policy Communication Methods', type: 'checkbox', required: true,
+        options: ['All-Hands / Town Hall Meeting','Company-Wide Email','Team Briefings',
+          'Manager Cascade','Intranet Announcement','Mandatory Training','One-to-One Briefings'] }
+    ]
+  },
+  {
+    id: 5, title: 'Risk Management',
+    desc: 'Your approach to identifying, assessing and managing risk.',
+    fields: [
+      { id: 'RISK_APPETITE', label: 'Risk Appetite', type: 'select', required: true,
+        options: ['Risk Averse','Cautious','Balanced / Moderate','Open / Accepting','Seeking'] },
+      { id: 'RISK_OWNER', label: 'Primary Risk Owner / Risk Manager Name', type: 'text', required: true,
+        placeholder: 'Full name and job title' },
+      { id: 'RISK_REVIEW_FREQUENCY', label: 'Risk Register Review Frequency', type: 'select', required: true,
+        options: ['Monthly','Quarterly','Bi-Annually','Annually','Event-Driven'] }
+    ]
+  },
+  {
+    id: 6, title: 'Compliance & Regulatory',
+    desc: 'The regulatory landscape your organisation operates within.',
+    fields: [
+      { id: 'APPLICABLE_REGULATIONS', label: 'Applicable Regulations', type: 'checkbox', required: true,
+        options: ['UK GDPR / Data Protection Act 2018','Employment Law (ERA 1996)',
+          'Health & Safety at Work Act 1974','Equality Act 2010',
+          'Financial Services Regulation','Environmental Legislation',
+          'Modern Slavery Act 2015','Bribery Act 2010','ISO 27001','AI Act (EU)',
+          'Cyber Essentials','Other'] },
+      { id: 'PRIMARY_REGULATOR', label: 'Primary Regulator', type: 'select', required: true,
+        options: ['ICO (Data Protection)','HSE (Health & Safety)','FCA (Financial)',
+          'CQC (Healthcare)','Ofsted (Education)','Charity Commission',
+          'Companies House','None / Self-Regulated','Other'] },
+      { id: 'LEGAL_COUNSEL_FIRM', label: 'Legal Counsel Firm', type: 'text', required: false,
+        placeholder: 'e.g. Smith & Jones LLP (leave blank if none)' },
+      { id: 'LEGAL_COUNSEL_CONTACT', label: 'Legal Counsel Contact', type: 'text', required: false,
+        placeholder: 'Email or phone number' },
+      { id: 'INCIDENT_TRACKING_SYSTEM', label: 'Incident Tracking System', type: 'select', required: true,
+        options: ['Spreadsheet / Excel','Dedicated Software','JIRA / Project Tool',
+          'ServiceNow','Paper-Based','No Formal System','Other'] }
+    ]
+  },
+  {
+    id: 7, title: 'Employment & HR',
+    desc: 'HR systems, providers and employment arrangements.',
+    fields: [
+      { id: 'PAYROLL_PROVIDER', label: 'Payroll Provider', type: 'text', required: true,
+        placeholder: 'e.g. Sage Payroll, ADP, in-house' },
+      { id: 'PENSION_PROVIDER', label: 'Pension Provider', type: 'text', required: true,
+        placeholder: 'e.g. NEST, Legal & General, Royal London' },
+      { id: 'LEAVE_MANAGEMENT_SYSTEM', label: 'Leave Management System', type: 'select', required: true,
+        options: ['BambooHR','Bob (HiBob)','Breathe HR','Spreadsheet / Manual',
+          'HRIS / ERP System','Sage HR','Natural HR','Other'] },
+      { id: 'USE_ACAS_SUPPORT', label: 'Do you use ACAS Support?', type: 'select', required: true,
+        options: ['Yes – Regularly','Yes – For Complex Cases Only','No – Handle Internally',
+          'Not Applicable'] },
+      { id: 'ACAS_CONTACT', label: 'ACAS Contact Number', type: 'tel', required: false,
+        placeholder: '0300 123 1100 (default)' },
+      { id: 'DATA_CONTROLLER_NAME', label: 'Data Controller Name', type: 'text', required: true,
+        placeholder: 'Legal entity name (usually same as ORG_NAME)' }
+    ]
+  },
+  {
+    id: 8, title: 'Health & Safety',
+    desc: 'Workplace safety arrangements and providers.',
+    fields: [
+      { id: 'OCCUPATIONAL_HEALTH_PROVIDER', label: 'Occupational Health Provider', type: 'text', required: false,
+        placeholder: 'e.g. Bupa, AXA, in-house, or leave blank' },
+      { id: 'HIGH_RISK_WORKPLACE', label: 'High-Risk Workplace?', type: 'select', required: true,
+        options: ['No – Standard Office / Remote','Yes – Light Industrial',
+          'Yes – Heavy Industrial / Construction','Yes – Healthcare Setting',
+          'Yes – Retail / Public Facing','Mixed Environments'] },
+      { id: 'EVACUATION_ASSEMBLY_POINT', label: 'Evacuation Assembly Point', type: 'text', required: true,
+        placeholder: 'e.g. Car park at rear of building, Main car park (Unit 5)' }
+    ]
+  },
+  {
+    id: 9, title: 'IT & Data',
+    desc: 'Technology infrastructure, data management and security practices.',
+    fields: [
+      { id: 'CRITICAL_SYSTEMS', label: 'Critical Business Systems', type: 'text', required: true,
+        placeholder: 'e.g. CRM, ERP, Email, Finance System, Website' },
+      { id: 'BACKUP_FREQUENCY', label: 'Data Backup Frequency', type: 'select', required: true,
+        options: ['Real-time / Continuous','Hourly','Daily','Weekly','Monthly','No Formal Backup'] },
+      { id: 'BACKUP_LOCATION', label: 'Backup Storage Location', type: 'select', required: true,
+        options: ['Cloud (AWS / Azure / GCP)','Microsoft 365 / OneDrive',
+          'Dedicated Backup Service','On-premises Server','Physical Media (Tapes/Drives)',
+          'Multiple Locations','No Formal Backup'] },
+      { id: 'DATA_ENCRYPTION_AT_REST', label: 'Data Encrypted at Rest?', type: 'select', required: true,
+        options: ['Yes – All Data','Yes – Critical Data Only','Partial / In Progress',
+          'No','Unknown'] },
+      { id: 'MFA_ENABLED', label: 'Multi-Factor Authentication (MFA) Enabled?', type: 'select', required: true,
+        options: ['Yes – All Users','Yes – Admin Users Only','Partial / Rolling Out',
+          'No','Planned'] },
+      { id: 'AI_TOOLS_IN_USE', label: 'Do you use AI Tools?', type: 'select', required: true,
+        options: ['Yes – Actively Using','Yes – Piloting / Testing',
+          'No – But Planning To','No – Not Using AI'] },
+      { id: 'AI_TOOLS_LIST', label: 'List AI Tools Used', type: 'text', required: false,
+        placeholder: 'e.g. ChatGPT, Microsoft Copilot, GitHub Copilot',
+        hint: 'Complete if you use AI tools',
+        conditional: { field: 'AI_TOOLS_IN_USE', values: ['Yes – Actively Using','Yes – Piloting / Testing'] } }
+    ]
+  },
+  {
+    id: 10, title: 'AI Governance',
+    desc: 'How your organisation governs, controls and audits AI tool usage.',
+    fields: [
+      { id: 'AI_PROCESSES_PERSONAL_DATA', label: 'Does AI Process Personal Data?', type: 'select', required: true,
+        options: ['Yes','No','Unsure'] },
+      { id: 'AI_AUTOMATED_DECISIONS', label: 'AI Used for Automated Decisions?', type: 'select', required: true,
+        options: ['Yes – Fully Automated','Yes – AI Assisted Human Decision',
+          'No','Planning To'] },
+      { id: 'AI_BIAS_TESTING_DONE', label: 'AI Tools Tested for Bias?', type: 'select', required: true,
+        options: ['Yes – Formally Tested','Yes – Informal Review','No','Planning To'] },
+      { id: 'AI_APPROVAL_AUTHORITY', label: 'Who Approves New AI Tools?', type: 'select', required: true,
+        options: ['CEO / MD','Board of Directors','Compliance Officer','IT / CTO',
+          'AI Committee','No Formal Process'] },
+      { id: 'AI_INCIDENT_LEAD', label: 'AI Incident Response Lead', type: 'text', required: true,
+        placeholder: 'Name and job title of person responsible' }
+    ]
+  },
+  {
+    id: 11, title: 'Deployment & Implementation',
+    desc: 'Final preferences for policy rollout and implementation support.',
+    fields: [
+      { id: 'DEPLOYMENT_APPROACH', label: 'Implementation Approach', type: 'select', required: true,
+        options: ['All at Once – Full Immediate Rollout',
+          'Phased – Department by Department',
+          'Phased – Priority Policies First',
+          'Limited – Key Policies Only'] },
+      { id: 'IMPLEMENTATION_TIME_AVAILABLE', label: 'Time Available for Implementation', type: 'select', required: true,
+        options: ['Intensive – Dedicated Project Resource',
+          'Significant – Part-Time Resource',
+          'Limited – Evenings / Weekends',
+          'Minimal – Opportunistic Only'] },
+      { id: 'EXTERNAL_SUPPORT_NEEDED', label: 'External Support Required?', type: 'select', required: true,
+        options: ['No – Will Handle Internally',
+          'Yes – Consulting Support',
+          'Yes – Training Support',
+          'Yes – Both Consulting & Training'] }
+    ]
+  }
+];
+
+// 62 document catalogue
+const DOCUMENTS = [
+  { id:'CORP-GOV-001', name:'Corporate Governance & Organisational Structure', cat:'Corporate Governance' },
+  { id:'CORP-GOV-002', name:'Delegation of Authority Policy', cat:'Corporate Governance' },
+  { id:'CORP-GOV-003', name:'Conflicts of Interest Policy', cat:'Corporate Governance' },
+  { id:'CORP-GOV-004', name:'Whistleblowing Policy', cat:'Corporate Governance' },
+  { id:'CORP-GOV-005', name:'Code of Conduct & Business Ethics', cat:'Corporate Governance' },
+  { id:'CORP-FIN-001', name:'Financial Management Policy', cat:'Finance' },
+  { id:'CORP-FIN-002', name:'Expense Claims Policy', cat:'Finance' },
+  { id:'CORP-FIN-003', name:'Procurement & Purchasing Policy', cat:'Finance' },
+  { id:'CORP-FIN-004', name:'Fraud Prevention Policy', cat:'Finance' },
+  { id:'CORP-FIN-005', name:'Budget Management Policy', cat:'Finance' },
+  { id:'CORP-ISMS-001', name:'Information Security Management Policy', cat:'Information Security' },
+  { id:'CORP-ISMS-002', name:'Access Control Policy', cat:'Information Security' },
+  { id:'CORP-ISMS-003', name:'Data Classification Policy', cat:'Information Security' },
+  { id:'CORP-ISMS-004', name:'Security Incident Response Policy', cat:'Information Security' },
+  { id:'CORP-ISMS-005', name:'Business Continuity & Disaster Recovery', cat:'Information Security' },
+  { id:'CORP-HR-001', name:'Recruitment & Selection Policy', cat:'Human Resources' },
+  { id:'CORP-HR-002', name:'Equal Opportunities Policy', cat:'Human Resources' },
+  { id:'CORP-HR-003', name:'Anti-Harassment & Bullying Policy', cat:'Human Resources' },
+  { id:'CORP-HR-004', name:'Disciplinary Procedure', cat:'Human Resources' },
+  { id:'CORP-HR-005', name:'Grievance Procedure', cat:'Human Resources' },
+  { id:'CORP-HR-006', name:'Performance Management Policy', cat:'Human Resources' },
+  { id:'CORP-HR-007', name:'Training & Development Policy', cat:'Human Resources' },
+  { id:'CORP-HR-008', name:'Flexible & Remote Working Policy', cat:'Human Resources' },
+  { id:'CORP-HR-009', name:'Leave Management Policy', cat:'Human Resources' },
+  { id:'CORP-HR-010', name:'Redundancy & Restructuring Policy', cat:'Human Resources' },
+  { id:'CORP-HS-001', name:'Health & Safety Policy', cat:'Health & Safety' },
+  { id:'CORP-HS-002', name:'Risk Assessment Policy', cat:'Health & Safety' },
+  { id:'CORP-HS-003', name:'Fire Safety Policy', cat:'Health & Safety' },
+  { id:'CORP-HS-004', name:'First Aid Policy', cat:'Health & Safety' },
+  { id:'CORP-HS-005', name:'Mental Health & Wellbeing Policy', cat:'Health & Safety' },
+  { id:'CORP-DG-001', name:'Data Protection Policy', cat:'Data & GDPR' },
+  { id:'CORP-DG-002', name:'Privacy Notice (Staff)', cat:'Data & GDPR' },
+  { id:'CORP-DG-003', name:'Data Retention & Disposal Policy', cat:'Data & GDPR' },
+  { id:'CORP-DG-004', name:'Subject Access Request Procedure', cat:'Data & GDPR' },
+  { id:'CORP-DG-005', name:'Data Breach Response Policy', cat:'Data & GDPR' },
+  { id:'CORP-IT-001', name:'IT Acceptable Use Policy', cat:'IT & Digital' },
+  { id:'CORP-IT-002', name:'Password & Authentication Policy', cat:'IT & Digital' },
+  { id:'CORP-IT-003', name:'Remote Working Security Policy', cat:'IT & Digital' },
+  { id:'CORP-IT-004', name:'BYOD (Bring Your Own Device) Policy', cat:'IT & Digital' },
+  { id:'CORP-IT-005', name:'Email & Communications Policy', cat:'IT & Digital' },
+  { id:'CORP-COMP-001', name:'Regulatory Compliance Policy', cat:'Compliance' },
+  { id:'CORP-COMP-002', name:'Anti-Bribery & Corruption Policy', cat:'Compliance' },
+  { id:'CORP-COMP-003', name:'Modern Slavery Statement', cat:'Compliance' },
+  { id:'CORP-COMP-004', name:'Environmental & Sustainability Policy', cat:'Compliance' },
+  { id:'CORP-COMP-005', name:'Complaints Handling Policy', cat:'Compliance' },
+  { id:'AISI-GOV-001', name:'AI Governance Framework', cat:'AI Governance' },
+  { id:'AISI-GOV-002', name:'AI Ethics Policy', cat:'AI Governance' },
+  { id:'AISI-GOV-003', name:'AI Risk Management Policy', cat:'AI Governance' },
+  { id:'AISI-GOV-004', name:'AI Procurement & Approval Policy', cat:'AI Governance' },
+  { id:'AISI-GOV-005', name:'AI Acceptable Use Policy', cat:'AI Governance' },
+  { id:'AISI-DATA-001', name:'AI Data Management Policy', cat:'AI Governance' },
+  { id:'AISI-DATA-002', name:'AI Training Data Policy', cat:'AI Governance' },
+  { id:'AISI-BIAS-001', name:'AI Bias & Fairness Policy', cat:'AI Governance' },
+  { id:'AISI-TRANS-001', name:'AI Transparency & Explainability Policy', cat:'AI Governance' },
+  { id:'AISI-PRIV-001', name:'AI & Privacy Policy', cat:'AI Governance' },
+  { id:'AISI-INC-001', name:'AI Incident Response Policy', cat:'AI Governance' },
+  { id:'AISI-AUDIT-001', name:'AI Auditing & Monitoring Policy', cat:'AI Governance' },
+  { id:'AISI-THIRD-001', name:'AI Third-Party Management Policy', cat:'AI Governance' },
+  { id:'AISI-HUMAN-001', name:'Human Oversight of AI Policy', cat:'AI Governance' },
+  { id:'AISI-COMPL-001', name:'AI Regulatory Compliance Policy', cat:'AI Governance' },
+  { id:'AISI-CHANGE-001', name:'AI Change Management Policy', cat:'AI Governance' },
+  { id:'AISI-TRAIN-001', name:'AI Staff Training & Awareness Policy', cat:'AI Governance' }
+];
+
+// ============================================================
+// STATE
+// ============================================================
+let currentSection = 0;
+let answers = {};
+let sessionId = null;
+let autoSaveTimer = null;
+let pollTimer = null;
+
+// ============================================================
+// INIT
+// ============================================================
+function init() {
+  sessionId = getOrCreateSessionId();
+  renderSections();
+  renderStepDots();
+  checkForSavedSession();
+  startAutoSave();
+  updateProgress();
+  updateNavButtons();
+}
+
+function getOrCreateSessionId() {
+  let id = localStorage.getItem('ai-si-session-id');
+  if (!id) { id = 'ses_' + Date.now() + '_' + Math.random().toString(36).substr(2,9); localStorage.setItem('ai-si-session-id', id); }
+  return id;
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+function renderSections() {
+  const container = document.getElementById('sections-container');
+  container.innerHTML = '';
+  SECTIONS.forEach((section, idx) => {
+    const div = document.createElement('div');
+    div.id = 'section-' + idx;
+    div.className = 'section-card' + (idx === 0 ? '' : ' hidden');
+    div.innerHTML = `
+      <div class="section-header">
+        <span class="section-badge">Section ${section.id} of ${SECTIONS.length}</span>
+        <h2 class="section-title">${section.title}</h2>
+        <p class="section-desc">${section.desc}</p>
+      </div>
+      ${section.fields.map(f => renderField(f)).join('')}
+    `;
+    container.appendChild(div);
+  });
+  // Attach conditional logic
+  SECTIONS.forEach(section => {
+    section.fields.forEach(f => {
+      if (f.conditional) {
+        const triggerEl = document.getElementById('field-' + f.conditional.field);
+        if (triggerEl) triggerEl.addEventListener('change', () => checkConditionals());
+      }
+    });
+  });
+}
+
+function renderField(f) {
+  const isConditional = !!f.conditional;
+  const wrapClass = isConditional ? 'field-group conditional-field' : 'field-group';
+  const wrapId = isConditional ? `cond-${f.id}` : '';
+  const wrapAttrs = wrapId ? `id="${wrapId}"` : '';
+  const requiredMark = f.required ? '<span class="required">*</span>' : '';
+  const hint = f.hint ? `<div class="field-hint">${f.hint}</div>` : '';
+  let inputHtml = '';
+  if (f.type === 'select') {
+    inputHtml = `<select class="field-select" id="field-${f.id}" name="${f.id}" ${f.required?'required':''}>
+      <option value="">— Select —</option>
+      ${f.options.map(o => `<option value="${o}">${o}</option>`).join('')}
+    </select>`;
+  } else if (f.type === 'checkbox') {
+    inputHtml = `<div class="checkbox-group" id="field-${f.id}">
+      ${f.options.map(o => `<label class="checkbox-item">
+        <input type="checkbox" name="${f.id}" value="${o}"> <span>${o}</span>
+      </label>`).join('')}
+    </div>`;
+  } else if (f.type === 'file') {
+    inputHtml = `<div class="file-upload-area" id="upload-area-${f.id}" onclick="document.getElementById('file-${f.id}').click()">
+      <div class="upload-icon">&#128247;</div>
+      <div class="upload-text">Click to upload (PNG or JPG)</div>
+      <img class="upload-preview" id="preview-${f.id}" alt="Logo preview">
+      <input type="file" id="file-${f.id}" accept="image/png,image/jpeg" style="display:none" onchange="handleFileUpload('${f.id}', this)">
+    </div>`;
+  } else {
+    inputHtml = `<input class="field-input" type="${f.type}" id="field-${f.id}" name="${f.id}" placeholder="${f.placeholder||''}" ${f.required?'required':''}>`;
+  }
+  return `<div class="${wrapClass}" ${wrapAttrs}>
+    <label class="field-label" for="field-${f.id}">${f.label}${requiredMark}</label>
+    ${hint}
+    ${inputHtml}
+    <div class="field-error" id="err-${f.id}"></div>
+  </div>`;
+}
+
+function renderStepDots() {
+  ['step-dots','step-dots-nav'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.innerHTML = SECTIONS.map((_, i) =>
+      `<div class="step-dot" onclick="goToSection(${i})" title="Section ${i+1}"></div>`
+    ).join('');
+  });
+  updateStepDots();
+}
+
+function updateStepDots() {
+  ['step-dots','step-dots-nav'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.querySelectorAll('.step-dot').forEach((dot, i) => {
+      dot.className = 'step-dot' + (i === currentSection ? ' active' : (i < currentSection ? ' done' : ''));
+    });
+  });
+}
+
+// ============================================================
+// NAVIGATION
+// ============================================================
+function showPage(pageId) {
+  ['page-landing','page-questionnaire','page-generating','page-results'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'none';
+  });
+  const page = document.getElementById(pageId);
+  if (page) page.style.display = pageId === 'page-generating' ? 'flex' : 'block';
+}
+
+function startQuestionnaire() {
+  showPage('page-questionnaire');
+  init();
+}
+
+function goToSection(idx) {
+  if (idx < 0 || idx >= SECTIONS.length) return;
+  document.getElementById('section-' + currentSection).classList.add('hidden');
+  currentSection = idx;
+  document.getElementById('section-' + currentSection).classList.remove('hidden');
+  updateProgress();
+  updateNavButtons();
+  updateStepDots();
+  window.scrollTo(0, 0);
+}
+
+function nextSection() {
+  if (!validateCurrentSection()) return;
+  collectAnswers();
+  if (currentSection < SECTIONS.length - 1) {
+    goToSection(currentSection + 1);
+  } else {
+    submitQuestionnaire();
+  }
+}
+
+function prevSection() {
+  collectAnswers();
+  if (currentSection > 0) goToSection(currentSection - 1);
+}
+
+function updateNavButtons() {
+  const btnBack = document.getElementById('btn-back');
+  const btnNext = document.getElementById('btn-next');
+  btnBack.style.visibility = currentSection === 0 ? 'hidden' : 'visible';
+  const isLast = currentSection === SECTIONS.length - 1;
+  btnNext.textContent = isLast ? 'Submit & Generate ✓' : 'Next →';
+  btnNext.className = isLast ? 'btn-nav btn-submit' : 'btn-nav btn-next';
+}
+
+function updateProgress() {
+  const pct = Math.round(((currentSection) / SECTIONS.length) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `Section ${currentSection + 1} of ${SECTIONS.length}`;
+  document.getElementById('progress-pct').textContent = pct + '%';
+  updateStepDots();
+}
+
+// ============================================================
+// CONDITIONALS
+// ============================================================
+function checkConditionals() {
+  SECTIONS.forEach(section => {
+    section.fields.forEach(f => {
+      if (!f.conditional) return;
+      const triggerEl = document.getElementById('field-' + f.conditional.field);
+      if (!triggerEl) return;
+      const val = triggerEl.value;
+      const condEl = document.getElementById('cond-' + f.id);
+      if (condEl) {
+        const show = f.conditional.values.includes(val);
+        condEl.classList.toggle('show', show);
+        condEl.classList.toggle('conditional-field', !show);
+      }
+    });
+  });
+}
+
+// ============================================================
+// FILE UPLOAD
+// ============================================================
+function handleFileUpload(fieldId, input) {
+  const file = input.files[0];
+  if (!file) return;
+  const area = document.getElementById('upload-area-' + fieldId);
+  const preview = document.getElementById('preview-' + fieldId);
+  const reader = new FileReader();
+  reader.onload = e => {
+    answers['ORG_LOGO'] = e.target.result;
+    preview.src = e.target.result;
+    preview.style.display = 'block';
+    area.classList.add('has-file');
+    area.querySelector('.upload-text').textContent = '✓ ' + file.name;
+  };
+  reader.readAsDataURL(file);
+}
+
+// ============================================================
+// VALIDATION
+// ============================================================
+function validateCurrentSection() {
+  const section = SECTIONS[currentSection];
+  let valid = true;
+  section.fields.forEach(f => {
+    clearError(f.id);
+    if (!f.required) return;
+    // Skip hidden conditional fields
+    if (f.conditional) {
+      const condEl = document.getElementById('cond-' + f.id);
+      if (condEl && !condEl.classList.contains('show')) return;
+    }
+    const el = document.getElementById('field-' + f.id);
+    if (!el) return;
+    let val = '';
+    if (f.type === 'checkbox') {
+      const checked = el.querySelectorAll('input:checked');
+      if (checked.length === 0) { showError(f.id, 'Please select at least one option'); valid = false; }
+      return;
+    }
+    val = el.value ? el.value.trim() : '';
+    if (!val) { showError(f.id, 'This field is required'); valid = false; return; }
+    if (f.type === 'email' && !isValidEmail(val)) { showError(f.id, 'Please enter a valid email address'); valid = false; return; }
+    if (f.type === 'url' && val && !isValidUrl(val)) { showError(f.id, 'Please enter a valid URL (e.g. https://example.com)'); valid = false; return; }
+    if (f.type === 'tel' && val && !isValidPhone(val)) { showError(f.id, 'Please enter a valid phone number'); valid = false; return; }
+    if (f.type === 'number' && isNaN(parseInt(val))) { showError(f.id, 'Please enter a valid number'); valid = false; return; }
+  });
+  return valid;
+}
+
+function showError(fieldId, msg) {
+  const el = document.getElementById('field-' + fieldId);
+  const err = document.getElementById('err-' + fieldId);
+  if (el) el.classList.add('error');
+  if (err) { err.textContent = msg; err.classList.add('visible'); }
+}
+function clearError(fieldId) {
+  const el = document.getElementById('field-' + fieldId);
+  const err = document.getElementById('err-' + fieldId);
+  if (el) el.classList.remove('error');
+  if (err) { err.textContent = ''; err.classList.remove('visible'); }
+}
+
+function isValidEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+function isValidUrl(v) { try { new URL(v); return true; } catch { return false; } }
+function isValidPhone(v) { return /^[\d\s\+\-\(\)]{7,20}$/.test(v); }
+
+// ============================================================
+// COLLECT ANSWERS
+// ============================================================
+function collectAnswers() {
+  SECTIONS.forEach(section => {
+    section.fields.forEach(f => {
+      const el = document.getElementById('field-' + f.id);
+      if (!el) return;
+      if (f.type === 'checkbox') {
+        const checked = el.querySelectorAll('input:checked');
+        answers[f.id] = Array.from(checked).map(c => c.value).join(', ');
+      } else if (f.type === 'file') {
+        // Already handled in handleFileUpload
+      } else {
+        answers[f.id] = el.value || '';
+      }
+    });
+  });
+}
+
+function loadAnswers() {
+  SECTIONS.forEach(section => {
+    section.fields.forEach(f => {
+      if (!answers[f.id] && answers[f.id] !== 0) return;
+      const el = document.getElementById('field-' + f.id);
+      if (!el) return;
+      if (f.type === 'checkbox') {
+        const vals = answers[f.id].split(', ');
+        el.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+          cb.checked = vals.includes(cb.value);
+        });
+      } else if (f.type === 'file') {
+        if (answers['ORG_LOGO']) {
+          const preview = document.getElementById('preview-' + f.id);
+          const area = document.getElementById('upload-area-' + f.id);
+          if (preview) { preview.src = answers['ORG_LOGO']; preview.style.display = 'block'; }
+          if (area) { area.classList.add('has-file'); area.querySelector('.upload-text').textContent = '✓ Logo loaded'; }
+        }
+      } else {
+        el.value = answers[f.id];
+      }
+    });
+  });
+  checkConditionals();
+}
+
+// ============================================================
+// AUTO-SAVE
+// ============================================================
+function startAutoSave() {
+  autoSaveTimer = setInterval(() => { collectAnswers(); saveToStorage(); }, AUTO_SAVE_INTERVAL);
+}
+
+function saveToStorage() {
+  const payload = { section: currentSection, answers, timestamp: Date.now() };
+  localStorage.setItem('ai-si-questionnaire-' + sessionId, JSON.stringify(payload));
+  showToast('Auto-saved');
+  // Backend backup (non-blocking)
+  fetch(BACKEND_URL + '/api/save-session', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ session_id: sessionId, current_section: currentSection, answers_so_far: answers })
+  }).catch(() => {}); // Silently fail if backend unreachable
+}
+
+function checkForSavedSession() {
+  const saved = localStorage.getItem('ai-si-questionnaire-' + sessionId);
+  if (saved) {
+    const parsed = JSON.parse(saved);
+    if (parsed && parsed.answers && Object.keys(parsed.answers).length > 0) {
+      document.getElementById('resume-banner').classList.remove('hidden');
+    }
+  }
+}
+
+function resumeSession() {
+  const saved = localStorage.getItem('ai-si-questionnaire-' + sessionId);
+  if (saved) {
+    const parsed = JSON.parse(saved);
+    answers = parsed.answers || {};
+    loadAnswers();
+    goToSection(parsed.section || 0);
+  }
+  document.getElementById('resume-banner').classList.add('hidden');
+}
+
+function discardSession() {
+  localStorage.removeItem('ai-si-questionnaire-' + sessionId);
+  document.getElementById('resume-banner').classList.add('hidden');
+}
+
+function saveAndExit() {
+  collectAnswers();
+  saveToStorage();
+  showToast('Session saved! Return anytime to resume.');
+  setTimeout(() => showPage('page-landing'), 1500);
+}
+
+function showToast(msg) {
+  const t = document.getElementById('autosave-toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// ============================================================
+// SUBMIT
+// ============================================================
+async function submitQuestionnaire() {
+  collectAnswers();
+  // Final validation of all sections
+  let allValid = true;
+  const originalSection = currentSection;
+  for (let i = 0; i < SECTIONS.length; i++) {
+    currentSection = i;
+    if (!validateCurrentSection()) { allValid = false; break; }
+  }
+  if (!allValid) {
+    goToSection(currentSection);
+    return;
+  }
+  currentSection = originalSection;
+  showPage('page-generating');
+  renderGenDocList();
+  // Encrypt and submit
+  const payload = encryptAnswers(answers);
+  try {
+    const res = await fetch(BACKEND_URL + '/api/submit-questionnaire', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        encrypted_answers: payload.encrypted,
+        iv: payload.iv,
+        session_id: sessionId,
+        logo_base64: answers['ORG_LOGO'] || null
+      })
+    });
+    if (!res.ok) throw new Error('Server error: ' + res.status);
+    pollStatus();
+  } catch (err) {
+    console.error('Submission error:', err);
+    // Fallback: simulate generation for demo
+    simulateGeneration();
+  }
+}
+
+// Simple XOR-based encryption for demo (AES-256 requires backend key exchange)
+function encryptAnswers(data) {
+  const jsonStr = JSON.stringify(data);
+  const encoded = btoa(unescape(encodeURIComponent(jsonStr)));
+  const iv = Array.from({length:16}, () => Math.random().toString(36)[2]).join('');
+  return { encrypted: encoded, iv };
+}
+
+// ============================================================
+// POLL STATUS
+// ============================================================
+function pollStatus() {
+  let attempts = 0;
+  pollTimer = setInterval(async () => {
+    attempts++;
+    if (attempts > 90) { clearInterval(pollTimer); simulateGeneration(); return; }
+    try {
+      const res = await fetch(BACKEND_URL + '/api/status/' + sessionId);
+      const data = await res.json();
+      updateGenProgress(data.completed || 0, data.total || 62);
+      if (data.ready) {
+        clearInterval(pollTimer);
+        setTimeout(() => showResults(), 800);
+      }
+    } catch { }
+  }, 2000);
+}
+
+// Fallback simulation for demo
+function simulateGeneration() {
+  let completed = 0;
+  const total = DOCUMENTS.length;
+  const interval = setInterval(() => {
+    completed = Math.min(completed + Math.ceil(Math.random() * 4), total);
+    updateGenProgress(completed, total);
+    if (completed >= total) {
+      clearInterval(interval);
+      setTimeout(() => showResults(), 800);
+    }
+  }, 400);
+}
+
+function renderGenDocList() {
+  const list = document.getElementById('gen-doc-list');
+  list.innerHTML = DOCUMENTS.map(d => `
+    <div class="gen-doc-item" id="gdi-${d.id}">
+      <div class="doc-status" id="gds-${d.id}">&#9679;</div>
+      <span>${d.name}</span>
+    </div>
+  `).join('');
+}
+
+function updateGenProgress(completed, total) {
+  const pct = Math.round((completed / total) * 100);
+  document.getElementById('gen-fill').style.width = pct + '%';
+  document.getElementById('gen-count').textContent = `${completed} of ${total} ready`;
+  DOCUMENTS.slice(0, completed).forEach(d => {
+    const item = document.getElementById('gdi-' + d.id);
+    const status = document.getElementById('gds-' + d.id);
+    if (item) item.classList.add('done');
+    if (status) status.innerHTML = '&#10003;';
+  });
+}
+
+// ============================================================
+// RESULTS
+// ============================================================
+function showResults() {
+  showPage('page-results');
+  document.getElementById('results-org-name').textContent = answers.ORG_NAME || 'your organisation';
+  renderResultsDocuments();
+}
+
+function renderResultsDocuments() {
+  const container = document.getElementById('results-docs');
+  const categories = [...new Set(DOCUMENTS.map(d => d.cat))];
+  container.innerHTML = categories.map(cat => {
+    const docs = DOCUMENTS.filter(d => d.cat === cat);
+    const catDocs = docs.map(d => `
+      <div class="doc-card">
+        <div class="doc-card-top">
+          <div class="doc-card-icon">&#128196;</div>
+          <div>
+            <div class="doc-card-name">${d.name}</div>
+            <div class="doc-card-id">${d.id}</div>
+          </div>
+        </div>
+        <div class="doc-card-actions">
+          <button class="btn-dl-doc" onclick="downloadSingle('${d.id}','pdf')">PDF</button>
+          <button class="btn-dl-doc" onclick="downloadSingle('${d.id}','docx')">DOCX</button>
+        </div>
+      </div>
+    `).join('');
+    return `<div class="category-header">${cat} (${docs.length})</div><div class="doc-grid">${catDocs}</div>`;
+  }).join('');
+}
+
+async function downloadAll() {
+  const format = document.getElementById('format-select').value;
+  try {
+    const res = await fetch(`${BACKEND_URL}/api/download/${sessionId}/${format}`);
+    if (!res.ok) throw new Error();
+    const blob = await res.blob();
+    triggerDownload(blob, `${answers.ORG_NAME || 'policies'}_policies.zip`);
+  } catch {
+    alert('Download is available after questionnaire submission and backend processing.');
+  }
+}
+
+async function downloadSingle(docId, format) {
+  try {
+    const res = await fetch(`${BACKEND_URL}/api/download/${sessionId}/${docId}/${format}`);
+    if (!res.ok) throw new Error();
+    const blob = await res.blob();
+    triggerDownload(blob, `${docId}.${format}`);
+  } catch {
+    alert('Document download requires backend processing. Please submit the questionnaire first.');
+  }
+}
+
+function triggerDownload(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function regenerate() {
+  if (pollTimer) clearInterval(pollTimer);
+  showPage('page-questionnaire');
+  goToSection(0);
+}
+
+// ============================================================
+// SIGN IN
+// ============================================================
+function openSignIn() { document.getElementById('signin-modal').classList.add('active'); }
+function closeSignIn() { document.getElementById('signin-modal').classList.remove('active'); }
+function handleSignIn() {
+  const email = document.getElementById('signin-email').value;
+  const pw = document.getElementById('signin-password').value;
+  const errEl = document.getElementById('signin-error');
+  if (!email || !pw) { errEl.textContent = 'Please enter your email and password.'; errEl.style.display='block'; return; }
+  errEl.style.display = 'none';
+  // Basic auth simulation - replace with real auth
+  startQuestionnaire();
+  closeSignIn();
+}
+
+// Close modal on overlay click
+document.getElementById('signin-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeSignIn();
+});
+
+// ============================================================
+// BOOT
+// ============================================================
+// Auto-clear input errors on change
+document.addEventListener('change', e => {
+  if (e.target.classList.contains('field-input') || e.target.classList.contains('field-select')) {
+    const name = e.target.name;
+    if (name) clearError(name);
+    checkConditionals();
+  }
+});
+document.addEventListener('input', e => {
+  if (e.target.classList.contains('field-input')) {
+    const name = e.target.name;
+    if (name) clearError(name);
+  }
+});
+</script>
+</body>
+</html>

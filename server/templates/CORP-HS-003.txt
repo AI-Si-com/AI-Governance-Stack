@@ -1,0 +1,167 @@
+# Fire Safety Policy
+
+**Policy Reference:** CORP-HS-003
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HS_LEAD_NAME], Health & Safety Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [HR_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] is committed to ensuring the safety of all employees, contractors, visitors, and members of the public from the risk of fire. This policy sets out the organisation's arrangements for fire prevention, detection, evacuation, and the management of fire safety in accordance with the Regulatory Reform (Fire Safety) Order 2005 (FSO).
+
+Under Article 9 of the FSO, [ORG_NAME], as the Responsible Person, must carry out a suitable and sufficient fire risk assessment and implement appropriate fire safety measures. [CEO_NAME] holds overall responsibility as the Responsible Person, with [HS_LEAD_NAME] appointed as the competent person for day-to-day fire safety management.
+
+This policy applies to all [ORG_NAME] premises and all persons on those premises.
+
+---
+
+## 2. Fire Risk Assessment
+
+**2.1 Requirement**
+[ORG_NAME] will carry out a documented fire risk assessment of all its premises in compliance with Article 9 of the FSO. The fire risk assessment will:
+
+- Identify fire hazards (sources of ignition, fuel, and oxygen).
+- Identify all persons at risk, with particular attention to those with mobility difficulties or other vulnerabilities.
+- Evaluate, remove, or reduce fire risks so far as is reasonably practicable.
+- Record the findings and actions taken.
+- Review and update the assessment regularly.
+
+**2.2 Review**
+The fire risk assessment will be reviewed at least annually and immediately following any of the following:
+
+- A fire or false alarm on [ORG_NAME] premises.
+- A significant change to the building, its use, or occupancy.
+- The introduction of new materials, processes, or equipment that could affect fire risk.
+- Any other change that may affect the validity of the existing assessment.
+
+Completed fire risk assessments will be maintained by [HS_LEAD_NAME] and made available to the enforcing authority on request.
+
+---
+
+## 3. Fire Prevention
+
+All employees have a responsibility to contribute to fire prevention by:
+
+- Keeping work areas tidy and free from unnecessary accumulations of combustible materials.
+- Reporting damaged or defective electrical equipment to [HR_EMAIL] or their line manager immediately.
+- Not using personal electrical appliances on [ORG_NAME] premises without prior approval.
+- Ensuring that fire doors are kept closed and never propped open.
+- Not obstructing fire exits, escape routes, or fire-fighting equipment.
+- Reporting any fire safety concerns to [HS_LEAD_NAME] or their line manager without delay.
+
+Hot work (e.g. welding, grinding, cutting) is only permitted under a permit to work issued by [HS_LEAD_NAME].
+
+---
+
+## 4. Fire Detection and Warning Systems
+
+[ORG_NAME] maintains an automatic fire detection and alarm system on all its premises. The system is subject to:
+
+- Weekly tests of the manual call points (fire alarm sounders) carried out by [HS_LEAD_NAME] or a nominated Fire Warden.
+- Annual inspection and servicing by a competent contractor in accordance with BS 5839.
+- Immediate investigation and remedial action following any fault or activation.
+
+All alarm activations, tests, and faults must be recorded in the fire log book maintained by [HS_LEAD_NAME].
+
+---
+
+## 5. Escape Routes and Assembly Point
+
+**5.1 Escape Routes**
+[ORG_NAME] maintains clearly signed and unobstructed escape routes from all areas of its premises. Escape routes are identified on fire action notices displayed throughout the building. Emergency lighting illuminates escape routes in the event of a power failure.
+
+Escape routes and emergency lighting will be tested and inspected in accordance with BS 5266 and recorded in the fire log book.
+
+**5.2 Assembly Point**
+In the event of a fire alarm activation, all persons must evacuate the building immediately and proceed to the designated assembly point at:
+
+**[EVACUATION_ASSEMBLY_POINT]**
+
+No person should re-enter the building until the all-clear has been given by the Chief Fire Warden or the attending fire service. Failure to evacuate or to proceed to the assembly point is a serious breach of safety requirements and may result in disciplinary action.
+
+---
+
+## 6. Fire Wardens
+
+**6.1 Appointment and Number**
+[ORG_NAME] will appoint a sufficient number of trained Fire Wardens to cover all areas and shifts, with a minimum of one Fire Warden per floor or area. A Chief Fire Warden will be appointed with overall responsibility for coordinating the evacuation.
+
+**6.2 Responsibilities of Fire Wardens**
+Fire Wardens are responsible for:
+
+- Assisting with the evacuation of their designated area when the fire alarm sounds.
+- Conducting a sweep of their area to confirm all persons have evacuated.
+- Assisting persons with disabilities or mobility difficulties to evacuate safely (using personal emergency evacuation plans where applicable).
+- Reporting to the Chief Fire Warden at the assembly point [EVACUATION_ASSEMBLY_POINT] with a roll call of their area.
+- Liaising with the fire service on arrival.
+- Participating in regular fire warden training and drills.
+
+**6.3 Training**
+All Fire Wardens will receive formal fire warden training from a competent provider before taking up their role and refresher training at least every three years. Training records will be maintained by [HS_LEAD_NAME].
+
+---
+
+## 7. Fire Drills
+
+[ORG_NAME] will conduct at least two fire evacuation drills per year. The drills will be unannounced wherever practicable. [HS_LEAD_NAME] will record the date and time of the drill, the number of persons evacuated, the time taken to evacuate, and any issues identified. Findings will be used to improve evacuation procedures where necessary.
+
+Results of fire drills will be reviewed by [HS_LEAD_NAME] and communicated to [CEO_NAME].
+
+---
+
+## 8. Fire-Fighting Equipment
+
+[ORG_NAME] provides appropriate fire-fighting equipment throughout its premises in accordance with the fire risk assessment. Equipment will be inspected monthly by [HS_LEAD_NAME] or a nominated Fire Warden, and serviced annually by a competent contractor in accordance with BS 5306.
+
+Employees must not attempt to fight a fire unless:
+
+- They have been trained in the use of the relevant fire extinguisher.
+- The fire is small and in its early stages.
+- They can do so without putting themselves or others at risk.
+- Their escape route remains clear.
+
+In all other circumstances, employees must evacuate immediately.
+
+---
+
+## 9. Personal Emergency Evacuation Plans (PEEPs)
+
+[ORG_NAME] will prepare a Personal Emergency Evacuation Plan (PEEP) for any employee, contractor, or regular visitor who may require assistance to evacuate (e.g. due to mobility impairment, sensory impairment, or temporary injury). PEEPs will be prepared in consultation with the individual and reviewed annually or when circumstances change. HR at [HR_EMAIL] can facilitate PEEP preparation with [HS_LEAD_NAME].
+
+---
+
+## 10. Record-Keeping
+
+[HS_LEAD_NAME] will maintain a fire log book recording:
+
+- Fire alarm tests, activations, and faults.
+- Fire risk assessment dates and reviews.
+- Fire drill results.
+- Inspection and servicing records for fire safety equipment.
+- Fire warden training records.
+- PEEP records.
+
+---
+
+## 11. Responsibilities
+
+**[CEO_NAME]** is the Responsible Person under the FSO and holds overall accountability for fire safety at [ORG_NAME].
+
+**[HS_LEAD_NAME]** ([HR_EMAIL]) is responsible for day-to-day fire safety management, risk assessments, training, drills, records, and equipment maintenance.
+
+**Fire Wardens** are responsible for coordinating evacuation and supporting colleagues during emergencies.
+
+**All Employees** are responsible for complying with fire safety arrangements, attending drills, and reporting fire hazards promptly.
+
+---
+
+## 12. Policy Review
+
+This policy will be reviewed annually by [HS_LEAD_NAME] or following any fire incident, change in premises, or relevant legislative update. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For queries, contact [HS_LEAD_NAME] at [HR_EMAIL].

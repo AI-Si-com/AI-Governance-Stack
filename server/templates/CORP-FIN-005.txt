@@ -1,0 +1,184 @@
+# Budget Management Policy
+
+**Policy Reference:** CORP-FIN-005
+**Organisation:** [ORG_NAME]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Policy Owner:** [FINANCE_LEAD_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+
+---
+
+## 1. Introduction and Purpose
+
+Effective budget management is a cornerstone of sound financial governance. This policy sets out the framework within which [ORG_NAME] plans, allocates, monitors, and controls its financial resources through the annual budget cycle and beyond.
+
+The budget is the primary tool through which [ORG_NAME] translates its strategic objectives into operational plans, and through which the [BOARD_NAME] holds the executive team accountable for financial performance. Sound budget management enables the organisation to make informed decisions, respond to changing circumstances, and demonstrate responsible stewardship to its stakeholders.
+
+This policy applies to all budget holders, the [EXEC_COMMITTEE_NAME], the [BOARD_NAME], and the finance function led by [FINANCE_LEAD_NAME]. It must be read alongside the Financial Management Policy (CORP-FIN-001), the Delegation of Authority Policy (CORP-GOV-002), and the Procurement & Purchasing Policy (CORP-FIN-003).
+
+---
+
+## 2. Budget Setting Process
+
+### 2.1 Annual Budget Cycle
+
+The annual budget cycle for [ORG_NAME] follows the timetable below. Specific dates for any given financial year will be communicated by [FINANCE_LEAD_NAME] to all budget holders at the start of the process.
+
+| Stage | Lead | Indicative Timing |
+|-------|------|------------------|
+| Strategic planning guidance issued | [CEO_NAME] | 4 months before year-end |
+| Departmental budget submissions | All budget holders | 3 months before year-end |
+| Budget consolidation and challenge | [FINANCE_LEAD_NAME] | 2.5 months before year-end |
+| Draft budget review | [EXEC_COMMITTEE_NAME] | 2 months before year-end |
+| Draft budget presented to [BOARD_NAME] | [CEO_NAME] / [FINANCE_LEAD_NAME] | 6 weeks before year-end |
+| Budget approved | [BOARD_NAME] | Before financial year start |
+| Budget communicated to budget holders | [FINANCE_LEAD_NAME] | Within 5 days of approval |
+
+### 2.2 Strategic Planning Guidance
+
+Prior to departmental budget preparation, [CEO_NAME] will issue planning guidance setting out:
+
+- Key strategic priorities for the forthcoming year
+- Any known significant cost pressures or income assumptions
+- The overall financial parameters within which budgets must be prepared (e.g. expected growth or efficiency targets)
+- Any new activities or investments to be reflected
+
+### 2.3 Departmental Budget Submissions
+
+Each budget holder is responsible for preparing their departmental budget in the format specified by [FINANCE_LEAD_NAME]. Submissions must:
+
+- Be based on realistic and justifiable assumptions
+- Reflect planned activity levels and known cost commitments
+- Identify any new investment requirements and provide business case justification
+- Be consistent with the strategic planning guidance issued by [CEO_NAME]
+
+Budget holders are encouraged to discuss their submissions with [FINANCE_LEAD_NAME] prior to formal submission. Queries should be directed to [FINANCE_EMAIL].
+
+### 2.4 Budget Challenge and Approval
+
+[FINANCE_LEAD_NAME] will consolidate departmental submissions into an organisation-wide draft budget and facilitate a budget challenge process with the [EXEC_COMMITTEE_NAME]. The draft budget will be tested for:
+
+- Affordability and overall financial balance
+- Consistency with strategic objectives
+- Robustness of underlying assumptions
+- Adequacy of contingency provisions
+
+The [EXEC_COMMITTEE_NAME] will review and endorse the draft budget before it is submitted to the [BOARD_NAME] for approval. The [BOARD_NAME] is the sole authority for approving the annual budget.
+
+---
+
+## 3. Budget Monitoring and Reporting
+
+### 3.1 Monthly Monitoring
+
+[FINANCE_LEAD_NAME] will produce monthly management accounts within 15 working days of each month end. Reports will include:
+
+- Actual income and expenditure versus budget for the month and year-to-date
+- Forecast outturn for the full financial year
+- Commentary on significant variances
+- Narrative on key financial risks and opportunities
+
+Monthly reports are circulated to [CEO_NAME] and the [EXEC_COMMITTEE_NAME]. A summary is presented to the [BOARD_NAME] at each [BOARD_MEETING_FREQUENCY] meeting.
+
+### 3.2 Budget Holder Responsibilities
+
+Each budget holder is responsible for:
+
+- Reviewing their budget report monthly
+- Contacting [FINANCE_EMAIL] promptly to investigate and explain any variances
+- Forecasting their expected year-end position and updating it as circumstances change
+- Raising any anticipated overspend with [FINANCE_LEAD_NAME] at the earliest opportunity
+
+Failure to monitor budgets effectively may result in management action and escalation to [CEO_NAME].
+
+---
+
+## 4. Variance Reporting
+
+### 4.1 Materiality Thresholds
+
+Variances must be formally explained by budget holders in the monthly reporting cycle where they exceed the following thresholds:
+
+- **Adverse variance of more than 5% of the annual budget** for the relevant cost or income line, where this exceeds £500
+- **Any adverse variance exceeding £5,000**, regardless of percentage
+- **Any income shortfall exceeding £2,500**
+
+### 4.2 Corrective Action
+
+Where a significant adverse variance is identified, the budget holder must:
+
+1. Provide a written explanation of the cause to [FINANCE_LEAD_NAME] within five working days
+2. Confirm whether the variance is expected to self-correct or will persist to year-end
+3. Propose corrective action where the overspend is expected to continue
+
+[FINANCE_LEAD_NAME] will escalate material variances to [CEO_NAME] and, where significant, to the [BOARD_NAME].
+
+---
+
+## 5. Virement Rules
+
+A virement is the transfer of budget from one budget line to another to reflect changed circumstances. Virements do not increase the overall approved budget and do not require [BOARD_NAME] approval, but they must be managed in accordance with the following rules:
+
+| Virement Value | Approver |
+|----------------|----------|
+| Up to £2,500 | Budget Holder (notified to [FINANCE_LEAD_NAME]) |
+| £2,501 to £10,000 | [FINANCE_LEAD_NAME] |
+| £10,001 to £25,000 | [CEO_NAME] |
+| Above £25,000 | [EXEC_COMMITTEE_NAME], reported to [BOARD_NAME] |
+
+Virements that would materially alter the nature of planned activities (e.g. reducing front-line service delivery to fund administrative costs) require approval from [CEO_NAME] and may require [BOARD_NAME] notification.
+
+Budget holders must request virements in writing to [FINANCE_EMAIL]. Retroactive virements will only be granted in exceptional circumstances.
+
+---
+
+## 6. Supplementary Budgets and Unbudgeted Expenditure
+
+Where material expenditure that was not included in the approved budget becomes necessary during the year, a supplementary budget must be sought. Supplementary budgets require:
+
+- A written business case submitted to [FINANCE_LEAD_NAME]
+- Approval from [CEO_NAME] for amounts up to £25,000
+- Approval from the [BOARD_NAME] for amounts above £25,000
+
+All approved supplementary budgets will be formally incorporated into the revised forecast and reported to the [BOARD_NAME].
+
+---
+
+## 7. Year-End Processes
+
+### 7.1 Commitments and Accruals
+
+At the financial year end, [FINANCE_LEAD_NAME] will ensure that all known commitments (goods or services received but not yet invoiced) are captured as accruals in the final accounts. Budget holders must provide their year-end commitments schedule to [FINANCE_LEAD_NAME] by the deadline communicated each year.
+
+### 7.2 Underspends and Carry-Forwards
+
+Year-end underspends do not automatically carry forward. Requests to carry forward underspent budget into the new financial year must be submitted to [FINANCE_LEAD_NAME] with a business justification. All carry-forward requests are subject to approval by [CEO_NAME] and are incorporated into the new year budget as a supplementary allocation.
+
+### 7.3 Year-End Close
+
+[FINANCE_LEAD_NAME] is responsible for managing the year-end close process and for the preparation of draft statutory accounts, in accordance with the timeline set out in the Financial Management Policy (CORP-FIN-001).
+
+---
+
+## 8. Policy Compliance
+
+Budget holders who breach this policy — including by incurring expenditure without appropriate authority, failing to monitor their budget, or providing inaccurate forecast information — may be subject to management action. Serious or repeated breaches will be escalated to [CEO_NAME].
+
+Questions regarding budget management should be directed to [FINANCE_EMAIL].
+
+---
+
+## Approval and Sign-Off
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Approved By | [POLICY_APPROVAL_AUTHORITY] | | [POLICY_EFFECTIVE_DATE] |
+| Policy Owner | [FINANCE_LEAD_NAME] | | [POLICY_EFFECTIVE_DATE] |
+| CEO | [CEO_NAME] | | [POLICY_EFFECTIVE_DATE] |
+
+**Version History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [POLICY_EFFECTIVE_DATE] | [FINANCE_LEAD_NAME] | Initial issue |

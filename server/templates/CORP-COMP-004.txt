@@ -1,0 +1,122 @@
+# Environmental & Sustainability Policy
+## Document Reference: CORP-COMP-004
+
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [CEO_NAME]
+**Approved By:** [POLICY_APPROVAL_AUTHORITY]
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contact:** [COMPLIANCE_EMAIL]
+
+---
+
+## 1. Purpose and Commitment
+
+[ORG_NAME] recognises that climate change and environmental degradation represent material risks to society, our business, and the communities in which we operate. This policy sets out our commitment to minimising our environmental impact, operating sustainably, and meeting our obligations under applicable UK and international environmental legislation.
+
+[CEO_NAME] and the Board of Directors are committed to embedding environmental responsibility throughout the organisation and to ensuring that sustainability considerations are integrated into strategic decision-making.
+
+---
+
+## 2. Scope
+
+This policy applies to all employees, contractors, and operations of [ORG_NAME] across all sites and functions. All departments — including [DEPARTMENTS_LIST] — are expected to participate actively in the organisation's sustainability programme.
+
+---
+
+## 3. Environmental Commitments
+
+[ORG_NAME] commits to the following:
+
+### 3.1 Carbon Reduction
+
+- Measure, monitor, and publicly report our Scope 1 and Scope 2 greenhouse gas emissions annually in accordance with the Greenhouse Gas Protocol
+- Set science-aligned carbon reduction targets consistent with limiting global temperature rise to 1.5°C
+- Develop and maintain a Carbon Reduction Plan that identifies key emission sources and sets time-bound reduction milestones
+- Progress towards net zero by no later than 2050, with interim targets reviewed at least every five years
+- Offset residual emissions only as a last resort, using high-quality, independently verified carbon credits
+
+### 3.2 Energy Efficiency
+
+- Seek to reduce energy consumption across our operations year-on-year
+- Procure electricity from renewable sources where commercially viable
+- Implement energy efficiency improvements when undertaking refurbishment or equipment replacement
+- Comply with all applicable energy reporting obligations, including the Energy Savings Opportunity Scheme (ESOS) where applicable
+
+### 3.3 Waste Management
+
+- Apply the waste hierarchy (reduce, reuse, recycle, recover, dispose) to all waste streams
+- Minimise single-use plastics across office and operational activities
+- Ensure all waste is handled by licensed waste carriers and that documentation is maintained
+- Set targets for diverting waste from landfill and monitor progress quarterly
+- Comply with all applicable waste legislation, including the Environmental Protection Act 1990 and associated regulations
+
+### 3.4 Water
+
+- Monitor water consumption and implement reduction measures where feasible
+- Prevent pollution of water courses through appropriate handling of substances on site
+- Comply with all obligations under the Water Industry Act 1991 and associated regulations
+
+### 3.5 Biodiversity
+
+- Consider biodiversity impacts when assessing new sites, developments, or operational changes
+- Support initiatives to maintain and improve biodiversity in the areas in which we operate, where practical
+
+---
+
+## 4. Supply Chain Sustainability
+
+[ORG_NAME] recognises that our supply chain may account for a significant proportion of our overall environmental impact (Scope 3 emissions). We commit to:
+
+- Engaging with key suppliers on their environmental performance and requesting disclosure of environmental data as part of supplier onboarding and periodic reviews
+- Giving preference to suppliers that demonstrate credible environmental commitments, where quality and value requirements are met
+- Including environmental standards clauses in significant supplier contracts
+- Working collaboratively with suppliers to identify opportunities to reduce supply chain emissions
+
+---
+
+## 5. Reporting and Transparency
+
+[ORG_NAME] will publish an annual Environmental & Sustainability Report that covers:
+
+- Greenhouse gas emissions (Scope 1, 2, and material Scope 3 categories)
+- Progress against carbon reduction targets
+- Energy consumption and renewable energy percentage
+- Waste generated and diversion rates
+- Key environmental incidents
+- Progress against sustainability objectives for the year
+
+The report will be made available on the [ORG_NAME] website. All reporting will comply with applicable mandatory reporting frameworks, including Streamlined Energy and Carbon Reporting (SECR) requirements.
+
+Queries regarding this report or our environmental performance should be directed to [COMPLIANCE_EMAIL].
+
+---
+
+## 6. Roles and Responsibilities
+
+- **[CEO_NAME] and Board:** Ultimate accountability for environmental performance and strategic direction
+- **[POLICY_APPROVAL_AUTHORITY]:** Operational oversight of the sustainability programme and reporting
+- **Department heads across [DEPARTMENTS_LIST]:** Implementation of environmental measures within their areas and engagement with staff
+- **All employees:** Compliance with this policy, participation in training, and proactive identification of improvement opportunities
+
+---
+
+## 7. Environmental Incidents
+
+Any environmental incident — including spills, releases, or breaches of regulatory limits — must be reported immediately to the relevant department head and to [COMPLIANCE_EMAIL]. Significant incidents must be reported to the relevant environmental regulator (Environment Agency, Natural Resources Wales, or SEPA as applicable) in accordance with regulatory requirements.
+
+---
+
+## 8. Training and Engagement
+
+Environmental awareness training is provided to all employees as part of induction and refreshed periodically. The organisation will seek to engage employees in sustainability initiatives through internal campaigns, feedback mechanisms, and participation in relevant programmes.
+
+---
+
+## 9. Continuous Improvement
+
+[ORG_NAME] is committed to the continual improvement of its environmental performance. Environmental objectives and targets are set annually, reviewed against performance data, and updated as required. This policy is reviewed at least annually and updated to reflect regulatory changes, emerging best practice, and progress against our sustainability ambitions.
+
+---
+
+*This document is the property of [ORG_NAME]. Unauthorised distribution outside the organisation is prohibited.*

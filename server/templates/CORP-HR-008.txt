@@ -1,0 +1,139 @@
+# Flexible & Remote Working Policy
+
+**Policy Reference:** CORP-HR-008
+**Organisation:** [ORG_NAME]
+**Policy Owner:** [HR_LEAD_NAME], HR Lead
+**Approved By:** [CEO_NAME], Chief Executive Officer
+**Effective Date:** [POLICY_EFFECTIVE_DATE]
+**Next Review Date:** [ANNUAL_REVIEW_DATE]
+**Contacts:** [HR_EMAIL] | [IT_EMAIL]
+
+---
+
+## 1. Purpose and Scope
+
+[ORG_NAME] recognises that flexible and remote working arrangements can enhance employee wellbeing, support work-life balance, and improve productivity when managed effectively. This policy sets out the organisation's approach to flexible working requests and remote working arrangements, and the responsibilities of both the organisation and employees.
+
+This policy applies to all employees of [ORG_NAME]. It reflects the requirements of the Employment Relations (Flexible Working) Act 2023, which provides eligible employees with the right to request flexible working from their first day of employment.
+
+---
+
+## 2. Types of Flexible Working
+
+[ORG_NAME] will consider requests for any of the following types of flexible working arrangement:
+
+- **Remote working** – working from home or another agreed location for all or part of the working week.
+- **Part-time working** – working fewer hours than the standard full-time hours.
+- **Compressed hours** – working full-time hours over fewer days (e.g. a four-day week).
+- **Flexitime** – varying start and finish times within agreed core hours.
+- **Job sharing** – two employees sharing the responsibilities of one full-time role.
+- **Term-time working** – working only during school term times.
+- **Annualised hours** – agreeing a total number of hours to be worked over a year, with flexibility in how they are distributed.
+
+---
+
+## 3. Eligibility
+
+All employees, regardless of length of service, have the statutory right to request flexible working from day one of employment. Employees may make up to two formal flexible working requests in any twelve-month period.
+
+The organisation will consider all requests fairly and on the basis of business need. The right to request does not confer an automatic right to work flexibly.
+
+---
+
+## 4. Application Process
+
+**4.1 Making a Request**
+Employees wishing to request a flexible working arrangement should submit a written request to their line manager and HR at [HR_EMAIL]. The request must include:
+
+- The date of the application.
+- The flexible working arrangement requested.
+- The proposed start date.
+- An explanation of the effect the change may have on the business and how this could be managed.
+- Whether a previous request has been made and, if so, when.
+
+**4.2 Consideration and Decision**
+[ORG_NAME] will consider the request and notify the employee of the decision within two months of receiving the application, including any period of appeal, unless an extension is agreed with the employee. Where possible, the decision will be communicated sooner.
+
+The employee will be invited to a meeting to discuss their request before a decision is made. The employee may be accompanied by a trade union representative or a workplace colleague.
+
+**4.3 Grounds for Refusal**
+A request may only be refused on one or more of the following statutory grounds:
+
+- The burden of additional costs.
+- A detrimental effect on the ability to meet customer demand.
+- An inability to reorganise work among existing staff.
+- An inability to recruit additional staff.
+- A detrimental impact on quality or performance.
+- Insufficiency of work during the periods the employee proposes to work.
+- Planned structural changes.
+
+Any refusal will be communicated in writing with reasons given.
+
+**4.4 Appeal**
+Employees who are dissatisfied with the outcome may appeal in writing to [HR_LEAD_NAME] at [HR_EMAIL] within 14 calendar days of receiving the decision. The appeal will be heard by a more senior manager or [CEO_NAME] who was not involved in the original decision.
+
+---
+
+## 5. Remote Working Arrangements
+
+**5.1 Hybrid Working**
+Where a hybrid working arrangement is agreed, the employee and their line manager will agree the minimum number of days to be spent in the workplace each week. A written hybrid working agreement will be issued by HR.
+
+**5.2 Home Office Requirements**
+Employees working from home are responsible for ensuring their home working environment is safe and suitable. This includes:
+
+- A suitable desk or workstation and chair.
+- Adequate lighting and ventilation.
+- A secure internet connection.
+- A private space for confidential work and calls where practicable.
+
+Employees must complete a self-assessment home workstation checklist before commencing remote working. The checklist is available from HR at [HR_EMAIL].
+
+**5.3 Equipment Provision**
+[ORG_NAME] will provide employees who work remotely with the equipment necessary to carry out their role effectively. Standard provision includes a laptop and relevant peripherals. Requests for additional equipment should be submitted to IT at [IT_EMAIL]. Employees are responsible for the safe custody of [ORG_NAME]-owned equipment and must return it upon request or on leaving the organisation.
+
+**5.4 IT and Information Security**
+Employees working remotely must comply with the IT and Information Security Policy (CORP-IT-001) at all times. This includes using only approved devices and software, connecting via the organisation's VPN, and not storing work data on personal devices. Any IT issues should be reported to [IT_EMAIL].
+
+**5.5 Expenses**
+[ORG_NAME] will not reimburse home utilities costs (e.g. heating, broadband) unless otherwise agreed in the employee's contract. Employees may wish to check their eligibility for the HMRC working from home tax relief.
+
+---
+
+## 6. Core Hours and Availability
+
+Where a flexible working arrangement is in place, the employee and their line manager will agree core hours during which the employee must be contactable and available for meetings. Outside of these hours, employees should not be expected to respond to work communications, in line with [ORG_NAME]'s right to disconnect principles.
+
+---
+
+## 7. Trial Periods
+
+[ORG_NAME] may agree a flexible working arrangement on a trial basis of up to three months. At the end of the trial period, the arrangement will be reviewed by the line manager and [HR_LEAD_NAME] before being confirmed, amended, or ended.
+
+---
+
+## 8. Review and Withdrawal of Arrangements
+
+Flexible working arrangements will be reviewed periodically. [ORG_NAME] reserves the right to withdraw or amend an arrangement with reasonable notice (normally no less than four weeks) where there is a legitimate business reason to do so. Employees will be consulted before any change is made.
+
+---
+
+## 9. Responsibilities
+
+**[CEO_NAME]** holds overall accountability for the organisation's approach to flexible and remote working.
+
+**[HR_LEAD_NAME]** ([HR_EMAIL]) is responsible for managing the application process, issuing agreements, and advising managers on compliance with this policy.
+
+**IT Department** ([IT_EMAIL]) is responsible for providing and supporting equipment and ensuring remote access is secure and functional.
+
+**Line Managers** are responsible for fairly considering requests, agreeing working arrangements, and managing remote employees effectively.
+
+**Employees** are responsible for working to the agreed arrangement, maintaining productivity, and complying with IT security and health and safety requirements.
+
+---
+
+## 10. Policy Review
+
+This policy will be reviewed annually or following any significant change in legislation or business requirements. The next scheduled review is [ANNUAL_REVIEW_DATE].
+
+For queries, contact [HR_EMAIL].
